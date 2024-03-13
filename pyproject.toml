@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "pytest>=7.3.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radx-reporter"
+version = "0.0.1"
+authors = [
+  { name="jkyu", email="jkyu@stanford.edu" },
+]
+description = "RADx Reporter"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+radx-reporter = "radx.reporter:main_cli"
