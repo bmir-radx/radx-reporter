@@ -223,10 +223,16 @@ class Taxonomy:
     def get_term(self, term):
         return self.nodes[term]
 
-    def visualize_taxonomy(self):
-        plt.figure(figsize=(10, 6))
-        pos = nx.drawing.nx_agraph.graphviz_layout(self._graph, prog="dot")
-        nx.draw(self._graph, pos, with_labels=True, node_size=3000, node_color="thistle", font_size=10, font_weight="bold")
+    def visualize_taxonomy(self, root=None):
+        if root is None:
+            graph = self._graph
+        else:
+            descendants = nx.descendants(self._graph, root)
+            descendants.add(root)
+            graph = self._graph.subgraph(descendants)
+        plt.figure(figsize=(14, 6))
+        pos = nx.drawing.nx_agraph.graphviz_layout(graph, prog="dot")
+        nx.draw(graph, pos, with_labels=True, node_size=2000, node_color="thistle", font_size=10, font_weight="bold")
         plt.title(self.name)
         plt.show()
 
