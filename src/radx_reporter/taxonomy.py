@@ -232,7 +232,7 @@ class Taxonomy:
             graph = self._graph.subgraph(descendants)
         plt.figure(figsize=(14, 6))
         pos = nx.drawing.nx_agraph.graphviz_layout(graph, prog="dot")
-        nx.draw(graph, pos, with_labels=True, node_size=2000, node_color="thistle", font_size=10, font_weight="bold")
+        nx.draw(graph, pos, with_labels=True, node_size=2000, node_color="thistle", font_size=8, font_weight="bold")
         plt.title(self.name)
         plt.show()
 
@@ -245,15 +245,19 @@ class Taxonomy:
         # populate entire taxonomy with counts by processing ROOT node
         self.add_markers_to_node(self.root, set())
 
-    def visualize_counts(self):
+    def visualize_counts(self, root=None):
         # clear cache to ensure counts are accurate
         self.count_cache = {}
         self.aggregate_counts()
         graph = nx.DiGraph()
-        self._add_counts_for_visualization(graph, self.root)
-        plt.figure(figsize=(10,6))
+        if root is None:
+            root_node = self.root
+        else:
+            root_node = self.nodes[root]
+        self._add_counts_for_visualization(graph, root_node)
+        plt.figure(figsize=(14,6))
         pos = nx.drawing.nx_agraph.graphviz_layout(graph, prog="dot")
-        nx.draw(graph, pos, with_labels=True, node_size=3000, node_color="thistle", font_size=10, font_weight="bold")
+        nx.draw(graph, pos, with_labels=True, node_size=2000, node_color="thistle", font_size=8, font_weight="bold")
         plt.title(self.name)
         plt.show()
         
@@ -291,7 +295,7 @@ class Taxonomy:
 
     def to_csv(self, file_name: str = "counts.csv"):
         counts = self.flatten_counts()
-        pairs = [(label, count) for label, count in counts.items()]
+        pairs = [(label, count) for label, count in counts.items() if count > 0]
         counts = pd.DataFrame({
             "Label": [pair[0] for pair in pairs],
             "Count": [pair[1] for pair in pairs],
