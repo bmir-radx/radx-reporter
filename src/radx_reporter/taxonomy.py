@@ -291,6 +291,7 @@ class Taxonomy:
             counts[node.name] = node.count
             for child in node.get_children():
                 frontier.put(child)
+        counts = {label: count for label, count in counts.items() if count > 0}
         return counts
 
     def to_csv(self, file_name: str = "counts.csv"):
