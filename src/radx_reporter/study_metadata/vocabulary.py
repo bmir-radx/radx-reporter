@@ -206,3 +206,4 @@ POPULATION_RANGES = list(PopulationRange)
 DATA_TYPES = list(DataType)
 STUDY_DOMAINS = list(StudyDomain)
 COLLECTION_METHODS = list(CollectionMethod)
+PROGRAMS = {program.label: program for program in list(Program)}

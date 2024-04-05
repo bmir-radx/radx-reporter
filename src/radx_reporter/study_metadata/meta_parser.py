@@ -3,7 +3,7 @@ import pandas as pd
 from study import Study
 from vocabulary import (
     Program, StudyDesign, StudyDomain, DataType, CollectionMethod, NihInstitute, PopulationRange,
-    INSTITUTES, STUDY_DESIGNS, POPULATION_RANGES, DATA_TYPES, STUDY_DOMAINS, COLLECTION_METHODS
+    PROGRAMS, INSTITUTES, STUDY_DESIGNS, POPULATION_RANGES, DATA_TYPES, STUDY_DOMAINS, COLLECTION_METHODS
 )
 
 def parse_program(row):
@@ -11,7 +11,7 @@ def parse_program(row):
     if pd.isna(program):
         program = Program.MISSING
     else:
-        program = Program(program)
+        program = PROGRAMS[program]
     return program
 
 def parse_nih_institutes(row):
@@ -48,7 +48,7 @@ def parse_population(row):
     population_text = row["estimated_participants"]
     if pd.isna(population_text):
         population = None
-        population_range = PopulationRange.MISSING
+        population_range = PopulationRange.UNKNOWN
     elif isinstance(population_text, str):
         match = re.search(r"\b\d+\b", population_text)
         if match:
@@ -56,7 +56,7 @@ def parse_population(row):
             population_range = [pop_range for pop_range in POPULATION_RANGES if pop_range.lower_bound <= population <= pop_range.upper_bound].pop()
         else:
             population = None
-            population_range = PopulationRange.MISSING
+            population_range = PopulationRange.UNKNOWN
     else:
         population = int(population_text)
         population_range = [pop_range for pop_range in POPULATION_RANGES if pop_range.lower_bound <= population_text <= pop_range.upper_bound].pop()

@@ -1,4 +1,5 @@
 import pandas as pd
+from dataclasses import dataclass, asdict
 from study import Study
 from vocabulary import Classifier
 from typing import List
@@ -41,7 +42,7 @@ def classify_studies(studies: List[Study]):
         studies_by_classifier[classifier] = label_to_studies
     return studies_by_classifier
 
-def aggregate_counts(studies: List[Study]):
+def aggregate_counts_to_dataframe(studies: List[Study]):
     total_count = len(studies)
     counts_by_classifier = {}
     for classifier in Classifier:
@@ -54,3 +55,20 @@ def aggregate_counts(studies: List[Study]):
         })
         counts_by_classifier[classifier.label] = counts
     return counts_by_classifier
+
+@dataclass
+class Count:
+    label: str
+    url: str
+    count: int
+    studies: List[str]
+
+def aggregate_counts(studies_by_classifier):
+    aggregate_counts = {}
+    for classifier in Classifier:
+        counts = []
+        for label, studies in studies_by_classifier[classifier].items():
+            count = Count(label.label, label.url, len(studies), [study.phs_id for study in studies])
+            counts.append(asdict(count))
+        aggregate_counts[classifier.label] = counts
+    return aggregate_counts

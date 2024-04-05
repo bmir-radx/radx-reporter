@@ -8,5 +8,5 @@ if __name__ == "__main__":
     studies = parse_metadata_file(df)
     study_labels = label_studies(studies)
     studies_by_classifier = classify_studies(studies)
-    counts = aggregate_counts(studies)
-    dump_report(study_labels, counts, "report.xlsx")
+    counts = aggregate_counts(studies_by_classifier)
+    dump_report(counts, "report.json")
