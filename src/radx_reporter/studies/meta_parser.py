@@ -1,7 +1,9 @@
 import dateutil
 import pandas as pd
-from study import Study
-from vocabulary import (
+import re
+
+from .study import Study
+from .vocabulary import (
     Program, StudyDesign, StudyDomain, DataType, CollectionMethod, NihInstitute, PopulationRange,
     PROGRAMS, INSTITUTES, STUDY_DESIGNS, POPULATION_RANGES, DATA_TYPES, STUDY_DOMAINS, COLLECTION_METHODS
 )
@@ -135,3 +137,4 @@ def parse_metadata_file(metadata):
         )
     
         studies[phs] = study
+    return studies

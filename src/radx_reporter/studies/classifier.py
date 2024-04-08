@@ -1,10 +1,11 @@
 import pandas as pd
 from dataclasses import dataclass, asdict
-from study import Study
-from vocabulary import Classifier
-from typing import List
+from typing import Dict, List
 
-def label_studies(studies: List[Study]):
+from .study import Study
+from .vocabulary import Classifier
+
+def label_studies(studies: Dict[str, Study]):
     study_labels = {
         "phs": [],
         "Program": [],

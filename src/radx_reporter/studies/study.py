@@ -2,7 +2,8 @@ import datetime
 from dataclasses import dataclass
 from enum import Enum
 from typing import List, Optional
-from vocabulary import Program, StudyDesign, StudyDomain, DataType, CollectionMethod, NihInstitute, PopulationRange, Classifier
+
+from .vocabulary import Program, StudyDesign, StudyDomain, DataType, CollectionMethod, NihInstitute, PopulationRange, Classifier
 
 @dataclass(frozen=True)
 class DataFile:

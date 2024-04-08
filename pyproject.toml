@@ -17,4 +17,4 @@ classifiers = [
 ]
 
 [project.scripts]
-radx-reporter = "radx.reporter:main_cli"
+radx-study-metadata-reporter = "radx_reporter.reporter:study_metadata_cli"
