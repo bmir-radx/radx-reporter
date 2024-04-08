@@ -47,7 +47,7 @@ def aggregate_counts_to_dataframe(studies: List[Study]):
     total_count = len(studies)
     counts_by_classifier = {}
     for classifier in Classifier:
-        label_counts = [(label, len(grouped_studies), "; ".join([study.phs_id for study in grouped_studies])) for label, grouped_studies in studies_by_classifier[classifier].items()]
+        label_counts = [(label, len(grouped_studies), "; ".join([study.phs_id for study in grouped_studies])) for label, grouped_studies in studies[classifier].items()]
         counts = pd.DataFrame({
             classifier.label: [x[0].label for x in label_counts], # these are the labels
             "Count": [x[1] for x in label_counts],

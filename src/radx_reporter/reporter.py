@@ -18,6 +18,13 @@ def study_metadata_cli():
         required=True,
         help="Path to save the report output.",
     )
+    parser.add_argument(
+        "--format",
+        "-f",
+        choices=["json", "xlsx"],
+        default="json",
+        help="Output format (json or xlsx)",
+    )
     args = parser.parse_args()
 
     dataframe = pd.read_excel(args.input, sheet_name="Database Export")
@@ -25,4 +32,11 @@ def study_metadata_cli():
     study_labels = classifier.label_studies(studies)
     studies_by_classifier = classifier.classify_studies(studies)
     counts = classifier.aggregate_counts(studies_by_classifier)
-    report_writer.dump_report(counts, args.output)
+    if args.format == "json":
+        report_writer.dump_report(counts, args.output)
+    elif args.format == "xlsx":
+        report_writer.dump_report_spreadsheet(
+            study_labels,
+            classifier.aggregate_counts_to_dataframe(studies_by_classifier),
+            args.output,
+        )
