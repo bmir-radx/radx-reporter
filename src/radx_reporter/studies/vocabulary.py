@@ -2,14 +2,20 @@ import html
 from enum import Enum
 
 
-def generate_search_url(name: str, facet: str):
+def generate_search_url(name: str, facet: str) -> str:
+    """
+    Returns search URL for the RADx Data Hub based on the provided
+    name and facet strings.
+    """
     name = html.escape(name)
     facet = html.escape(facet)
     return f"https://radxdatahub.nih.gov/studyExplorer?&facets=%5B%7B%22name%22:%22{name}%22,%22facets%22:%5B%22{facet}%22%5D%7D%5D"
-    return re.sub("FACET", facet, re.sub("NAME", name, base))
 
 
 class Program(Enum):
+    """
+    Enumerations for categorizing studies by the RADx Program (DCC).
+    """
     RAD = ("RADx-rad", generate_search_url("dcc", "RADx-rad"))
     UP = ("RADx-UP", generate_search_url("dcc", "RADx-UP"))
     TECH = ("RADx-Tech", generate_search_url("dcc", "RADx Tech"))
@@ -22,6 +28,9 @@ class Program(Enum):
 
 
 class StudyDesign(Enum):
+    """
+    Enumerations for categorizing studies by its Study Design(s).
+    """
     CASECONTROL = ("Case-Control", generate_search_url("types_array", "Case-Control"))
     LONGITUDINAL = (
         "Prospective Longitudinal Cohort",
@@ -68,8 +77,10 @@ class StudyDesign(Enum):
 
 
 class DataType(Enum):
-    """I think some of these overlap"""
-
+    """
+    Enumerations for categorizing studies by the type of data recorded.
+    Some of the categories overlap.
+    """
     BEHAVIORAL = ("Behavioral",)
     CLINICAL = ("Clinical",)
     COGNITIVE = ("Cognitive",)  # this has a typo in the spreadsheet
@@ -99,6 +110,9 @@ class DataType(Enum):
 
 
 class CollectionMethod(Enum):
+    """
+    Enumerations for categorizing studies by its data collection method.
+    """
     QUESTIONNAIRE = (
         "Questionnaire/Survey",
         generate_search_url("source_array", "Survey"),
@@ -130,6 +144,9 @@ class CollectionMethod(Enum):
 
 
 class NihInstitute(Enum):
+    """
+    Enumerations for categorizing studies by its supporting NIH Institute.
+    """
     NCATS = ("NCATS", generate_search_url("institutes_supporting_study_array", "NCATS"))
     NCCIH = ("NCCIH", generate_search_url("institutes_supporting_study_array", "NCCIH"))
     NCI = ("NCI", generate_search_url("institutes_supporting_study_array", "NCI"))
@@ -170,6 +187,10 @@ class NihInstitute(Enum):
 
 
 class StudyDomain(Enum):
+    """
+    Enumerations for categorizing studies by its Study Domain(s).
+    This is also called the study topic.
+    """
     TESTINGRATE = (
         "Testing Rate/Uptake",
         generate_search_url("topics_array", "Testing Rate/Uptake"),
@@ -356,6 +377,11 @@ class StudyDomain(Enum):
 
 
 class PopulationRange(Enum):
+    """
+    Enumerations for categorizing studies by its population size.
+    The RADx Data Hub search filter has several bins for population
+    size that are followed here.
+    """
     SMALLEST = (
         "1-250",
         1,
@@ -413,6 +439,9 @@ class PopulationRange(Enum):
 
 
 class Classifier(Enum):
+    """
+    Enumerations to facilate grouping by one of the following categories.
+    """
     PROGRAM = ("Program", Program)
     STUDYDESIGN = ("Study Design", StudyDesign)
     DATATYPE = ("Data Type", DataType)

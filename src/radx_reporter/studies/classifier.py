@@ -8,6 +8,9 @@ from .vocabulary import Classifier
 
 
 def label_studies(studies: Dict[str, Study]):
+    """
+    Label each study by values from each of its classifiers.
+    """
     study_labels = {
         "phs": [],
         "Program": [],
@@ -46,6 +49,10 @@ def label_studies(studies: Dict[str, Study]):
 
 
 def classify_studies(studies: List[Study]):
+    """
+    For each classifier, group studies by their labeled categories
+    (see vocabulary.py for labels belonging to each classifier).
+    """
     studies_by_classifier = {}
     for classifier in Classifier:
         # check labels for each study and group study by label
@@ -58,6 +65,11 @@ def classify_studies(studies: List[Study]):
 
 
 def aggregate_counts_to_dataframe(studies: List[Study]):
+    """
+    Aggregates counts for each classifier.
+    For each classifier, counts are aggregated over each named category.
+    The final data is returned as a Pandas DataFrame.
+    """
     total_count = len(studies)
     counts_by_classifier = {}
     for classifier in Classifier:
@@ -92,6 +104,10 @@ class Count:
 
 
 def aggregate_counts(studies_by_classifier):
+    """
+    Aggregates counts for each classifier.
+    For each classifier, counts are aggregated over each named category.
+    """
     aggregate_counts = {}
     for classifier in Classifier:
         counts = []
