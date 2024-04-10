@@ -3,19 +3,32 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import List, Optional
 
-from .vocabulary import Program, StudyDesign, StudyDomain, DataType, CollectionMethod, NihInstitute, PopulationRange, Classifier
+from .vocabulary import (
+    Classifier,
+    CollectionMethod,
+    DataType,
+    NihInstitute,
+    PopulationRange,
+    Program,
+    StudyDesign,
+    StudyDomain,
+)
+
 
 @dataclass(frozen=True)
 class DataFile:
     file_name: str
 
+
 @dataclass(frozen=True)
 class DataDictionary:
     file_name: str
 
+
 @dataclass(frozen=True)
 class Metadata:
     file_name: str
+
 
 @dataclass(frozen=True)
 class Bundle:
@@ -23,11 +36,13 @@ class Bundle:
     dictionary: List[DataDictionary]
     data_file: List[DataFile]
 
+
 @dataclass(frozen=True)
 class Institution:
     name: str
     rori_d: Optional[str]
     uei_id: Optional[str]
+
 
 @dataclass(frozen=True)
 class Contributor:
@@ -35,6 +50,7 @@ class Contributor:
     name: str
     email: str
     institution: Institution
+
 
 @dataclass(frozen=True)
 class Study:
@@ -47,7 +63,9 @@ class Study:
     collection_methods: List[CollectionMethod]
     nih_institutes: List[NihInstitute]
     study_domains: List[StudyDomain]
-    population: Optional[int] # population and population_range should be combined in a "study statistics" object
+    population: Optional[
+        int
+    ]  # population and population_range should be combined in a "study statistics" object
     population_range: PopulationRange
     doi: Optional[str]
     start_date: Optional[datetime.datetime] = None

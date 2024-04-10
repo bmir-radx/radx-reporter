@@ -1,8 +1,9 @@
 import argparse
+
 import pandas as pd
-from .studies import meta_parser
-from .studies import classifier
-from .studies import report_writer
+
+from .studies import classifier, meta_parser, report_writer
+
 
 def study_metadata_cli():
     parser = argparse.ArgumentParser()
@@ -32,6 +33,7 @@ def study_metadata_cli():
     study_labels = classifier.label_studies(studies)
     studies_by_classifier = classifier.classify_studies(studies)
     counts = classifier.aggregate_counts(studies_by_classifier)
+
     if args.format == "json":
         report_writer.dump_report(counts, args.output)
     elif args.format == "xlsx":
