@@ -22,8 +22,21 @@ from .vocabulary import (
 )
 
 
+PROGRAM_KEYWORD = "contribution"
+INSTITUTE_KEYWORD = "institutes_supporting_study - CODED"
+METHOD_KEYWORD = "source - CODED"
+DESIGN_KEYWORD = "types - CODED"
+POPULATION_KEYWORD = "estimated_participants"
+DATATYPES_KEYWORD = "data_general_types.1"
+SUBJECT_KEYWORD = "subject'"
+DESCRIPTION_KEYWORD = "description"
+PHS_KEYWORD = "phs"
+STUDY_START_DATE = "studystartdate"
+STUDY_END_DATE = "studyenddate"
+
+
 def parse_program(row):
-    program = row["contribution"]
+    program = row[PROGRAM_KEYWORD]
     if pd.isna(program):
         program = Program.MISSING
     else:
@@ -32,7 +45,7 @@ def parse_program(row):
 
 
 def parse_nih_institutes(row):
-    nih_institute_text = row["institutes_supporting_study - CODED"]
+    nih_institute_text = row[INSTITUTE_KEYWORD]
     if pd.isna(nih_institute_text):
         nih_institutes = [NihInstitute.MISSING]
     else:
@@ -47,7 +60,7 @@ def parse_nih_institutes(row):
 
 
 def parse_collection_methods(row):
-    collection_method_text = row["source - CODED"]
+    collection_method_text = row[METHOD_KEYWORD]
     if pd.isna(collection_method_text):
         collection_methods = [CollectionMethod.MISSING]
     else:
@@ -62,7 +75,7 @@ def parse_collection_methods(row):
 
 
 def parse_study_designs(row):
-    study_design_text = row["types - CODED"]
+    study_design_text = row[DESIGN_KEYWORD]
     if pd.isna(study_design_text):
         study_designs = [StudyDesign.MISSING]
     else:
@@ -75,7 +88,7 @@ def parse_study_designs(row):
 
 
 def parse_population(row):
-    population_text = row["estimated_participants"]
+    population_text = row[POPULATION_KEYWORD]
     if pd.isna(population_text):
         population = None
         population_range = PopulationRange.UNKNOWN
@@ -103,7 +116,7 @@ def parse_population(row):
 
 def parse_data_types(row):
     # these are coded?
-    data_type_text = row["data_general_types.1"]
+    data_type_text = row[DATATYPES_KEYWORD]
     if pd.isna(data_type_text):
         data_types = [DataType.MISSING]
     else:
@@ -116,8 +129,8 @@ def parse_data_types(row):
 
 
 def parse_study_domains(row):
-    subject_text = row["subject"]
-    description_text = row["description"]
+    subject_text = row[SUBJECT_KEYWORD]
+    description_text = row[DESCRIPTION_KEYWORD]
     if pd.isna(subject_text):
         subject_text = ""
     if pd.isna(description_text):
@@ -132,8 +145,8 @@ def parse_study_domains(row):
 
 
 def parse_dates(row):
-    start_date = row["studystartdate"]
-    end_date = row["studyenddate"]
+    start_date = row[STUDY_START_DATE]
+    end_date = row[STUDY_END_DATE]
     date_format = "%Y-%m-%d %H:%M:%S%z"
     if pd.isna(start_date):
         start_date = None
@@ -147,10 +160,10 @@ def parse_dates(row):
 
 
 def parse_phs(row):
-    return row["phs"]
+    return row[PHS_KEYWORD]
 
 
-def parse_metadata_file(metadata):
+def parse_metadata_dataframe(metadata):
     studies = {}
     for i, row in metadata.iterrows():
         program = parse_program(row)

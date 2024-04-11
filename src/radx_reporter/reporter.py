@@ -29,7 +29,7 @@ def study_metadata_cli():
     args = parser.parse_args()
 
     dataframe = pd.read_excel(args.input, sheet_name="Database Export")
-    studies = meta_parser.parse_metadata_file(dataframe)
+    studies = meta_parser.parse_metadata_dataframe(dataframe)
     study_labels = classifier.label_studies(studies)
     studies_by_classifier = classifier.classify_studies(studies)
     counts = classifier.aggregate_counts(studies_by_classifier)
