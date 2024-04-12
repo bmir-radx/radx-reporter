@@ -48,7 +48,7 @@ def label_studies(studies: Dict[str, Study]):
     return study_labels
 
 
-def classify_studies(studies: List[Study]):
+def classify_studies(studies: Dict[str, Study]):
     """
     For each classifier, group studies by their labeled categories
     (see vocabulary.py for labels belonging to each classifier).
