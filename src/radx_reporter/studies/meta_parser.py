@@ -36,6 +36,9 @@ STUDY_END_DATE = "studyenddate"
 
 
 def parse_program(row):
+    """
+    Parse program keyword (one) from DataFrame row.
+    """
     program = row[PROGRAM_KEYWORD]
     if pd.isna(program):
         program = Program.MISSING
@@ -45,6 +48,9 @@ def parse_program(row):
 
 
 def parse_nih_institutes(row):
+    """
+    Parse NIH Institutes keywords (many) from DataFrame row.
+    """
     nih_institute_text = row[INSTITUTE_KEYWORD]
     if pd.isna(nih_institute_text):
         nih_institutes = [NihInstitute.MISSING]
@@ -60,6 +66,9 @@ def parse_nih_institutes(row):
 
 
 def parse_collection_methods(row):
+    """
+    Parse collection method keywords (many) from DataFrame row.
+    """
     collection_method_text = row[METHOD_KEYWORD]
     if pd.isna(collection_method_text):
         collection_methods = [CollectionMethod.MISSING]
@@ -75,6 +84,9 @@ def parse_collection_methods(row):
 
 
 def parse_study_designs(row):
+    """
+    Parse study design keywords (many) from DataFrame row.
+    """
     study_design_text = row[DESIGN_KEYWORD]
     if pd.isna(study_design_text):
         study_designs = [StudyDesign.MISSING]
@@ -88,6 +100,9 @@ def parse_study_designs(row):
 
 
 def parse_population(row):
+    """
+    Parse data set sample size from DataFrame row and find the appropriate bin.
+    """
     population_text = row[POPULATION_KEYWORD]
     if pd.isna(population_text):
         population = None
@@ -115,7 +130,9 @@ def parse_population(row):
 
 
 def parse_data_types(row):
-    # these are coded?
+    """
+    Parse data type keywords (multiple) from DataFrame row.
+    """
     data_type_text = row[DATATYPES_KEYWORD]
     if pd.isna(data_type_text):
         data_types = [DataType.MISSING]
@@ -129,6 +146,11 @@ def parse_data_types(row):
 
 
 def parse_study_domains(row):
+    """
+    Parse study topics from DataFrame row. There can be multiple study topics.
+    These are not coded terms in the study metadata dump, so we do our best here
+    with case-insenstive string matching to a bank of StudyDomain keywords.
+    """
     subject_text = row[SUBJECT_KEYWORD]
     description_text = row[DESCRIPTION_KEYWORD]
     if pd.isna(subject_text):
@@ -145,9 +167,12 @@ def parse_study_domains(row):
 
 
 def parse_dates(row):
+    """
+    Parse start and end dates for the studies with format:
+    date_format = "%Y-%m-%d %H:%M:%S%z"
+    """
     start_date = row[STUDY_START_DATE]
     end_date = row[STUDY_END_DATE]
-    date_format = "%Y-%m-%d %H:%M:%S%z"
     if pd.isna(start_date):
         start_date = None
     else:
@@ -160,10 +185,15 @@ def parse_dates(row):
 
 
 def parse_phs(row):
+    """PHS ID"""
     return row[PHS_KEYWORD]
 
 
 def parse_metadata_dataframe(metadata):
+    """
+    Each row of the DataFrame contains metadata attributes for the study.
+    Process each row and index the study's metadata by its PHS ID.
+    """
     studies = {}
     for i, row in metadata.iterrows():
         program = parse_program(row)
