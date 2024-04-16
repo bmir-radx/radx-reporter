@@ -11,7 +11,7 @@ def dump_report_spreadsheet(
     """
     Write the Data Hub content report to an Excel spreadsheet.
     """
-    with pd.ExcelWriter("report.xlsx") as writer:
+    with pd.ExcelWriter(file_name) as writer:
         study_labels.to_excel(writer, sheet_name="Labels", index=False)
         for classifier, counts in counts_by_classifier.items():
             counts.to_excel(writer, sheet_name=classifier, index=False)
