@@ -2,7 +2,7 @@ import argparse
 
 import pandas as pd
 
-from .studies import classifier, meta_parser, report_writer
+from .basic import classifier, meta_parser, report_writer
 
 
 def study_metadata_cli():

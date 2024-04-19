@@ -1,6 +1,6 @@
 import pytest
 
-from radx_reporter.studies import classifier, study, vocabulary
+from radx_reporter.basic import classifier, study, vocabulary
 
 
 class TestClassifier:

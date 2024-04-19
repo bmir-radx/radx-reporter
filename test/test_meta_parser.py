@@ -4,7 +4,7 @@ import pandas as pd
 import pytest
 import pytz
 
-from radx_reporter.studies import meta_parser, study, vocabulary
+from radx_reporter.basic import meta_parser, study, vocabulary
 
 
 class TestMetaParser:
