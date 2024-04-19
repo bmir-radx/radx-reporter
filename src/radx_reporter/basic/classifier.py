@@ -64,7 +64,7 @@ def classify_studies(studies: Dict[str, Study]):
     return studies_by_classifier
 
 
-def aggregate_counts_to_dataframe(studies: List[Study]):
+def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study]):
     """
     Aggregates counts for each classifier.
     For each classifier, counts are aggregated over each named category.
@@ -87,8 +87,8 @@ def aggregate_counts_to_dataframe(studies: List[Study]):
                     x[0].label for x in label_counts
                 ],  # these are the labels
                 "Count": [x[1] for x in label_counts],
-                "Percentage": [100 * x[1] / total_count for x in label_counts],
                 "PHS IDs": [x[2] for x in label_counts],
+                "Search URL": [x[0].url for x in label_counts],
             }
         )
         counts_by_classifier[classifier.label] = counts
@@ -103,7 +103,7 @@ class Count:
     studies: List[str]
 
 
-def aggregate_counts(studies_by_classifier):
+def aggregate_counts(studies_by_classifier: Dict[Classifier, Study]):
     """
     Aggregates counts for each classifier.
     For each classifier, counts are aggregated over each named category.
