@@ -7,6 +7,7 @@ from .study import Study
 from .vocabulary import (
     COLLECTION_METHODS,
     DATA_TYPES,
+    FOCUS_POPULATIONS,
     INSTITUTES,
     POPULATION_RANGES,
     PROGRAMS,
@@ -14,6 +15,7 @@ from .vocabulary import (
     STUDY_DOMAINS,
     CollectionMethod,
     DataType,
+    FocusPopulation,
     NihInstitute,
     PopulationRange,
     Program,
@@ -33,6 +35,7 @@ DESCRIPTION_KEYWORD = "description"
 PHS_KEYWORD = "phs"
 STUDY_START_DATE = "studystartdate"
 STUDY_END_DATE = "studyenddate"
+FOCUS_POPULATION_KEYWORD = "Study Population Focus"
 
 
 def parse_program(row):
@@ -45,6 +48,24 @@ def parse_program(row):
     else:
         program = PROGRAMS[program]
     return program
+
+
+def parse_focus_populations(row):
+    """
+    Parse Study Focus Population keywords (many) from DataFrame row.
+    """
+    focus_population_text = row[FOCUS_POPULATION_KEYWORD]
+    if pd.isna(focus_population_text):
+        focus_populations = [FocusPopulation.MISSING]
+    else:
+        focus_populations = [
+            focus
+            for focus in FOCUS_POPULATIONS
+            if focus.label in focus_population_text
+        ]
+        if len(focus_populations) == 0:
+            focus_populations.append(FocusPopulation.MISSING)
+    return focus_populations
 
 
 def parse_nih_institutes(row):
@@ -203,6 +224,7 @@ def parse_metadata_dataframe(metadata):
         population, population_range = parse_population(row)
         data_types = parse_data_types(row)
         study_domains = parse_study_domains(row)
+        focus_populations = parse_focus_populations(row)
         start_date, end_date = parse_dates(row)
         phs = parse_phs(row)
 
@@ -218,6 +240,7 @@ def parse_metadata_dataframe(metadata):
             study_domains=study_domains,
             population=population,
             population_range=population_range,
+            focus_populations=focus_populations,
             doi=None,
             start_date=start_date,
             end_date=end_date,

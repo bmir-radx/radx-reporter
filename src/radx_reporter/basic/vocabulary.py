@@ -19,7 +19,7 @@ class Program(Enum):
     RAD = ("RADx-rad", generate_search_url("dcc", "RADx-rad"))
     UP = ("RADx-UP", generate_search_url("dcc", "RADx-UP"))
     TECH = ("RADx-Tech", generate_search_url("dcc", "RADx Tech"))
-    DHT = ("Digital Health Technologies", generate_search_url("dcc", "RADx DHT"))
+    DHT = ("RADx-DHT", generate_search_url("dcc", "RADx DHT"))
     MISSING = ("MISSING OR INVALID",)
 
     def __init__(self, label, url=None):
@@ -523,6 +523,7 @@ class FocusPopulation(Enum):
         "Adults",
         generate_search_url("study_focus_population", "Adults"),
     )
+    MISSING = ("MISSING OR INVALID",)
 
     def __init__(self, label, url=None):
         self.label = label
@@ -540,6 +541,7 @@ class Classifier(Enum):
     NIHINSTITUTE = ("NIH Institute", NihInstitute)
     STUDYDOMAIN = ("Study Domain", StudyDomain)
     POPULATIONRANGE = ("Population Range", PopulationRange)
+    FOCUSPOPULATION = ("Study Focus Population", FocusPopulation)
 
     def __init__(self, label, classifier):
         self.label = label
@@ -552,4 +554,5 @@ POPULATION_RANGES = list(PopulationRange)
 DATA_TYPES = list(DataType)
 STUDY_DOMAINS = list(StudyDomain)
 COLLECTION_METHODS = list(CollectionMethod)
+FOCUS_POPULATIONS = list(FocusPopulation)
 PROGRAMS = {program.label: program for program in list(Program)}

@@ -25,6 +25,7 @@ class TestMetaParser:
                 "Questionnaire/Survey; Smartphone; COVID Testing Device",
                 None,
             ],
+            "Study Population Focus": ["Hispanic and Latino; Underserved/Vulnerable Population", None],
             "studyenddate": ["2020-11-06 16:32:30+00", None],
             "studystartdate": ["2020-10-16 15:32:30+00", None],
             "subject": ["Aging", None],
@@ -39,6 +40,17 @@ class TestMetaParser:
     def test_parse_program_missing(self, example_dataframe):
         program = meta_parser.parse_program(example_dataframe.loc[1])
         assert program == vocabulary.Program.MISSING
+
+    def test_parse_focus(self, example_dataframe):
+        focus_populations = meta_parser.parse_focus_populations(example_dataframe.loc[0])
+        assert set(focus_populations) == {
+            vocabulary.FocusPopulation.HISPANICLATINO,
+            vocabulary.FocusPopulation.UNDERSERVED
+        }
+
+    def test_parse_focus_missing(self, example_dataframe):
+        focus_populations = meta_parser.parse_focus_populations(example_dataframe.loc[1])
+        assert set(focus_populations) == {vocabulary.FocusPopulation.MISSING}
 
     def test_parse_institute(self, example_dataframe):
         institutes = meta_parser.parse_nih_institutes(example_dataframe.loc[0])

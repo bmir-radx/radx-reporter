@@ -12,6 +12,7 @@ from .vocabulary import (
     Program,
     StudyDesign,
     StudyDomain,
+    FocusPopulation,
 )
 
 
@@ -67,6 +68,7 @@ class Study:
         int
     ]  # population and population_range should be combined in a "study statistics" object
     population_range: PopulationRange
+    focus_populations: FocusPopulation
     doi: Optional[str]
     start_date: Optional[datetime.datetime] = None
     end_date: Optional[datetime.datetime] = None
@@ -87,3 +89,5 @@ class Study:
                 return self.study_domains
             case Classifier.POPULATIONRANGE:
                 return [self.population_range]
+            case Classifier.FOCUSPOPULATION:
+                return [self.focus_populations]
