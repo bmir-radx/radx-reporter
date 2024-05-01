@@ -90,4 +90,4 @@ class Study:
             case Classifier.POPULATIONRANGE:
                 return [self.population_range]
             case Classifier.FOCUSPOPULATION:
-                return [self.focus_populations]
+                return self.focus_populations

@@ -24,25 +24,35 @@ from .vocabulary import (
 )
 
 
-PROGRAM_KEYWORD = "contribution"
+PROGRAM_KEYWORD = "DCC"
 INSTITUTE_KEYWORD = "institutes_supporting_study - CODED"
-METHOD_KEYWORD = "source - CODED"
-DESIGN_KEYWORD = "types - CODED"
-POPULATION_KEYWORD = "estimated_participants"
-DATATYPES_KEYWORD = "data_general_types.1"
-SUBJECT_KEYWORD = "subject"
-DESCRIPTION_KEYWORD = "description"
+METHOD_KEYWORDS = ["Data Collection Method", "Data Collection Method Other Specify"]
+DESIGN_KEYWORD = "Study Design, Coded"
+POPULATION_KEYWORD = "Estimated Participants - Cleaned"
+DATATYPES_KEYWORD = "data_general_types - CODED"
+DOMAIN_KEYWORDS = [
+    "Keywords - Raw",
+    "Keywords - Cleaned",
+    "Study Domain",
+    "Study Domain, Other",
+    "Description",
+]
 PHS_KEYWORD = "phs"
-STUDY_START_DATE = "studystartdate"
-STUDY_END_DATE = "studyenddate"
+STUDY_START_DATE = "NIH RePORTER Project Start Date"
+STUDY_END_DATE = "NIH RePORTER Project End Date"
 FOCUS_POPULATION_KEYWORD = "Study Population Focus"
+
+
+def prepare_string_for_matching(text: str):
+    # remove non-alphabetic characters and convert to lowercase
+    return re.sub(r"[^a-zA-Z]", "", text).casefold()
 
 
 def parse_program(row):
     """
     Parse program keyword (one) from DataFrame row.
     """
-    program = row[PROGRAM_KEYWORD]
+    program = prepare_string_for_matching(row[PROGRAM_KEYWORD])
     if pd.isna(program):
         program = Program.MISSING
     else:
@@ -58,10 +68,9 @@ def parse_focus_populations(row):
     if pd.isna(focus_population_text):
         focus_populations = [FocusPopulation.MISSING]
     else:
+        focus_population_text = prepare_string_for_matching(focus_population_text)
         focus_populations = [
-            focus
-            for focus in FOCUS_POPULATIONS
-            if focus.label in focus_population_text
+            focus for focus in FOCUS_POPULATIONS if focus.label in focus_population_text
         ]
         if len(focus_populations) == 0:
             focus_populations.append(FocusPopulation.MISSING)
@@ -76,6 +85,7 @@ def parse_nih_institutes(row):
     if pd.isna(nih_institute_text):
         nih_institutes = [NihInstitute.MISSING]
     else:
+        nih_institute_text = prepare_string_for_matching(nih_institute_text)
         nih_institutes = [
             institute
             for institute in INSTITUTES
@@ -90,17 +100,17 @@ def parse_collection_methods(row):
     """
     Parse collection method keywords (many) from DataFrame row.
     """
-    collection_method_text = row[METHOD_KEYWORD]
-    if pd.isna(collection_method_text):
-        collection_methods = [CollectionMethod.MISSING]
-    else:
-        collection_methods = [
-            method
-            for method in COLLECTION_METHODS
-            if method.label in collection_method_text
-        ]
-        if len(collection_methods) == 0:
-            collection_methods.append(CollectionMethod.MISSING)
+    collection_method_text = "".join(
+        [row[x] for x in METHOD_KEYWORDS if not pd.isna(row[x])]
+    )
+    collection_methods = prepare_string_for_matching(collection_method_text)
+    collection_methods = [
+        method
+        for method in COLLECTION_METHODS
+        if method.label in collection_method_text
+    ]
+    if len(collection_methods) == 0:
+        collection_methods.append(CollectionMethod.MISSING)
     return collection_methods
 
 
@@ -112,6 +122,7 @@ def parse_study_designs(row):
     if pd.isna(study_design_text):
         study_designs = [StudyDesign.MISSING]
     else:
+        study_design_text = prepare_string_for_matching(study_design_text)
         study_designs = [
             design for design in STUDY_DESIGNS if design.label in study_design_text
         ]
@@ -158,6 +169,7 @@ def parse_data_types(row):
     if pd.isna(data_type_text):
         data_types = [DataType.MISSING]
     else:
+        data_type_text = prepare_string_for_matching(data_type_text)
         data_types = [
             data_type for data_type in DATA_TYPES if data_type.label in data_type_text
         ]
@@ -172,18 +184,15 @@ def parse_study_domains(row):
     These are not coded terms in the study metadata dump, so we do our best here
     with case-insenstive string matching to a bank of StudyDomain keywords.
     """
-    subject_text = row[SUBJECT_KEYWORD]
-    description_text = row[DESCRIPTION_KEYWORD]
-    if pd.isna(subject_text):
-        subject_text = ""
-    if pd.isna(description_text):
-        description_text = ""
-    study_topic_text = subject_text.lower() + description_text.lower()
-    study_domains = [
-        topic for topic in STUDY_DOMAINS if topic.label.lower() in study_topic_text
-    ]
-    if len(study_domains) == 0:
+    domain_text = "".join(str(row[x]) for x in DOMAIN_KEYWORDS)
+    study_domains = []
+    if pd.isna(domain_text):
         study_domains.append(StudyDomain.MISSING)
+    else:
+        domain_text = prepare_string_for_matching(domain_text)
+        study_domains = [
+            topic for topic in STUDY_DOMAINS if topic.label.lower() in domain_text
+        ]
     return study_domains
 
 
@@ -225,7 +234,7 @@ def parse_metadata_dataframe(metadata):
         data_types = parse_data_types(row)
         study_domains = parse_study_domains(row)
         focus_populations = parse_focus_populations(row)
-        start_date, end_date = parse_dates(row)
+        # start_date, end_date = parse_dates(row)
         phs = parse_phs(row)
 
         study = Study(
@@ -242,8 +251,8 @@ def parse_metadata_dataframe(metadata):
             population_range=population_range,
             focus_populations=focus_populations,
             doi=None,
-            start_date=start_date,
-            end_date=end_date,
+            # start_date=start_date,
+            # end_date=end_date,
         )
 
         studies[phs] = study

@@ -26,9 +26,16 @@ def study_metadata_cli():
         default="json",
         help="Output format (json or xlsx)",
     )
+    parser.add_argument(
+        "--sheet",
+        "-s",
+        default="Database Export",
+        required=False,
+        help="Name of the sheet in the input to read."
+    )
     args = parser.parse_args()
 
-    dataframe = pd.read_excel(args.input, sheet_name="Database Export")
+    dataframe = pd.read_excel(args.input, sheet_name=args.sheet, skiprows=1)
     studies = meta_parser.parse_metadata_dataframe(dataframe)
     study_labels = classifier.label_studies(studies)
     studies_by_classifier = classifier.classify_studies(studies)
