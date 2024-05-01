@@ -438,6 +438,97 @@ class PopulationRange(Enum):
         self.url = url
 
 
+class FocusPopulation(Enum):
+    RACIALMINORITIES = (
+        "Racial and Ethnic Minorities",
+        generate_search_url("study_focus_population", "Racial and Ethnic Minorities"),
+    )
+    IMMIGRANTS = (
+        "Immigrants",
+        generate_search_url("study_focus_population", "Immigrants"),
+    )
+    AFRICANAMERICAN = (
+        "African American",
+        generate_search_url("study_focus_population", "African American"),
+    )
+    HISPANICLATINO = (
+        "Hispanic and Latino",
+        generate_search_url("study_focus_population", "Hispanic and Latino"),
+    )
+    HAWAIINPACIFICISLANDER = (
+        "Native Hawaiian or other Pacific Islander",
+        generate_search_url("study_focus_population", "Native Hawaiian or other Pacific Islander"),
+    )
+    ASIAN = (
+        "Asian",
+        generate_search_url("study_focus_population", "Asian"),
+    )
+    CHILDREN = (
+        "Children",
+        generate_search_url("study_focus_population", "Children"),
+    )
+    SCHOOLCOMMUNITY = (
+        "School Community Members",
+        generate_search_url("study_focus_population", "School Community Members"),
+    )
+    ESSENTIALWORKERS = (
+        "Essential Workers",
+        generate_search_url("study_focus_population", "Essential Workers"),
+    )
+    PREGNANTWOMEN = (
+        "Pregnant (or Nursing) Women",
+        generate_search_url("study_focus_population", "Pregnant (or Nursing) Women"),
+    )
+    IDDISABILITIES = (
+        "Intellectual and Developmental Disabilities",
+        generate_search_url("study_focus_population", "Intellectual and Developmental Disabilities"),
+    )
+    HOMELESS = (
+        "Homeless/Unhoused",
+        generate_search_url("study_focus_population", "Homeless/Unhoused"),
+    )
+    INCARCERATED = (
+        "Incarcerated/Institutionalized (or Criminal Legal System Involvement)",
+        generate_search_url("study_focus_population", "Incarcerated/Institutionalized (or Criminal Legal System Involvement)"),
+    )
+    HIVAIDS = (
+        "People Living with HIV/AIDs",
+        generate_search_url("study_focus_population", "People Living with HIV/AIDs"),
+    )
+    DIALYSISPATIENTS = (
+        "Dialysis Patients",
+        generate_search_url("study_focus_population", "Dialysis Patients"),
+    )
+    SEXGENDERMINROTIES = (
+        "Sexual and Gender Minorities",
+        generate_search_url("study_focus_population", "Sexual and Gender Minorities"),
+    )
+    RURAL = (
+        "Rural Communities",
+        generate_search_url("study_focus_population", "Rural Communities"),
+    )
+    UNDERSERVED = (
+        "Underserved/Vulnerable Population",
+        generate_search_url("study_focus_population", "Underserved/Vulnerable Population"),
+    )
+    LOWERSOCIOECONOMIC = (
+        "Lower Socioeconomic Status (SES) Population",
+        generate_search_url("study_focus_population", "Lower Socioeconomic Status (SES) Population"),
+    )
+    ELDERLY = (
+        "Older Adults or Elderly",
+        generate_search_url("study_focus_population", "Older Adults or Elderly"),
+    )
+    ADULTS = (
+        "Adults",
+        generate_search_url("study_focus_population", "Adults"),
+    )
+
+    def __init__(self, label, url=None):
+        self.label = label
+        self.url = url
+
+
 class Classifier(Enum):
     """
     Enumerations to facilate grouping by one of the following categories.
