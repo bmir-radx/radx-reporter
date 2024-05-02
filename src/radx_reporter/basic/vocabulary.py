@@ -16,11 +16,11 @@ class Program(Enum):
     """
     Enumerations for categorizing studies by the RADx Program (DCC).
     """
-    RAD = ("radxrad", generate_search_url("dcc", "RADx-rad"))
-    UP = ("radxup", generate_search_url("dcc", "RADx-UP"))
-    TECH = ("radxtech", generate_search_url("dcc", "RADx Tech"))
-    DHT = ("radxdht", generate_search_url("dcc", "RADx DHT"))
-    MISSING = ("MISSING OR INVALID",)
+    RAD = ("RADx-rad", generate_search_url("dcc", "RADx-rad"))
+    UP = ("RADx-UP", generate_search_url("dcc", "RADx-UP"))
+    TECH = ("RADx-Tech", generate_search_url("dcc", "RADx Tech"))
+    DHT = ("RADx-DHT", generate_search_url("dcc", "RADx DHT"))
+    UNKNOWN = ("UNKNOWN OR INVALID",)
 
     def __init__(self, label, url=None):
         self.label = label
@@ -32,48 +32,76 @@ class StudyDesign(Enum):
     Enumerations for categorizing studies by its Study Design(s).
     """
     CASECONTROL = ("Case-Control", generate_search_url("types_array", "Case-Control"))
-    LONGITUDINAL = (
-        "prospective longitudinal cohort",
-        generate_search_url("types_array", "Longitudinal Cohort"),
-    )
-    FAMILY = (
-        "familytwinstrios",
-        generate_search_url("types_array", "Family/Twins/Trios"),
-    )  # no matches in data hub
+    CLINICALGENETICTESTING = (
+        "Clinical Genetic Testing ",
+        generate_search_url("types_array", "Clinical Genetic Testing"),
+    )  # no matches data hub
     CLINICALTRIAL = (
-        "clinical trial",
+        "Clinical Trial",
         generate_search_url("types_array", "Interventional/Clinical Trial"),
     )
     CROSSSECTIONAL = (
         "Cross-Sectional",
         generate_search_url("types_array", "Cross-Sectional"),
     )
+    DEVICEVALIDATION = (
+        "Device Validation Study",
+        generate_search_url("types_array", "Device Validation Study"),
+        {"Device Verification Study"},
+    ) # added a synonym because of inconsistencies in a few labels
+    FAMILY = (
+        "Family/Twins/Trios",
+        generate_search_url("types_array", "Family/Twins/Trios"),
+    )  # no matches in data hub
     INTERVENTIONAL = (
-        "Interventional",
+        "Interventional/Clinical Trial",
         generate_search_url("types_array", "Interventional/Clinical Trial"),
-    )  # why is this merged with clinical
+    )
+    LONGITUDINAL = (
+        "Longitudinal Cohort",
+        generate_search_url("types_array", "Longitudinal Cohort"),
+    )
     MENDELIAN = (
         "Mendelian",
         generate_search_url("types_array", "Mendelian"),
-    )  # no matches in data hub
-    XENOGRAFT = (
-        "Xenograft",
-        generate_search_url("types_array", "Xenograft"),
     )  # no matches in data hub
     METAGENOMICS = (
         "Metagenomics",
         generate_search_url("types_array", "Metagenomics"),
     )  # no matches in data hub
-    CLINICALGENETICTESTING = (
-        "Clinical Genetic Testing ",
-        generate_search_url("types_array", "Clinical Genetic Testing"),
-    )  # no matches data hub
+    MIXED = (
+        "Mixed Methods",
+        generate_search_url("types_array", "Mixed Methods"),
+    )  # no matches in data hub
+    OBSERVATIONAL = (
+        "Observational",
+        generate_search_url("types_array", "Observational"),
+    )
+    OPENCOHORT = (
+        "Open Cohort",
+        generate_search_url("types_array", "Open Cohort"),
+    )
+    QUALITATIVE = (
+        "Qualitative",
+        generate_search_url("types_array", "Qualitative"),
+    )
+    TIMESERIES = (
+        "Time-Series",
+        generate_search_url("types_array", "Time-Series"),
+    )
+    XENOGRAFT = (
+        "Xenograft",
+        generate_search_url("types_array", "Xenograft"),
+    )  # no matches in data hub
     OTHER = ("Other", generate_search_url("types_array", "Other"))
-    MISSING = ("MISSING OR INVALID",)
+    UNKNOWN = ("UNKNOWN OR INVALID",)
 
-    def __init__(self, label, url=None):
+    def __init__(self, label, url=None, synonyms=None):
         self.label = label
         self.url = url
+        if synonyms is None:
+            synonyms = set()
+        self.synonyms = synonyms
 
 
 class DataType(Enum):
@@ -81,28 +109,28 @@ class DataType(Enum):
     Enumerations for categorizing studies by the type of data recorded.
     Some of the categories overlap.
     """
-    behavioral = ("behavioral",)
-    CLINICAL = ("clinical",)
-    COGNITIVE = ("cognitive",)  # this has a typo in the spreadsheet
-    ELECTRONICMEDICALRECORDS = ("electronic medical records",)
-    ENVIRONMENTAL = ("enviornmental physical",)
-    FAMILYHISTORY = ("family history",)
-    GENOMIC = ("genomic",)
-    GENOTYPING = ("genotyping",)
-    IMAGING = ("imaging",)
-    IMMULOGICAL = ("immulogical",)
-    INDIVIDUALGENOTYPE = ("individual genotype",)
-    INDIVIDUALPHENOTYPE = ("individual phenotype",)
-    INDIVIDUALSEQUENCING = ("individual sequencing",)
-    METABOLOMIC = ("metabolomic",)
-    PHYSICALACTIVITY = ("physical activity",)
-    PROTEOMIC = ("proteomic",)
-    PSYCHOLOGICAL = ("psychological",)
-    QUESTIONNAIRE = ("questionnairessurveys",)
-    SOCIAL = ("social",)
-    SUPPORTINGDOCUMENTS = ("supporting documents",)
-    OTHER = ("other",)
-    MISSING = ("MISSING OR INVALID",)
+    BEHAVIORAL = ("Behavioral",)
+    CLINICAL = ("Clinical",)
+    COGNITIVE = ("Cognitive",)  # this has a typo in the spreadsheet
+    ELECTRONICMEDICALRECORDS = ("Electronic Medical Records",)
+    ENVIRONMENTAL = ("Enviornmental (Physical)",)
+    FAMILYHISTORY = ("Family History",)
+    GENOMIC = ("Genomic",)
+    GENOTYPING = ("Genotyping",)
+    IMAGING = ("Imaging",)
+    IMMULOGICAL = ("Immulogical",)
+    INDIVIDUALGENOTYPE = ("Individual Genotype",)
+    INDIVIDUALPHENOTYPE = ("Individual Phenotype",)
+    INDIVIDUALSEQUENCING = ("Individual Sequencing",)
+    METABOLOMIC = ("Metabolomic",)
+    PHYSICALACTIVITY = ("Physical Activity",)
+    PROTEOMIC = ("Proteomic",)
+    PSYCHOLOGICAL = ("Psychological",)
+    QUESTIONNAIRE = ("Questionnaires/Surveys",)
+    SOCIAL = ("Social",)
+    SUPPORTINGDOCUMENTS = ("Supporting Documents",)
+    OTHER = ("Other",)
+    UNKNOWN = ("UNKNOWN OR INVALID",)
 
     def __init__(self, label, url=None):
         self.label = label
@@ -113,30 +141,66 @@ class CollectionMethod(Enum):
     """
     Enumerations for categorizing studies by its data collection method.
     """
-    QUESTIONNAIRE = (
-        "questionnairesurvey",
+    SURVEY = (
+        "Survey",
         generate_search_url("source_array", "Survey"),
-    )  # to be removed
+    )
     INTERVIEW = (
-        "interview or focus group",
+        "Interview or Focus Group",
         generate_search_url("source_array", "Interview or Focus Group"),
     )
-    WEARABLE = ("wearable", generate_search_url("source_array", "Wearable"))
-    SMARTPHONE = ("smartphone", generate_search_url("source_array", "Smartphone"))
-    TESTINGDEVICE = (
-        "covid testing device",
-        generate_search_url("source_array", "COVID Testing Device"),
-    )
-    WASTEWATER = (
-        "wastewater sampling",
-        generate_search_url("source_array", "Wastewater Sampling"),
-    )
+    WEARABLE = ("Wearable", generate_search_url("source_array", "Wearable"))
+    SMARTPHONE = ("Smartphone", generate_search_url("source_array", "Smartphone"))
     CONTACTTRACING = (
-        "contact tracing",
+        "Contact Tracing",
         generate_search_url("source_array", "Contact Tracing"),
     )
-    OTHER = ("other", generate_search_url("source_array", "Other"))
-    MISSING = "MISSING OR INVALID"
+    ANTIGENTEST = (
+        "Antigen Testing Device",
+        generate_search_url("source_array", "Antigen Testing Device"),
+    )
+    MOLECULARTEST = (
+        "Molecular (Nucleic Acid/PCR) Testing Device",
+        generate_search_url("source_array", "Molecular (Nucleic Acid/PCR) Testing Device"),
+    )
+    ANTIBODYTEST = (
+        "Antibody Testing / Other Adaptive Immune Response Test",
+        generate_search_url("source_array", "Antibody Testing / Other Adaptive Immune Response Test"),
+    )
+    AIRBORNEDETECTION = (
+        "Breath Analysis Device / Airborne Detection Device",
+        generate_search_url("source_array", "Breath Analysis Device / Airborne Detection Device"),
+    )
+    CHEMOSENSORYTEST = (
+        "Chemosensory Testing Device",
+        generate_search_url("source_array", "Chemosensory Testing Device"),
+    )
+    ELECTROCHEMICALTEST = (
+        "Electrochemical Testing Device",
+        generate_search_url("source_array", "Electrochemical Testing Device"),
+    )
+    COVIDTEST = (
+        "Unspecified COVID Testing Device",
+        generate_search_url("source_array", "Unspecified COVID Testing Device"),
+    )
+    WASTEWATER = (
+        "Wastewater Sampling",
+        generate_search_url("source_array", "Wastewater Sampling"),
+    )
+    DISEASEREGISTRY = (
+        "Disease Registry",
+        generate_search_url("source_array", "Disease Registry"),
+    )
+    BIOBANK = (
+        "Biobank Samples",
+        generate_search_url("source_array", "Biobank Samples"),
+    )
+    WORLD = (
+        "Real-World Data",
+        generate_search_url("source_array", "Real-World Data"),
+    )
+    OTHER = ("Other", generate_search_url("source_array", "Other"))
+    UNKNOWN = "UNKNOWN OR INVALID"
 
     def __init__(self, label, url=None):
         self.label = label
@@ -147,39 +211,39 @@ class NihInstitute(Enum):
     """
     Enumerations for categorizing studies by its supporting NIH Institute.
     """
-    NCATS = ("ncats", generate_search_url("institutes_supporting_study_array", "NCATS"))
-    NCCIH = ("nccih", generate_search_url("institutes_supporting_study_array", "NCCIH"))
-    NCI = ("nci", generate_search_url("institutes_supporting_study_array", "NCI"))
-    NDA = ("nda", generate_search_url("institutes_supporting_study_array", "NDA"))
-    NEI = ("nei", generate_search_url("institutes_supporting_study_array", "NEI"))
-    NHGRI = ("nhgri", generate_search_url("institutes_supporting_study_array", "NHGRI"))
-    NHLBI = ("nhlbi", generate_search_url("institutes_supporting_study_array", "NHLBI"))
-    NIA = ("nia", generate_search_url("institutes_supporting_study_array", "NIA"))
-    NIAAA = ("niaaa", generate_search_url("institutes_supporting_study_array", "NIAAA"))
-    NIAID = ("niaid", generate_search_url("institutes_supporting_study_array", "NIAID"))
-    NIAMS = ("niams", generate_search_url("institutes_supporting_study_array", "NIAMS"))
-    NIBIB = ("nibib", generate_search_url("institutes_supporting_study_array", "NIBIB"))
-    NICHD = ("nichd", generate_search_url("institutes_supporting_study_array", "NICHD"))
-    NIDA = ("nida", generate_search_url("institutes_supporting_study_array", "NIDA"))
-    NIDCD = ("nidcd", generate_search_url("institutes_supporting_study_array", "NIDCD"))
-    NIDCR = ("nidcr", generate_search_url("institutes_supporting_study_array", "NIDCR"))
-    NIDDK = ("niddk", generate_search_url("institutes_supporting_study_array", "NIDDK"))
-    NIEHS = ("niehs", generate_search_url("institutes_supporting_study_array", "NIEHS"))
-    NIGMS = ("nigms", generate_search_url("institutes_supporting_study_array", "NIGMS"))
+    NCATS = ("NCATS", generate_search_url("institutes_supporting_study_array", "NCATS"))
+    NCCIH = ("NCCIH", generate_search_url("institutes_supporting_study_array", "NCCIH"))
+    NCI = ("NCI", generate_search_url("institutes_supporting_study_array", "NCI"))
+    NDA = ("NDA", generate_search_url("institutes_supporting_study_array", "NDA"))
+    NEI = ("NEI", generate_search_url("institutes_supporting_study_array", "NEI"))
+    NHGRI = ("NHGRI", generate_search_url("institutes_supporting_study_array", "NHGRI"))
+    NHLBI = ("NHLBI", generate_search_url("institutes_supporting_study_array", "NHLBI"))
+    NIA = ("NIA", generate_search_url("institutes_supporting_study_array", "NIA"))
+    NIAAA = ("NIAAA", generate_search_url("institutes_supporting_study_array", "NIAAA"))
+    NIAID = ("NIAID", generate_search_url("institutes_supporting_study_array", "NIAID"))
+    NIAMS = ("NIAMS", generate_search_url("institutes_supporting_study_array", "NIAMS"))
+    NIBIB = ("NIBIB", generate_search_url("institutes_supporting_study_array", "NIBIB"))
+    NICHD = ("NICHD", generate_search_url("institutes_supporting_study_array", "NICHD"))
+    NIDA = ("NIDA", generate_search_url("institutes_supporting_study_array", "NIDA"))
+    NIDCD = ("NIDCD", generate_search_url("institutes_supporting_study_array", "NIDCD"))
+    NIDCR = ("NIDCR", generate_search_url("institutes_supporting_study_array", "NIDCR"))
+    NIDDK = ("NIDDK", generate_search_url("institutes_supporting_study_array", "NIDDK"))
+    NIEHS = ("NIEHS", generate_search_url("institutes_supporting_study_array", "NIEHS"))
+    NIGMS = ("NIGMS", generate_search_url("institutes_supporting_study_array", "NIGMS"))
     NIHOD = (
-        "nih od",
+        "NIH OD",
         generate_search_url("institutes_supporting_study_array", "NIH OD"),
     )
-    NIMH = ("nimh", generate_search_url("institutes_supporting_study_array", "NIMH"))
-    NIMHD = ("nimhd", generate_search_url("institutes_supporting_study_array", "NIMHD"))
-    NINDS = ("ninds", generate_search_url("institutes_supporting_study_array", "NINDS"))
-    NINR = ("ninr", generate_search_url("institutes_supporting_study_array", "NINR"))
-    NLM = ("nlm", generate_search_url("institutes_supporting_study_array", "NLM"))
+    NIMH = ("NIMH", generate_search_url("institutes_supporting_study_array", "NIMH"))
+    NIMHD = ("NIMHD", generate_search_url("institutes_supporting_study_array", "NIMHD"))
+    NINDS = ("NINDS", generate_search_url("institutes_supporting_study_array", "NINDS"))
+    NINR = ("NINR", generate_search_url("institutes_supporting_study_array", "NINR"))
+    NLM = ("NLM", generate_search_url("institutes_supporting_study_array", "NLM"))
     NIH = (
-        "nih",
+        "NIH",
         generate_search_url("institutes_supporting_study_array", "NIH"),
     )  # added this because phs003366 only has this as an entry
-    MISSING = ("MISSING OR INVALID",)
+    UNKNOWN = ("UNKNOWN OR INVALID",)
 
     def __init__(self, label, url=None):
         self.label = label
@@ -192,184 +256,184 @@ class StudyDomain(Enum):
     This is also called the study topic.
     """
     TESTINGRATE = (
-        "testing rateuptake",
+        "Testing Rate/Uptake",
         generate_search_url("topics_array", "Testing Rate/Uptake"),
     )
     PERCEPTIONS = (
-        "pandemic perceptions and decisionmaking",
+        "Pandemic Perceptions and Decision-Making",
         generate_search_url("topics_array", "Pandemic Perceptions and Decision-Making"),
     )
     ANTIGEN = (
-        "antigen testing",
+        "Antigen Testing",
         generate_search_url("topics_array", "Antigen Testing"),
     )
     SCHOOL = (
-        "covid in school settings",
+        "COVID in School Settings",
         generate_search_url("topics_array", "COVID in School Settings"),
     )
     DIAGNOSTIC = (
-        "diagnostic testing",
+        "Diagnostic Testing",
         generate_search_url("topic_array", "Diagnostic Testing"),
     )
     BEHAVIORS = (
-        "health behaviors",
+        "Health Behaviors",
         generate_search_url("topic_array", "Health Behaviors"),
     )
     COMORBIDITIES = (
-        "comorbidities",
+        "Comorbidities",
         generate_search_url("topics_array", "Comorbidities"),
     )
     POC = (
-        "pointofcare poc testing",
+        "Point-of-Care (POC) Testing",
         generate_search_url("topics_array", "Point-of-Care (POC) Testing"),
     )
     VOC = (
-        "novel biosensing and voc",
+        "Novel Biosensing and VOC",
         generate_search_url("topics_array", "Novel Biosensing and VOC"),
     )
     SCREENING = (
-        "screening testing",
+        "Screening Testing",
         generate_search_url("topics_array", "Screening Testing"),
     )
     HOTSPOTS = ("COVID Hotspots", generate_search_url("topics_array", "COVID Hotspots"))
     DESERTS = (
-        "covid testing deserts",
+        "COVID Testing Deserts",
         generate_search_url("topics_array", "COVID Testing Deserts"),
     )
     DISEASESURVEILLANCE = (
-        "disease surveillance",
+        "Disease Surveillance",
         generate_search_url("topics_array", "Disease Surveillance"),
     )
     MULTIMODALSURVEILLANCE = (
-        "multimodal surveillance",
+        "Multimodal Surveillance",
         generate_search_url("topics_array", "Multimodal Surveillance"),
     )
     CHEMOSENSORY = (
-        "chemosensory testing",
+        "Chemosensory Testing",
         generate_search_url("topics_array", "Chemosensory Testing"),
     )
     SEROPREVALENCE = (
-        "seroprevalence",
+        "Seroprevalence",
         generate_search_url("topics_array", "Seroprevalence"),
     )
     MISC = (
-        "multisystem inflammatory syndrome in children (mis-c)",
+        "Multisystem Inflammatory Syndrome in Children (MIS-C)",
         generate_search_url(
             "topics_array", "Multisystem Inflammatory Syndrome in Children (MIS-C)"
         ),
     )
     MIS = (
-        "multisystem inflammatory syndrome mis",
+        "Multisystem Inflammatory Syndrome (MIS)",
         generate_search_url("topics_array", "Multisystem Inflammatory Syndrome (MIS)"),
     )
     WASTEWATER = (
-        "wastewater surveillance",
+        "Wastewater Surveillance",
         generate_search_url("topics_array", "Wastewater Surveillance"),
     )
     IMMUNERESPONSES = (
-        "immune responses",
+        "Immune Responses",
         generate_search_url("topics_array", "Immune Responses"),
     )
     MENTALHEALTH = (
-        "mental health",
+        "Mental Health",
         generate_search_url("topics_array", "Mental Health"),
     )
     SUBSTANCEUSE = (
-        "substance use",
+        "Substance Use",
         generate_search_url("topics_array", "Substance Use"),
     )
     VIROLOGICALTESTING = (
-        "virological testing",
+        "Virological Testing",
         generate_search_url("topics_array", "Virological Testing"),
     )
     RAPIDTESTING = (
-        "rapid diagnostic testing",
+        "Rapid Diagnostic Testing",
         generate_search_url("topics_array", "Rapid Diagnostic Test (RDT)"),
     )
     PCRTESTING = (
-        "laboratory pcr testing",
+        "Laboratory (PCR) Testing",
         generate_search_url("topics_array", "Molecular (PCR/Nucleic Acid) Testing"),
     )
     ANTIBODYTESTING = (
-        "serological antibody testing",
+        "Serological (Antibody) Testing",
         generate_search_url("topics_array", "Serological (Antibody) Testing"),
     )
     MOBILETESTING = (
-        "mobile unit testing",
+        "Mobile Unit Testing",
         generate_search_url("topics_array", "Mobile Unit Testing"),
     )
     ATHOMETESTING = (
-        "athome testing",
+        "At-Home Testing",
         generate_search_url("topics_array", "Self-Testing (At-Home or OTC)"),
     )
     VACCINATIONRATE = (
-        "vaccination rate/ptake",
+        "Vaccination Rate/Uptake",
         generate_search_url("topics_array", "Vaccination Rate/Uptake"),
     )
     VARIANTS = ("Variants", generate_search_url("topics_array", "Variants"))
     SOCIALDETERMINANTS = (
-        "social determinants of health",
+        "Social Determinants of Health",
         generate_search_url("topics_array", "Social Determinants of Health"),
     )
     COMMUNITYOUTREACH = (
-        "community outreach programs",
+        "Community Outreach Programs",
         generate_search_url("topics_array", "Community Outreach Programs"),
     )
     MEDICALDEVICEDEVELOPMENT = (
-        "medical device development",
+        "Medical Device Development",
         generate_search_url("topics_array", "Medical Device/Tool Development"),
     )
     BIOSENSORTECHNOLOGY = (
-        "biosensor technology",
+        "Biosensor Technology",
         generate_search_url("topics_array", "Biosensor Technology"),
     )
     AIML = (
-        "artifical intelligence and machine learning",
+        "Artifical Intelligence and Machine Learning",
         generate_search_url(
             "topics_array", "Artificial Intelligence and Machine Learning"
         ),
     )
     NGS = (
-        "next generation sequencing ngs",
+        "Next Generation Sequencing (NGS)",
         generate_search_url("topics_array", "Next Generation Sequencing (NGS)"),
     )
     DIGITALHEALTH = (
-        "digital health applications",
+        "Digital Health Applications",
         generate_search_url("topics_array", "Digital Health Applications"),
     )
-    INFLUENZA = ("influenza", generate_search_url("topics_array", "Influenza"))
+    INFLUENZA = ("Influenza", generate_search_url("topics_array", "Influenza"))
     # no entries in data hub
     CHILDREN = (
-        "children",
+        "Children",
         generate_search_url("topics_array", "Children"),
     )  # study population focus
     MINORITIES = (
-        "minorities",
+        "Minorities",
         generate_search_url("topics_array", "Minorities"),
     )  # study population focus
     AFRICANAMERICANPOPULATION = (
-        "african american population",
+        "African American Population",
         generate_search_url("topics_array", "African American Population"),
     )  # study population focus
     TRIBALPOPULATION = (
-        "tribal population",
+        "Tribal Population",
         generate_search_url("topics_array", "Tribal Population"),
     )  # study population focus
     HISPANICPOPULATION = (
-        "hispanic and latino population",
+        "Hispanic and Latino Population",
         generate_search_url("topics_array", "Hispanic and Latino Population"),
     )  # study population focus
     PREGNANCY = (
-        "pregnancy",
+        "Pregnancy",
         generate_search_url("topics_array", "Pregnancy"),
     )  # study population focus
-    LONGCOVID = ("long covid", generate_search_url("topics_array", "Long COVID"))
-    AGING = ("aging", generate_search_url("topics_array", "Aging"))
-    CANCER = ("cancer", generate_search_url("topics_array", "Cancer"))
-    NUTRITION = ("nutrition", generate_search_url("topics_array", "Nutrition"))
-    DIABETES = ("diabetes", generate_search_url("topics_array", "Diabetes"))
-    OBESITY = ("obesity", generate_search_url("topics_array", "Obesity"))
-    MISSING = ("MISSING OR INVALID",)
+    LONGCOVID = ("Long COVID", generate_search_url("topics_array", "Long COVID"))
+    AGING = ("Aging", generate_search_url("topics_array", "Aging"))
+    CANCER = ("Cancer", generate_search_url("topics_array", "Cancer"))
+    NUTRITION = ("Nutrition", generate_search_url("topics_array", "Nutrition"))
+    DIABETES = ("Diabetes", generate_search_url("topics_array", "Diabetes"))
+    OBESITY = ("Obesity", generate_search_url("topics_array", "Obesity"))
+    UNKNOWN = ("UNKNOWN OR INVALID",)
 
     def __init__(self, label, url=None):
         self.label = label
@@ -425,7 +489,7 @@ class PopulationRange(Enum):
         generate_search_url("estimated_participant_range", "No Participant"),
     )
     UNKNOWN = (
-        "MISSING OR INVALID",
+        "UNKNOWN OR INVALID",
         float("inf"),
         float("-inf"),
         generate_search_url("estimated_participant_range", "Unknown"),
@@ -440,90 +504,90 @@ class PopulationRange(Enum):
 
 class FocusPopulation(Enum):
     RACIALMINORITIES = (
-        "racial and ethnic minorities",
+        "Racial and Ethnic Minorities",
         generate_search_url("study_focus_population", "Racial and Ethnic Minorities"),
     )
     IMMIGRANTS = (
-        "immigrants",
+        "Immigrants",
         generate_search_url("study_focus_population", "Immigrants"),
     )
     AFRICANAMERICAN = (
-        "african american",
+        "African American",
         generate_search_url("study_focus_population", "African American"),
     )
     HISPANICLATINO = (
-        "hispanic and latino",
+        "Hispanic and Latino",
         generate_search_url("study_focus_population", "Hispanic and Latino"),
     )
     HAWAIINPACIFICISLANDER = (
-        "native hawaiian or other pacific islander",
+        "Native Hawaiian or other Pacific Islander",
         generate_search_url("study_focus_population", "Native Hawaiian or other Pacific Islander"),
     )
     ASIAN = (
-        "asian",
+        "Asian",
         generate_search_url("study_focus_population", "Asian"),
     )
     CHILDREN = (
-        "children",
+        "Children",
         generate_search_url("study_focus_population", "Children"),
     )
     SCHOOLCOMMUNITY = (
-        "school community members",
+        "School Community Members",
         generate_search_url("study_focus_population", "School Community Members"),
     )
     ESSENTIALWORKERS = (
-        "essential workers",
+        "Essential Workers",
         generate_search_url("study_focus_population", "Essential Workers"),
     )
     PREGNANTWOMEN = (
-        "pregnant or nursing women",
+        "Pregnant (or Nursing) Women",
         generate_search_url("study_focus_population", "Pregnant (or Nursing) Women"),
     )
     IDDISABILITIES = (
-        "intellectual and developmental disabilities",
+        "Intellectual and Developmental Disabilities",
         generate_search_url("study_focus_population", "Intellectual and Developmental Disabilities"),
     )
     HOMELESS = (
-        "homelessunhoused",
+        "Homeless/Unhoused",
         generate_search_url("study_focus_population", "Homeless/Unhoused"),
     )
     INCARCERATED = (
-        "incarcerated/institutionalized or criminal legal system involvement",
+        "Incarcerated/Institutionalized (or Criminal Legal System Involvement)",
         generate_search_url("study_focus_population", "Incarcerated/Institutionalized (or Criminal Legal System Involvement)"),
     )
     HIVAIDS = (
-        "people living with hiv/aids",
+        "People Living with HIV/AIDs",
         generate_search_url("study_focus_population", "People Living with HIV/AIDs"),
     )
     DIALYSISPATIENTS = (
-        "dialysis patients",
+        "Dialysis Patients",
         generate_search_url("study_focus_population", "Dialysis Patients"),
     )
     SEXGENDERMINROTIES = (
-        "sexual and gender minorities",
+        "Sexual and Gender Minorities",
         generate_search_url("study_focus_population", "Sexual and Gender Minorities"),
     )
     RURAL = (
-        "rural communities",
+        "Rural Communities",
         generate_search_url("study_focus_population", "Rural Communities"),
     )
     UNDERSERVED = (
-        "underservedvulnerable population",
+        "Underserved/Vulnerable Population",
         generate_search_url("study_focus_population", "Underserved/Vulnerable Population"),
     )
     LOWERSOCIOECONOMIC = (
-        "lower socioeconomic status ses population",
+        "Lower Socioeconomic Status (SES) Population",
         generate_search_url("study_focus_population", "Lower Socioeconomic Status (SES) Population"),
     )
     ELDERLY = (
-        "older adults or elderly",
+        "Older Adults or Elderly",
         generate_search_url("study_focus_population", "Older Adults or Elderly"),
     )
     ADULTS = (
-        "adults",
+        "Adults",
         generate_search_url("study_focus_population", "Adults"),
     )
-    MISSING = ("MISSING OR INVALID",)
+    UNKNOWN = ("UNKNOWN OR INVALID",)
 
     def __init__(self, label, url=None):
         self.label = label
@@ -555,4 +619,4 @@ DATA_TYPES = list(DataType)
 STUDY_DOMAINS = list(StudyDomain)
 COLLECTION_METHODS = list(CollectionMethod)
 FOCUS_POPULATIONS = list(FocusPopulation)
-PROGRAMS = {program.label: program for program in list(Program)}
+PROGRAMS = list(Program)
