@@ -1,3 +1,5 @@
+from . import vocabulary
+
 focus_population_hierarchy = {
     "Ethnic and Racial Groups": {
         "African American": {},
@@ -180,3 +182,61 @@ study_design_hierarchy = {
     "Other": {},
     "UNKNOWN OR INVALID": {},
 }
+
+
+class VocabularyNode:
+    def __init__(
+        self, label, coded=False, synonyms=None, url=None, parent=None, children=None
+    ):
+        self.label = label
+        self.coded = coded
+        self.url = url
+        self.parent = parent
+
+        if synonyms is None:
+            self.synonyms = []
+        else:
+            self.synonyms = synonyms
+        if children is None:
+            self.children = []
+        else:
+            self.children = children
+
+    def __repr__(self):
+        return f"VocabularyNode(label={self.label}, coded={self.coded}, synonyms={self.synonyms})"
+
+
+def connect_nodes(graph, nodes):
+    for key, children in graph.items():
+        # make node if necessary
+        if not key in nodes:
+            nodes[key] = VocabularyNode(label=key, coded=False)
+        for child in children:
+            child_node = nodes[child]
+            child_node.parent = nodes[key]
+            nodes[key].children.append(child_node)
+            connect_nodes(children, nodes)
+
+
+def setup_hierarchy(terms, taxonomy):
+    nodes = {}
+    for term in terms:
+        nodes[term.label] = VocabularyNode(label=term.label, url=term.url, coded=True)
+
+    connect_nodes(taxonomy, nodes)
+    return nodes
+
+
+FOCUS_POPULATION_HIERARCHY = setup_hierarchy(
+    vocabulary.FOCUS_POPULATIONS, focus_population_hierarchy
+)
+STUDY_DOMAIN_HIERARCHY = setup_hierarchy(
+    vocabulary.STUDY_DOMAINS, study_domain_hierarchy
+)
+COLLECTION_METHOD_HIERARCHY = setup_hierarchy(
+    vocabulary.COLLECTION_METHODS, collection_method_hierarchy
+)
+DATA_TYPE_HIERARCHY = setup_hierarchy(vocabulary.DATA_TYPES, data_type_hierarchy)
+STUDY_DESIGN_HIERARCHY = setup_hierarchy(
+    vocabulary.STUDY_DESIGNS, study_design_hierarchy
+)
