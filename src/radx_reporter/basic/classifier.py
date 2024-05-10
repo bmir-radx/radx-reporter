@@ -80,15 +80,19 @@ def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study]):
                 label,
                 len(grouped_studies),
                 "; ".join([study.phs_id for study in grouped_studies]),
+                label.coded if hasattr(label, "coded") else True,
             )
             for label, grouped_studies in studies[classifier].items()
         ]
+        # alphabetical order by label
+        label_counts.sort(key = lambda x: x[0].label)
         counts = pd.DataFrame(
             {
                 classifier.label: [
                     x[0].label for x in label_counts
                 ],  # these are the labels
                 "Count": [x[1] for x in label_counts],
+                "Original Facet": [x[3] for x in label_counts],
                 "PHS IDs": [x[2] for x in label_counts],
                 "Search URL": [x[0].url for x in label_counts],
             }

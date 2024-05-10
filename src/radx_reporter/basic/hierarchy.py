@@ -67,12 +67,16 @@ study_domain_hierarchy = {
     "Medical Conditions": {
         "Long COVID": {},
         "Comorbidities": {},
-        "Multisystem Inflammatory Syndrome in Children (MIS-C)": {},
-        "Multisystem Inflammatory Syndrome (MIS)": {},
+        "Multisystem Inflammatory Syndromes": {
+            "Multisystem Inflammatory Syndrome in Children (MIS-C)": {},
+            "Multisystem Inflammatory Syndrome (MIS)": {},
+        },
         "Cancer": {},
         "Diabetes": {},
         "Obesity": {},
-        "Influenza": {},
+        "Infectious Diseases": {
+            "Influenza": {},
+        },
         "Aging": {},
         "Nutrition": {},
         "Mental Health": {},
