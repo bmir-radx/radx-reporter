@@ -56,9 +56,11 @@ def classify_studies(studies: Dict[str, Study]):
     studies_by_classifier = {}
     for classifier in Classifier:
         # check labels for each study and group study by label
-        label_to_studies = {label: list() for label in classifier.classifier}
+        label_to_studies = {}
         for study in studies.values():
             for label in study.get_classifiers(classifier):
+                if not label in label_to_studies:
+                    label_to_studies[label] = []
                 label_to_studies[label].append(study)
         studies_by_classifier[classifier] = label_to_studies
     return studies_by_classifier

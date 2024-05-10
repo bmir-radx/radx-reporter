@@ -202,6 +202,9 @@ class VocabularyNode:
         else:
             self.children = children
 
+    def __hash__(self):
+        return hash(self.label)
+
     def __repr__(self):
         return f"VocabularyNode(label={self.label}, coded={self.coded}, synonyms={self.synonyms})"
 
@@ -212,6 +215,8 @@ def connect_nodes(graph, nodes):
         if not key in nodes:
             nodes[key] = VocabularyNode(label=key, coded=False)
         for child in children:
+            if not child in nodes:
+                nodes[child] = VocabularyNode(label=child, coded=False)
             child_node = nodes[child]
             child_node.parent = nodes[key]
             nodes[key].children.append(child_node)
