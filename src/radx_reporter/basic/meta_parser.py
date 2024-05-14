@@ -56,17 +56,11 @@ def prepare_string_for_matching(text: str):
 
 
 def has_match(facet_node, text):
-    if not (isinstance(facet_node, NihInstitute) or isinstance(facet_node, Program)):
+    if hasattr(facet_node, "synonyms"):
         for synonym in facet_node.synonyms:
             if prepare_string_for_matching(synonym) in text:
                 return True
     return prepare_string_for_matching(facet_node.label) in text
-
-
-def add_node_and_ancestors(vocabulary_node, node_set):
-    while vocabulary_node is not None:
-        node_set.add(vocabulary_node)
-        vocabulary_node = vocabulary_node.parent
 
 
 def parse_program(row):
@@ -87,18 +81,15 @@ def parse_focus_populations(row):
     """
     focus_population_text = row[FOCUS_POPULATION_KEYWORD]
     if pd.isna(focus_population_text):
-        focus_populations = [FOCUS_POPULATION_HIERARCHY["UNKNOWN OR INVALID"]]
+        focus_populations = [FocusPopulation.UNKNOWN]
     else:
         focus_population_text = prepare_string_for_matching(focus_population_text)
         focus_populations = [
-            focus for focus in FOCUS_POPULATION_HIERARCHY.values() if has_match(focus, focus_population_text)
+            focus for focus in FOCUS_POPULATIONS if has_match(focus, focus_population_text)
         ]
         if len(focus_populations) == 0:
-            focus_populations.append(FOCUS_POPULATION_HIERARCHY["UNKNOWN OR INVALID"])
-    semantic_focus_populations = set()
-    for focus in focus_populations:
-        add_node_and_ancestors(focus, semantic_focus_populations)
-    return semantic_focus_populations
+            focus_populations.append(FocusPopulation.UNKNOWN)
+    return focus_populations
 
 
 def parse_nih_institutes(row):
@@ -130,15 +121,12 @@ def parse_collection_methods(row):
     collection_method_text = prepare_string_for_matching(collection_method_text)
     collection_methods = [
         method
-        for method in COLLECTION_METHOD_HIERARCHY.values()
+        for method in COLLECTION_METHODS
         if has_match(method, collection_method_text)
     ]
     if len(collection_methods) == 0:
-        collection_methods.append(COLLECTION_METHOD_HIERARCHY["UNKNOWN OR INVALID"])
-    semantic_collection_methods = set()
-    for method in collection_methods:
-        add_node_and_ancestors(method, semantic_collection_methods)
-    return semantic_collection_methods
+        collection_methods.append(CollectionMethod.UNKNOWN)
+    return collection_methods
 
 
 def parse_study_designs(row):
@@ -147,18 +135,15 @@ def parse_study_designs(row):
     """
     study_design_text = row[DESIGN_KEYWORD]
     if pd.isna(study_design_text):
-        study_designs = [STUDY_DESIGN_HIERARCHY["UNKNOWN OR INVALID"]]
+        study_designs = [StudyDesign.UNKNOWN]
     else:
         study_design_text = prepare_string_for_matching(study_design_text)
         study_designs = [
-            design for design in STUDY_DESIGN_HIERARCHY.values() if has_match(design, study_design_text)
+            design for design in STUDY_DESIGNS if has_match(design, study_design_text)
         ]
         if len(study_designs) == 0:
-            study_designs.append(STUDY_DESIGN_HIERARCHY["UNKNOWN OR INVALID"])
-    semantic_study_designs = set()
-    for design in study_designs:
-        add_node_and_ancestors(design, semantic_study_designs)
-    return semantic_study_designs
+            study_designs.append(StudyDesign.UNKNOWN)
+    return study_designs
 
 
 def parse_population(row):
@@ -197,18 +182,15 @@ def parse_data_types(row):
     """
     data_type_text = row[DATATYPES_KEYWORD]
     if pd.isna(data_type_text):
-        data_types = [DATA_TYPE_HIERARCHY["UNKNOWN OR INVALID"]]
+        data_types = [DataType.UNKNOWN]
     else:
         data_type_text = prepare_string_for_matching(data_type_text)
         data_types = [
-            data_type for data_type in DATA_TYPE_HIERARCHY.values() if has_match(data_type, data_type_text)
+            data_type for data_type in DATA_TYPES if has_match(data_type, data_type_text)
         ]
         if len(data_types) == 0:
-            data_types.append(DATA_TYPE_HIERARCHY["UNKNOWN OR INVALID"])
-    semantic_data_types = set()
-    for data_type in data_types:
-        add_node_and_ancestors(data_type, semantic_data_types)
-    return semantic_data_types
+            data_types.append(DataType.UNKNOWN)
+    return data_types
 
 
 def parse_study_domains(row):
@@ -220,16 +202,13 @@ def parse_study_domains(row):
     domain_text = "".join(str(row[x]) for x in DOMAIN_KEYWORDS)
     study_domains = []
     if pd.isna(domain_text):
-        study_domains.append(STUDY_DOMAIN_HIERARCHY["UNKNOWN OR INVALID"])
+        study_domains.append(StudyDomain.UNKNOWN)
     else:
         domain_text = prepare_string_for_matching(domain_text)
         study_domains = [
-            topic for topic in STUDY_DOMAIN_HIERARCHY.values() if has_match(topic, domain_text)
+            topic for topic in STUDY_DOMAINS if has_match(topic, domain_text)
         ]
-    semantic_study_domains = set()
-    for topic in study_domains:
-        add_node_and_ancestors(topic, semantic_study_domains)
-    return semantic_study_domains
+    return study_domains
 
 
 def parse_dates(row):
