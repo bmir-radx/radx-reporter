@@ -137,7 +137,7 @@ class GCBO:
         frontier = Queue()
         frontier.put(start_node)
         visited = set()
-        while not frontier.qsize() == 0:
+        while frontier.qsize() > 0:
             node = frontier.get()
             if node.name in graph:
                 for child_name in graph[node.name]:
@@ -200,3 +200,19 @@ class GCBO:
                     value_name, value_label, code, value, element_node
                 )
                 element_node.add_value(value_node)
+
+    def find_ancestors(self, labels):
+        frontier = Queue()
+        visited = set()
+        for label in labels:
+            if label in self.element_nodes:
+                node = self.element_nodes[label]
+                frontier.put(node)
+                visited.add(node)
+        while frontier.qsize() > 0:
+            node = frontier.get()
+            for parent in node.parents:
+                if not parent in visited:
+                    visited.add(parent)
+                    frontier.put(parent)
+        return visited
