@@ -1,0 +1,262 @@
+subject	predicate	object	datatype
+obo:MONDO_0005618	skos:definition	A category of psychiatric disorders which are characterized by anxious feelings or fear often accompanied by physical symptoms associated with anxiety.	xsd:string
+obo:NCIT_C16669	skos:definition	The state of a subject's mental or physical condition.	xsd:string
+obo:MONDO_0002406	skos:definition	An inflammatory process affecting the skin. Signs include red rash, itching, and blister formation. Representative examples are contact dermatitis, atopic dermatitis, and seborrheic dermatitis.	xsd:string
+obo:MONDO_0024417	skos:definition	Cognitive disorders characterized by an impaired ability to perceive the nature of objects or concepts through use of the sense organs. These include spatial neglect syndromes, where an individual does not attend to visual, auditory, or sensory stimuli presented from one side of the body.	xsd:string
+obo:MONDO_0003847	skos:definition	A disease that is caused by genetic modifications where those modifications are inherited from a parent's genome.	xsd:string
+obo:MONDO_0000569	skos:definition	A hypersensitivity reaction type II disease that involves the endocrine system.	xsd:string
+obo:MONDO_0001933	skos:definition	A disease involving the endocrine pancreas.	xsd:string
+obo:MONDO_0000833	skos:definition	A bone disease that results in formation or resorption abnormalities located in bone.	xsd:string
+obo:SYMP_0019152	skos:definition	A sweat that is characterized by excessive sweating commonly associated with shock and other medical emergency conditions.	xsd:string
+obo:NCIT_C43431	skos:definition	Any action that can, in the context of a study or a post-marketing investigation, be defined, planned, scheduled or performed.|An active process; excludes processes and mechanisms which fulfill biological functions.	xsd:string
+obo:MONDO_0100118	skos:definition	An instance of skin disease that is caused by a modification of the individual's genome.	xsd:string
+obo:MONDO_0006816	skos:definition	Any disorder of the joints.	xsd:string
+obo:MONDO_0003406	skos:definition	Abnormal sleep-wake schedule or pattern associated with the circadian rhythm which affect the length, timing, and/or rigidity of the sleep-wake cycle relative to the day-night cycle.	xsd:string
+obo:MONDO_0004979	skos:definition	A bronchial disease that is characterized by chronic inflammation and narrowing of the airways, which is caused by a combination of environmental and genetic factors resulting in recurring periods of wheezing (a whistling sound while breathing), chest tightness, shortness of breath, mucus production and coughing. The symptoms appear due to a variety of triggers such as allergens, irritants, respiratory infections, weather changes, exercise, stress, reflux disease, medications, foods and emotional anxiety.	xsd:string
+obo:MONDO_0024317	skos:definition	Chronic form of disorder involving pain.	xsd:string
+obo:MONDO_0002515	skos:definition	A non-neoplastic or neoplastic disorder that affects the liver, bile ducts, and gallbladder. Representative examples of non-neoplastic disorders include hepatitis, cirrhosis, cholangitis, and cholecystitis. Representative examples of neoplastic disorders include hepatocellular adenoma, hepatocellular carcinoma, and cholangiocarcinoma.	xsd:string
+obo:MONDO_0000568	skos:definition	A hypersensitivity reaction type II disease that involves the central nervous system.	xsd:string
+obo:MONDO_0002977	skos:definition	A disorder characterized by the degeneration of the nervous system due to autoimmunity. Representative examples include multiple sclerosis, Guillain-Barre syndrome, and myasthenia gravis.	xsd:string
+obo:MONDO_0002614	skos:definition	Inflammation of the bone.	xsd:string
+obo:NCIT_C25688	skos:definition	A condition or state at a particular time.	xsd:string
+obo:NBO_0000079	skos:definition	The act of bringing an object or substance into the body by swallowing, surrounding or absorbing it [NBO:SMAC]	xsd:string
+obo:MONDO_0002118	skos:definition	A disease involving the renal system.	xsd:string
+obo:MONDO_0000589	skos:definition	A hypersensitivity reaction type II disease that involves the musculoskeletal system.	xsd:string
+obo:MONDO_0044347	skos:definition	A disease or disorder that involves the erythrocyte.	xsd:string
+obo:MONDO_0002602	skos:definition	A disease involving the central nervous system.	xsd:string
+obo:MONDO_0021698	skos:definition	Disorders related to or resulting from abuse or mis-use of alcohol.	xsd:string
+obo:MONDO_0003900	skos:definition	A disease involving the connective tissue.	xsd:string
+obo:MONDO_0005109	skos:definition	An infection caused by the human immunodeficiency virus.	xsd:string
+obo:GO_0008150	skos:definition	A process that emerges from two or more causally-connected macromolecular activities and has evolved to achieve a biological objective.	xsd:string
+obo:MONDO_0005406	skos:definition	Carbohydrate intolerance first diagnosed during pregnancy.	xsd:string
+obo:MONDO_0005516	skos:definition	A term referring to disorders characterized by abnormalities in the development of bones and cartilage.	xsd:string
+obo:NBO_0045002	skos:definition	The inhalation and exhalation of tobacco smoke.	xsd:string
+obo:MONDO_0006704	skos:definition	Conditions characterized by loss or dysfunction of myelin (see myelin sheath) in the brain, spinal cord, or optic nerves secondary to autoimmune mediated processes. This may take the form of a humoral or cellular immune response directed toward myelin or oligodendroglia associated autoantigens.	xsd:string
+obo:MONDO_0004867	skos:definition	A disease involving the upper respiratory tract.	xsd:string
+obo:MONDO_0001358	skos:definition	A disease involving the bronchus.	xsd:string
+obo:MONDO_0024458	skos:definition	A disease that involves the visual system.	xsd:string
+obo:MONDO_0002436	skos:definition	A disease involving the nose.	xsd:string
+obo:MONDO_0000588	skos:definition	A hypersensitivity reaction type II disease that involves the alimentary part of gastrointestinal system.	xsd:string
+obo:MONDO_0021147	skos:definition	Any disease or disorder that disrupts the process development of an anatomical structure. Can be due to genetic or environmental causes. Typically happens during embryogenesis, but also includes post-embryonic development.	xsd:string
+obo:MONDO_0024623	skos:definition	Pathological processes of the ear, the nose, and the throat, also known as the ENT diseases.	xsd:string
+obo:MONDO_0011786	skos:definition	Inflammation of the nasal mucous membranes caused by an IgE-mediated response to external allergens. The inflammation may also involve the mucous membranes of the sinuses, eyes, middle ear, and pharynx. Symptoms include sneezing, nasal congestion, rhinorrhea, and itching. It may lead to fatigue, drowsiness, and malaise thus causing impairment of the quality of life.	xsd:string
+obo:MONDO_0000984	skos:definition	An inherited blood disorder characterized by a decreased synthesis of one of the polypeptide chains that form hemoglobin. Anemia results from this abnormal hemoglobin formation.	xsd:string
+obo:MONDO_0001941	skos:definition	The lack of vision. It is caused by neurological or physiological factors.	xsd:string
+obo:NBO_0015005	skos:definition	Consumption behavior that involves burning a substance and inhaling the particulate and gas suspension emitted.	xsd:string
+obo:MONDO_0005328	skos:definition	A non-neoplastic or neoplastic disorder that affects the eye. Representative examples include conjunctivitis, glaucoma, cataract, conjunctival squamous cell carcinoma, uveal melanoma, and retinoblastoma.	xsd:string
+obo:MONDO_0005559	skos:definition	A disorder of the central nervous system characterized by gradual and progressive loss of neural tissue and neurologic function.	xsd:string
+obo:MONDO_0002039	skos:definition	A disease affects cognitive processes.	xsd:string
+obo:MONDO_0003799	skos:definition	Inflammation of the conjunctiva of the eye.	xsd:string
+obo:MONDO_0002567	skos:definition	A non-neoplastic or neoplastic disorder that affects the trachea. Representative examples of non-neoplastic disorders include congenital malformations and infection. Representative examples of neoplastic disorders include carcinoma and lymphoma.	xsd:string
+obo:MONDO_0021146	skos:definition	Various conditions with the symptom of headache. Headache disorders are classified into major groups, such as primary headache disorders (based on characteristics of their headache symptoms) and secondary headache disorders (based on their etiologies). (International Classification of Headache Disorders, 2nd ed. Cephalalgia 2004: suppl 1)	xsd:string
+obo:MONDO_0013600	skos:definition	A sleep disorder characterized by difficulty in falling asleep and/or remaining asleep.	xsd:string
+obo:MONDO_0005009	skos:definition	Failure of the heart to pump a sufficient amount of blood to meet the needs of the body tissues, resulting in tissue congestion and edema. Signs and symptoms include shortness of breath, pitting edema, enlarged tender liver, engorged neck veins, and pulmonary rales.	xsd:string
+obo:MONDO_0005108	skos:definition	Any disease caused by a virus.	xsd:string
+obo:NCIT_C17005	skos:definition	A group of individuals united by a common factor (e.g., geographic location, ethnicity, disease, age, gender)	xsd:string
+obo:MONDO_0004425	skos:definition	Overactivity of the thyroid gland resulting in overproduction of thyroid hormone and increased metabolic rate. Causes include diffuse hyperplasia of the thyroid gland (Graves' disease), single nodule in the thyroid gland, and thyroiditis. The symptoms are related to the increased metabolic rate and include weight loss, fatigue, heat intolerance, excessive sweating, diarrhea, tachycardia, insomnia, muscle weakness, and tremor.	xsd:string
+obo:NBO_0000131	skos:definition	A drinking behavior associated with the intake of alcohol.	xsd:string
+obo:NBO_0045000	skos:definition	Any habitual use of the tobacco plant leaf and its products.	xsd:string
+obo:PATO_0001708	skos:definition	A size quality inhering in an bearer by virtue of the bearer's extension in one dimension.	xsd:string
+obo:MONDO_0004975	skos:definition	A progressive, neurodegenerative disease characterized by loss of function and death of nerve cells in several areas of the brain leading to loss of cognitive function such as memory and language.	xsd:string
+obo:MONDO_0024643	skos:definition	A disorder that affects the muscle tissue of the heart. Representative examples include myocardial infarction, myocarditis, and cardiomyopathy.	xsd:string
+obo:MONDO_0005546	skos:definition	A chronic disorder of unknown etiology characterized by pain, stiffness, and tenderness in the muscles of neck, shoulders, back, hips, arms, and legs. Other signs and symptoms include headaches, fatigue, sleep disturbances, and painful menstruation.	xsd:string
+obo:NBO_0000130	skos:definition	A behavior associated with the intake of liquid.	xsd:string
+obo:MONDO_0002356	skos:definition	A non-neoplastic or neoplastic disorder that affects the pancreas. Representative examples of non-neoplastic disorders include pancreatitis and pancreatic insufficiency. Representative examples of neoplastic disorders include cystadenomas, carcinomas, lymphomas, and neuroendocrine neoplasms.	xsd:string
+obo:MONDO_0011057	skos:definition	A disorder resulting from inadequate blood flow in the vessels that supply the brain. Representative examples include cerebrovascular ischemia, cerebral embolism, and cerebral infarction.	xsd:string
+obo:MONDO_0021166	skos:definition	A disease involving a pathogenic inflammatory response in the anatomical structure.	xsd:string
+obo:MONDO_0004335	skos:definition	A disease or disorder that involves the digestive system.	xsd:string
+obo:MONDO_0002267	skos:definition	Any disorder marked by obstruction of conducting airways of the lung. airway obstruction may be acute, chronic, intermittent, or persistent.	xsd:string
+obo:MONDO_0002025	skos:definition	A disorder characterized by behavioral and/or psychological abnormalities, often accompanied by physical symptoms. The symptoms may cause clinically significant distress or impairment in social and occupational areas of functioning. Representative examples include anxiety disorders, cognitive disorders, mood disorders and schizophrenia.	xsd:string
+obo:MONDO_0004995	skos:definition	A disease involving the cardiovascular system.	xsd:string
+obo:MONDO_0045024	skos:definition	Any disorder that features disrupted cell proliferation. Includes hyperplasia, neoplastic syndrome and isolated neoplasm diseases as well as precancerous conditions.	xsd:string
+obo:MONDO_0022034	skos:definition	Virus diseases caused by the Lentivirus genus. They are multi-organ diseases characterized by long incubation periods and persistent infection.	xsd:string
+obo:MONDO_0024575	skos:definition	A disorder that is related to pregnancy. Representative examples include ectopic pregnancy, toxemia of pregnancy, and gestational trophoblastic tumor.	xsd:string
+obo:MONDO_0000001	skos:definition	A disease is a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism.	xsd:string
+obo:MONDO_0011122	skos:definition	A disorder involving an excessive amount of body fat.	xsd:string
+obo:MONDO_0000771	skos:definition	A respiratory system disease with a basis in a pathological type I hypersensitivity reaction.	xsd:string
+obo:MONDO_0021682	skos:definition	Viral diseases which are potentially transmitted or propagated by sexual conduct.	xsd:string
+obo:MONDO_0044991	skos:definition	A disease or disorder that involves the upper digestive tract.	xsd:string
+obo:MONDO_0005039	skos:definition	A disease involving the reproductive system.	xsd:string
+obo:MONDO_0005578	skos:definition	An inflammatory process affecting a joint. Causes include infection, autoimmune processes, degenerative processes, and trauma. Signs and symptoms may include swelling around the affected joint and pain.	xsd:string
+obo:SYMP_0000719	skos:definition	A neurological and physiological symptom that is characterized by a diminished or reduced ability to remember things such as dates and names, and increased forgetfulness.	xsd:string
+obo:MONDO_0700007	skos:definition	A disease or disorder for which the cause is of uncertain or unknown.	xsd:string
+obo:MONDO_0000473	skos:definition	An impairment of the structure or function of the blood vessels which carry blood away from the heart.	xsd:string
+obo:MONDO_0000462	skos:definition	A disease involving the ocular adnexa.	xsd:string
+obo:MONDO_0019019	skos:definition	Osteogenesis imperfecta (OI) comprises a heterogeneous group of genetic disorders characterized by increased bone fragility, low bone mass, and susceptibility to bone fractures with variable severity.	xsd:string
+obo:MONDO_0021681	skos:definition	A Disease due to or propagated by sexual contact.	xsd:string
+obo:GO_0051704	skos:definition	A biological process which involves another organism of the same or different species.	xsd:string
+obo:MONDO_0005148	skos:definition	A type of diabetes mellitus that is characterized by insulin resistance or desensitization and increased blood glucose levels. This is a chronic disease that can develop gradually over the life of a patient and can be linked to both environmental factors and heredity.	xsd:string
+obo:MONDO_0005137	skos:definition	Any condition related to a disturbance between proper intake and utilization of nourishment.	xsd:string
+obo:MONDO_0005324	skos:definition	Allergic rhinitis caused by outdoor allergens.	xsd:string
+obo:MONDO_0003014	skos:definition	An inflammation of the mucous membrane lining the nose, usually associated with nasal discharge.	xsd:string
+obo:SYMP_0000828	skos:definition	Sore eyes is a eye symptom characterized by an inflammation of the thin covering of the eyeball and the inner eyelid brought about by a viral infection which may be highly contagious.	xsd:string
+obo:MONDO_0002254	skos:definition	A group of signs, symptoms, and clinicopathological characteristics that may or may not have a genetic basis and collectively define an abnormal condition.	xsd:string
+obo:MONDO_0002232	skos:definition	A disease involving the nasal cavity.	xsd:string
+obo:MONDO_0002562	skos:definition	A broad group of disorders that affect the myelin sheaths that cover the neurons. Myelin sheathes cover neuronal axons in the central and peripheral nervous system and function to increase traveling impulse speeds. Disruption of this sheath impairs neuronal transmission and can result in disorders such as multiple sclerosis and Guillain-Barre syndrome, among others.	xsd:string
+obo:MONDO_0005147	skos:definition	A chronic condition characterized by minimal or absent production of insulin by the pancreas.	xsd:string
+obo:MONDO_0005015	skos:definition	A metabolic disorder characterized by abnormally high blood sugar levels due to diminished production of insulin or insulin resistance/desensitization.	xsd:string
+obo:MONDO_0019755	skos:definition	A disease that has its basis in the disruption of embryonic morphogenesis.	xsd:string
+obo:MONDO_0005554	skos:definition	Inflammatory and degenerative diseases of connective tissue structures, such as arthritis.	xsd:string
+obo:MONDO_0005301	skos:definition	A progressive autoimmune disorder affecting the central nervous system resulting in demyelination. Patients develop physical and cognitive impairments that correspond with the affected nerve fibers.	xsd:string
+obo:MONDO_0004992	skos:definition	A tumor composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.	xsd:string
+obo:MONDO_0004981	skos:definition	A disorder characterized by an electrocardiographic finding of a supraventricular arrhythmia characterized by the replacement of consistent P waves by rapid oscillations or fibrillatory waves that vary in size, shape and timing and are accompanied by an irregular ventricular response. (CDISC)	xsd:string
+obo:HP_0031704	skos:definition	Any functional anomaly of the ear.	xsd:string
+obo:SYMP_0000309	skos:definition	An alteration of appetite that is characterized by a loss of desire to eat, i.e. no desire to eat.	xsd:string
+obo:MONDO_0005267	skos:definition	A disease involving the heart and/or pericardium.	xsd:string
+obo:PATO_0000119	skos:definition	A 1-D extent quality inhering in a bearer by virtue of the bearer's vertical dimension of extension.	xsd:string
+obo:MONDO_0004596	skos:definition	Hypertrophy and dilation of the right ventricle of the heart that is caused by pulmonary hypertension. This condition is often associated with pulmonary parenchymal or vascular diseases, such as chronic obstructive pulmonary disease and pulmonary embolism.	xsd:string
+obo:NCIT_C19332	skos:definition	The distinguishing qualities or prominent aspects of an individual person.	xsd:string
+obo:MONDO_0005300	skos:definition	Impairment of the renal function secondary to chronic kidney damage persisting for three or more months.	xsd:string
+obo:MONDO_0002022	skos:definition	A disease that involves the orbital region.	xsd:string
+obo:MONDO_0001493	skos:definition	Heart disease which occurs as a result of a primary pulmonary disease. Cor pulmonale most often manifests as right ventricular hypertrophy; it can also lead to right ventricular failure.	xsd:string
+obo:MONDO_0021084	skos:definition	Any impairment to the vision.	xsd:string
+obo:MONDO_0005068	skos:definition	Gross necrosis of the myocardium, as a result of interruption of the blood supply to the area, as in coronary thrombosis.	xsd:string
+obo:MONDO_0006025	skos:definition	Autosomal recessive form of disease.	xsd:string
+obo:MONDO_0005299	skos:definition	Diminished or absent blood supply to the brain caused by obstruction (thrombosis or embolism) of an artery resulting in neurologic damage.	xsd:string
+obo:MONDO_0005046	skos:definition	A disorder resulting from an abnormality in the immune system.	xsd:string
+obo:MONDO_0005277	skos:definition	A common, severe type of vascular headache often associated with increased sympathetic activity, resulting in nausea, vomiting, and light sensitivity.	xsd:string
+obo:MONDO_0004298	skos:definition	A disease involving the stomach.	xsd:string
+obo:MONDO_0005497	skos:definition	A disease involving the bone development.	xsd:string
+obo:MONDO_0005002	skos:definition	A chronic and progressive lung disorder characterized by the loss of elasticity of the bronchial tree and the air sacs, destruction of the air sacs wall, thickening of the bronchial wall, and mucous accumulation in the bronchial tree. The pathologic changes result in the disruption of the air flow in the bronchial airways. Signs and symptoms include shortness of breath, wheezing, productive cough, and chest tightness. The two main types of chronic obstructive pulmonary disease are chronic obstructive bronchitis and emphysema.	xsd:string
+obo:MONDO_0005574	skos:definition	Neurodegenerative disorders involving deposition of abnormal tau protein isoforms (tau proteins) in neurons and glial cells in the brain. Pathological aggregations of tau proteins are associated with mutation of the tau gene on chromosome 17 in patients with alzheimer disease; dementia; parkinsonian disorders; progressive supranuclear palsy (supranuclear palsy, progressive); and corticobasal degeneration.	xsd:string
+obo:MONDO_0015221	skos:definition	A respiratory or mediastinal malformation that is not part of a larger syndrome.	xsd:string
+obo:MONDO_0005420	skos:definition	Abnormally low levels of thyroid hormone.	xsd:string
+obo:MONDO_0002494	skos:definition	A category of psychiatric disorders which include disorders related to the taking of a drug of abuse (including alcohol, prescribed medications and recreational drugs).	xsd:string
+obo:MONDO_0021094	skos:definition	Disease in which there is a deficiency or defect in the mechanisms of immunity, either cellular or humoral.	xsd:string
+obo:MONDO_0700003	skos:definition	Disorder associated with pregnancy, childbirth, and puerperium.	xsd:string
+obo:MONDO_0007179	skos:definition	A disorder resulting from loss of function or tissue destruction of an organ or multiple organs, arising from humoral or cellular immune responses of the individual to their own tissue constituents. It may be systemic (e.g., systemic lupus erythematosus), or organ specific, (e.g., thyroiditis).	xsd:string
+obo:MONDO_0005298	skos:definition	A condition of reduced bone mass, with decreased cortical thickness and a decrease in the number and size of the trabeculae of cancellous bone (but normal chemical composition), resulting in increased fracture incidence. Osteoporosis is classified as primary (Type 1, postmenopausal osteoporosis; Type 2, age-associated osteoporosis; and idiopathic, which can affect juveniles, premenopausal women, and middle-aged men) and secondary osteoporosis (which results from an identifiable cause of bone mass loss).	xsd:string
+obo:SYMP_0000318	skos:definition	A  balance symptom that is characterized by an inability to stay upright and move confidently.  Loss of balance may be due to problems in the inner ear, the brain, or the heart. Aging, infections, head injury, certain medicines, and problems with blood circulation may also cause balance problems.	xsd:string
+obo:MONDO_0005265	skos:definition	A spectrum of small and large bowel inflammatory diseases of unknown etiology. It includes Crohn's disease, ulcerative colitis, and colitis of indeterminate type.	xsd:string
+obo:SYMP_0000505	skos:definition	A pain that is characterized by a painful throat due to inflammation of the fauces and pharynx.	xsd:string
+obo:PATO_0000117	skos:definition	A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude.	xsd:string
+obo:SYMP_0000604	skos:definition	An abnormal chest sound that is characterized by breathing with difficulty usually with a whistling sound.	xsd:string
+obo:MONDO_0000270	skos:definition	A disease involving the lower respiratory tract.	xsd:string
+obo:MONDO_0023370	skos:definition	Either an isolated neoplasm or a syndrome with neoplasm as a major feature.	xsd:string
+obo:GO_0044703	skos:definition	A biological process that directly contributes to the process of producing new individuals, involving another organism.	xsd:string
+obo:MONDO_0008487	skos:definition	A disorder that manifests as multiple cysts on the ovaries. It results in hormonal imbalances and leads to irregular and abnormal menstrual periods, excess growth of hair, acne eruptions and obesity.	xsd:string
+obo:MONDO_0005066	skos:definition	A congenital disorder (due to inherited enzyme abnormality) or acquired (due to failure of a metabolically important organ) disorder resulting from an abnormal metabolic process.	xsd:string
+obo:MONDO_0005044	skos:definition	Persistently high systemic arterial blood pressure. Based on multiple readings (blood pressure determination), hypertension is currently defined as when systolic pressure is consistently greater than 140 mm Hg or when diastolic pressure is consistently 90 mm Hg or more.	xsd:string
+obo:MONDO_0005275	skos:definition	A disease involving the lung.	xsd:string
+obo:MONDO_0005154	skos:definition	A disease involving the liver.	xsd:string
+obo:SYMP_0020029	skos:definition	An alteration of consciousness that is characterized by a decreased ability to focus one's thoughts on something. Concentration difficulties can be related to difficulty staying awake, impulsiveness, intrusive thoughts or concerns, overactivity, or inattention. They can be caused by medical, cognitive or psychological problems, or, may be related to sleep disorders, medications, alcohol, or drugs.	xsd:string
+obo:SYMP_0000537	skos:definition	A skin and integumentary tissue symptom that is characterized by a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood.	xsd:string
+obo:PATO_0001018	skos:definition	A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.	xsd:string
+obo:MONDO_0005385	skos:definition	A general term used to describe any disease affecting blood vessels]. It includes vascular abnormalities caused by degenerative, metabolic and inflammatory conditions, embolic diseases, coagulative disorders, and functional disorders such as posteri or reversible encephalopathy syndrome.	xsd:string
+obo:MONDO_0005264	skos:definition	A brief attack (from a few minutes to an hour) of cerebral dysfunction of vascular origin, with no persistent neurological deficit.	xsd:string
+obo:SYMP_0000504	skos:definition	A pain that is characterized by a pain in the head.	xsd:string
+obo:SYMP_0000614	skos:definition	A respiratory system and chest symptom that is characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance.	xsd:string
+obo:SYMP_0000834	skos:definition	A sensation perception that is characterized by a reduced sense of touch or sensation, or a partial loss of sensitivity to sensory stimuli.	xsd:string
+obo:MONDO_0005550	skos:definition	A disorder directly resulting from the presence and activity of a microbial, viral, or parasitic agent in humans. It can be transmitted by direct or indirect contact.	xsd:string
+obo:MONDO_0003240	skos:definition	A disease involving the thyroid gland.	xsd:string
+obo:MONDO_0700057	skos:definition	A nervous system disorder that has pain as a major feature.	xsd:string
+obo:MONDO_0004670	skos:definition	An autoimmune, connective tissue chronic inflammatory disorder affecting the skin, joints, kidneys, lungs, heart, and the peripheral blood cells. It is more commonly seen in women than men. Variants include discoid and systemic lupus erythematosus.	xsd:string
+obo:MONDO_0005098	skos:definition	A sudden loss of neurological function secondary to hemorrhage or ischemia in the brain parenchyma due to a vascular event.	xsd:string
+obo:MONDO_0005087	skos:definition	A non-neoplastic or neoplastic disorder that affects the respiratory system. Representative examples include pneumonia, chronic obstructive pulmonary disease, pulmonary failure, lung adenoma, lung carcinoma, and tracheal carcinoma.	xsd:string
+obo:MONDO_0005296	skos:definition	A disorder characterized by multiple cessations of respirations during sleep that induce partial arousals and interfere with the maintenance of sleep.	xsd:string
+obo:MONDO_0005252	skos:definition	Inability of the heart to pump blood at an adequate rate to meet tissue metabolic requirements. Clinical symptoms of heart failure include: unusual dyspnea on light exertion, recurrent dyspnea occurring in the supine position, fluid retention or rales, jugular venous distension, pulmonary edema on physical exam, or pulmonary edema on chest x-ray presumed to be cardiac dysfunction.	xsd:string
+obo:MONDO_0005010	skos:definition	Narrowing of the coronary arteries due to fatty deposits inside the arterial walls. The diagnostic criteria may include documented history of any of the following: documented coronary artery stenosis greater than or equal to 50% (by cardiac catheterization or other modality of direct imaging of the coronary arteries); previous coronary artery bypass surgery (CABG); previous percutaneous coronary intervention (PCI); previous myocardial infarction. (ACC)	xsd:string
+obo:SYMP_0000613	skos:definition	A neurological and physiological symptom that is characterized by a rise of body temperature above the normal, whether as a natural response (as to infection) or artificially induced for therapeutic reasons.	xsd:string
+obo:MONDO_0002051	skos:definition	A disease involving the integumental system.	xsd:string
+obo:MONDO_0005560	skos:definition	A disease affecting the brain or part of the brain.	xsd:string
+obo:SYMP_0000458	skos:definition	Nausea is a digestive system symptom characterized by an uneasy or unsettled feeling in the stomach together with an urge to vomit.	xsd:string
+obo:MONDO_0005053	skos:definition	Lack of blood supply to an area of the body, resulting in impairment of tissue oxygenation.	xsd:string
+obo:HP_0000118	skos:definition	A phenotypic abnormality.	xsd:string
+obo:MONDO_0005020	skos:definition	A non-neoplastic or neoplastic disorder that affects the small or large intestine.	xsd:string
+obo:MONDO_0005240	skos:definition	A disease involving the kidney.	xsd:string
+obo:PATO_0000125	skos:definition	A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter.	xsd:string
+<http://purl.bioontology.org/ontology/STY/T096>	skos:definition	Any number of entities (members) considered as a unit.	xsd:string
+obo:MONDO_0005570	skos:definition	A disease involving the hematopoietic system.	xsd:string
+obo:MONDO_0002050	skos:definition	A melancholy feeling of sadness and despair.	xsd:string
+obo:PATO_0001995	skos:definition	A quality that inheres in an entire organism or part of an organism.	xsd:string
+obo:MONDO_0007186	skos:definition	A chronic disorder characterized by reflux of the gastric and/or duodenal contents into the distal esophagus. It is usually caused by incompetence of the lower esophageal sphincter. Symptoms include heartburn and acid indigestion. It may cause injury to the esophageal mucosa.	xsd:string
+obo:GSSO_000229	skos:definition	A person or thing that takes an active role or produces a specified effect.	xsd:string
+obo:MONDO_0007263	skos:definition	Any variation from the normal rate or rhythm (which may include the origin of the impulse and/or its subsequent propagation) in the heart.	xsd:string
+obo:SYMP_0000237	skos:definition	A respiratory system and chest symptom that is characterized by an excessive accumulation especially of blood or mucus.	xsd:string
+obo:SYMP_0000457	skos:definition	A pain that is characterized by occurring in the abdomen, i.e. between the chest and groin.	xsd:string
+obo:MONDO_0005052	skos:definition	Irritable bowel syndrome (IBS) is a chronic functional condition of the lower gastrointestinal (GI) tract characterized by abdominal pain or discomfort and disordered bowel habit (diarrhea, constipation, or fluctuation between the two).	xsd:string
+obo:MONDO_0018230	skos:definition	Any Mendelian diseases that affects growth and development of the skeleton.	xsd:string
+obo:MONDO_0005151	skos:definition	A disease involving the endocrine system.	xsd:string
+obo:PATO_0000047	skos:definition	An organismal quality inhering in a bearer by virtue of the bearer's ability to undergo sexual reproduction in order to differentiate the individuals or types involved.	xsd:string
+obo:MONDO_0005371	skos:definition	A cognitive disorder a disturbance in which the person's mood is hypothesized to be the main underlying feature.	xsd:string
+obo:SYMP_0020004	skos:definition	A disturbances of sensation of smell and taste that is characterized by a complete loss of taste function of the tongue.	xsd:string
+obo:MONDO_0100081	skos:definition	A change from the patient's baseline sleeping pattern, in the hours slept and/or an alteration/dysfunction in the stages of sleep.	xsd:string
+obo:MONDO_0002280	skos:definition	A reduction in the number of red blood cells, the amount of hemoglobin, and/or the volume of packed red blood cells. Clinically, anemia represents a reduction in the oxygen-transporting capacity of a designated volume of blood, resulting from an imbalance between blood loss (through hemorrhage or hemolysis) and blood production. Signs and symptoms of anemia may include pallor of the skin and mucous membranes, shortness of breath, palpitations of the heart, soft systolic murmurs, lethargy, and fatigability.	xsd:string
+obo:GO_0022414	skos:definition	A biological process that directly contributes to the process of producing new individuals by one or two organisms. The new individuals inherit some proportion of their genetic material from the parent or parents.	xsd:string
+obo:GO_0032501	skos:definition	Any biological process, occurring at the level of a multicellular organism, pertinent to its function.	xsd:string
+obo:BFO_0000015	skos:definition	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])|An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.	xsd:string
+obo:BFO_0000004	skos:definition	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])|A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.	xsd:string
+obo:SYMP_0000016	skos:definition	A balance symptom that is characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively.	xsd:string
+obo:MONDO_0005084	skos:definition	A disease that has its basis in the disruption of mental process.	xsd:string
+obo:MONDO_0005172	skos:definition	A disease involving the skeletal system.	xsd:string
+obo:MONDO_0005271	skos:definition	An immune response that occurs following re-exposure to an innocuous antigen, and that requires the presence of existing antibodies against that antigen. This response involves the binding of IgE to mast cells, and may worsen with repeated exposures.	xsd:string
+obo:MONDO_0005381	skos:definition	Diseases of bones.	xsd:string
+obo:MONDO_0002081	skos:definition	A disease involving the musculoskeletal system.	xsd:string
+obo:BFO_0000003	skos:definition	An entity that has temporal parts and that happens, unfolds or develops through time.	xsd:string
+obo:MONDO_0008383	skos:definition	A chronic, systemic autoimmune disorder characterized by inflammation in the synovial membranes and articular surfaces. It manifests primarily as a symmetric, erosive polyarthritis that spares the axial skeleton and is typically associated with the presence in the serum of rheumatoid factor.	xsd:string
+obo:SYMP_0000488	skos:definition	A skin and integumentary tissue symptom that is characterized by the outer layer of the skin starting to replace itself. Often, this happens when skin is damaged, either by disease or injury.	xsd:string
+obo:MONDO_0005083	skos:definition	An autoimmune condition characterized by red, well-delineated plaques with silvery scales that are usually on the extensor surfaces and scalp. They can occasionally present with these manifestations: pustules; erythema and scaling in intertriginous areas, and erythroderma, that are often distributed on extensor surfaces and scalp.	xsd:string
+obo:SYMP_0000598	skos:definition	A respiratory system and chest symptom that is characterized by a respiration that is not normal and may include, but is not limited to: apnea, eupnea, orthopnea, dyspnea hyperpnea, hyperventilation, hypoventilation, tachypnea, Kussmaul respiration, Cheyne-Stokes respiration, sighing respiration, Biot respiration, apneustic breathing, central neurogenic hyperventilation, and central neurogenic hypoventilation.	xsd:string
+obo:SYMP_0000587	skos:definition	A respiratory system and chest symptom that is characterized by a sound of breathing that is not similar to that of the sound of moving air and may include: rhonchi (a low-pitched breath sound), crackles (a high-pitched breath sound), wheezing (a high-pitched whistling sound caused by narrowing of the bronchial tubes), and stridor (a harsh, vibratory sound caused by narrowing of the upper airway).	xsd:string
+obo:SYMP_0000543	skos:definition	A neurological and physiological symptom that is characterized by an unusual forgetfulness. One may not be able to remember new events, recall one or more memories of the past, or both.  Memory loss may be for a short time and then resolve (transient), or it may not go away and get worse over time.	xsd:string
+obo:MONDO_0005391	skos:definition	A condition that occurs while resting or lying in bed; it is characterized by an irresistible urgency to move the legs to obtain relief from a strange and uncomfortable sensation in the legs.	xsd:string
+obo:GSSO_001811	skos:definition	A limitation on a person's physical functioning, mobility, dexterity or stamina.	xsd:string
+obo:MONDO_0800064	skos:definition	A skeletal dysplasia characterized by osteogenesis imperfecta and decreased bone density.	xsd:string
+obo:PATO_0000001	skos:definition	A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities	xsd:string
+obo:BFO_0000002	skos:definition	An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.	xsd:string
+obo:MONDO_0005093	skos:definition	Any deviation from the normal structure or function of the skin or subcutaneous tissue that is manifested by a characteristic set of symptoms and signs.	xsd:string
+obo:SYMP_0000487	skos:definition	A skin and integumentary tissue symptom that is characterized by an eruption on the body typically with little or no elevation above the surface.	xsd:string
+obo:SYMP_0000245	skos:definition	An alteration of appetite that is characterized by a reduced desire to eat.	xsd:string
+obo:MONDO_0005071	skos:definition	A non-neoplastic or neoplastic disorder that affects the brain, spinal cord, or peripheral nerves.	xsd:string
+obo:SYMP_0020045	skos:definition	A neurological and physiological symptom that is characterized by any of the following: dizziness or vertigo (a spinning sensation); falling or feeling as if you are going to fall; staggering when walking; lightheadedness, faintness, or a floating sensation; and confusion or disorientation.	xsd:string
+obo:HP_0000598	skos:definition	An abnormality of the ear.	xsd:string
+obo:PATO_0000165	skos:definition	A quality in which events occur in sequence.	xsd:string
+obo:GSSO_001810	skos:definition	A limitation on a person's mental functioning or intellectual capacity.	xsd:string
+obo:PATO_0000011	skos:definition	A time quality inhering in a bearer by virtue of how long the bearer has existed.	xsd:string
+obo:BFO_0000001	skos:definition	An entity is anything that exists or has existed or will exist.	xsd:string
+obo:MONDO_0006170	skos:definition	Any disorder of the conjunctiva.	xsd:string
+obo:MONDO_0017181	skos:definition	Conditions in which the primary symptom is headache and the headache cannot be attributed to any known causes.	xsd:string
+obo:MONDO_0005070	skos:definition	A benign or malignant tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias.	xsd:string
+obo:SYMP_0000662	skos:definition	Shakes is a general symptom characterized by a condition of trembling.	xsd:string
+obo:SYMP_0000892	skos:definition	A nervous system symptom that is characterized by interpretation of the information perceived by sensory receptors.	xsd:string
+obo:PATO_0001241	skos:definition	A quality which inheres in a continuant.	xsd:string
+obo:MONDO_0019050	skos:definition	An inherited disorder characterized by structural alterations of a globin chain within the hemoglobin molecule.	xsd:string
+obo:SYMP_0000287	skos:definition	Arrhythmia is a cardiovascular system symptom consisting of an alteration in rhythm of the heartbeat either in time or force.	xsd:string
+obo:SYMP_0000462	skos:definition	A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease.	xsd:string
+obo:HP_0000364	skos:definition	An abnormality of the sensory perception of sound.	xsd:string
+obo:GSSO_009639	skos:definition	The birth of a human being.	xsd:string
+obo:MONDO_0009061	skos:definition	Cystic fibrosis (CF) is a genetic disorder characterized by the production of sweat with a high salt content and mucus secretions with an abnormal viscosity.	xsd:string
+obo:SYMP_0000099	skos:definition	A sensation perception that is characterized by an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body.	xsd:string
+obo:PATO_0000051	skos:definition	A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure.	xsd:string
+obo:GSSO_006602	skos:definition	Usage of alcohol.	xsd:string
+obo:SYMP_0000482	skos:definition	A neurological and physiological symptom that is characterized by any condition which is significantly different from a normal waking state.	xsd:string
+obo:SYMP_0000570	skos:definition	Diarrhea is a feces and droppng symptom involving the abnormally frequent intestinal evacuations with more or less fluid stools.	xsd:string
+obo:GO_0007567	skos:definition	The reproductive process in which the parent is separated from its offspring either by giving birth to live young or by laying eggs.	xsd:string
+obo:GSSO_006601	skos:definition	Use of a chemical substance, usually involving an individual consuming said substance (which may or may not be considered a drug by cultural definition).	xsd:string
+obo:MONDO_0019091	skos:definition	Bronchopulmonary dysplasia is a chronic respiratory disease that results from complications related to lung injury during the treatment of infant acute respiratory distress syndrome in low-birth-weight premature infants or from abnormal lung development in older infants. Clinical signs are tachypnea, tachycardia and signs of respiratory distress such as intercostal recession, grunting and nasal flaring.	xsd:string
+obo:SYMP_0000372	skos:definition	A nose symptom that is characterized by an excessive secretion of mucous through the nose.	xsd:string
+obo:MONDO_0002908	skos:definition	A metabolic disorder characterized by abnormal blood glucose levels.	xsd:string
+obo:NCIT_C95018	skos:definition	To put into action or service.	xsd:string
+obo:GO_0007610	skos:definition	The actions or reactions of an object or organism, usually in relation to the environment or surrounding world of stimuli.	xsd:string
+obo:GSSO_002199	skos:definition	Race is a characteristic of an individual defined by some culturally-defined combination of heritable phenotypic characteristics, geographic ancestry, physical appearance, ethnicity, and social status.|A grouping of humans based on shared physical or social qualities into categories generally viewed as distinct by society. The term was first used to refer to speakers of a common language and then to denote national affiliations. By the 17th century the term began to refer to physical (phenotypical) traits. Modern scholarship regards race as a social construct, an identity which is assigned based on rules made by society. While partially based on physical similarities within groups, race does not have an inherent physical or biological meaning.	xsd:string
+obo:MONDO_0000837	skos:definition	A disease that has its basis in the disruption of bone resorption. Bone resorption is a process in which specialized cells known as osteoclasts degrade the organic and inorganic portions of bone, and endocytose and transport the degradation products.	xsd:string
+obo:NCIT_C21007	skos:definition	Any physical or mental impairment that interferes with an individual's ability to perform desired activities.	xsd:string
+obo:SYMP_0019145	skos:definition	Vomiting is a digestive system symptom characterized by throwing up the stomach contents.	xsd:string
+obo:GSSO_009644	skos:definition	Childbirth before 37 weeks of pregnancy (259 days from the first day of the mother's last menstrual period, or 245 days after fertilization).	xsd:string
+obo:GSSO_003561	skos:definition	Any of various states provided to a person.	xsd:string
+obo:NBO_0001845	skos:definition	Behavior related to the intake of substances.	xsd:string
+obo:SYMP_0000280	skos:definition	A fatigue that is characterized by exceeding the ordinary, usual, or expected.	xsd:string
+sio:SIO_000614	skos:definition	An attribute is a characteristic of some entity.	xsd:string
+obo:MONDO_0000429	skos:definition	A monogenic disease that is has material basis in a mutation in a single gene on one of the non-sex chromosomes.	xsd:string
+obo:MONDO_0003916	skos:definition	An imbalanced nutritional status resulting from excessive intake of nutrients. Generally, overnutrition generates an energy imbalance between food consumption and energy expenditure leading to disorders such as obesity.	xsd:string
+obo:MONDO_0000605	skos:definition	An immune system disease that has basis in dysregulation of the hypersensitivity reaction, an inflammatory response to an exogenous environmental antigen or an endogenous antigen initiated by the adaptive immune system.	xsd:string
+obo:SYMP_0019177	skos:definition	A neurological and physiological symptom that is characterized by a weariness or exhaustion from labor, exertion, or stress.	xsd:string
+obo:MONDO_0001627	skos:definition	Loss of intellectual abilities interfering with an individual's social and occupational functions. Causes include Alzheimer's disease, brain injuries, brain tumors, and vascular disorders.	xsd:string
+obo:MONDO_0043218	skos:definition	A disorder of the nervous system related to a vascular etiology.	xsd:string
+obo:MONDO_0100329	skos:definition	The initial viral infectious disase that causes illness.	xsd:string
+obo:NBO_0000313	skos:definition	"The action, reaction, or performance of an organism in response to external or internal stimuli." [GO:GO\:0007610]	xsd:string
+obo:MONDO_0003749	skos:definition	A non-neoplastic or neoplastic disorder that affects the esophagus. Representative examples of non-neoplastic disorders include esophagitis and esophageal ulcer. Representative examples of neoplastic disorders include carcinomas, lymphomas, and melanomas.	xsd:string
+obo:NCIT_C25404	skos:definition	A thing done.	xsd:string
+obo:MONDO_0020579	skos:definition	Inflammation of the mucous membranes.	xsd:string
+obo:SYMP_0019175	skos:definition	A skin and integumentary tissue symptom that is characterized by the excretion of moisture in visible quantities through the opening of the sweat glands.	xsd:string
+obo:SYMP_0019153	skos:definition	A respiratory abnormality that is characterized by difficult or labored respiration.	xsd:string

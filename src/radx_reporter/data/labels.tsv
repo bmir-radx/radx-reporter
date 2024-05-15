@@ -1,0 +1,1339 @@
+subject	predicate	object	datatype
+bmir-radx:nih_high_temp	rdfs:label	nih_high_temp Data Element	xsd:string
+bmir-radx:nih_sweating_99	rdfs:label	nih_sweating Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_chd_1	rdfs:label	nih_chd Value, 1 (Yes)	xsd:string
+evs:C171257	rdfs:label	Smoking Device	xsd:string
+evs:C161324	rdfs:label	Demographic Group	xsd:string
+bmir-radx:nih_seizures_99	rdfs:label	nih_seizures Value, 99 (Prefer not to answer)	xsd:string
+evs:C84366	rdfs:label	Drug User	xsd:string
+evs:C175910	rdfs:label	Have Trouble Using Stairs	xsd:string
+bmir-radx:nih_psoriasis_value	rdfs:label	nih_psoriasis value	xsd:string
+bmir-radx:nih_alz_98	rdfs:label	nih_alz Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_anemia_98	rdfs:label	nih_anemia Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0005618	rdfs:label	anxiety disorder	xsd:string
+bmir-radx:nih_mental_health_disorder_98	rdfs:label	nih_mental_health_disorder Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_slurred_peech	rdfs:label	nih_slurred_peech Data Element	xsd:string
+bmir-radx:nih_seasonal_allergies_98	rdfs:label	nih_seasonal_allergies Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_ethnicity_value	rdfs:label	nih_ethnicity value	xsd:string
+obo:NCIT_C16669	rdfs:label	health status	xsd:string
+obo:MONDO_0002406	rdfs:label	dermatitis	xsd:string
+bmir-radx:nih_ra	rdfs:label	nih_ra Data Element	xsd:string
+obo:MONDO_0024417	rdfs:label	perceptual disorders	xsd:string
+obo:MONDO_0003847	rdfs:label	hereditary disease	xsd:string
+obo:MONDO_0000569	rdfs:label	autoimmune disorder of endocrine system	xsd:string
+evs:C3507	rdfs:label	Immune System Disorder	xsd:string
+bmir-radx:nih_no_sympt_98	rdfs:label	nih_no_sympt Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_chd_value	rdfs:label	nih_chd value	xsd:string
+evs:C3837	rdfs:label	Neurological Signs and Symptoms	xsd:string
+bmir-radx:nih_alc_sub_abuse_0	rdfs:label	nih_alc_sub_abuse Value, 0 (No)	xsd:string
+bmir-radx:nih_psoriasis_1	rdfs:label	nih_psoriasis Value, 1 (Yes)	xsd:string
+bmir-radx:nih_fibromyalgia_97	rdfs:label	nih_fibromyalgia Value, 97 (Other)	xsd:string
+obo:MONDO_0001933	rdfs:label	endocrine pancreas disorder	xsd:string
+bmir-radx:nih_cholesterol_97	rdfs:label	nih_cholesterol Value, 97 (Other)	xsd:string
+obo:MONDO_0000833	rdfs:label	bone remodeling disease	xsd:string
+bmir-radx:nih_employment_97	rdfs:label	nih_employment Value, 97 (Other)	xsd:string
+bmir-radx:nih_chronic_pain	rdfs:label	nih_chronic_pain Data Element	xsd:string
+obo:SYMP_0019163	rdfs:label	eye symptom	xsd:string
+bmir-radx:nih_ethnicity_1	rdfs:label	nih_ethnicity Value, 1 (Yes, of Hispanic or Latino origin)	xsd:string
+obo:SYMP_0019152	rdfs:label	diaphoresis	xsd:string
+bmir-radx:nih_disability_1	rdfs:label	nih_disability Value, 1 (Yes)	xsd:string
+bmir-radx:nih_sweating_98	rdfs:label	nih_sweating Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_sweating	rdfs:label	nih_sweating Data Element	xsd:string
+bmir-radx:nih_chd_0	rdfs:label	nih_chd Value, 0 (No)	xsd:string
+bmir-radx:nih_chronic_pain_99	rdfs:label	nih_chronic_pain Value, 99 (Prefer not to answer)	xsd:string
+evs:C171256	rdfs:label	Non-Medical Object or Device	xsd:string
+obo:NCIT_C43431	rdfs:label	activity	xsd:string
+bmir-radx:nih_seizures_98	rdfs:label	nih_seizures Value, 98 (Don’t know)	xsd:string
+evs:C173621	rdfs:label	Vaping	xsd:string
+bmir-radx:nih_alz_97	rdfs:label	nih_alz Value, 97 (Other)	xsd:string
+bmir-radx:nih_anemia_97	rdfs:label	nih_anemia Value, 97 (Other)	xsd:string
+obo:MONDO_0100118	rdfs:label	hereditary skin disorder	xsd:string
+evs:C61331	rdfs:label	Economics	xsd:string
+obo:MONDO_0006816	rdfs:label	arthropathy	xsd:string
+bmir-radx:nih_mental_health_disorder_97	rdfs:label	nih_mental_health_disorder Value, 97 (Other)	xsd:string
+bmir-radx:nih_cancer_active_treatment_value	rdfs:label	nih_cancer_active_treatment value	xsd:string
+bmir-radx:nih_seasonal_allergies_97	rdfs:label	nih_seasonal_allergies Value, 97 (Other)	xsd:string
+obo:MONDO_0003406	rdfs:label	sleep-wake disorder	xsd:string
+bmir-radx:nih_ra_99	rdfs:label	nih_ra Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0004979	rdfs:label	asthma	xsd:string
+bmir-radx:nih_disability_value	rdfs:label	nih_disability value	xsd:string
+evs:C25218	rdfs:label	Intervention or Procedure	xsd:string
+obo:MONDO_0024317	rdfs:label	chronic pain syndrome	xsd:string
+obo:MONDO_0002515	rdfs:label	hepatobiliary disorder	xsd:string
+evs:C69218	rdfs:label	Pregnancy Status	xsd:string
+bmir-radx:nih_slurred_peech_99	rdfs:label	nih_slurred_peech Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0000568	rdfs:label	autoimmune disorder of central nervous system	xsd:string
+obo:MONDO_0002977	rdfs:label	autoimmune disorder of the nervous system	xsd:string
+obo:MONDO_0002614	rdfs:label	bone inflammation disease	xsd:string
+obo:MONDO_0044348	rdfs:label	hemoglobinopathy	xsd:string
+obo:NCIT_C25688	rdfs:label	status	xsd:string
+bmir-radx:nih_no_sympt_97	rdfs:label	nih_no_sympt Value, 97 (Other)	xsd:string
+evs:C37967	rdfs:label	Hypercholesterolemia	xsd:string
+bmir-radx:nih_psoriasis_0	rdfs:label	nih_psoriasis Value, 0 (No)	xsd:string
+evs:C53268	rdfs:label	Recipient	xsd:string
+bmir-radx:nih_seizures	rdfs:label	nih_seizures Data Element	xsd:string
+bmir-radx:nih_ethnicity_0	rdfs:label	nih_ethnicity Value, 0 (No, not of Hispanic or Latino origin)	xsd:string
+bmir-radx:nih_cancer_active_treatment_1	rdfs:label	nih_cancer_active_treatment Value, 1 (Yes)	xsd:string
+bmir-radx:nih_high_temp_99	rdfs:label	nih_high_temp Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_disability_0	rdfs:label	nih_disability Value, 0 (No)	xsd:string
+bmir-radx:nih_sweating_97	rdfs:label	nih_sweating Value, 97 (Other)	xsd:string
+bmir-radx:nih_chronic_pain_98	rdfs:label	nih_chronic_pain Value, 98 (Don’t know)	xsd:string
+obo:NBO_0000079	rdfs:label	feeding behavior	xsd:string
+evs:C20993	rdfs:label	Research or Clinical Assessment Tool	xsd:string
+bmir-radx:nih_chronic_lung_1	rdfs:label	nih_chronic_lung Value, 1 (Yes)	xsd:string
+bmir-radx:nih_seizures_97	rdfs:label	nih_seizures Value, 97 (Other)	xsd:string
+bmir-radx:nih_immunosuppressive_condition_99	rdfs:label	nih_immunosuppressive_condition Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0002118	rdfs:label	urinary system disorder	xsd:string
+evs:C16527	rdfs:label	Medical Economics	xsd:string
+bmir-radx:nih_red_eyes_99	rdfs:label	nih_red_eyes Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_ra_98	rdfs:label	nih_ra Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_numb_extremities_99	rdfs:label	nih_numb_extremities Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_thyroid_1	rdfs:label	nih_thyroid Value, 1 (Yes)	xsd:string
+bmir-radx:nih_chronic_lung_value	rdfs:label	nih_chronic_lung value	xsd:string
+bmir-radx:nih_no_sympt	rdfs:label	nih_no_sympt Data Element	xsd:string
+obo:MONDO_0000589	rdfs:label	autoimmune disorder of musculoskeletal system	xsd:string
+bmir-radx:nih_immunocompromised_1	rdfs:label	nih_immunocompromised Value, 1 (Yes)	xsd:string
+bmir-radx:nih_slurred_peech_98	rdfs:label	nih_slurred_peech Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_gerd_99	rdfs:label	nih_gerd Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0044347	rdfs:label	erythrocyte disorder	xsd:string
+obo:MONDO_0002602	rdfs:label	central nervous system disorder	xsd:string
+obo:MONDO_0021698	rdfs:label	alcohol-related disorders	xsd:string
+bmir-radx:nih_seasonal_allergies	rdfs:label	nih_seasonal_allergies Data Element	xsd:string
+bmir-radx:nih_throat_congestion_nose_99	rdfs:label	nih_throat_congestion_nose Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0003900	rdfs:label	connective tissue disorder	xsd:string
+bmir-radx:nih_mental_health_disorder	rdfs:label	nih_mental_health_disorder Data Element	xsd:string
+bmir-radx:nih_thyroid_value	rdfs:label	nih_thyroid value	xsd:string
+bmir-radx:nih_immunocompromised_value	rdfs:label	nih_immunocompromised value	xsd:string
+bmir-radx:nih_alz	rdfs:label	nih_alz Data Element	xsd:string
+bmir-radx:nih_anemia	rdfs:label	nih_anemia Data Element	xsd:string
+bmir-radx:nih_cld_bpd_99	rdfs:label	nih_cld_bpd Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_cancer_active_treatment_0	rdfs:label	nih_cancer_active_treatment Value, 0 (No)	xsd:string
+bmir-radx:nih_high_temp_98	rdfs:label	nih_high_temp Value, 98 (Don’t know)	xsd:string
+evs:C198997	rdfs:label	Person by Activity Type	xsd:string
+obo:MONDO_0005109	rdfs:label	HIV infectious disease	xsd:string
+obo:GO_0008150	rdfs:label	biological process	xsd:string
+bmir-radx:nih_chronic_pain_97	rdfs:label	nih_chronic_pain Value, 97 (Other)	xsd:string
+bmir-radx:nih_insomnia_value	rdfs:label	nih_insomnia value	xsd:string
+bmir-radx:nih_chronic_lung_0	rdfs:label	nih_chronic_lung Value, 0 (No)	xsd:string
+bmir-radx:nih_immunosuppressive_condition_98	rdfs:label	nih_immunosuppressive_condition Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_balance_1	rdfs:label	nih_balance Value, 1 (Yes)	xsd:string
+obo:MONDO_0005406	rdfs:label	gestational diabetes	xsd:string
+obo:MONDO_0005516	rdfs:label	osteochondrodysplasia	xsd:string
+evs:C14139	rdfs:label	Immunocompromised	xsd:string
+obo:NBO_0045002	rdfs:label	tobacco smoking behavior	xsd:string
+obo:MONDO_0006704	rdfs:label	CNS demyelinating autoimmune disease	xsd:string
+bmir-radx:nih_race_99	rdfs:label	nih_race Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_employment	rdfs:label	nih_employment Data Element	xsd:string
+obo:MONDO_0004867	rdfs:label	upper respiratory tract disorder	xsd:string
+bmir-radx:nih_balance_value	rdfs:label	nih_balance value	xsd:string
+bmir-radx:nih_cholesterol	rdfs:label	nih_cholesterol Data Element	xsd:string
+obo:MONDO_0001358	rdfs:label	bronchial disorder	xsd:string
+bmir-radx:nih_red_eyes_98	rdfs:label	nih_red_eyes Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_ra_97	rdfs:label	nih_ra Value, 97 (Other)	xsd:string
+obo:MONDO_0024458	rdfs:label	disorder of visual system	xsd:string
+obo:MONDO_0002436	rdfs:label	nasal disorder	xsd:string
+bmir-radx:nih_asthma_1	rdfs:label	nih_asthma Value, 1 (Yes)	xsd:string
+bmir-radx:nih_numb_extremities_98	rdfs:label	nih_numb_extremities Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_thyroid_0	rdfs:label	nih_thyroid Value, 0 (No)	xsd:string
+obo:MONDO_0000588	rdfs:label	autoimmune disorder of gastrointestinal tract	xsd:string
+evs:C17934	rdfs:label	Tobacco Smoking	xsd:string
+bmir-radx:nih_fibromyalgia	rdfs:label	nih_fibromyalgia Data Element	xsd:string
+obo:MONDO_0021147	rdfs:label	disorder of development or morphogenesis	xsd:string
+bmir-radx:nih_immunocompromised_0	rdfs:label	nih_immunocompromised Value, 0 (No)	xsd:string
+bmir-radx:nih_slurred_peech_97	rdfs:label	nih_slurred_peech Value, 97 (Other)	xsd:string
+bmir-radx:nih_gerd_98	rdfs:label	nih_gerd Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_asthma_value	rdfs:label	nih_asthma value	xsd:string
+evs:C20189	rdfs:label	Property or Attribute	xsd:string
+bmir-radx:nih_sleep_apnea_99	rdfs:label	nih_sleep_apnea Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0024623	rdfs:label	otorhinolaryngologic disease	xsd:string
+obo:MONDO_0011786	rdfs:label	allergic rhinitis	xsd:string
+bmir-radx:nih_throat_congestion_nose_98	rdfs:label	nih_throat_congestion_nose Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0000984	rdfs:label	thalassemia	xsd:string
+obo:MONDO_0001941	rdfs:label	blindness (disorder)	xsd:string
+evs:C20134	rdfs:label	Smoking Behavior	xsd:string
+bmir-radx:nih_cld_bpd_98	rdfs:label	nih_cld_bpd Value, 98 (Don’t know)	xsd:string
+evs:C173135	rdfs:label	Walking Question	xsd:string
+obo:NBO_0015005	rdfs:label	smoking behavior	xsd:string
+bmir-radx:nih_high_temp_97	rdfs:label	nih_high_temp Value, 97 (Other)	xsd:string
+bmir-radx:nih_insomnia_1	rdfs:label	nih_insomnia Value, 1 (Yes)	xsd:string
+bmir-radx:nih_neuro_shakes_99	rdfs:label	nih_neuro_shakes Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_wheezing_value	rdfs:label	nih_wheezing value	xsd:string
+obo:MONDO_0005328	rdfs:label	eye disorder	xsd:string
+obo:MONDO_0005559	rdfs:label	neurodegenerative disease	xsd:string
+obo:MONDO_0002039	rdfs:label	cognitive disorder	xsd:string
+bmir-radx:nih_immunosuppressive_condition_97	rdfs:label	nih_immunosuppressive_condition Value, 97 (Other)	xsd:string
+bmir-radx:nih_balance_0	rdfs:label	nih_balance Value, 0 (No)	xsd:string
+bmir-radx:nih_chronic_kidney_disease_99	rdfs:label	nih_chronic_kidney_disease Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_pregnancy	rdfs:label	nih_pregnancy Data Element	xsd:string
+evs:C159659	rdfs:label	Transplant Recipient	xsd:string
+obo:MONDO_0003799	rdfs:label	conjunctivitis	xsd:string
+bmir-radx:nih_obesity	rdfs:label	nih_obesity Data Element	xsd:string
+bmir-radx:nih_race_98	rdfs:label	nih_race Value, 98 (Do not know)	xsd:string
+bmir-radx:nih_muscle_ache	rdfs:label	nih_muscle_ache Data Element	xsd:string
+obo:MONDO_0002567	rdfs:label	tracheal disorder	xsd:string
+bmir-radx:nih_red_eyes_97	rdfs:label	nih_red_eyes Value, 97 (Other)	xsd:string
+bmir-radx:nih_asthma_0	rdfs:label	nih_asthma Value, 0 (No)	xsd:string
+bmir-radx:nih_numb_extremities_97	rdfs:label	nih_numb_extremities Value, 97 (Other)	xsd:string
+evs:C16745	rdfs:label	Insurance	xsd:string
+obo:MONDO_0021146	rdfs:label	headache disorder	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment	rdfs:label	nih_chronic_kidney_disease_treatment Data Element	xsd:string
+bmir-radx:nih_gerd_97	rdfs:label	nih_gerd Value, 97 (Other)	xsd:string
+evs:C20188	rdfs:label	Social Circumstances	xsd:string
+bmir-radx:nih_sleep_apnea_98	rdfs:label	nih_sleep_apnea Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0013600	rdfs:label	insomnia	xsd:string
+bmir-radx:nih_throat_congestion_nose_97	rdfs:label	nih_throat_congestion_nose Value, 97 (Other)	xsd:string
+bmir-radx:nih_migraines	rdfs:label	nih_migraines Data Element	xsd:string
+evs:C173398	rdfs:label	Have Trouble or Difficulty Question	xsd:string
+bmir-radx:nih_cld_bpd_97	rdfs:label	nih_cld_bpd Value, 97 (Other)	xsd:string
+evs:C178942	rdfs:label	Immunosuppressive Disorder	xsd:string
+evs:C43431	rdfs:label	Activity	xsd:string
+bmir-radx:nih_olfactory	rdfs:label	nih_olfactory Data Element	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea_99	rdfs:label	nih_nausea_vomiting_diarrhea Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0005009	rdfs:label	congestive heart failure	xsd:string
+bmir-radx:nih_insomnia_0	rdfs:label	nih_insomnia Value, 0 (No)	xsd:string
+bmir-radx:nih_wheezing_1	rdfs:label	nih_wheezing Value, 1 (Yes)	xsd:string
+bmir-radx:nih_neuro_shakes_98	rdfs:label	nih_neuro_shakes Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_insurance_2	rdfs:label	nih_insurance Value, 2 (Public)	xsd:string
+bmir-radx:nih_errand_99	rdfs:label	nih_errand Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0005108	rdfs:label	viral infectious disease	xsd:string
+bmir-radx:nih_diff_breath_value	rdfs:label	nih_diff_breath value	xsd:string
+obo:NCIT_C17005	rdfs:label	population group	xsd:string
+bmir-radx:nih_diff_breath_1	rdfs:label	nih_diff_breath Value, 1 (Yes)	xsd:string
+bmir-radx:nih_hiv_99	rdfs:label	nih_hiv Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_blind_99	rdfs:label	nih_blind Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_ibs_value	rdfs:label	nih_ibs value	xsd:string
+bmir-radx:nih_stroke_value	rdfs:label	nih_stroke value	xsd:string
+evs:C16326	rdfs:label	Behavior	xsd:string
+bmir-radx:nih_appetite	rdfs:label	nih_appetite Data Element	xsd:string
+obo:MONDO_0004425	rdfs:label	hyperthyroidism	xsd:string
+obo:NBO_0000131	rdfs:label	alcohol consumption	xsd:string
+bmir-radx:nih_stroke_1	rdfs:label	nih_stroke Value, 1 (Yes)	xsd:string
+bmir-radx:nih_chronic_kidney_disease_98	rdfs:label	nih_chronic_kidney_disease Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_ibs_1	rdfs:label	nih_ibs Value, 1 (Yes)	xsd:string
+bmir-radx:nih_other_symp_value	rdfs:label	nih_other_symp value	xsd:string
+obo:NBO_0045000	rdfs:label	tobacco consumption	xsd:string
+bmir-radx:nih_race_97	rdfs:label	nih_race Value, 97 (Some other race)	xsd:string
+bmir-radx:nih_neurological_condition	rdfs:label	nih_neurological_condition Data Element	xsd:string
+bmir-radx:nih_other_symp_1	rdfs:label	nih_other_symp Value, 1 (Yes)	xsd:string
+evs:C100104	rdfs:label	Sign or Symptom	xsd:string
+obo:PATO_0001708	rdfs:label	1-D extent	xsd:string
+bmir-radx:nih_health_status_99	rdfs:label	nih_health_status Value, 99 (Prefer not to state)	xsd:string
+obo:MONDO_0004975	rdfs:label	Alzheimer disease	xsd:string
+obo:MONDO_0024643	rdfs:label	myocardial disorder	xsd:string
+obo:MONDO_0020023	rdfs:label	respiratory or mediastinal malformation	xsd:string
+bmir-radx:nih_sleep_apnea_97	rdfs:label	nih_sleep_apnea Value, 97 (Other)	xsd:string
+evs:C25621	rdfs:label	Postal Code	xsd:string
+obo:MONDO_0020001	rdfs:label	respiratory or thoracic malformation	xsd:string
+evs:C25720	rdfs:label	Zip Code	xsd:string
+bmir-radx:nih_autoimm_value	rdfs:label	nih_autoimm value	xsd:string
+bmir-radx:nih_other_chronic_cond	rdfs:label	nih_other_chronic_cond Data Element	xsd:string
+evs:C173045	rdfs:label	Ability Question	xsd:string
+bmir-radx:nih_iv_drug_use_value	rdfs:label	nih_iv_drug_use value	xsd:string
+evs:C130200	rdfs:label	Solid Organ Transplant Recipient	xsd:string
+evs:C171087	rdfs:label	Person/Individual Attribute	xsd:string
+bmir-radx:nih_iv_drug_use_1	rdfs:label	nih_iv_drug_use Value, 1 (Yes)	xsd:string
+bmir-radx:nih_chronic_lung_disease_value	rdfs:label	nih_chronic_lung_disease value	xsd:string
+bmir-radx:nih_autoimm_1	rdfs:label	nih_autoimm Value, 1 (Yes)	xsd:string
+bmir-radx:nih_tobacco_99	rdfs:label	nih_tobacco Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_anxiety	rdfs:label	nih_anxiety Data Element	xsd:string
+bmir-radx:nih_fever_chills	rdfs:label	nih_fever_chills Data Element	xsd:string
+bmir-radx:nih_chronic_lung_disease_1	rdfs:label	nih_chronic_lung_disease Value, 1 (Yes)	xsd:string
+bmir-radx:nih_insurance_value	rdfs:label	nih_insurance value	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea_98	rdfs:label	nih_nausea_vomiting_diarrhea Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_wheezing_0	rdfs:label	nih_wheezing Value, 0 (No)	xsd:string
+bmir-radx:nih_neuro_shakes_97	rdfs:label	nih_neuro_shakes Value, 97 (Other)	xsd:string
+bmir-radx:nih_insurance_1	rdfs:label	nih_insurance Value, 1 (Private)	xsd:string
+bmir-radx:nih_errand_98	rdfs:label	nih_errand Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_vape_freq_3	rdfs:label	nih_vape_freq Value, 3 (Every Day)	xsd:string
+obo:MONDO_0005546	rdfs:label	fibromyalgia	xsd:string
+bmir-radx:nih_diff_breath_0	rdfs:label	nih_diff_breath Value, 0 (No)	xsd:string
+bmir-radx:nih_conjunctivitis_99	rdfs:label	nih_conjunctivitis Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_hiv_98	rdfs:label	nih_hiv Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_blind_98	rdfs:label	nih_blind Value, 98 (Don’t know)	xsd:string
+obo:NBO_0000130	rdfs:label	liquid consumption	xsd:string
+obo:MONDO_0002356	rdfs:label	pancreas disorder	xsd:string
+bmir-radx:nih_stroke_0	rdfs:label	nih_stroke Value, 0 (No)	xsd:string
+bmir-radx:nih_chronic_kidney_disease_97	rdfs:label	nih_chronic_kidney_disease Value, 97 (Other)	xsd:string
+bmir-radx:nih_ibs_0	rdfs:label	nih_ibs Value, 0 (No)	xsd:string
+bmir-radx:nih_rls_value	rdfs:label	nih_rls value	xsd:string
+obo:MONDO_0011057	rdfs:label	cerebrovascular disorder	xsd:string
+bmir-radx:nih_other_symp_0	rdfs:label	nih_other_symp Value, 0 (No)	xsd:string
+bmir-radx:nih_health_status_98	rdfs:label	nih_health_status Value, 98 (Don't know)	xsd:string
+evs:C3303	rdfs:label	Pain	xsd:string
+evs:C17953	rdfs:label	Education Level	xsd:string
+evs:C4876	rdfs:label	Symptom	xsd:string
+bmir-radx:nih_alcohol_frequency	rdfs:label	nih_alcohol_frequency Data Element	xsd:string
+obo:MONDO_0021166	rdfs:label	inflammatory disease	xsd:string
+bmir-radx:nih_rls_1	rdfs:label	nih_rls Value, 1 (Yes)	xsd:string
+evs:C47796	rdfs:label	Cholinergic Agonist	xsd:string
+evs:C221	rdfs:label	Alkaloid	xsd:string
+obo:MONDO_0015930	rdfs:label	respiratory malformation	xsd:string
+evs:C35553	rdfs:label	Abnormal Blood Chemistry and Hematology Test Result	xsd:string
+bmir-radx:nih_ibd	rdfs:label	nih_ibd Data Element	xsd:string
+bmir-radx:nih_copd_plus_value	rdfs:label	nih_copd_plus value	xsd:string
+evs:C26940	rdfs:label	Chronic Pain	xsd:string
+evs:C2962	rdfs:label	Seizure	xsd:string
+bmir-radx:nih_pcos_value	rdfs:label	nih_pcos value	xsd:string
+bmir-radx:nih_abdom_pain_99	rdfs:label	nih_abdom_pain Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_iv_drug_use_0	rdfs:label	nih_iv_drug_use Value, 0 (No)	xsd:string
+evs:C68751	rdfs:label	Smoker	xsd:string
+bmir-radx:nih_autoimm_0	rdfs:label	nih_autoimm Value, 0 (No)	xsd:string
+bmir-radx:nih_tobacco_98	rdfs:label	nih_tobacco Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_copd_plus_1	rdfs:label	nih_copd_plus Value, 1 (Yes)	xsd:string
+bmir-radx:nih_chronic_lung_disease_0	rdfs:label	nih_chronic_lung_disease Value, 0 (No)	xsd:string
+bmir-radx:nih_premature_birth	rdfs:label	nih_premature_birth Data Element	xsd:string
+bmir-radx:nih_pcos_1	rdfs:label	nih_pcos Value, 1 (Yes)	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea_97	rdfs:label	nih_nausea_vomiting_diarrhea Value, 97 (Other)	xsd:string
+bmir-radx:nih_othermh	rdfs:label	nih_othermh Data Element	xsd:string
+bmir-radx:nih_insurance_0	rdfs:label	nih_insurance Value, 0 (None)	xsd:string
+bmir-radx:nih_errand_97	rdfs:label	nih_errand Value, 97 (Other)	xsd:string
+bmir-radx:nih_cough	rdfs:label	nih_cough Data Element	xsd:string
+bmir-radx:nih_vape_freq_2	rdfs:label	nih_vape_freq Value, 2 (Some Days)	xsd:string
+obo:MONDO_0004335	rdfs:label	digestive system disorder	xsd:string
+obo:MONDO_0002267	rdfs:label	obstructive lung disease	xsd:string
+obo:MONDO_0002025	rdfs:label	psychiatric disorder	xsd:string
+bmir-radx:nih_conjunctivitis_98	rdfs:label	nih_conjunctivitis Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_hiv_97	rdfs:label	nih_hiv Value, 97 (Other)	xsd:string
+bmir-radx:nih_blind_97	rdfs:label	nih_blind Value, 97 (Other)	xsd:string
+evs:C16203	rdfs:label	Clinical or Research Activity	xsd:string
+bmir-radx:nih_vaping_yn_99	rdfs:label	nih_vaping_yn Value, 99 (Prefer not to answer)	xsd:string
+evs:C36278	rdfs:label	Finding by Site or System	xsd:string
+obo:MONDO_0004995	rdfs:label	cardiovascular disorder	xsd:string
+bmir-radx:nih_immunodeficiency_1	rdfs:label	nih_immunodeficiency Value, 1 (Yes)	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ_1	rdfs:label	nih_immuno_compromised_solid_organ Value, 1 (Yes)	xsd:string
+obo:MONDO_0045024	rdfs:label	cancer or benign tumor	xsd:string
+obo:MONDO_0022034	rdfs:label	lentivirus infection	xsd:string
+obo:MONDO_0024575	rdfs:label	pregnancy disorder	xsd:string
+bmir-radx:nih_cardiovascular_disease_1	rdfs:label	nih_cardiovascular_disease Value, 1 (Yes)	xsd:string
+obo:MONDO_0000001	rdfs:label	disease	xsd:string
+bmir-radx:nih_health_status_4	rdfs:label	nih_health_status Value, 4 (Poor)	xsd:string
+obo:MONDO_0011122	rdfs:label	obesity disorder	xsd:string
+bmir-radx:nih_rls_0	rdfs:label	nih_rls Value, 0 (No)	xsd:string
+bmir-radx:nih_substance_use_value	rdfs:label	nih_substance_use value	xsd:string
+bmir-radx:nih_race_6	rdfs:label	nih_race Value, 6 (Two or more races)	xsd:string
+obo:MONDO_0000771	rdfs:label	allergic respiratory disease	xsd:string
+bmir-radx:nih_vape_freq_99	rdfs:label	nih_vape_freq Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0021682	rdfs:label	viral sexually transmitted disease	xsd:string
+bmir-radx:nih_abdom_pain_98	rdfs:label	nih_abdom_pain Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0044991	rdfs:label	upper digestive tract disorder	xsd:string
+bmir-radx:nih_tobacco_97	rdfs:label	nih_tobacco Value, 97 (Other)	xsd:string
+bmir-radx:nih_copd_plus_0	rdfs:label	nih_copd_plus Value, 0 (No)	xsd:string
+obo:MONDO_0005039	rdfs:label	reproductive system disorder	xsd:string
+bmir-radx:nih_smoking_yn	rdfs:label	nih_smoking_yn Data Element	xsd:string
+bmir-radx:nih_substance_use_1	rdfs:label	nih_substance_use Value, 1 (Yes)	xsd:string
+bmir-radx:nih_pcos_0	rdfs:label	nih_pcos Value, 0 (No)	xsd:string
+bmir-radx:nih_height_category_3	rdfs:label	nih_height_category Value, 3 (6' and over)	xsd:string
+bmir-radx:nih_immunodeficiency_value	rdfs:label	nih_immunodeficiency value	xsd:string
+bmir-radx:nih_dress_bathe	rdfs:label	nih_dress_bathe Data Element	xsd:string
+obo:MONDO_0005578	rdfs:label	arthritic joint disease	xsd:string
+bmir-radx:nih_cardiovascular_disease_value	rdfs:label	nih_cardiovascular_disease value	xsd:string
+evs:C17468	rdfs:label	Socioeconomic Factors	xsd:string
+obo:SYMP_0000719	rdfs:label	memory impairment	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ_value	rdfs:label	nih_immuno_compromised_solid_organ value	xsd:string
+bmir-radx:nih_conjunctivitis_97	rdfs:label	nih_conjunctivitis Value, 97 (Other)	xsd:string
+evs:C3367	rdfs:label	Finding	xsd:string
+bmir-radx:nih_vaping_yn_98	rdfs:label	nih_vaping_yn Value, 98 (Don’t know)	xsd:string
+evs:C19700	rdfs:label	Cancer Patient	xsd:string
+bmir-radx:nih_t2dm	rdfs:label	nih_t2dm Data Element	xsd:string
+evs:C157356	rdfs:label	Health Insurance	xsd:string
+obo:MONDO_0700007	rdfs:label	idiopathic disease	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ_99	rdfs:label	nih_immuno_compromised_solid_organ Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_immunodeficiency_0	rdfs:label	nih_immunodeficiency Value, 0 (No)	xsd:string
+bmir-radx:nih_cardiovascular_disease_99	rdfs:label	nih_cardiovascular_disease Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_immunodeficiency_99	rdfs:label	nih_immunodeficiency Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ_0	rdfs:label	nih_immuno_compromised_solid_organ Value, 0 (No)	xsd:string
+bmir-radx:nih_cardiovascular_disease_0	rdfs:label	nih_cardiovascular_disease Value, 0 (No)	xsd:string
+bmir-radx:nih_health_status_3	rdfs:label	nih_health_status Value, 3 (Fair)	xsd:string
+obo:MONDO_0000473	rdfs:label	arterial disorder	xsd:string
+obo:MONDO_0000462	rdfs:label	eye adnexa disorder	xsd:string
+bmir-radx:nih_vaping_yn_1	rdfs:label	nih_vaping_yn Value, 1 (Yes)	xsd:string
+bmir-radx:nih_cancer_past_yr	rdfs:label	nih_cancer_past_yr Data Element	xsd:string
+bmir-radx:nih_race_5	rdfs:label	nih_race Value, 5 (Middle Eastern or North African)	xsd:string
+bmir-radx:nih_vape_freq_98	rdfs:label	nih_vape_freq Value, 98 (Don't know)	xsd:string
+obo:MONDO_0019019	rdfs:label	osteogenesis imperfecta	xsd:string
+obo:MONDO_0021681	rdfs:label	sexually transmitted disease	xsd:string
+bmir-radx:nih_vape_freq_value	rdfs:label	nih_vape_freq value	xsd:string
+obo:GO_0051704	rdfs:label	multi-organism process	xsd:string
+bmir-radx:nih_abdom_pain_97	rdfs:label	nih_abdom_pain Value, 97 (Other)	xsd:string
+bmir-radx:nih_substance_use_99	rdfs:label	nih_substance_use Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_height	rdfs:label	nih_height Data Element	xsd:string
+bmir-radx:nih_substance_use_0	rdfs:label	nih_substance_use Value, 0 (No)	xsd:string
+bmir-radx:nih_osteoporosis	rdfs:label	nih_osteoporosis Data Element	xsd:string
+obo:MONDO_0005148	rdfs:label	type 2 diabetes mellitus	xsd:string
+obo:MONDO_0005137	rdfs:label	nutritional disorder	xsd:string
+bmir-radx:nih_height_category_2	rdfs:label	nih_height_category Value, 2 (5'7"-5'11")	xsd:string
+evs:C17005	rdfs:label	Population Group	xsd:string
+bmir-radx:nih_alcohol_yrs	rdfs:label	nih_alcohol_yrs Data Element	xsd:string
+obo:MONDO_0005324	rdfs:label	seasonal allergic rhinitis	xsd:string
+bmir-radx:nih_vaping_yn_value	rdfs:label	nih_vaping_yn value	xsd:string
+bmir-radx:nih_record_id	rdfs:label	nih_record_id Data Element	xsd:string
+obo:MONDO_0003014	rdfs:label	rhinitis	xsd:string
+obo:SYMP_0000828	rdfs:label	sore eyes	xsd:string
+bmir-radx:nih_vape_freq_1	rdfs:label	nih_vape_freq Value, 1 (Rarely)	xsd:string
+obo:SYMP_0000817	rdfs:label	inability to concentrate	xsd:string
+obo:MONDO_0002254	rdfs:label	syndromic disease	xsd:string
+bmir-radx:nih_depression	rdfs:label	nih_depression Data Element	xsd:string
+evs:C16564	rdfs:label	Ethnic Group	xsd:string
+evs:C18742	rdfs:label	Diagnostic or Prognostic Test	xsd:string
+obo:MONDO_0002232	rdfs:label	nasal cavity disorder	xsd:string
+bmir-radx:nih_vaping_yn_97	rdfs:label	nih_vaping_yn Value, 97 (Other)	xsd:string
+bmir-radx:nih_rls_99	rdfs:label	nih_rls Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_hypertension	rdfs:label	nih_hypertension Data Element	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ_98	rdfs:label	nih_immuno_compromised_solid_organ Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_cardiovascular_disease_98	rdfs:label	nih_cardiovascular_disease Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0002562	rdfs:label	demyelinating disease	xsd:string
+bmir-radx:nih_immunodeficiency_98	rdfs:label	nih_immunodeficiency Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_height_category_value	rdfs:label	nih_height_category value	xsd:string
+bmir-radx:nih_abdom_pain_value	rdfs:label	nih_abdom_pain value	xsd:string
+evs:C27993	rdfs:label	General Qualifier	xsd:string
+bmir-radx:nih_health_status_2	rdfs:label	nih_health_status Value, 2 (Good)	xsd:string
+evs:C16960	rdfs:label	Patient	xsd:string
+bmir-radx:nih_vaping_yn_0	rdfs:label	nih_vaping_yn Value, 0 (No)	xsd:string
+evs:C199001	rdfs:label	Person by Health Status	xsd:string
+evs:C691	rdfs:label	Nicotine	xsd:string
+bmir-radx:nih_race_4	rdfs:label	nih_race Value, 4 (White)	xsd:string
+bmir-radx:nih_ms	rdfs:label	nih_ms Data Element	xsd:string
+bmir-radx:nih_conjunctivitis_1	rdfs:label	nih_conjunctivitis Value, 1 (Yes)	xsd:string
+bmir-radx:nih_pcos_99	rdfs:label	nih_pcos Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_alcohol_yn	rdfs:label	nih_alcohol_yn Data Element	xsd:string
+bmir-radx:nih_copd_plus_99	rdfs:label	nih_copd_plus Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_substance_use_98	rdfs:label	nih_substance_use Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0005147	rdfs:label	type 1 diabetes mellitus	xsd:string
+obo:MONDO_0005015	rdfs:label	diabetes mellitus	xsd:string
+bmir-radx:nih_height_category_1	rdfs:label	nih_height_category Value, 1 (5'1" - 5'6")	xsd:string
+bmir-radx:nih_abdom_pain_1	rdfs:label	nih_abdom_pain Value, 1 (Yes)	xsd:string
+obo:MONDO_0019755	rdfs:label	developmental defect during embryogenesis	xsd:string
+bmir-radx:nih_deaf	rdfs:label	nih_deaf Data Element	xsd:string
+bmir-radx:nih_cig_smoke_freq	rdfs:label	nih_cig_smoke_freq Data Element	xsd:string
+bmir-radx:nih_conjunctivitis_value	rdfs:label	nih_conjunctivitis value	xsd:string
+obo:MONDO_0005554	rdfs:label	rheumatic disorder	xsd:string
+bmir-radx:nih_education	rdfs:label	nih_education Data Element	xsd:string
+bmir-radx:nih_vape_freq_0	rdfs:label	nih_vape_freq Value, 0 (Not at all)	xsd:string
+obo:MONDO_0005301	rdfs:label	multiple sclerosis	xsd:string
+bmir-radx:EducationLevelDataElement	rdfs:label	Education Level Section	xsd:string
+bmir-radx:nih_rls_98	rdfs:label	nih_rls Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_tobacco_value	rdfs:label	nih_tobacco value	xsd:string
+obo:MONDO_0004992	rdfs:label	cancer	xsd:string
+bmir-radx:nih_other_symp_99	rdfs:label	nih_other_symp Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0004981	rdfs:label	atrial fibrillation	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ_97	rdfs:label	nih_immuno_compromised_solid_organ Value, 97 (Other)	xsd:string
+bmir-radx:nih_cardiovascular_disease_97	rdfs:label	nih_cardiovascular_disease Value, 97 (Other)	xsd:string
+evs:C26683	rdfs:label	Abnormal Laboratory Test Result	xsd:string
+bmir-radx:nih_immunodeficiency_97	rdfs:label	nih_immunodeficiency Value, 97 (Other)	xsd:string
+bmir-radx:nih_fatigue	rdfs:label	nih_fatigue Data Element	xsd:string
+bmir-radx:nih_stroke_99	rdfs:label	nih_stroke Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_ibs_99	rdfs:label	nih_ibs Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_health_status_1	rdfs:label	nih_health_status Value, 1 (Very Good)	xsd:string
+bmir-radx:nih_diff_breath_99	rdfs:label	nih_diff_breath Value, 99 (Prefer not to answer)	xsd:string
+obo:HP_0031704	rdfs:label	Abnormal ear physiology	xsd:string
+evs:C35461	rdfs:label	Clinical Course of Disease	xsd:string
+evs:C176021	rdfs:label	Activity Question	xsd:string
+evs:C120482	rdfs:label	Electronic Cigarette	xsd:string
+evs:C165593	rdfs:label	Chronic Disease	xsd:string
+evs:C2991	rdfs:label	Disease or Disorder	xsd:string
+bmir-radx:nih_race_3	rdfs:label	nih_race Value, 3 (Native Hawaiian or Other Pacific Islander)	xsd:string
+bmir-radx:nih_serious_mental_illness	rdfs:label	nih_serious_mental_illness Data Element	xsd:string
+bmir-radx:nih_conjunctivitis_0	rdfs:label	nih_conjunctivitis Value, 0 (No)	xsd:string
+bmir-radx:nih_hiv_1	rdfs:label	nih_hiv Value, 1 (Yes)	xsd:string
+bmir-radx:nih_blind_1	rdfs:label	nih_blind Value, 1 (Yes)	xsd:string
+bmir-radx:nih_insurance_99	rdfs:label	nih_insurance Value, 99 (Prefer not to answer)	xsd:string
+evs:C77140	rdfs:label	Clinical Test Result	xsd:string
+bmir-radx:nih_health_status_value	rdfs:label	nih_health_status value	xsd:string
+evs:C18059	rdfs:label	Tobacco Use	xsd:string
+bmir-radx:nih_pcos_98	rdfs:label	nih_pcos Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_chronic_lung_disease_99	rdfs:label	nih_chronic_lung_disease Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_t1d	rdfs:label	nih_t1d Data Element	xsd:string
+bmir-radx:nih_sickle_cell_disease	rdfs:label	nih_sickle_cell_disease Data Element	xsd:string
+bmir-radx:nih_autoimm_99	rdfs:label	nih_autoimm Value, 99 (Prefer not to answer)	xsd:string
+evs:C9305	rdfs:label	Malignant Neoplasm	xsd:string
+obo:SYMP_0000309	rdfs:label	loss of appetite	xsd:string
+bmir-radx:nih_copd_plus_98	rdfs:label	nih_copd_plus Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_iv_drug_use_99	rdfs:label	nih_iv_drug_use Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_substance_use_97	rdfs:label	nih_substance_use Value, 97 (Other)	xsd:string
+obo:MONDO_0005267	rdfs:label	heart disorder	xsd:string
+bmir-radx:nih_blind_value	rdfs:label	nih_blind value	xsd:string
+bmir-radx:nih_abdom_pain_0	rdfs:label	nih_abdom_pain Value, 0 (No)	xsd:string
+bmir-radx:nih_tobacco_1	rdfs:label	nih_tobacco Value, 1 (Yes)	xsd:string
+bmir-radx:nih_hiv_value	rdfs:label	nih_hiv value	xsd:string
+bmir-radx:nih_af	rdfs:label	nih_af Data Element	xsd:string
+obo:PATO_0000119	rdfs:label	height	xsd:string
+obo:MONDO_0004596	rdfs:label	cor pulmonale	xsd:string
+obo:NCIT_C19332	rdfs:label	personal attribute	xsd:string
+obo:MONDO_0005300	rdfs:label	chronic kidney disease	xsd:string
+obo:MONDO_0002022	rdfs:label	disorder of orbital region	xsd:string
+bmir-radx:IdentityDataElement	rdfs:label	Identity Section	xsd:string
+bmir-radx:nih_rls_97	rdfs:label	nih_rls Value, 97 (Other)	xsd:string
+obo:MONDO_0001493	rdfs:label	chronic pulmonary heart disease	xsd:string
+evs:C27551	rdfs:label	Disorder by Site	xsd:string
+bmir-radx:nih_other_symp_98	rdfs:label	nih_other_symp Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0021084	rdfs:label	vision disorder	xsd:string
+bmir-radx:nih_stroke_98	rdfs:label	nih_stroke Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_ibs_98	rdfs:label	nih_ibs Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_health_status_0	rdfs:label	nih_health_status Value, 0 (Excellent)	xsd:string
+bmir-radx:nih_skin_rash	rdfs:label	nih_skin_rash Data Element	xsd:string
+bmir-radx:nih_diff_breath_98	rdfs:label	nih_diff_breath Value, 98 (Don’t know)	xsd:string
+evs:C120481	rdfs:label	Personal Vaporizer	xsd:string
+evs:C78272	rdfs:label	Agent Affecting Nervous System	xsd:string
+evs:C20181	rdfs:label	Conceptual Entity	xsd:string
+bmir-radx:nih_race_2	rdfs:label	nih_race Value, 2 (Asian)	xsd:string
+bmir-radx:nih_chronic_kidney_disease_1	rdfs:label	nih_chronic_kidney_disease Value, 1 (Yes)	xsd:string
+bmir-radx:nih_hiv_0	rdfs:label	nih_hiv Value, 0 (No)	xsd:string
+bmir-radx:nih_renal	rdfs:label	nih_renal Data Element	xsd:string
+bmir-radx:nih_wheezing_99	rdfs:label	nih_wheezing Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_blind_0	rdfs:label	nih_blind Value, 0 (No)	xsd:string
+bmir-radx:nih_insurance_98	rdfs:label	nih_insurance Value, 98 (Don't know)	xsd:string
+evs:C53291	rdfs:label	Activity of Daily Living	xsd:string
+obo:MONDO_0005068	rdfs:label	myocardial infarction	xsd:string
+bmir-radx:nih_pcos_97	rdfs:label	nih_pcos Value, 97 (Other)	xsd:string
+obo:MONDO_0006025	rdfs:label	autosomal recessive disease	xsd:string
+bmir-radx:nih_chronic_lung_disease_98	rdfs:label	nih_chronic_lung_disease Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0005299	rdfs:label	brain ischemia	xsd:string
+bmir-radx:nih_chronic_kidney_disease_value	rdfs:label	nih_chronic_kidney_disease value	xsd:string
+obo:MONDO_0017146	rdfs:label	sickle cell disease and related diseases	xsd:string
+obo:MONDO_0005046	rdfs:label	immune system disorder	xsd:string
+bmir-radx:nih_autoimm_98	rdfs:label	nih_autoimm Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_errand_1	rdfs:label	nih_errand Value, 1 (Yes)	xsd:string
+bmir-radx:nih_copd_plus_97	rdfs:label	nih_copd_plus Value, 97 (Other)	xsd:string
+bmir-radx:nih_iv_drug_use_98	rdfs:label	nih_iv_drug_use Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0005277	rdfs:label	migraine disorder	xsd:string
+obo:MONDO_0004298	rdfs:label	stomach disorder	xsd:string
+obo:SYMP_0000528	rdfs:label	cardiovascular system symptom	xsd:string
+obo:MONDO_0005497	rdfs:label	bone development disease	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea_1	rdfs:label	nih_nausea_vomiting_diarrhea Value, 1 (Yes)	xsd:string
+obo:MONDO_0005002	rdfs:label	chronic obstructive pulmonary disease	xsd:string
+bmir-radx:nih_no_chronic_condition	rdfs:label	nih_no_chronic_condition Data Element	xsd:string
+bmir-radx:nih_tobacco_0	rdfs:label	nih_tobacco Value, 0 (No)	xsd:string
+evs:C19796	rdfs:label	Smoking Status	xsd:string
+bmir-radx:nih_errand_value	rdfs:label	nih_errand value	xsd:string
+obo:MONDO_0005574	rdfs:label	tauopathy	xsd:string
+bmir-radx:nih_confusion	rdfs:label	nih_confusion Data Element	xsd:string
+obo:MONDO_0015221	rdfs:label	non-syndromic respiratory or mediastinal malformation	xsd:string
+obo:MONDO_0005420	rdfs:label	hypothyroidism	xsd:string
+bmir-radx:nih_sex	rdfs:label	nih_sex Data Element	xsd:string
+evs:C117720	rdfs:label	Female Reproductive System Finding	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea_value	rdfs:label	nih_nausea_vomiting_diarrhea value	xsd:string
+obo:MONDO_0002494	rdfs:label	substance-related disorder	xsd:string
+obo:MONDO_0021094	rdfs:label	immunodeficiency disease	xsd:string
+bmir-radx:nih_sleep_apnea_1	rdfs:label	nih_sleep_apnea Value, 1 (Yes)	xsd:string
+obo:MONDO_0700003	rdfs:label	obstetric disorder	xsd:string
+bmir-radx:nih_other_symp_97	rdfs:label	nih_other_symp Value, 97 (Other)	xsd:string
+bmir-radx:nih_sleep_apnea_value	rdfs:label	nih_sleep_apnea value	xsd:string
+bmir-radx:nih_stroke_97	rdfs:label	nih_stroke Value, 97 (Other)	xsd:string
+bmir-radx:nih_ibs_97	rdfs:label	nih_ibs Value, 97 (Other)	xsd:string
+bmir-radx:nih_balance_99	rdfs:label	nih_balance Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_diff_breath_97	rdfs:label	nih_diff_breath Value, 97 (Other)	xsd:string
+evs:C199141	rdfs:label	Health Issue Related Group	xsd:string
+evs:C121690	rdfs:label	Ability to Run Errands and Shop	xsd:string
+obo:MONDO_0007179	rdfs:label	autoimmune disease	xsd:string
+bmir-radx:nih_race_1	rdfs:label	nih_race Value, 1 (Black or African American)	xsd:string
+bmir-radx:nih_chronic_kidney_disease_0	rdfs:label	nih_chronic_kidney_disease Value, 0 (No)	xsd:string
+bmir-radx:nih_insomnia_99	rdfs:label	nih_insomnia Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_wheezing_98	rdfs:label	nih_wheezing Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_race_value	rdfs:label	nih_race value	xsd:string
+bmir-radx:nih_insurance_97	rdfs:label	nih_insurance Value, 97 (Other)	xsd:string
+evs:C173060	rdfs:label	Smoking Question	xsd:string
+bmir-radx:nih_diabetes	rdfs:label	nih_diabetes Data Element	xsd:string
+bmir-radx:nih_chronic_lung_disease_97	rdfs:label	nih_chronic_lung_disease Value, 97 (Other)	xsd:string
+bmir-radx:nih_blue_lips	rdfs:label	nih_blue_lips Data Element	xsd:string
+obo:MONDO_0005298	rdfs:label	osteoporosis	xsd:string
+obo:SYMP_0000318	rdfs:label	loss of balance	xsd:string
+bmir-radx:nih_autoimm_97	rdfs:label	nih_autoimm Value, 97 (Other)	xsd:string
+bmir-radx:nih_errand_0	rdfs:label	nih_errand Value, 0 (No)	xsd:string
+bmir-radx:nih_iv_drug_use_97	rdfs:label	nih_iv_drug_use Value, 97 (Other)	xsd:string
+obo:MONDO_0005265	rdfs:label	inflammatory bowel disease	xsd:string
+bmir-radx:nih_neuro_shakes_1	rdfs:label	nih_neuro_shakes Value, 1 (Yes)	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea_0	rdfs:label	nih_nausea_vomiting_diarrhea Value, 0 (No)	xsd:string
+bmir-radx:nih_lupus	rdfs:label	nih_lupus Data Element	xsd:string
+bmir-radx:nih_cf	rdfs:label	nih_cf Data Element	xsd:string
+obo:SYMP_0000505	rdfs:label	throat pain	xsd:string
+bmir-radx:nih_neuro_shakes_value	rdfs:label	nih_neuro_shakes value	xsd:string
+obo:PATO_0000117	rdfs:label	size	xsd:string
+obo:SYMP_0000604	rdfs:label	wheezing	xsd:string
+bmir-radx:nih_weight_category	rdfs:label	nih_weight_category Data Element	xsd:string
+evs:C18772	rdfs:label	Personal Medical History	xsd:string
+bmir-radx:nih_asthma_99	rdfs:label	nih_asthma Value, 99 (Prefer not to answer)	xsd:string
+evs:C36284	rdfs:label	Reproductive System Finding	xsd:string
+evs:C179143	rdfs:label	Employment Status	xsd:string
+obo:MONDO_0000270	rdfs:label	lower respiratory tract disorder	xsd:string
+bmir-radx:nih_gerd_1	rdfs:label	nih_gerd Value, 1 (Yes)	xsd:string
+obo:MONDO_0023370	rdfs:label	neoplastic disease or syndrome	xsd:string
+obo:GO_0044703	rdfs:label	multi-organism reproductive process	xsd:string
+bmir-radx:nih_chronic_lung_99	rdfs:label	nih_chronic_lung Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_numb_extremities_value	rdfs:label	nih_numb_extremities value	xsd:string
+bmir-radx:nih_balance_98	rdfs:label	nih_balance Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_red_eyes_value	rdfs:label	nih_red_eyes value	xsd:string
+bmir-radx:nih_numb_extremities_1	rdfs:label	nih_numb_extremities Value, 1 (Yes)	xsd:string
+bmir-radx:nih_red_eyes_1	rdfs:label	nih_red_eyes Value, 1 (Yes)	xsd:string
+bmir-radx:nih_neurodegenerative	rdfs:label	nih_neurodegenerative Data Element	xsd:string
+bmir-radx:nih_race_0	rdfs:label	nih_race Value, 0 (American Indian or Alaska Native)	xsd:string
+obo:MONDO_0008487	rdfs:label	polycystic ovary syndrome	xsd:string
+bmir-radx:nih_insomnia_98	rdfs:label	nih_insomnia Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_wheezing_97	rdfs:label	nih_wheezing Value, 97 (Other)	xsd:string
+bmir-radx:nih_immunosuppressive_condition_value	rdfs:label	nih_immunosuppressive_condition value	xsd:string
+bmir-radx:nih_immunosuppressive_condition_1	rdfs:label	nih_immunosuppressive_condition Value, 1 (Yes)	xsd:string
+obo:MONDO_0005066	rdfs:label	metabolic disease	xsd:string
+obo:MONDO_0005044	rdfs:label	hypertensive disorder	xsd:string
+obo:MONDO_0005275	rdfs:label	lung disorder	xsd:string
+obo:MONDO_0005154	rdfs:label	liver disorder	xsd:string
+obo:SYMP_0020029	rdfs:label	concentration difficulty	xsd:string
+obo:SYMP_0000537	rdfs:label	cyanosis	xsd:string
+obo:PATO_0001018	rdfs:label	physical quality	xsd:string
+obo:MONDO_0005385	rdfs:label	vascular disorder	xsd:string
+obo:MONDO_0005264	rdfs:label	transient ischemic attack	xsd:string
+bmir-radx:nih_neuro_shakes_0	rdfs:label	nih_neuro_shakes Value, 0 (No)	xsd:string
+evs:C19332	rdfs:label	Personal Attribute	xsd:string
+evs:C128795	rdfs:label	Electronic Nicotine Delivery Device	xsd:string
+obo:SYMP_0000504	rdfs:label	headache	xsd:string
+bmir-radx:nih_cld_bpd_value	rdfs:label	nih_cld_bpd value	xsd:string
+obo:SYMP_0000614	rdfs:label	cough	xsd:string
+bmir-radx:nih_immunocompromised_99	rdfs:label	nih_immunocompromised Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_cld_bpd_1	rdfs:label	nih_cld_bpd Value, 1 (Yes)	xsd:string
+obo:SYMP_0000834	rdfs:label	hypoesthesia	xsd:string
+obo:MONDO_0005550	rdfs:label	infectious disease	xsd:string
+obo:MONDO_0003240	rdfs:label	thyroid gland disorder	xsd:string
+evs:C27351	rdfs:label	Immune System and Related Disorders	xsd:string
+obo:MONDO_0700057	rdfs:label	neurological pain disorder	xsd:string
+bmir-radx:nih_throat_congestion_nose_value	rdfs:label	nih_throat_congestion_nose value	xsd:string
+bmir-radx:nih_thyroid_99	rdfs:label	nih_thyroid Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0004670	rdfs:label	lupus erythematosus	xsd:string
+bmir-radx:nih_employment_5	rdfs:label	nih_employment Value, 5 (Disabled or government support)	xsd:string
+evs:C25162	rdfs:label	Code	xsd:string
+bmir-radx:nih_asthma_98	rdfs:label	nih_asthma Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_throat_congestion_nose_1	rdfs:label	nih_throat_congestion_nose Value, 1 (Yes)	xsd:string
+evs:C122393	rdfs:label	Number of Years of Education	xsd:string
+bmir-radx:nih_rash_toes	rdfs:label	nih_rash_toes Data Element	xsd:string
+bmir-radx:nih_gerd_value	rdfs:label	nih_gerd value	xsd:string
+bmir-radx:nih_sleep_apnea_0	rdfs:label	nih_sleep_apnea Value, 0 (No)	xsd:string
+bmir-radx:nih_gerd_0	rdfs:label	nih_gerd Value, 0 (No)	xsd:string
+bmir-radx:nih_ra_value	rdfs:label	nih_ra value	xsd:string
+bmir-radx:nih_slurred_peech_1	rdfs:label	nih_slurred_peech Value, 1 (Yes)	xsd:string
+bmir-radx:nih_chronic_lung_98	rdfs:label	nih_chronic_lung Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_balance_97	rdfs:label	nih_balance Value, 97 (Other)	xsd:string
+bmir-radx:nih_numb_extremities_0	rdfs:label	nih_numb_extremities Value, 0 (No)	xsd:string
+bmir-radx:nih_red_eyes_0	rdfs:label	nih_red_eyes Value, 0 (No)	xsd:string
+bmir-radx:nih_disability_99	rdfs:label	nih_disability Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_ra_1	rdfs:label	nih_ra Value, 1 (Yes)	xsd:string
+bmir-radx:nih_cancer_active_treatment_99	rdfs:label	nih_cancer_active_treatment Value, 99 (Prefer not to answer)	xsd:string
+obo:SYMP_0000019	rdfs:label	deafness	xsd:string
+obo:MONDO_0005098	rdfs:label	stroke disorder	xsd:string
+bmir-radx:nih_insomnia_97	rdfs:label	nih_insomnia Value, 97 (Other)	xsd:string
+obo:MONDO_0005087	rdfs:label	respiratory system disorder	xsd:string
+evs:C7057	rdfs:label	Disease, Disorder or Finding	xsd:string
+bmir-radx:nih_chronic_pain_value	rdfs:label	nih_chronic_pain value	xsd:string
+obo:SYMP_0000459	rdfs:label	digestive system symptom	xsd:string
+bmir-radx:nih_immunosuppressive_condition_0	rdfs:label	nih_immunosuppressive_condition Value, 0 (No)	xsd:string
+bmir-radx:nih_gestational_diabetes	rdfs:label	nih_gestational_diabetes Data Element	xsd:string
+obo:MONDO_0005296	rdfs:label	sleep apnea syndrome	xsd:string
+bmir-radx:nih_high_temp_value	rdfs:label	nih_high_temp value	xsd:string
+bmir-radx:nih_chronic_pain_1	rdfs:label	nih_chronic_pain Value, 1 (Yes)	xsd:string
+bmir-radx:nih_memory	rdfs:label	nih_memory Data Element	xsd:string
+obo:MONDO_0005252	rdfs:label	heart failure	xsd:string
+obo:MONDO_0005010	rdfs:label	coronary artery disorder	xsd:string
+obo:SYMP_0000514	rdfs:label	respiratory system and chest symptom	xsd:string
+bmir-radx:EthnicityDataElement	rdfs:label	Ethnicity Section	xsd:string
+evs:C19683	rdfs:label	Personal Behavior	xsd:string
+evs:C16273	rdfs:label	Alcohol Consumption	xsd:string
+obo:SYMP_0000613	rdfs:label	fever	xsd:string
+bmir-radx:nih_high_temp_1	rdfs:label	nih_high_temp Value, 1 (Yes)	xsd:string
+bmir-radx:nih_immunocompromised_98	rdfs:label	nih_immunocompromised Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0002051	rdfs:label	integumentary system disorder	xsd:string
+bmir-radx:nih_cld_bpd_0	rdfs:label	nih_cld_bpd Value, 0 (No)	xsd:string
+obo:MONDO_0005560	rdfs:label	brain disorder	xsd:string
+bmir-radx:nih_education_yrs	rdfs:label	nih_education_yrs Data Element	xsd:string
+bmir-radx:nih_liver_disease	rdfs:label	nih_liver_disease Data Element	xsd:string
+evs:C25172	rdfs:label	Employed	xsd:string
+evs:C3262	rdfs:label	Neoplasm	xsd:string
+bmir-radx:nih_thyroid_98	rdfs:label	nih_thyroid Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_employment_4	rdfs:label	nih_employment Value, 4 (Retired)	xsd:string
+bmir-radx:nih_slurred_peech_value	rdfs:label	nih_slurred_peech value	xsd:string
+bmir-radx:nih_asthma_97	rdfs:label	nih_asthma Value, 97 (Other)	xsd:string
+bmir-radx:nih_throat_congestion_nose_0	rdfs:label	nih_throat_congestion_nose Value, 0 (No)	xsd:string
+bmir-radx:AgeDataElement	rdfs:label	Age Section	xsd:string
+bmir-radx:nih_heart_attack	rdfs:label	nih_heart_attack Data Element	xsd:string
+bmir-radx:nih_lifetime_use_alcohol	rdfs:label	nih_lifetime_use_alcohol Data Element	xsd:string
+bmir-radx:nih_slurred_peech_0	rdfs:label	nih_slurred_peech Value, 0 (No)	xsd:string
+bmir-radx:nih_coronary_artery_disease	rdfs:label	nih_coronary_artery_disease Data Element	xsd:string
+bmir-radx:nih_chronic_lung_97	rdfs:label	nih_chronic_lung Value, 97 (Other)	xsd:string
+bmir-radx:nih_chd_99	rdfs:label	nih_chd Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_cancer	rdfs:label	nih_cancer Data Element	xsd:string
+bmir-radx:nih_seizures_value	rdfs:label	nih_seizures value	xsd:string
+bmir-radx:nih_disability_98	rdfs:label	nih_disability Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_ra_0	rdfs:label	nih_ra Value, 0 (No)	xsd:string
+bmir-radx:nih_cancer_active_treatment_98	rdfs:label	nih_cancer_active_treatment Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_ethnicity_99	rdfs:label	nih_ethnicity Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_sweating_value	rdfs:label	nih_sweating value	xsd:string
+bmir-radx:nih_heart_condition	rdfs:label	nih_heart_condition Data Element	xsd:string
+obo:SYMP_0000458	rdfs:label	nausea	xsd:string
+obo:MONDO_0005053	rdfs:label	ischemic disease	xsd:string
+obo:HP_0000118	rdfs:label	Phenotypic abnormality	xsd:string
+bmir-radx:nih_seizures_1	rdfs:label	nih_seizures Value, 1 (Yes)	xsd:string
+bmir-radx:nih_psoriasis_99	rdfs:label	nih_psoriasis Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0005020	rdfs:label	intestinal disorder	xsd:string
+bmir-radx:nih_chronic_pain_0	rdfs:label	nih_chronic_pain Value, 0 (No)	xsd:string
+evs:C17141	rdfs:label	Social Sciences	xsd:string
+obo:MONDO_0005240	rdfs:label	kidney disorder	xsd:string
+obo:PATO_0000125	rdfs:label	mass	xsd:string
+bmir-radx:nih_sweating_1	rdfs:label	nih_sweating Value, 1 (Yes)	xsd:string
+bmir-radx:nih_high_temp_0	rdfs:label	nih_high_temp Value, 0 (No)	xsd:string
+<http://purl.bioontology.org/ontology/STY/T096>	rdfs:label	group	xsd:string
+obo:MONDO_0005570	rdfs:label	hematologic disorder	xsd:string
+bmir-radx:nih_immunocompromised_97	rdfs:label	nih_immunocompromised Value, 97 (Other)	xsd:string
+obo:MONDO_0002050	rdfs:label	depressive disorder	xsd:string
+bmir-radx:nih_arthritis	rdfs:label	nih_arthritis Data Element	xsd:string
+bmir-radx:nih_thalassemia	rdfs:label	nih_thalassemia Data Element	xsd:string
+bmir-radx:nih_thyroid_97	rdfs:label	nih_thyroid Value, 97 (Other)	xsd:string
+bmir-radx:nih_employment_3	rdfs:label	nih_employment Value, 3 (Keeping household)	xsd:string
+obo:PATO_0001995	rdfs:label	organismal quality	xsd:string
+evs:C36292	rdfs:label	Laboratory Test Result	xsd:string
+bmir-radx:nih_copd	rdfs:label	nih_copd Data Element	xsd:string
+bmir-radx:nih_no_sympt_1	rdfs:label	nih_no_sympt Value, 1 (Yes)	xsd:string
+bmir-radx:nih_history_smoking	rdfs:label	nih_history_smoking Data Element	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	rdfs:label	nih_coronary_artery_disease_angina Data Element	xsd:string
+bmir-radx:nih_arrhythmia	rdfs:label	nih_arrhythmia Data Element	xsd:string
+bmir-radx:nih_zip	rdfs:label	nih_zip Data Element	xsd:string
+bmir-radx:nih_chd_98	rdfs:label	nih_chd Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0007186	rdfs:label	gastroesophageal reflux disease	xsd:string
+bmir-radx:nih_disability_97	rdfs:label	nih_disability Value, 97 (Other)	xsd:string
+obo:GSSO_000229	rdfs:label	agent	xsd:string
+bmir-radx:nih_headache	rdfs:label	nih_headache Data Element	xsd:string
+bmir-radx:nih_cancer_active_treatment_97	rdfs:label	nih_cancer_active_treatment Value, 97 (Other)	xsd:string
+bmir-radx:nih_seasonal_allergies_1	rdfs:label	nih_seasonal_allergies Value, 1 (Yes)	xsd:string
+bmir-radx:nih_ethnicity_98	rdfs:label	nih_ethnicity Value, 98 (Don't Know)	xsd:string
+bmir-radx:nih_mental_health_disorder_1	rdfs:label	nih_mental_health_disorder Value, 1 (Yes)	xsd:string
+obo:MONDO_0007263	rdfs:label	cardiac rhythm disease	xsd:string
+obo:SYMP_0000237	rdfs:label	congestion	xsd:string
+bmir-radx:MedicalHistoryDataElement	rdfs:label	Medical History Section	xsd:string
+bmir-radx:nih_anemia_1	rdfs:label	nih_anemia Value, 1 (Yes)	xsd:string
+obo:SYMP_0000457	rdfs:label	abdominal pain	xsd:string
+bmir-radx:nih_alz_1	rdfs:label	nih_alz Value, 1 (Yes)	xsd:string
+obo:SYMP_0000567	rdfs:label	general symptom	xsd:string
+obo:SYMP_0000446	rdfs:label	bloodshot eye	xsd:string
+obo:MONDO_0005052	rdfs:label	irritable bowel syndrome	xsd:string
+bmir-radx:nih_alc_sub_abuse_99	rdfs:label	nih_alc_sub_abuse Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0018230	rdfs:label	skeletal dysplasia	xsd:string
+bmir-radx:nih_seizures_0	rdfs:label	nih_seizures Value, 0 (No)	xsd:string
+bmir-radx:nih_psoriasis_98	rdfs:label	nih_psoriasis Value, 98 (Don’t know)	xsd:string
+obo:MONDO_0005151	rdfs:label	endocrine system disorder	xsd:string
+evs:C18020	rdfs:label	Diagnostic Procedure	xsd:string
+obo:PATO_0000047	rdfs:label	biological sex	xsd:string
+obo:MONDO_0005371	rdfs:label	mood disorder	xsd:string
+obo:SYMP_0020004	rdfs:label	ageusia	xsd:string
+bmir-radx:nih_no_sympt_value	rdfs:label	nih_no_sympt value	xsd:string
+bmir-radx:nih_nicotine_yn	rdfs:label	nih_nicotine_yn Data Element	xsd:string
+obo:MONDO_0100081	rdfs:label	sleep disorder	xsd:string
+bmir-radx:nih_sweating_0	rdfs:label	nih_sweating Value, 0 (No)	xsd:string
+bmir-radx:nih_chf	rdfs:label	nih_chf Data Element	xsd:string
+obo:MONDO_0002280	rdfs:label	anemia	xsd:string
+obo:GO_0022414	rdfs:label	reproductive process	xsd:string
+bmir-radx:nih_walk_climb	rdfs:label	nih_walk_climb Data Element	xsd:string
+bmir-radx:nih_employment_2	rdfs:label	nih_employment Value, 2 (Student)	xsd:string
+bmir-radx:nih_seasonal_allergies_value	rdfs:label	nih_seasonal_allergies value	xsd:string
+bmir-radx:nih_mental_health_disorder_value	rdfs:label	nih_mental_health_disorder value	xsd:string
+evs:C36280	rdfs:label	Nervous System Finding	xsd:string
+obo:GO_0032501	rdfs:label	multicellular organismal process	xsd:string
+bmir-radx:nih_alz_value	rdfs:label	nih_alz value	xsd:string
+bmir-radx:nih_anemia_value	rdfs:label	nih_anemia value	xsd:string
+obo:BFO_0000015	rdfs:label	process	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment_3	rdfs:label	nih_chronic_kidney_disease_treatment Value, 3 (Yes, I've Had A Kidney Transplant And My Kidney Function Is Now Normal)	xsd:string
+obo:BFO_0000004	rdfs:label	independent continuant	xsd:string
+bmir-radx:nih_chd_97	rdfs:label	nih_chd Value, 97 (Other)	xsd:string
+bmir-radx:nih_premature_birth_4	rdfs:label	nih_premature_birth Value, 4 (Yes, But Not Sure How Many Weeks)	xsd:string
+bmir-radx:nih_alc_sub_abuse	rdfs:label	nih_alc_sub_abuse Data Element	xsd:string
+obo:SYMP_0000016	rdfs:label	confusion	xsd:string
+bmir-radx:nih_seasonal_allergies_0	rdfs:label	nih_seasonal_allergies Value, 0 (No)	xsd:string
+bmir-radx:nih_ethnicity_97	rdfs:label	nih_ethnicity Value, 97 (Other)	xsd:string
+bmir-radx:nih_employment_value	rdfs:label	nih_employment value	xsd:string
+bmir-radx:nih_cholesterol_value	rdfs:label	nih_cholesterol value	xsd:string
+bmir-radx:nih_mental_health_disorder_0	rdfs:label	nih_mental_health_disorder Value, 0 (No)	xsd:string
+obo:MONDO_0005084	rdfs:label	mental disorder	xsd:string
+bmir-radx:nih_anemia_0	rdfs:label	nih_anemia Value, 0 (No)	xsd:string
+bmir-radx:nih_alz_0	rdfs:label	nih_alz Value, 0 (No)	xsd:string
+bmir-radx:nih_headache_99	rdfs:label	nih_headache Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_fibromyalgia_value	rdfs:label	nih_fibromyalgia value	xsd:string
+obo:MONDO_0005172	rdfs:label	skeletal system disorder	xsd:string
+bmir-radx:nih_alc_sub_abuse_98	rdfs:label	nih_alc_sub_abuse Value, 98 (Don’t know)	xsd:string
+evs:C18272	rdfs:label	Substance Abuse	xsd:string
+bmir-radx:nih_psoriasis_97	rdfs:label	nih_psoriasis Value, 97 (Other)	xsd:string
+obo:MONDO_0005271	rdfs:label	allergic disease	xsd:string
+obo:MONDO_0005381	rdfs:label	bone disorder	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina_99	rdfs:label	nih_coronary_artery_disease_angina Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_arrhythmia_99	rdfs:label	nih_arrhythmia Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_history_smoking_99	rdfs:label	nih_history_smoking Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0002081	rdfs:label	musculoskeletal system disorder	xsd:string
+bmir-radx:nih_alcohol_frequency_4	rdfs:label	nih_alcohol_frequency Value, 4 (Four Or More Times Per Week)	xsd:string
+bmir-radx:nih_employment_1	rdfs:label	nih_employment Value, 1 (No - Not Employed)	xsd:string
+bmir-radx:nih_cholesterol_1	rdfs:label	nih_cholesterol Value, 1 (Yes)	xsd:string
+bmir-radx:nih_walk_climb_99	rdfs:label	nih_walk_climb Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_chf_99	rdfs:label	nih_chf Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment_2	rdfs:label	nih_chronic_kidney_disease_treatment Value, 2 (Yes And On Dialysis)	xsd:string
+bmir-radx:nih_fibromyalgia_1	rdfs:label	nih_fibromyalgia Value, 1 (Yes)	xsd:string
+bmir-radx:nih_nicotine_yn_99	rdfs:label	nih_nicotine_yn Value, 99 (Prefer not to answer)	xsd:string
+obo:BFO_0000003	rdfs:label	occurrent	xsd:string
+bmir-radx:nih_no_sympt_0	rdfs:label	nih_no_sympt Value, 0 (No)	xsd:string
+bmir-radx:nih_heart_condition_99	rdfs:label	nih_heart_condition Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_migraines_1	rdfs:label	nih_migraines Value, 1 (Yes)	xsd:string
+bmir-radx:nih_premature_birth_3	rdfs:label	nih_premature_birth Value, 3 (Yes, Less Than 28 Weeks)	xsd:string
+obo:MONDO_0008383	rdfs:label	rheumatoid arthritis	xsd:string
+obo:SYMP_0000488	rdfs:label	skin and integumentary tissue symptom	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment_value	rdfs:label	nih_chronic_kidney_disease_treatment value	xsd:string
+obo:MONDO_0005083	rdfs:label	psoriasis	xsd:string
+obo:SYMP_0000598	rdfs:label	respiratory abnormality	xsd:string
+bmir-radx:nih_psoriasis	rdfs:label	nih_psoriasis Data Element	xsd:string
+bmir-radx:nih_cancer_99	rdfs:label	nih_cancer Value, 99 (Prefer not to answer)	xsd:string
+obo:SYMP_0000587	rdfs:label	abnormal chest sound	xsd:string
+bmir-radx:nih_olfactory_1	rdfs:label	nih_olfactory Value, 1 (Yes)	xsd:string
+bmir-radx:nih_headache_98	rdfs:label	nih_headache Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_alc_sub_abuse_97	rdfs:label	nih_alc_sub_abuse Value, 97 (Other)	xsd:string
+obo:SYMP_0000543	rdfs:label	memory loss	xsd:string
+bmir-radx:nih_migraines_value	rdfs:label	nih_migraines value	xsd:string
+obo:MONDO_0005391	rdfs:label	restless legs syndrome	xsd:string
+bmir-radx:nih_coronary_artery_disease_99	rdfs:label	nih_coronary_artery_disease Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_lifetime_use_alcohol_99	rdfs:label	nih_lifetime_use_alcohol Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_ethnicity	rdfs:label	nih_ethnicity Data Element	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina_98	rdfs:label	nih_coronary_artery_disease_angina Value, 98 (Don’t know)	xsd:string
+obo:GSSO_001811	rdfs:label	physical disability	xsd:string
+bmir-radx:nih_arrhythmia_98	rdfs:label	nih_arrhythmia Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_history_smoking_98	rdfs:label	nih_history_smoking Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_age	rdfs:label	nih_age Data Element	xsd:string
+obo:MONDO_0800064	rdfs:label	osteogenesis imperfecta and a reduction of bone mineral density.	xsd:string
+obo:PATO_0000001	rdfs:label	characteristic	xsd:string
+bmir-radx:nih_copd_99	rdfs:label	nih_copd Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0700096	rdfs:label	human disease	xsd:string
+bmir-radx:nih_olfactory_value	rdfs:label	nih_olfactory value	xsd:string
+bmir-radx:nih_chd	rdfs:label	nih_chd Data Element	xsd:string
+bmir-radx:nih_pregnancy_1	rdfs:label	nih_pregnancy Value, 1 (Pregnant)	xsd:string
+evs:C25190	rdfs:label	Person	xsd:string
+bmir-radx:nih_thalassemia_99	rdfs:label	nih_thalassemia Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_obesity_1	rdfs:label	nih_obesity Value, 1 (Yes)	xsd:string
+bmir-radx:nih_alcohol_frequency_3	rdfs:label	nih_alcohol_frequency Value, 3 (Two To Three Times Per Week)	xsd:string
+bmir-radx:nih_muscle_ache_1	rdfs:label	nih_muscle_ache Value, 1 (Yes)	xsd:string
+bmir-radx:nih_arthritis_99	rdfs:label	nih_arthritis Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_employment_0	rdfs:label	nih_employment Value, 0 (Yes - Employed)	xsd:string
+bmir-radx:nih_cholesterol_0	rdfs:label	nih_cholesterol Value, 0 (No)	xsd:string
+bmir-radx:nih_walk_climb_98	rdfs:label	nih_walk_climb Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_chf_98	rdfs:label	nih_chf Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment_1	rdfs:label	nih_chronic_kidney_disease_treatment Value, 1 (Yes, But Not On Dialysis)	xsd:string
+bmir-radx:nih_fibromyalgia_0	rdfs:label	nih_fibromyalgia Value, 0 (No)	xsd:string
+bmir-radx:nih_nicotine_yn_98	rdfs:label	nih_nicotine_yn Value, 98 (Don’t know)	xsd:string
+obo:BFO_0000002	rdfs:label	continuant	xsd:string
+bmir-radx:nih_pregnancy_value	rdfs:label	nih_pregnancy value	xsd:string
+bmir-radx:nih_obesity_value	rdfs:label	nih_obesity value	xsd:string
+bmir-radx:nih_muscle_ache_value	rdfs:label	nih_muscle_ache value	xsd:string
+bmir-radx:nih_other_chronic_cond_1	rdfs:label	nih_other_chronic_cond Value, 1 (Yes)	xsd:string
+bmir-radx:nih_heart_condition_98	rdfs:label	nih_heart_condition Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_migraines_0	rdfs:label	nih_migraines Value, 0 (No)	xsd:string
+bmir-radx:nih_premature_birth_2	rdfs:label	nih_premature_birth Value, 2 (Yes, Between 28-32 Weeks)	xsd:string
+bmir-radx:nih_alcohol_yrs_4	rdfs:label	nih_alcohol_yrs Value, 4 (Four Or More Times Per Week)	xsd:string
+obo:SYMP_0000388	rdfs:label	nose symptom	xsd:string
+obo:SYMP_0000146	rdfs:label	feces and droppings symptom	xsd:string
+bmir-radx:nih_anxiety_1	rdfs:label	nih_anxiety Value, 1 (Yes)	xsd:string
+bmir-radx:nih_fever_chills_1	rdfs:label	nih_fever_chills Value, 1 (Yes)	xsd:string
+bmir-radx:nih_education_5	rdfs:label	nih_education Value, 5 (Other advanced degree (Master's,Doctorate or Professional Doctorate))	xsd:string
+obo:MONDO_0005093	rdfs:label	skin disorder	xsd:string
+obo:SYMP_0000487	rdfs:label	rash	xsd:string
+obo:SYMP_0000245	rdfs:label	decreased appetite	xsd:string
+obo:SYMP_0000124	rdfs:label	seizure	xsd:string
+bmir-radx:nih_other_chronic_cond_value	rdfs:label	nih_other_chronic_cond value	xsd:string
+obo:SYMP_0000597	rdfs:label	head and neck symptom	xsd:string
+bmir-radx:nih_cancer_98	rdfs:label	nih_cancer Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_olfactory_0	rdfs:label	nih_olfactory Value, 0 (No)	xsd:string
+obo:MONDO_0005071	rdfs:label	nervous system disorder	xsd:string
+bmir-radx:nih_headache_97	rdfs:label	nih_headache Value, 97 (Other)	xsd:string
+bmir-radx:nih_anxiety_value	rdfs:label	nih_anxiety value	xsd:string
+obo:SYMP_0020045	rdfs:label	balance symptom	xsd:string
+bmir-radx:nih_fever_chills_value	rdfs:label	nih_fever_chills value	xsd:string
+obo:HP_0000598	rdfs:label	Abnormality of the ear	xsd:string
+bmir-radx:nih_coronary_artery_disease_98	rdfs:label	nih_coronary_artery_disease Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_lifetime_use_alcohol_98	rdfs:label	nih_lifetime_use_alcohol Value, 98 (Don’t know)	xsd:string
+obo:SYMP_0000410	rdfs:label	neurological and physiological symptom	xsd:string
+obo:PATO_0000165	rdfs:label	time	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina_97	rdfs:label	nih_coronary_artery_disease_angina Value, 97 (Other)	xsd:string
+bmir-radx:nih_heart_attack_99	rdfs:label	nih_heart_attack Value, 99 (Prefer not to answer)	xsd:string
+obo:GSSO_001810	rdfs:label	mental disability	xsd:string
+bmir-radx:nih_arrhythmia_97	rdfs:label	nih_arrhythmia Value, 97 (Other)	xsd:string
+bmir-radx:nih_history_smoking_97	rdfs:label	nih_history_smoking Value, 97 (Other)	xsd:string
+obo:PATO_0000011	rdfs:label	age	xsd:string
+bmir-radx:nih_appetite_1	rdfs:label	nih_appetite Value, 1 (Yes)	xsd:string
+bmir-radx:nih_cancer_active_treatment	rdfs:label	nih_cancer_active_treatment Data Element	xsd:string
+bmir-radx:nih_copd_98	rdfs:label	nih_copd Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_pregnancy_0	rdfs:label	nih_pregnancy Value, 0 (Not Pregnant)	xsd:string
+bmir-radx:nih_neurological_condition_1	rdfs:label	nih_neurological_condition Value, 1 (Yes)	xsd:string
+bmir-radx:nih_disability	rdfs:label	nih_disability Data Element	xsd:string
+bmir-radx:nih_liver_disease_99	rdfs:label	nih_liver_disease Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_thalassemia_98	rdfs:label	nih_thalassemia Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_obesity_0	rdfs:label	nih_obesity Value, 0 (No)	xsd:string
+bmir-radx:nih_alcohol_frequency_2	rdfs:label	nih_alcohol_frequency Value, 2 (Two To Four Times Per Month)	xsd:string
+bmir-radx:nih_muscle_ache_0	rdfs:label	nih_muscle_ache Value, 0 (No)	xsd:string
+bmir-radx:nih_arthritis_98	rdfs:label	nih_arthritis Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_appetite_value	rdfs:label	nih_appetite value	xsd:string
+bmir-radx:nih_neurological_condition_value	rdfs:label	nih_neurological_condition value	xsd:string
+bmir-radx:nih_memory_99	rdfs:label	nih_memory Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_walk_climb_97	rdfs:label	nih_walk_climb Value, 97 (Other)	xsd:string
+bmir-radx:nih_chf_97	rdfs:label	nih_chf Value, 97 (Other)	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment_0	rdfs:label	nih_chronic_kidney_disease_treatment Value, 0 (No)	xsd:string
+bmir-radx:DomicileDataElement	rdfs:label	Domicile Section	xsd:string
+bmir-radx:nih_nicotine_yn_97	rdfs:label	nih_nicotine_yn Value, 97 (Other)	xsd:string
+obo:BFO_0000001	rdfs:label	entity	xsd:string
+bmir-radx:nih_gestational_diabetes_99	rdfs:label	nih_gestational_diabetes Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_neurodegenerative_99	rdfs:label	nih_neurodegenerative Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_premature_birth_1	rdfs:label	nih_premature_birth Value, 1 (Yes, Between 32 - 37 Weeks)	xsd:string
+bmir-radx:nih_thyroid	rdfs:label	nih_thyroid Data Element	xsd:string
+bmir-radx:nih_alcohol_yrs_3	rdfs:label	nih_alcohol_yrs Value, 3 (Two To Three Times Per Week)	xsd:string
+obo:SYMP_0000387	rdfs:label	head symptom	xsd:string
+bmir-radx:nih_anxiety_0	rdfs:label	nih_anxiety Value, 0 (No)	xsd:string
+bmir-radx:nih_fever_chills_0	rdfs:label	nih_fever_chills Value, 0 (No)	xsd:string
+bmir-radx:nih_premature_birth_value	rdfs:label	nih_premature_birth value	xsd:string
+bmir-radx:nih_othermh_1	rdfs:label	nih_othermh Value, 1 (Yes)	xsd:string
+bmir-radx:nih_education_4	rdfs:label	nih_education Value, 4 (Bachelor's degree)	xsd:string
+evs:C7062	rdfs:label	Neoplasm by Special Category	xsd:string
+obo:SYMP_0000244	rdfs:label	alteration of appetite	xsd:string
+bmir-radx:nih_immunocompromised	rdfs:label	nih_immunocompromised Data Element	xsd:string
+evs:C19160	rdfs:label	Occupation or Discipline	xsd:string
+obo:MONDO_0006170	rdfs:label	conjunctival disorder	xsd:string
+obo:SYMP_0000233	rdfs:label	inability to think clearly	xsd:string
+bmir-radx:nih_othermh_value	rdfs:label	nih_othermh value	xsd:string
+obo:MONDO_0017181	rdfs:label	hypnic headache	xsd:string
+bmir-radx:nih_cancer_97	rdfs:label	nih_cancer Value, 97 (Other)	xsd:string
+obo:MONDO_0005070	rdfs:label	neoplasm	xsd:string
+bmir-radx:nih_rash_toes_99	rdfs:label	nih_rash_toes Value, 99 (Prefer not to answer)	xsd:string
+obo:SYMP_0000662	rdfs:label	shakes	xsd:string
+bmir-radx:nih_coronary_artery_disease_97	rdfs:label	nih_coronary_artery_disease Value, 97 (Other)	xsd:string
+bmir-radx:nih_lifetime_use_alcohol_97	rdfs:label	nih_lifetime_use_alcohol Value, 97 (Other)	xsd:string
+bmir-radx:nih_heart_attack_98	rdfs:label	nih_heart_attack Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_appetite_0	rdfs:label	nih_appetite Value, 0 (No)	xsd:string
+bmir-radx:nih_copd_97	rdfs:label	nih_copd Value, 97 (Other)	xsd:string
+bmir-radx:nih_neurological_condition_0	rdfs:label	nih_neurological_condition Value, 0 (No)	xsd:string
+bmir-radx:nih_liver_disease_98	rdfs:label	nih_liver_disease Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_thalassemia_97	rdfs:label	nih_thalassemia Value, 97 (Other)	xsd:string
+bmir-radx:nih_alcohol_frequency_1	rdfs:label	nih_alcohol_frequency Value, 1 (Monthly Or Less)	xsd:string
+bmir-radx:nih_arthritis_97	rdfs:label	nih_arthritis Value, 97 (Other)	xsd:string
+bmir-radx:nih_alcohol_frequency_value	rdfs:label	nih_alcohol_frequency value	xsd:string
+bmir-radx:nih_memory_98	rdfs:label	nih_memory Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_chronic_lung	rdfs:label	nih_chronic_lung Data Element	xsd:string
+bmir-radx:nih_ibd_1	rdfs:label	nih_ibd Value, 1 (Yes)	xsd:string
+bmir-radx:nih_ibd_value	rdfs:label	nih_ibd value	xsd:string
+bmir-radx:nih_gestational_diabetes_98	rdfs:label	nih_gestational_diabetes Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_other_chronic_cond_0	rdfs:label	nih_other_chronic_cond Value, 0 (No)	xsd:string
+bmir-radx:nih_heart_condition_97	rdfs:label	nih_heart_condition Value, 97 (Other)	xsd:string
+bmir-radx:nih_premature_birth_0	rdfs:label	nih_premature_birth Value, 0 (No)	xsd:string
+bmir-radx:nih_alcohol_yrs_2	rdfs:label	nih_alcohol_yrs Value, 2 (Two To Four Times Per Month)	xsd:string
+bmir-radx:nih_dress_bathe_value	rdfs:label	nih_dress_bathe value	xsd:string
+obo:SYMP_0000386	rdfs:label	mouth symptom	xsd:string
+bmir-radx:nih_asthma	rdfs:label	nih_asthma Data Element	xsd:string
+bmir-radx:nih_othermh_0	rdfs:label	nih_othermh Value, 0 (No)	xsd:string
+bmir-radx:nih_education_3	rdfs:label	nih_education Value, 3 (Some college (graduated or not) associates degree,technical degree,or vocational degree)	xsd:string
+bmir-radx:nih_dress_bathe_1	rdfs:label	nih_dress_bathe Value, 1 (Yes)	xsd:string
+bmir-radx:SexDataElement	rdfs:label	Sex Section	xsd:string
+bmir-radx:nih_cough_value	rdfs:label	nih_cough value	xsd:string
+obo:SYMP_0000342	rdfs:label	slurred speech	xsd:string
+bmir-radx:nih_cough_1	rdfs:label	nih_cough Value, 1 (Yes)	xsd:string
+bmir-radx:nih_rash_toes_98	rdfs:label	nih_rash_toes Value, 98 (Don’t know)	xsd:string
+obo:SYMP_0000551	rdfs:label	disturbances of sensation of smell and taste	xsd:string
+obo:SYMP_0000892	rdfs:label	sensation perception	xsd:string
+obo:PATO_0001241	rdfs:label	physical object quality	xsd:string
+bmir-radx:nih_heart_attack_97	rdfs:label	nih_heart_attack Value, 97 (Other)	xsd:string
+bmir-radx:nih_cf_99	rdfs:label	nih_cf Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_lupus_99	rdfs:label	nih_lupus Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_liver_disease_97	rdfs:label	nih_liver_disease Value, 97 (Other)	xsd:string
+bmir-radx:nih_alcohol_frequency_0	rdfs:label	nih_alcohol_frequency Value, 0 (Never)	xsd:string
+bmir-radx:nih_insomnia	rdfs:label	nih_insomnia Data Element	xsd:string
+bmir-radx:nih_blue_lips_99	rdfs:label	nih_blue_lips Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_diabetes_99	rdfs:label	nih_diabetes Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_memory_97	rdfs:label	nih_memory Value, 97 (Other)	xsd:string
+bmir-radx:nih_ibd_0	rdfs:label	nih_ibd Value, 0 (No)	xsd:string
+bmir-radx:nih_balance	rdfs:label	nih_balance Data Element	xsd:string
+bmir-radx:nih_gestational_diabetes_97	rdfs:label	nih_gestational_diabetes Value, 97 (Other)	xsd:string
+bmir-radx:nih_smoking_yn_value	rdfs:label	nih_smoking_yn value	xsd:string
+bmir-radx:nih_smoking_yn_1	rdfs:label	nih_smoking_yn Value, 1 (Yes)	xsd:string
+bmir-radx:nih_neurodegenerative_98	rdfs:label	nih_neurodegenerative Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_cig_smoke_freq_3	rdfs:label	nih_cig_smoke_freq Value, 3 (Every Day)	xsd:string
+obo:MONDO_0019050	rdfs:label	inherited hemoglobinopathy	xsd:string
+obo:SYMP_0000287	rdfs:label	arrhythmia	xsd:string
+bmir-radx:nih_alcohol_yrs_1	rdfs:label	nih_alcohol_yrs Value, 1 (Monthly Or Less)	xsd:string
+bmir-radx:nih_education_2	rdfs:label	nih_education Value, 2 (High school graduate or GED completed)	xsd:string
+bmir-radx:nih_dress_bathe_0	rdfs:label	nih_dress_bathe Value, 0 (No)	xsd:string
+bmir-radx:nih_t2dm_value	rdfs:label	nih_t2dm value	xsd:string
+obo:SYMP_0000473	rdfs:label	nutrition, metabolism, and development symptom	xsd:string
+obo:SYMP_0000462	rdfs:label	symptom	xsd:string
+bmir-radx:nih_sex_99	rdfs:label	nih_sex Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_cough_0	rdfs:label	nih_cough Value, 0 (No)	xsd:string
+bmir-radx:nih_rash_toes_97	rdfs:label	nih_rash_toes Value, 97 (Other)	xsd:string
+obo:HP_0000364	rdfs:label	Hearing abnormality	xsd:string
+obo:HP_0000001	rdfs:label	All	xsd:string
+bmir-radx:nih_t2dm_1	rdfs:label	nih_t2dm Value, 1 (Yes)	xsd:string
+bmir-radx:nih_confusion_99	rdfs:label	nih_confusion Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_cancer_past_yr_value	rdfs:label	nih_cancer_past_yr value	xsd:string
+bmir-radx:nih_no_chronic_condition_99	rdfs:label	nih_no_chronic_condition Value, 99 (Prefer not to answer)	xsd:string
+obo:GSSO_009639	rdfs:label	human parturition	xsd:string
+bmir-radx:nih_cf_98	rdfs:label	nih_cf Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_lupus_98	rdfs:label	nih_lupus Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_cancer_past_yr_1	rdfs:label	nih_cancer_past_yr Value, 1 (Yes)	xsd:string
+bmir-radx:nih_blue_lips_98	rdfs:label	nih_blue_lips Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_renal_99	rdfs:label	nih_renal Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_diabetes_98	rdfs:label	nih_diabetes Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_osteoporosis_value	rdfs:label	nih_osteoporosis value	xsd:string
+bmir-radx:nih_wheezing	rdfs:label	nih_wheezing Data Element	xsd:string
+obo:MONDO_0009061	rdfs:label	cystic fibrosis	xsd:string
+obo:SYMP_0000099	rdfs:label	pain	xsd:string
+bmir-radx:nih_skin_rash_99	rdfs:label	nih_skin_rash Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_alcohol_yrs_value	rdfs:label	nih_alcohol_yrs value	xsd:string
+bmir-radx:nih_osteoporosis_1	rdfs:label	nih_osteoporosis Value, 1 (Yes)	xsd:string
+bmir-radx:nih_smoking_yn_0	rdfs:label	nih_smoking_yn Value, 0 (No)	xsd:string
+bmir-radx:nih_neurodegenerative_97	rdfs:label	nih_neurodegenerative Value, 97 (Other)	xsd:string
+bmir-radx:nih_cig_smoke_freq_2	rdfs:label	nih_cig_smoke_freq Value, 2 (Some Days)	xsd:string
+bmir-radx:nih_education_1	rdfs:label	nih_education Value, 1 (Some school (Includes any education received below highschool graduate level))	xsd:string
+bmir-radx:nih_other_symp	rdfs:label	nih_other_symp Data Element	xsd:string
+bmir-radx:nih_depression_1	rdfs:label	nih_depression Value, 1 (Yes)	xsd:string
+bmir-radx:nih_hypertension_1	rdfs:label	nih_hypertension Value, 1 (Yes)	xsd:string
+bmir-radx:SymptomsDataElement	rdfs:label	Symptoms Section	xsd:string
+bmir-radx:nih_af_99	rdfs:label	nih_af Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_ms_value	rdfs:label	nih_ms value	xsd:string
+obo:PATO_0000051	rdfs:label	morphology	xsd:string
+bmir-radx:nih_t2dm_0	rdfs:label	nih_t2dm Value, 0 (No)	xsd:string
+bmir-radx:nih_confusion_98	rdfs:label	nih_confusion Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_no_chronic_condition_98	rdfs:label	nih_no_chronic_condition Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_sickle_cell_disease_99	rdfs:label	nih_sickle_cell_disease Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_t1d_99	rdfs:label	nih_t1d Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_alcohol_yn_value	rdfs:label	nih_alcohol_yn value	xsd:string
+bmir-radx:nih_cf_97	rdfs:label	nih_cf Value, 97 (Other)	xsd:string
+bmir-radx:nih_lupus_97	rdfs:label	nih_lupus Value, 97 (Other)	xsd:string
+bmir-radx:nih_cancer_past_yr_0	rdfs:label	nih_cancer_past_yr Value, 0 (No)	xsd:string
+bmir-radx:nih_ms_1	rdfs:label	nih_ms Value, 1 (Yes)	xsd:string
+bmir-radx:nih_iv_drug_use	rdfs:label	nih_iv_drug_use Data Element	xsd:string
+bmir-radx:nih_autoimm	rdfs:label	nih_autoimm Data Element	xsd:string
+bmir-radx:nih_serious_mental_illness_99	rdfs:label	nih_serious_mental_illness Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_deaf_value	rdfs:label	nih_deaf value	xsd:string
+bmir-radx:nih_blue_lips_97	rdfs:label	nih_blue_lips Value, 97 (Other)	xsd:string
+bmir-radx:nih_renal_98	rdfs:label	nih_renal Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_cig_smoke_freq_value	rdfs:label	nih_cig_smoke_freq value	xsd:string
+bmir-radx:nih_chronic_lung_disease	rdfs:label	nih_chronic_lung_disease Data Element	xsd:string
+bmir-radx:nih_diabetes_97	rdfs:label	nih_diabetes Value, 97 (Other)	xsd:string
+bmir-radx:nih_insurance	rdfs:label	nih_insurance Data Element	xsd:string
+bmir-radx:nih_education_value	rdfs:label	nih_education value	xsd:string
+bmir-radx:nih_alcohol_yn_1	rdfs:label	nih_alcohol_yn Value, 1 (Yes)	xsd:string
+obo:GSSO_006602	rdfs:label	alcohol use	xsd:string
+bmir-radx:nih_depression_value	rdfs:label	nih_depression value	xsd:string
+bmir-radx:nih_fatigue_99	rdfs:label	nih_fatigue Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_skin_rash_98	rdfs:label	nih_skin_rash Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_osteoporosis_0	rdfs:label	nih_osteoporosis Value, 0 (No)	xsd:string
+bmir-radx:nih_hypertension_value	rdfs:label	nih_hypertension value	xsd:string
+evs:C81229	rdfs:label	Alcohol Use History	xsd:string
+bmir-radx:nih_deaf_1	rdfs:label	nih_deaf Value, 1 (Yes)	xsd:string
+bmir-radx:nih_diff_breath	rdfs:label	nih_diff_breath Data Element	xsd:string
+bmir-radx:nih_sex_3	rdfs:label	nih_sex Value, 3 (Non-binary)	xsd:string
+bmir-radx:nih_weight	rdfs:label	nih_weight Data Element	xsd:string
+bmir-radx:nih_cig_smoke_freq_1	rdfs:label	nih_cig_smoke_freq Value, 1 (Rarely)	xsd:string
+bmir-radx:nih_alcohol_yrs_0	rdfs:label	nih_alcohol_yrs Value, 0 (Never)	xsd:string
+bmir-radx:nih_ibs	rdfs:label	nih_ibs Data Element	xsd:string
+bmir-radx:nih_stroke	rdfs:label	nih_stroke Data Element	xsd:string
+obo:SYMP_0000482	rdfs:label	alteration of consciousness	xsd:string
+bmir-radx:nih_cig_smoke_freq_99	rdfs:label	nih_cig_smoke_freq Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_deaf_99	rdfs:label	nih_deaf Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_depression_0	rdfs:label	nih_depression Value, 0 (No)	xsd:string
+obo:SYMP_0000570	rdfs:label	diarrhea	xsd:string
+bmir-radx:nih_hypertension_0	rdfs:label	nih_hypertension Value, 0 (No)	xsd:string
+bmir-radx:nih_t1d_value	rdfs:label	nih_t1d value	xsd:string
+bmir-radx:nih_af_98	rdfs:label	nih_af Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_sickle_cell_disease_value	rdfs:label	nih_sickle_cell_disease value	xsd:string
+bmir-radx:nih_fatigue_1	rdfs:label	nih_fatigue Value, 1 (Yes)	xsd:string
+bmir-radx:nih_rls	rdfs:label	nih_rls Data Element	xsd:string
+bmir-radx:nih_confusion_97	rdfs:label	nih_confusion Value, 97 (Other)	xsd:string
+bmir-radx:nih_alcohol_yn_99	rdfs:label	nih_alcohol_yn Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_no_chronic_condition_97	rdfs:label	nih_no_chronic_condition Value, 97 (Other)	xsd:string
+evs:C1909	rdfs:label	Pharmacologic Substance	xsd:string
+obo:MONDO_0011918	rdfs:label	anxiety	xsd:string
+bmir-radx:nih_sickle_cell_disease_98	rdfs:label	nih_sickle_cell_disease Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_t1d_98	rdfs:label	nih_t1d Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_af_value	rdfs:label	nih_af value	xsd:string
+bmir-radx:nih_serious_mental_illness_1	rdfs:label	nih_serious_mental_illness Value, 1 (Yes)	xsd:string
+bmir-radx:nih_ms_99	rdfs:label	nih_ms Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_ms_0	rdfs:label	nih_ms Value, 0 (No)	xsd:string
+bmir-radx:nih_serious_mental_illness_98	rdfs:label	nih_serious_mental_illness Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_renal_97	rdfs:label	nih_renal Value, 97 (Other)	xsd:string
+bmir-radx:nih_t1d_1	rdfs:label	nih_t1d Value, 1 (Yes)	xsd:string
+bmir-radx:nih_sickle_cell_disease_1	rdfs:label	nih_sickle_cell_disease Value, 1 (Yes)	xsd:string
+bmir-radx:nih_copd_plus	rdfs:label	nih_copd_plus Data Element	xsd:string
+obo:GO_0007567	rdfs:label	parturition	xsd:string
+bmir-radx:nih_pcos	rdfs:label	nih_pcos Data Element	xsd:string
+bmir-radx:nih_alcohol_yn_0	rdfs:label	nih_alcohol_yn Value, 0 (No)	xsd:string
+obo:GSSO_006601	rdfs:label	substance use	xsd:string
+bmir-radx:nih_fatigue_98	rdfs:label	nih_fatigue Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_skin_rash_97	rdfs:label	nih_skin_rash Value, 97 (Other)	xsd:string
+obo:MONDO_0019091	rdfs:label	bronchopulmonary dysplasia	xsd:string
+bmir-radx:nih_fatigue_value	rdfs:label	nih_fatigue value	xsd:string
+bmir-radx:nih_af_1	rdfs:label	nih_af Value, 1 (Yes)	xsd:string
+bmir-radx:nih_hypertension_99	rdfs:label	nih_hypertension Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_weight_category_3	rdfs:label	nih_weight_category Value, 3 (over 200)	xsd:string
+bmir-radx:nih_depression_99	rdfs:label	nih_depression Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_deaf_0	rdfs:label	nih_deaf Value, 0 (No)	xsd:string
+bmir-radx:nih_sex_2	rdfs:label	nih_sex Value, 2 (Intersex)	xsd:string
+bmir-radx:nih_cig_smoke_freq_0	rdfs:label	nih_cig_smoke_freq Value, 0 (Not at all)	xsd:string
+bmir-radx:nih_education_99	rdfs:label	nih_education Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_serious_mental_illness_value	rdfs:label	nih_serious_mental_illness value	xsd:string
+bmir-radx:nih_education_0	rdfs:label	nih_education Value, 0 (Have never gone to school)	xsd:string
+obo:SYMP_0000372	rdfs:label	rhinorrhea	xsd:string
+bmir-radx:nih_deaf_98	rdfs:label	nih_deaf Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_osteoporosis_99	rdfs:label	nih_osteoporosis Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_sex_96	rdfs:label	nih_sex Value, 96 (None of these describe me)	xsd:string
+obo:MONDO_0002908	rdfs:label	glucose metabolism disease	xsd:string
+bmir-radx:nih_no_chronic_condition_value	rdfs:label	nih_no_chronic_condition value	xsd:string
+bmir-radx:nih_af_97	rdfs:label	nih_af Value, 97 (Other)	xsd:string
+bmir-radx:nih_immunodeficiency	rdfs:label	nih_immunodeficiency Data Element	xsd:string
+bmir-radx:nih_fatigue_0	rdfs:label	nih_fatigue Value, 0 (No)	xsd:string
+evs:C718	rdfs:label	Organic Chemical	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ	rdfs:label	nih_immuno_compromised_solid_organ Data Element	xsd:string
+bmir-radx:nih_confusion_value	rdfs:label	nih_confusion value	xsd:string
+bmir-radx:nih_skin_rash_1	rdfs:label	nih_skin_rash Value, 1 (Yes)	xsd:string
+bmir-radx:nih_cardiovascular_disease	rdfs:label	nih_cardiovascular_disease Data Element	xsd:string
+bmir-radx:nih_alcohol_yn_98	rdfs:label	nih_alcohol_yn Value, 98 (Don’t know)	xsd:string
+evs:C1908	rdfs:label	Drug, Food, Chemical or Biomedical Material	xsd:string
+bmir-radx:nih_sex_value	rdfs:label	nih_sex value	xsd:string
+bmir-radx:nih_sickle_cell_disease_97	rdfs:label	nih_sickle_cell_disease Value, 97 (Other)	xsd:string
+bmir-radx:nih_t1d_97	rdfs:label	nih_t1d Value, 97 (Other)	xsd:string
+bmir-radx:nih_serious_mental_illness_0	rdfs:label	nih_serious_mental_illness Value, 0 (No)	xsd:string
+bmir-radx:nih_renal_1	rdfs:label	nih_renal Value, 1 (Yes)	xsd:string
+bmir-radx:nih_ms_98	rdfs:label	nih_ms Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_cancer_past_yr_99	rdfs:label	nih_cancer_past_yr Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_serious_mental_illness_97	rdfs:label	nih_serious_mental_illness Value, 97 (Other)	xsd:string
+bmir-radx:nih_t1d_0	rdfs:label	nih_t1d Value, 0 (No)	xsd:string
+bmir-radx:nih_sickle_cell_disease_0	rdfs:label	nih_sickle_cell_disease Value, 0 (No)	xsd:string
+bmir-radx:EmploymentDataElement	rdfs:label	Employment Section	xsd:string
+obo:NCIT_C95018	rdfs:label	use	xsd:string
+bmir-radx:nih_skin_rash_value	rdfs:label	nih_skin_rash value	xsd:string
+bmir-radx:nih_t2dm_99	rdfs:label	nih_t2dm Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_no_chronic_condition_1	rdfs:label	nih_no_chronic_condition Value, 1 (Yes)	xsd:string
+bmir-radx:nih_substance_use	rdfs:label	nih_substance_use Data Element	xsd:string
+evs:C95549	rdfs:label	Run Errand	xsd:string
+bmir-radx:nih_fatigue_97	rdfs:label	nih_fatigue Value, 97 (Other)	xsd:string
+bmir-radx:nih_confusion_1	rdfs:label	nih_confusion Value, 1 (Yes)	xsd:string
+bmir-radx:nih_af_0	rdfs:label	nih_af Value, 0 (No)	xsd:string
+bmir-radx:nih_hypertension_98	rdfs:label	nih_hypertension Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_weight_category_2	rdfs:label	nih_weight_category Value, 2 (151-200)	xsd:string
+bmir-radx:nih_renal_value	rdfs:label	nih_renal value	xsd:string
+obo:GO_0007610	rdfs:label	behavior	xsd:string
+bmir-radx:nih_depression_98	rdfs:label	nih_depression Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_sex_1	rdfs:label	nih_sex Value, 1 (Male)	xsd:string
+bmir-radx:nih_alcohol_yrs_99	rdfs:label	nih_alcohol_yrs Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_education_98	rdfs:label	nih_education Value, 98 (Don't know)	xsd:string
+bmir-radx:nih_cig_smoke_freq_98	rdfs:label	nih_cig_smoke_freq Value, 98 (Don't know)	xsd:string
+bmir-radx:nih_osteoporosis_98	rdfs:label	nih_osteoporosis Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_weight_category_value	rdfs:label	nih_weight_category value	xsd:string
+bmir-radx:nih_skin_rash_0	rdfs:label	nih_skin_rash Value, 0 (No)	xsd:string
+bmir-radx:nih_alcohol_yn_97	rdfs:label	nih_alcohol_yn Value, 97 (Other)	xsd:string
+bmir-radx:nih_vaping_yn	rdfs:label	nih_vaping_yn Data Element	xsd:string
+bmir-radx:nih_diabetes_1	rdfs:label	nih_diabetes Value, 1 (Yes)	xsd:string
+bmir-radx:nih_renal_0	rdfs:label	nih_renal Value, 0 (No)	xsd:string
+bmir-radx:nih_ms_97	rdfs:label	nih_ms Value, 97 (Other)	xsd:string
+bmir-radx:nih_blue_lips_1	rdfs:label	nih_blue_lips Value, 1 (Yes)	xsd:string
+bmir-radx:nih_cancer_past_yr_98	rdfs:label	nih_cancer_past_yr Value, 98 (Don’t know)	xsd:string
+obo:GSSO_002199	rdfs:label	race	xsd:string
+bmir-radx:nih_lupus_1	rdfs:label	nih_lupus Value, 1 (Yes)	xsd:string
+bmir-radx:nih_cf_1	rdfs:label	nih_cf Value, 1 (Yes)	xsd:string
+bmir-radx:nih_t2dm_98	rdfs:label	nih_t2dm Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_no_chronic_condition_0	rdfs:label	nih_no_chronic_condition Value, 0 (No)	xsd:string
+bmir-radx:nih_diabetes_value	rdfs:label	nih_diabetes value	xsd:string
+bmir-radx:nih_cough_99	rdfs:label	nih_cough Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_confusion_0	rdfs:label	nih_confusion Value, 0 (No)	xsd:string
+bmir-radx:nih_blue_lips_value	rdfs:label	nih_blue_lips value	xsd:string
+bmir-radx:nih_hypertension_97	rdfs:label	nih_hypertension Value, 97 (Other)	xsd:string
+bmir-radx:nih_weight_category_1	rdfs:label	nih_weight_category Value, 1 (100-150)	xsd:string
+bmir-radx:nih_dress_bathe_99	rdfs:label	nih_dress_bathe Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_depression_97	rdfs:label	nih_depression Value, 97 (Other)	xsd:string
+bmir-radx:nih_sex_0	rdfs:label	nih_sex Value, 0 (Female)	xsd:string
+bmir-radx:nih_alcohol_yrs_98	rdfs:label	nih_alcohol_yrs Value, 98 (Don't know)	xsd:string
+bmir-radx:nih_lupus_value	rdfs:label	nih_lupus value	xsd:string
+obo:SYMP_0000392	rdfs:label	ear symptom	xsd:string
+bmir-radx:nih_cf_value	rdfs:label	nih_cf value	xsd:string
+bmir-radx:nih_education_97	rdfs:label	nih_education Value, 97 (Other)	xsd:string
+obo:SYMP_0000480	rdfs:label	nervous system symptom	xsd:string
+bmir-radx:nih_smoking_yn_99	rdfs:label	nih_smoking_yn Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_vape_freq	rdfs:label	nih_vape_freq Data Element	xsd:string
+bmir-radx:nih_deaf_97	rdfs:label	nih_deaf Value, 97 (Other)	xsd:string
+bmir-radx:DisabilityStatusDataElement	rdfs:label	Disability Status Section	xsd:string
+bmir-radx:nih_neurodegenerative_1	rdfs:label	nih_neurodegenerative Value, 1 (Yes)	xsd:string
+bmir-radx:nih_ibd_99	rdfs:label	nih_ibd Value, 99 (Prefer not to answer)	xsd:string
+evs:C92720	rdfs:label	Pregnancy Finding	xsd:string
+evs:C41009	rdfs:label	Qualifier	xsd:string
+bmir-radx:nih_alcohol_frequency_99	rdfs:label	nih_alcohol_frequency Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_neurodegenerative_value	rdfs:label	nih_neurodegenerative value	xsd:string
+bmir-radx:InsuranceStatusDataElement	rdfs:label	Insurance Status Section	xsd:string
+bmir-radx:EducationYearsDataElement	rdfs:label	Education Years Section	xsd:string
+bmir-radx:nih_diabetes_0	rdfs:label	nih_diabetes Value, 0 (No)	xsd:string
+bmir-radx:HealthStatusDataElement	rdfs:label	Health Status Section	xsd:string
+bmir-radx:nih_blue_lips_0	rdfs:label	nih_blue_lips Value, 0 (No)	xsd:string
+bmir-radx:nih_cancer_past_yr_97	rdfs:label	nih_cancer_past_yr Value, 97 (Other)	xsd:string
+bmir-radx:nih_conjunctivitis	rdfs:label	nih_conjunctivitis Data Element	xsd:string
+bmir-radx:nih_lupus_0	rdfs:label	nih_lupus Value, 0 (No)	xsd:string
+bmir-radx:nih_cf_0	rdfs:label	nih_cf Value, 0 (No)	xsd:string
+bmir-radx:nih_t2dm_97	rdfs:label	nih_t2dm Value, 97 (Other)	xsd:string
+bmir-radx:nih_cough_98	rdfs:label	nih_cough Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_othermh_99	rdfs:label	nih_othermh Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_dress_bathe_98	rdfs:label	nih_dress_bathe Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_rash_toes_1	rdfs:label	nih_rash_toes Value, 1 (Yes)	xsd:string
+bmir-radx:nih_height_category	rdfs:label	nih_height_category Data Element	xsd:string
+bmir-radx:nih_abdom_pain	rdfs:label	nih_abdom_pain Data Element	xsd:string
+bmir-radx:nih_premature_birth_77	rdfs:label	nih_premature_birth Value, 77 (Dont Know)	xsd:string
+bmir-radx:nih_smoking_yn_98	rdfs:label	nih_smoking_yn Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_rash_toes_value	rdfs:label	nih_rash_toes value	xsd:string
+bmir-radx:nih_osteoporosis_97	rdfs:label	nih_osteoporosis Value, 97 (Other)	xsd:string
+obo:MONDO_0000837	rdfs:label	bone resorption disease	xsd:string
+bmir-radx:nih_neurodegenerative_0	rdfs:label	nih_neurodegenerative Value, 0 (No)	xsd:string
+bmir-radx:nih_ibd_98	rdfs:label	nih_ibd Value, 98 (Don’t know)	xsd:string
+obo:NCIT_C21007	rdfs:label	disability	xsd:string
+obo:SYMP_0019145	rdfs:label	vomiting	xsd:string
+evs:C1916	rdfs:label	Nitrogen Compound	xsd:string
+obo:GSSO_009644	rdfs:label	premature birth	xsd:string
+bmir-radx:nih_alcohol_frequency_98	rdfs:label	nih_alcohol_frequency Value, 98 (Don't know)	xsd:string
+bmir-radx:nih_gestational_diabetes_1	rdfs:label	nih_gestational_diabetes Value, 1 (Yes)	xsd:string
+bmir-radx:nih_neurological_condition_99	rdfs:label	nih_neurological_condition Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_gestational_diabetes_value	rdfs:label	nih_gestational_diabetes value	xsd:string
+bmir-radx:nih_health_status	rdfs:label	nih_health_status Data Element	xsd:string
+bmir-radx:nih_memory_1	rdfs:label	nih_memory Value, 1 (Yes)	xsd:string
+bmir-radx:nih_appetite_99	rdfs:label	nih_appetite Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_memory_value	rdfs:label	nih_memory value	xsd:string
+evs:C73579	rdfs:label	Nicotinic Agonist	xsd:string
+bmir-radx:nih_liver_disease_1	rdfs:label	nih_liver_disease Value, 1 (Yes)	xsd:string
+bmir-radx:nih_blind	rdfs:label	nih_blind Data Element	xsd:string
+bmir-radx:nih_hiv	rdfs:label	nih_hiv Data Element	xsd:string
+bmir-radx:nih_liver_disease_value	rdfs:label	nih_liver_disease value	xsd:string
+bmir-radx:nih_cough_97	rdfs:label	nih_cough Value, 97 (Other)	xsd:string
+obo:GSSO_003561	rdfs:label	personal status	xsd:string
+bmir-radx:nih_heart_attack_1	rdfs:label	nih_heart_attack Value, 1 (Yes)	xsd:string
+bmir-radx:nih_fever_chills_99	rdfs:label	nih_fever_chills Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_othermh_98	rdfs:label	nih_othermh Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_anxiety_99	rdfs:label	nih_anxiety Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_dress_bathe_97	rdfs:label	nih_dress_bathe Value, 97 (Other)	xsd:string
+bmir-radx:nih_heart_attack_value	rdfs:label	nih_heart_attack value	xsd:string
+obo:NBO_0001845	rdfs:label	consumption behavior	xsd:string
+obo:SYMP_0000280	rdfs:label	extreme fatigue	xsd:string
+bmir-radx:nih_rash_toes_0	rdfs:label	nih_rash_toes Value, 0 (No)	xsd:string
+bmir-radx:nih_other_chronic_cond_99	rdfs:label	nih_other_chronic_cond Value, 99 (Prefer not to answer)	xsd:string
+evs:C91102	rdfs:label	Clinical or Research Assessment Question	xsd:string
+bmir-radx:nih_tobacco	rdfs:label	nih_tobacco Data Element	xsd:string
+bmir-radx:nih_smoking_yn_97	rdfs:label	nih_smoking_yn Value, 97 (Other)	xsd:string
+bmir-radx:nih_heart_condition_value	rdfs:label	nih_heart_condition value	xsd:string
+bmir-radx:nih_heart_condition_1	rdfs:label	nih_heart_condition Value, 1 (Yes)	xsd:string
+bmir-radx:nih_muscle_ache_99	rdfs:label	nih_muscle_ache Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_obesity_99	rdfs:label	nih_obesity Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_pregnancy_99	rdfs:label	nih_pregnancy Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_gestational_diabetes_0	rdfs:label	nih_gestational_diabetes Value, 0 (No)	xsd:string
+bmir-radx:nih_neurological_condition_98	rdfs:label	nih_neurological_condition Value, 98 (Don’t know)	xsd:string
+evs:C131924	rdfs:label	Ability to Use Stairs	xsd:string
+evs:C54625	rdfs:label	History	xsd:string
+bmir-radx:nih_memory_0	rdfs:label	nih_memory Value, 0 (No)	xsd:string
+bmir-radx:nih_appetite_98	rdfs:label	nih_appetite Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_arthritis_value	rdfs:label	nih_arthritis value	xsd:string
+bmir-radx:nih_arthritis_1	rdfs:label	nih_arthritis Value, 1 (Yes)	xsd:string
+bmir-radx:nih_thalassemia_value	rdfs:label	nih_thalassemia value	xsd:string
+bmir-radx:nih_liver_disease_0	rdfs:label	nih_liver_disease Value, 0 (No)	xsd:string
+bmir-radx:nih_thalassemia_1	rdfs:label	nih_thalassemia Value, 1 (Yes)	xsd:string
+bmir-radx:nih_chronic_kidney_disease	rdfs:label	nih_chronic_kidney_disease Data Element	xsd:string
+bmir-radx:nih_copd_value	rdfs:label	nih_copd value	xsd:string
+bmir-radx:nih_olfactory_99	rdfs:label	nih_olfactory Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_copd_1	rdfs:label	nih_copd Value, 1 (Yes)	xsd:string
+bmir-radx:nih_heart_attack_0	rdfs:label	nih_heart_attack Value, 0 (No)	xsd:string
+bmir-radx:nih_fever_chills_98	rdfs:label	nih_fever_chills Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_lifetime_use_alcohol_value	rdfs:label	nih_lifetime_use_alcohol value	xsd:string
+bmir-radx:nih_coronary_artery_disease_value	rdfs:label	nih_coronary_artery_disease value	xsd:string
+bmir-radx:nih_othermh_97	rdfs:label	nih_othermh Value, 97 (Other)	xsd:string
+bmir-radx:nih_anxiety_98	rdfs:label	nih_anxiety Value, 98 (Don’t know)	xsd:string
+sio:SIO_000614	rdfs:label	attribute	xsd:string
+bmir-radx:nih_lifetime_use_alcohol_1	rdfs:label	nih_lifetime_use_alcohol Value, 1 (Yes)	xsd:string
+bmir-radx:nih_migraines_99	rdfs:label	nih_migraines Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_coronary_artery_disease_1	rdfs:label	nih_coronary_artery_disease Value, 1 (Yes)	xsd:string
+bmir-radx:nih_other_chronic_cond_98	rdfs:label	nih_other_chronic_cond Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_errand	rdfs:label	nih_errand Data Element	xsd:string
+obo:MONDO_0000429	rdfs:label	autosomal genetic disease	xsd:string
+bmir-radx:nih_cancer_value	rdfs:label	nih_cancer value	xsd:string
+evs:C111629	rdfs:label	Have Trouble Walking	xsd:string
+obo:MONDO_0003916	rdfs:label	overnutrition	xsd:string
+bmir-radx:nih_cancer_1	rdfs:label	nih_cancer Value, 1 (Yes)	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea	rdfs:label	nih_nausea_vomiting_diarrhea Data Element	xsd:string
+obo:MONDO_0000605	rdfs:label	hypersensitivity reaction disease	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment_77	rdfs:label	nih_chronic_kidney_disease_treatment Value, 77 (Don't Know)	xsd:string
+bmir-radx:nih_ibd_97	rdfs:label	nih_ibd Value, 97 (Other)	xsd:string
+obo:SYMP_0019177	rdfs:label	fatigue	xsd:string
+bmir-radx:nih_nicotine_yn_value	rdfs:label	nih_nicotine_yn value	xsd:string
+bmir-radx:nih_heart_condition_0	rdfs:label	nih_heart_condition Value, 0 (No)	xsd:string
+bmir-radx:nih_muscle_ache_98	rdfs:label	nih_muscle_ache Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_obesity_98	rdfs:label	nih_obesity Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_chf_value	rdfs:label	nih_chf value	xsd:string
+bmir-radx:nih_walk_climb_value	rdfs:label	nih_walk_climb value	xsd:string
+bmir-radx:nih_pregnancy_98	rdfs:label	nih_pregnancy Value, 98 (Don't know)	xsd:string
+bmir-radx:nih_neurological_condition_97	rdfs:label	nih_neurological_condition Value, 97 (Other)	xsd:string
+bmir-radx:nih_nicotine_yn_1	rdfs:label	nih_nicotine_yn Value, 1 (Yes)	xsd:string
+evs:C131923	rdfs:label	Dressing Ability	xsd:string
+bmir-radx:nih_sleep_apnea	rdfs:label	nih_sleep_apnea Data Element	xsd:string
+bmir-radx:RaceDataElement	rdfs:label	Race Section	xsd:string
+bmir-radx:nih_appetite_97	rdfs:label	nih_appetite Value, 97 (Other)	xsd:string
+bmir-radx:nih_chf_1	rdfs:label	nih_chf Value, 1 (Yes)	xsd:string
+bmir-radx:nih_walk_climb_1	rdfs:label	nih_walk_climb Value, 1 (Yes)	xsd:string
+bmir-radx:nih_arthritis_0	rdfs:label	nih_arthritis Value, 0 (No)	xsd:string
+bmir-radx:nih_thalassemia_0	rdfs:label	nih_thalassemia Value, 0 (No)	xsd:string
+bmir-radx:nih_history_smoking_value	rdfs:label	nih_history_smoking value	xsd:string
+bmir-radx:nih_arrhythmia_value	rdfs:label	nih_arrhythmia value	xsd:string
+bmir-radx:nih_olfactory_98	rdfs:label	nih_olfactory Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina_value	rdfs:label	nih_coronary_artery_disease_angina value	xsd:string
+evs:C95544	rdfs:label	Dressing	xsd:string
+bmir-radx:nih_race	rdfs:label	nih_race Data Element	xsd:string
+bmir-radx:nih_copd_0	rdfs:label	nih_copd Value, 0 (No)	xsd:string
+evs:C17708	rdfs:label	Physical Activity	xsd:string
+bmir-radx:nih_fever_chills_97	rdfs:label	nih_fever_chills Value, 97 (Other)	xsd:string
+bmir-radx:nih_history_smoking_1	rdfs:label	nih_history_smoking Value, 1 (Yes)	xsd:string
+bmir-radx:nih_anxiety_97	rdfs:label	nih_anxiety Value, 97 (Other)	xsd:string
+bmir-radx:nih_headache_value	rdfs:label	nih_headache value	xsd:string
+bmir-radx:nih_arrhythmia_1	rdfs:label	nih_arrhythmia Value, 1 (Yes)	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina_1	rdfs:label	nih_coronary_artery_disease_angina Value, 1 (Yes)	xsd:string
+bmir-radx:nih_lifetime_use_alcohol_0	rdfs:label	nih_lifetime_use_alcohol Value, 0 (No)	xsd:string
+bmir-radx:nih_migraines_98	rdfs:label	nih_migraines Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_coronary_artery_disease_0	rdfs:label	nih_coronary_artery_disease Value, 0 (No)	xsd:string
+bmir-radx:nih_other_chronic_cond_97	rdfs:label	nih_other_chronic_cond Value, 97 (Other)	xsd:string
+obo:MONDO_0001627	rdfs:label	dementia	xsd:string
+bmir-radx:nih_cancer_0	rdfs:label	nih_cancer Value, 0 (No)	xsd:string
+bmir-radx:nih_fibromyalgia_99	rdfs:label	nih_fibromyalgia Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_headache_1	rdfs:label	nih_headache Value, 1 (Yes)	xsd:string
+obo:MONDO_0043218	rdfs:label	neurovascular disorder	xsd:string
+bmir-radx:nih_neuro_shakes	rdfs:label	nih_neuro_shakes Data Element	xsd:string
+bmir-radx:nih_cholesterol_99	rdfs:label	nih_cholesterol Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_employment_99	rdfs:label	nih_employment Value, 99 (Prefer not to answer)	xsd:string
+evs:C1913	rdfs:label	Drug or Chemical by Structure	xsd:string
+bmir-radx:nih_muscle_ache_97	rdfs:label	nih_muscle_ache Value, 97 (Other)	xsd:string
+bmir-radx:nih_cld_bpd	rdfs:label	nih_cld_bpd Data Element	xsd:string
+bmir-radx:nih_obesity_97	rdfs:label	nih_obesity Value, 97 (Other)	xsd:string
+evs:C173458	rdfs:label	Play or Do Physical Activity Question	xsd:string
+bmir-radx:nih_nicotine_yn_0	rdfs:label	nih_nicotine_yn Value, 0 (No)	xsd:string
+bmir-radx:nih_throat_congestion_nose	rdfs:label	nih_throat_congestion_nose Data Element	xsd:string
+evs:C97325	rdfs:label	Manufactured Object	xsd:string
+bmir-radx:nih_chf_0	rdfs:label	nih_chf Value, 0 (No)	xsd:string
+evs:C84367	rdfs:label	Intravenous Drug User	xsd:string
+bmir-radx:nih_walk_climb_0	rdfs:label	nih_walk_climb Value, 0 (No)	xsd:string
+bmir-radx:nih_gerd	rdfs:label	nih_gerd Data Element	xsd:string
+bmir-radx:nih_alz_99	rdfs:label	nih_alz Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_anemia_99	rdfs:label	nih_anemia Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_alc_sub_abuse_value	rdfs:label	nih_alc_sub_abuse value	xsd:string
+bmir-radx:nih_mental_health_disorder_99	rdfs:label	nih_mental_health_disorder Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_olfactory_97	rdfs:label	nih_olfactory Value, 97 (Other)	xsd:string
+bmir-radx:nih_seasonal_allergies_99	rdfs:label	nih_seasonal_allergies Value, 99 (Prefer not to answer)	xsd:string
+obo:MONDO_0100329	rdfs:label	primary viral infectious disease	xsd:string
+bmir-radx:nih_numb_extremities	rdfs:label	nih_numb_extremities Data Element	xsd:string
+evs:C18928	rdfs:label	Insurance and Payment Issues	xsd:string
+obo:NBO_0000313	rdfs:label	behavior process	xsd:string
+bmir-radx:nih_red_eyes	rdfs:label	nih_red_eyes Data Element	xsd:string
+obo:MONDO_0003749	rdfs:label	esophageal disorder	xsd:string
+bmir-radx:nih_history_smoking_0	rdfs:label	nih_history_smoking Value, 0 (No)	xsd:string
+bmir-radx:nih_arrhythmia_0	rdfs:label	nih_arrhythmia Value, 0 (No)	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina_0	rdfs:label	nih_coronary_artery_disease_angina Value, 0 (No)	xsd:string
+bmir-radx:nih_migraines_97	rdfs:label	nih_migraines Value, 97 (Other)	xsd:string
+bmir-radx:nih_no_sympt_99	rdfs:label	nih_no_sympt Value, 99 (Prefer not to answer)	xsd:string
+bmir-radx:nih_immunosuppressive_condition	rdfs:label	nih_immunosuppressive_condition Data Element	xsd:string
+bmir-radx:nih_alc_sub_abuse_1	rdfs:label	nih_alc_sub_abuse Value, 1 (Yes)	xsd:string
+evs:C154329	rdfs:label	Smoking	xsd:string
+bmir-radx:nih_fibromyalgia_98	rdfs:label	nih_fibromyalgia Value, 98 (Don’t know)	xsd:string
+bmir-radx:nih_headache_0	rdfs:label	nih_headache Value, 0 (No)	xsd:string
+obo:NCIT_C25404	rdfs:label	action	xsd:string
+obo:MONDO_0020579	rdfs:label	mucositis	xsd:string
+evs:C43359	rdfs:label	Group	xsd:string
+bmir-radx:nih_cholesterol_98	rdfs:label	nih_cholesterol Value, 98 (Don’t know)	xsd:string
+obo:SYMP_0019175	rdfs:label	sweaty	xsd:string
+bmir-radx:nih_employment_98	rdfs:label	nih_employment Value, 98 (Don’t know)	xsd:string
+obo:SYMP_0019153	rdfs:label	dyspnea	xsd:string

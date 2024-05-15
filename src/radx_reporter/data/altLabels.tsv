@@ -1,0 +1,2361 @@
+subject	predicate	object	datatype
+bmir-radx:nih_high_temp	skos:altLabel	pyrexia	xsd:string
+evs:C171257	skos:altLabel	Smoking Device	xsd:string
+evs:C161324	skos:altLabel	Demographic Group	xsd:string
+evs:C84366	skos:altLabel	Drug User	xsd:string
+evs:C175910	skos:altLabel	I have trouble using stairs	xsd:string
+evs:C175910	skos:altLabel	Have Trouble Using Stairs	xsd:string
+obo:MONDO_0005618	skos:altLabel	anxiety state	xsd:string
+obo:MONDO_0005618	skos:altLabel	anxiety disorder	xsd:string
+obo:MONDO_0005618	skos:altLabel	anxiety	xsd:string
+obo:MONDO_0002406	skos:altLabel	inflammation of the skin	xsd:string
+obo:MONDO_0002406	skos:altLabel	skin inflammation	xsd:string
+obo:MONDO_0002406	skos:altLabel	zone of skin inflammation	xsd:string
+obo:MONDO_0002406	skos:altLabel	inflammatory skin disease	xsd:string
+obo:MONDO_0002406	skos:altLabel	inflammation of zone of skin	xsd:string
+obo:MONDO_0002406	skos:altLabel	inflammation of skin	xsd:string
+bmir-radx:nih_ra	skos:altLabel	atrophic arthritis	xsd:string
+bmir-radx:nih_ra	skos:altLabel	rheumatoid arthritis, susceptibility to	xsd:string
+bmir-radx:nih_ra	skos:altLabel	arthritis, rheumatoid	xsd:string
+bmir-radx:nih_ra	skos:altLabel	autoimmune arthritis	xsd:string
+bmir-radx:nih_ra	skos:altLabel	arthritis or polyarthritis, rheumatic	xsd:string
+bmir-radx:nih_ra	skos:altLabel	rheumatoid arthritis, progression of	xsd:string
+bmir-radx:nih_ra	skos:altLabel	rheumatoid arthritis	xsd:string
+bmir-radx:nih_ra	skos:altLabel	RA	xsd:string
+obo:MONDO_0003847	skos:altLabel	inborn disorder	xsd:string
+obo:MONDO_0003847	skos:altLabel	genetic condition	xsd:string
+obo:MONDO_0003847	skos:altLabel	Mendelian disease	xsd:string
+obo:MONDO_0003847	skos:altLabel	genetic disease	xsd:string
+obo:MONDO_0003847	skos:altLabel	hereditary disease	xsd:string
+obo:MONDO_0003847	skos:altLabel	hereditary disease or disorder	xsd:string
+obo:MONDO_0003847	skos:altLabel	inherited genetic disease	xsd:string
+obo:MONDO_0003847	skos:altLabel	hereditary diseases	xsd:string
+obo:MONDO_0003847	skos:altLabel	familial disorder	xsd:string
+obo:MONDO_0003847	skos:altLabel	genetic disorder	xsd:string
+obo:MONDO_0003847	skos:altLabel	molecular disease	xsd:string
+obo:MONDO_0003847	skos:altLabel	inherited disease	xsd:string
+obo:MONDO_0000569	skos:altLabel	endocrine system hypersensitivity reaction type II disease	xsd:string
+obo:MONDO_0000569	skos:altLabel	endocrine system autoimmune disease	xsd:string
+evs:C3507	skos:altLabel	Immune Dysfunction	xsd:string
+evs:C3507	skos:altLabel	Immunologic Disorder	xsd:string
+evs:C3507	skos:altLabel	Unspecified Immune System Problem	xsd:string
+evs:C3507	skos:altLabel	Immune System Disorder	xsd:string
+evs:C3507	skos:altLabel	Disorder of Immune System	xsd:string
+evs:C3507	skos:altLabel	Immune Disorders	xsd:string
+evs:C3507	skos:altLabel	Immune disorder, NOS	xsd:string
+evs:C3507	skos:altLabel	Immune Disorder	xsd:string
+evs:C3837	skos:altLabel	Neurological Signs and Symptoms	xsd:string
+obo:MONDO_0001933	skos:altLabel	disease or disorder of endocrine pancreas	xsd:string
+obo:MONDO_0001933	skos:altLabel	endocrine pancreas disease	xsd:string
+obo:MONDO_0001933	skos:altLabel	disorder of islets of langerhans	xsd:string
+obo:MONDO_0001933	skos:altLabel	endocrine pancreas disease or disorder	xsd:string
+obo:MONDO_0001933	skos:altLabel	disease of endocrine pancreas	xsd:string
+obo:MONDO_0001933	skos:altLabel	disorder of endocrine pancreas	xsd:string
+obo:MONDO_0001933	skos:altLabel	endocrine pancreas disorder	xsd:string
+obo:MONDO_0001933	skos:altLabel	disorder of pancreatic islets	xsd:string
+bmir-radx:nih_chronic_pain	skos:altLabel	Chronic Pain	xsd:string
+bmir-radx:nih_chronic_pain	skos:altLabel	chronic pain	xsd:string
+obo:SYMP_0019152	skos:altLabel	profuse perspiration	xsd:string
+bmir-radx:nih_sweating	skos:altLabel	profuse perspiration	xsd:string
+evs:C171256	skos:altLabel	Non-Medical Object or Device	xsd:string
+obo:NCIT_C43431	skos:altLabel	general activity	xsd:string
+obo:NCIT_C43431	skos:altLabel	human activity	xsd:string
+evs:C173621	skos:altLabel	Vaping	xsd:string
+evs:C173621	skos:altLabel	Vape	xsd:string
+obo:MONDO_0100118	skos:altLabel	genetic skin disease	xsd:string
+obo:MONDO_0100118	skos:altLabel	skin disease, genetic	xsd:string
+obo:MONDO_0100118	skos:altLabel	genetic skin diseases	xsd:string
+obo:MONDO_0100118	skos:altLabel	diseases, genetic skin	xsd:string
+obo:MONDO_0100118	skos:altLabel	disease, genetic skin	xsd:string
+obo:MONDO_0100118	skos:altLabel	genodermatosis	xsd:string
+evs:C61331	skos:altLabel	Economics	xsd:string
+evs:C61331	skos:altLabel	Economically	xsd:string
+evs:C61331	skos:altLabel	Economic	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of forearm joint	xsd:string
+obo:MONDO_0006816	skos:altLabel	disorder of skeletal joint	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of joint of lower leg	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of joint of ankle and/or foot	xsd:string
+obo:MONDO_0006816	skos:altLabel	joint disease	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of joint of multiple sites	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of joint of shoulder region	xsd:string
+obo:MONDO_0006816	skos:altLabel	skeletal joint disease	xsd:string
+obo:MONDO_0006816	skos:altLabel	arthrosis	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of joint of upper arm	xsd:string
+obo:MONDO_0006816	skos:altLabel	arthropathy	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of ankle and foot joint	xsd:string
+obo:MONDO_0006816	skos:altLabel	disease or disorder of skeletal joint	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of hand joint	xsd:string
+obo:MONDO_0006816	skos:altLabel	Joint ankylosis of the lower leg	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of joint of forearm	xsd:string
+obo:MONDO_0006816	skos:altLabel	Joint ankylosis of the hand	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of upper arm joint	xsd:string
+obo:MONDO_0006816	skos:altLabel	Joint ankylosis of the ankle and/or foot	xsd:string
+obo:MONDO_0006816	skos:altLabel	joint disorder	xsd:string
+obo:MONDO_0006816	skos:altLabel	Joint ankylosis of the shoulder region	xsd:string
+obo:MONDO_0006816	skos:altLabel	Joint ankylosis of the ankle and foot	xsd:string
+obo:MONDO_0006816	skos:altLabel	disorder, Joint	xsd:string
+obo:MONDO_0006816	skos:altLabel	Joint disorder	xsd:string
+obo:MONDO_0006816	skos:altLabel	Joint ankylosis of the upper arm	xsd:string
+obo:MONDO_0006816	skos:altLabel	skeletal joint disease or disorder	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of joint of pelvic region and thigh	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of joint of hand	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of lower leg joint	xsd:string
+obo:MONDO_0006816	skos:altLabel	disorder of joint	xsd:string
+obo:MONDO_0006816	skos:altLabel	infectious arthropathy	xsd:string
+obo:MONDO_0006816	skos:altLabel	disease of skeletal joint	xsd:string
+obo:MONDO_0006816	skos:altLabel	Joint ankylosis of the pelvic region and thigh	xsd:string
+obo:MONDO_0006816	skos:altLabel	Joint ankylosis of the forearm	xsd:string
+obo:MONDO_0006816	skos:altLabel	ankylosis of multiple joints	xsd:string
+obo:MONDO_0003406	skos:altLabel	wake disorders, sleep	xsd:string
+obo:MONDO_0003406	skos:altLabel	sleep phenotypes, short	xsd:string
+obo:MONDO_0003406	skos:altLabel	Subwakefullness syndromes	xsd:string
+obo:MONDO_0003406	skos:altLabel	sleeper syndromes, long	xsd:string
+obo:MONDO_0003406	skos:altLabel	long sleeper syndrome	xsd:string
+obo:MONDO_0003406	skos:altLabel	disorders, sleep	xsd:string
+obo:MONDO_0003406	skos:altLabel	sleep-related neurogenic tachypnea	xsd:string
+obo:MONDO_0003406	skos:altLabel	Tachypneas, sleep-related neurogenic	xsd:string
+obo:MONDO_0003406	skos:altLabel	wake disorder, sleep	xsd:string
+obo:MONDO_0003406	skos:altLabel	syndrome, long sleeper	xsd:string
+obo:MONDO_0003406	skos:altLabel	syndrome, Subwakefullness	xsd:string
+obo:MONDO_0003406	skos:altLabel	sleep disorders	xsd:string
+obo:MONDO_0003406	skos:altLabel	disturbed nyctohemeral rhythm	xsd:string
+obo:MONDO_0003406	skos:altLabel	short sleeper syndrome	xsd:string
+obo:MONDO_0003406	skos:altLabel	syndromes, short sleeper	xsd:string
+obo:MONDO_0003406	skos:altLabel	disorders of the sleep-wake schedule	xsd:string
+obo:MONDO_0003406	skos:altLabel	disorder of sleep-wake cycle	xsd:string
+obo:MONDO_0003406	skos:altLabel	phenotypes, short sleep	xsd:string
+obo:MONDO_0003406	skos:altLabel	non-organic sleep disorder	xsd:string
+obo:MONDO_0003406	skos:altLabel	long sleeper syndromes	xsd:string
+obo:MONDO_0003406	skos:altLabel	sleep related neurogenic tachypnea	xsd:string
+obo:MONDO_0003406	skos:altLabel	circadian dysregulation	xsd:string
+obo:MONDO_0003406	skos:altLabel	short sleep phenotype	xsd:string
+obo:MONDO_0003406	skos:altLabel	disorders, sleep wake	xsd:string
+obo:MONDO_0003406	skos:altLabel	phenotype, short sleep	xsd:string
+obo:MONDO_0003406	skos:altLabel	neurogenic Tachypneas, sleep-related	xsd:string
+obo:MONDO_0003406	skos:altLabel	short sleep phenotypes	xsd:string
+obo:MONDO_0003406	skos:altLabel	disorder, sleep wake	xsd:string
+obo:MONDO_0003406	skos:altLabel	syndromes, long sleeper	xsd:string
+obo:MONDO_0003406	skos:altLabel	disorder of sleep-wake schedule	xsd:string
+obo:MONDO_0003406	skos:altLabel	Subwakefullness syndrome	xsd:string
+obo:MONDO_0003406	skos:altLabel	sleep wake disorder	xsd:string
+obo:MONDO_0003406	skos:altLabel	syndromes, Subwakefullness	xsd:string
+obo:MONDO_0003406	skos:altLabel	syndrome, short sleeper	xsd:string
+obo:MONDO_0003406	skos:altLabel	neurogenic tachypnea, sleep-related	xsd:string
+obo:MONDO_0003406	skos:altLabel	sleeper syndrome, long	xsd:string
+obo:MONDO_0003406	skos:altLabel	sleeper syndromes, short	xsd:string
+obo:MONDO_0003406	skos:altLabel	tachypnea, sleep-related neurogenic	xsd:string
+obo:MONDO_0003406	skos:altLabel	sleeper syndrome, short	xsd:string
+obo:MONDO_0003406	skos:altLabel	short sleeper syndromes	xsd:string
+obo:MONDO_0003406	skos:altLabel	disorder, sleep	xsd:string
+obo:MONDO_0003406	skos:altLabel	sleep disorder	xsd:string
+obo:MONDO_0003406	skos:altLabel	sleep-related neurogenic Tachypneas	xsd:string
+obo:MONDO_0004979	skos:altLabel	chronic obstructive asthma	xsd:string
+obo:MONDO_0004979	skos:altLabel	chronic obstructive asthma with status asthmaticus	xsd:string
+obo:MONDO_0004979	skos:altLabel	exercise induced asthma	xsd:string
+obo:MONDO_0004979	skos:altLabel	chronic obstructive asthma with acute exacerbation	xsd:string
+obo:MONDO_0004979	skos:altLabel	exercise-induced asthma	xsd:string
+obo:MONDO_0004979	skos:altLabel	bronchial hyperreactivity	xsd:string
+evs:C25218	skos:altLabel	interventionDescription	xsd:string
+evs:C25218	skos:altLabel	treatment_type	xsd:string
+evs:C25218	skos:altLabel	Interventional	xsd:string
+evs:C25218	skos:altLabel	intervention	xsd:string
+evs:C25218	skos:altLabel	procedure	xsd:string
+evs:C25218	skos:altLabel	Intervention or Procedure	xsd:string
+evs:C25218	skos:altLabel	Intervention	xsd:string
+evs:C25218	skos:altLabel	treatment type	xsd:string
+evs:C25218	skos:altLabel	Intervention Strategies	xsd:string
+evs:C25218	skos:altLabel	Procedure	xsd:string
+evs:C25218	skos:altLabel	Interventional Procedure Type	xsd:string
+obo:MONDO_0024317	skos:altLabel	disorder involving pain, chronic	xsd:string
+obo:MONDO_0024317	skos:altLabel	chronic pain disease	xsd:string
+obo:MONDO_0024317	skos:altLabel	chronic disorder involving pain	xsd:string
+obo:MONDO_0002515	skos:altLabel	disease of hepatobiliary system	xsd:string
+obo:MONDO_0002515	skos:altLabel	liver and biliary system disorder	xsd:string
+obo:MONDO_0002515	skos:altLabel	liver and biliary disorder	xsd:string
+obo:MONDO_0002515	skos:altLabel	liver and biliary disease	xsd:string
+obo:MONDO_0002515	skos:altLabel	hepatobiliary system disease or disorder	xsd:string
+obo:MONDO_0002515	skos:altLabel	hepatobiliary system disease	xsd:string
+obo:MONDO_0002515	skos:altLabel	disease or disorder of hepatobiliary system	xsd:string
+obo:MONDO_0002515	skos:altLabel	disorder of hepatobiliary system	xsd:string
+obo:MONDO_0002515	skos:altLabel	hepatobiliary disorder	xsd:string
+obo:MONDO_0002515	skos:altLabel	liver and biliary tract disease	xsd:string
+evs:C69218	skos:altLabel	Pregnancy Status	xsd:string
+evs:C69218	skos:altLabel	PREGSTAT	xsd:string
+obo:MONDO_0000568	skos:altLabel	central nervous system hypersensitivity reaction type II disease	xsd:string
+obo:MONDO_0000568	skos:altLabel	central nervous system autoimmune disease	xsd:string
+obo:MONDO_0002977	skos:altLabel	nervous system immune diseases	xsd:string
+obo:MONDO_0002977	skos:altLabel	nervous system autoimmune disease	xsd:string
+obo:MONDO_0002977	skos:altLabel	immune disorders, nervous system	xsd:string
+obo:MONDO_0002977	skos:altLabel	immune diseases, nervous system	xsd:string
+obo:MONDO_0002977	skos:altLabel	autoimmune disorders of the nervous system	xsd:string
+obo:MONDO_0002977	skos:altLabel	nervous system hypersensitivity reaction type II disease	xsd:string
+obo:MONDO_0002977	skos:altLabel	autoimmune disease of nervous system	xsd:string
+obo:MONDO_0002977	skos:altLabel	neurologic autoimmune diseases	xsd:string
+obo:MONDO_0002977	skos:altLabel	nervous system autoimmune diseases	xsd:string
+obo:MONDO_0002977	skos:altLabel	autoimmune diseases, nervous system	xsd:string
+obo:MONDO_0002977	skos:altLabel	nervous system immune disorders	xsd:string
+obo:MONDO_0002977	skos:altLabel	autoimmune nervous system diseases	xsd:string
+obo:MONDO_0002977	skos:altLabel	diseases, neurologic autoimmune	xsd:string
+obo:MONDO_0002977	skos:altLabel	neurologic autoimmune disease	xsd:string
+obo:MONDO_0002977	skos:altLabel	autoimmune nervous system disorder	xsd:string
+obo:MONDO_0002977	skos:altLabel	autoimmune disease, neurologic	xsd:string
+obo:MONDO_0002977	skos:altLabel	disease, neurologic autoimmune	xsd:string
+obo:MONDO_0002977	skos:altLabel	autoimmune disorders, nervous system	xsd:string
+obo:MONDO_0002977	skos:altLabel	autoimmune diseases, neurologic	xsd:string
+obo:MONDO_0002614	skos:altLabel	osteitis	xsd:string
+obo:MONDO_0002614	skos:altLabel	inflammatory disorder of bone	xsd:string
+obo:MONDO_0002614	skos:altLabel	bone inflammatory disease	xsd:string
+obo:MONDO_0044348	skos:altLabel	haemoglobin disorder	xsd:string
+obo:MONDO_0044348	skos:altLabel	hemoglobin disorder	xsd:string
+obo:MONDO_0044348	skos:altLabel	hemoglobinopathy	xsd:string
+obo:MONDO_0044348	skos:altLabel	haemoglobin disease	xsd:string
+obo:MONDO_0044348	skos:altLabel	globin abnormality	xsd:string
+obo:MONDO_0044348	skos:altLabel	hemoglobin disease	xsd:string
+evs:C37967	skos:altLabel	Hypercholesterolemia	xsd:string
+evs:C37967	skos:altLabel	High Cholesterol	xsd:string
+evs:C37967	skos:altLabel	Cholesterol high	xsd:string
+evs:C53268	skos:altLabel	recipient	xsd:string
+evs:C53268	skos:altLabel	Recipient	xsd:string
+obo:NBO_0000079	skos:altLabel	feeding behaviour	xsd:string
+evs:C20993	skos:altLabel	Research or Clinical Assessment Tool	xsd:string
+evs:C20993	skos:altLabel	Clinical Assessment Tool	xsd:string
+evs:C20993	skos:altLabel	Clinical or Research Assessment Tool	xsd:string
+obo:MONDO_0002118	skos:altLabel	urinary system disease	xsd:string
+obo:MONDO_0002118	skos:altLabel	disease of renal system	xsd:string
+obo:MONDO_0002118	skos:altLabel	disease, urinary tract	xsd:string
+obo:MONDO_0002118	skos:altLabel	urological disease	xsd:string
+obo:MONDO_0002118	skos:altLabel	disease, urologic	xsd:string
+obo:MONDO_0002118	skos:altLabel	urinary tract diseases	xsd:string
+obo:MONDO_0002118	skos:altLabel	urinary tract disease	xsd:string
+obo:MONDO_0002118	skos:altLabel	disease or disorder of renal system	xsd:string
+obo:MONDO_0002118	skos:altLabel	renal system disease	xsd:string
+obo:MONDO_0002118	skos:altLabel	diseases, urological	xsd:string
+obo:MONDO_0002118	skos:altLabel	urologic disorder	xsd:string
+obo:MONDO_0002118	skos:altLabel	urological disorders	xsd:string
+obo:MONDO_0002118	skos:altLabel	disorder of renal system	xsd:string
+obo:MONDO_0002118	skos:altLabel	urinary system disorder	xsd:string
+obo:MONDO_0002118	skos:altLabel	diseases, urinary tract	xsd:string
+obo:MONDO_0002118	skos:altLabel	diseases, urologic	xsd:string
+obo:MONDO_0002118	skos:altLabel	disorder of urinary system	xsd:string
+obo:MONDO_0002118	skos:altLabel	urologic disease	xsd:string
+obo:MONDO_0002118	skos:altLabel	renal system disease or disorder	xsd:string
+obo:MONDO_0002118	skos:altLabel	urological diseases	xsd:string
+obo:MONDO_0002118	skos:altLabel	disorder of the urinary system	xsd:string
+obo:MONDO_0002118	skos:altLabel	disease, urological	xsd:string
+obo:MONDO_0002118	skos:altLabel	urinary disease	xsd:string
+obo:MONDO_0002118	skos:altLabel	non-neoplastic urinary tract disease	xsd:string
+obo:MONDO_0002118	skos:altLabel	urinary tract disorder	xsd:string
+obo:MONDO_0002118	skos:altLabel	urological disorder	xsd:string
+evs:C16527	skos:altLabel	Medical Economics	xsd:string
+obo:MONDO_0000589	skos:altLabel	musculoskeletal system hypersensitivity reaction type II disease	xsd:string
+obo:MONDO_0000589	skos:altLabel	musculoskeletal system autoimmune disease	xsd:string
+obo:MONDO_0044347	skos:altLabel	disease or disorder of erythrocyte	xsd:string
+obo:MONDO_0044347	skos:altLabel	erythrocyte disease	xsd:string
+obo:MONDO_0044347	skos:altLabel	red blood cell disease	xsd:string
+obo:MONDO_0044347	skos:altLabel	disease of erythrocyte	xsd:string
+obo:MONDO_0044347	skos:altLabel	red blood cell disorder	xsd:string
+obo:MONDO_0044347	skos:altLabel	disorder of erythrocyte	xsd:string
+obo:MONDO_0044347	skos:altLabel	erythrocyte disease or disorder	xsd:string
+obo:MONDO_0002602	skos:altLabel	disease of the central nervous system	xsd:string
+obo:MONDO_0002602	skos:altLabel	disease of central nervous system	xsd:string
+obo:MONDO_0002602	skos:altLabel	central nervous system disorder	xsd:string
+obo:MONDO_0002602	skos:altLabel	central nervous disease	xsd:string
+obo:MONDO_0002602	skos:altLabel	disorder of central nervous system	xsd:string
+obo:MONDO_0002602	skos:altLabel	CNS disorder	xsd:string
+obo:MONDO_0002602	skos:altLabel	disease or disorder of central nervous system	xsd:string
+obo:MONDO_0002602	skos:altLabel	central nervous system disease	xsd:string
+obo:MONDO_0002602	skos:altLabel	central nervous system disease or disorder	xsd:string
+obo:MONDO_0021698	skos:altLabel	disorders, alcohol-related	xsd:string
+obo:MONDO_0021698	skos:altLabel	disorder, alcohol-related	xsd:string
+obo:MONDO_0021698	skos:altLabel	alcohol-related disorder	xsd:string
+obo:MONDO_0021698	skos:altLabel	alcohol related disorders	xsd:string
+bmir-radx:nih_seasonal_allergies	skos:altLabel	seasonal allergic rhinitis	xsd:string
+bmir-radx:nih_seasonal_allergies	skos:altLabel	hay fever	xsd:string
+obo:MONDO_0003900	skos:altLabel	disorder of connective tissue	xsd:string
+obo:MONDO_0003900	skos:altLabel	connective tissue disease or disorder	xsd:string
+obo:MONDO_0003900	skos:altLabel	primary disorder of connective tissue	xsd:string
+obo:MONDO_0003900	skos:altLabel	connective tissue disease	xsd:string
+obo:MONDO_0003900	skos:altLabel	disease, connective tissue	xsd:string
+obo:MONDO_0003900	skos:altLabel	disease of connective tissue	xsd:string
+obo:MONDO_0003900	skos:altLabel	tissue disease, connective	xsd:string
+obo:MONDO_0003900	skos:altLabel	connective tissue disorders	xsd:string
+obo:MONDO_0003900	skos:altLabel	connective tissue diseases	xsd:string
+obo:MONDO_0003900	skos:altLabel	connective tissue disorder	xsd:string
+obo:MONDO_0003900	skos:altLabel	disease or disorder of connective tissue	xsd:string
+bmir-radx:nih_mental_health_disorder	skos:altLabel	mental or behavioural disorder	xsd:string
+bmir-radx:nih_mental_health_disorder	skos:altLabel	mental or behavioral disorder	xsd:string
+bmir-radx:nih_mental_health_disorder	skos:altLabel	mental process disease	xsd:string
+bmir-radx:nih_mental_health_disorder	skos:altLabel	disorder of mental process	xsd:string
+bmir-radx:nih_alz	skos:altLabel	Alzheimers disease	xsd:string
+bmir-radx:nih_alz	skos:altLabel	Alzheimer dementia	xsd:string
+bmir-radx:nih_alz	skos:altLabel	AD	xsd:string
+bmir-radx:nih_alz	skos:altLabel	Alzheimer disease, familial	xsd:string
+bmir-radx:nih_alz	skos:altLabel	Alzheimer's disease	xsd:string
+bmir-radx:nih_alz	skos:altLabel	Alzheimer's dementia	xsd:string
+bmir-radx:nih_alz	skos:altLabel	Alzheimer disease	xsd:string
+bmir-radx:nih_alz	skos:altLabel	presenile and senile dementia	xsd:string
+bmir-radx:nih_alz	skos:altLabel	Alzheimers dementia	xsd:string
+bmir-radx:nih_anemia	skos:altLabel	anemia (disease)	xsd:string
+bmir-radx:nih_anemia	skos:altLabel	anemia	xsd:string
+bmir-radx:nih_anemia	skos:altLabel	anaemia (disease)	xsd:string
+evs:C198997	skos:altLabel	Person by Activity Type	xsd:string
+obo:MONDO_0005109	skos:altLabel	HIV infection	xsd:string
+obo:MONDO_0005109	skos:altLabel	Human immunodeficiency virus caused disease or disorder	xsd:string
+obo:MONDO_0005109	skos:altLabel	Human immunodeficiency virus disease or disorder	xsd:string
+obo:MONDO_0005109	skos:altLabel	Human immunodeficiency virus infectious disease	xsd:string
+obo:MONDO_0005109	skos:altLabel	human immunodeficiency virus infectious disease	xsd:string
+obo:MONDO_0005406	skos:altLabel	diabetes in pregnancy	xsd:string
+obo:MONDO_0005406	skos:altLabel	GDM	xsd:string
+obo:MONDO_0005406	skos:altLabel	maternal gestational diabetes mellitus	xsd:string
+obo:MONDO_0005406	skos:altLabel	gestational diabetes mellitus	xsd:string
+obo:MONDO_0005516	skos:altLabel	osteochondrodysplasia	xsd:string
+obo:MONDO_0005516	skos:altLabel	congenital anomaly of cartilage	xsd:string
+obo:MONDO_0005516	skos:altLabel	skeletal dysplasia	xsd:string
+obo:MONDO_0005516	skos:altLabel	cartilage development disorder	xsd:string
+obo:MONDO_0005516	skos:altLabel	osteochondrodysplasia syndrome	xsd:string
+obo:MONDO_0005516	skos:altLabel	congenital skeletal dysplasia	xsd:string
+evs:C14139	skos:altLabel	Immunosuppressed	xsd:string
+evs:C14139	skos:altLabel	immunocompromised	xsd:string
+evs:C14139	skos:altLabel	Immunocompromised Patient	xsd:string
+evs:C14139	skos:altLabel	Immunosuppressed Patient	xsd:string
+evs:C14139	skos:altLabel	Immunocompromised	xsd:string
+evs:C14139	skos:altLabel	Immunosuppressed Host	xsd:string
+evs:C14139	skos:altLabel	Immunocompromised Host	xsd:string
+bmir-radx:nih_employment	skos:altLabel	Employment	xsd:string
+bmir-radx:nih_employment	skos:altLabel	Employed	xsd:string
+bmir-radx:nih_employment	skos:altLabel	Employment Status	xsd:string
+bmir-radx:nih_employment	skos:altLabel	Employment status	xsd:string
+obo:MONDO_0004867	skos:altLabel	disorder of upper respiratory tract	xsd:string
+obo:MONDO_0004867	skos:altLabel	disease of upper respiratory tract	xsd:string
+obo:MONDO_0004867	skos:altLabel	disease or disorder of upper respiratory tract	xsd:string
+obo:MONDO_0004867	skos:altLabel	upper respiratory tract disease or disorder	xsd:string
+obo:MONDO_0004867	skos:altLabel	upper respiratory tract disease	xsd:string
+bmir-radx:nih_cholesterol	skos:altLabel	Hypercholesterolemia	xsd:string
+bmir-radx:nih_cholesterol	skos:altLabel	Cholesterol high	xsd:string
+bmir-radx:nih_cholesterol	skos:altLabel	High Cholesterol	xsd:string
+obo:MONDO_0001358	skos:altLabel	disease of bronchus	xsd:string
+obo:MONDO_0001358	skos:altLabel	bronchial disorder	xsd:string
+obo:MONDO_0001358	skos:altLabel	bronchus disease	xsd:string
+obo:MONDO_0001358	skos:altLabel	disorder of bronchus	xsd:string
+obo:MONDO_0001358	skos:altLabel	bronchus disease or disorder	xsd:string
+obo:MONDO_0001358	skos:altLabel	bronchospasm	xsd:string
+obo:MONDO_0001358	skos:altLabel	disease or disorder of bronchus	xsd:string
+obo:MONDO_0024458	skos:altLabel	visual system disorder	xsd:string
+obo:MONDO_0024458	skos:altLabel	disorder of visual system	xsd:string
+obo:MONDO_0024458	skos:altLabel	disease or disorder of visual system	xsd:string
+obo:MONDO_0024458	skos:altLabel	visual system disease or disorder	xsd:string
+obo:MONDO_0024458	skos:altLabel	disease of visual system	xsd:string
+obo:MONDO_0024458	skos:altLabel	visual system disease	xsd:string
+obo:MONDO_0002436	skos:altLabel	nose disease or disorder	xsd:string
+obo:MONDO_0002436	skos:altLabel	disorder of nose	xsd:string
+obo:MONDO_0002436	skos:altLabel	nasal disorder	xsd:string
+obo:MONDO_0002436	skos:altLabel	disease or disorder of nose	xsd:string
+obo:MONDO_0002436	skos:altLabel	disorder of the nose	xsd:string
+obo:MONDO_0002436	skos:altLabel	disease of nose	xsd:string
+obo:MONDO_0002436	skos:altLabel	nose disease	xsd:string
+obo:MONDO_0000588	skos:altLabel	autoimmune disease of alimentary part of gastrointestinal system	xsd:string
+obo:MONDO_0000588	skos:altLabel	alimentary part of gastrointestinal system hypersensitivity reaction type II disease	xsd:string
+obo:MONDO_0000588	skos:altLabel	alimentary part of gastrointestinal system autoimmune disease	xsd:string
+evs:C17934	skos:altLabel	Tobacco, Smoking	xsd:string
+evs:C17934	skos:altLabel	Tobacco Smoking	xsd:string
+evs:C17934	skos:altLabel	Smoking	xsd:string
+bmir-radx:nih_fibromyalgia	skos:altLabel	fibromyalgia syndrome	xsd:string
+bmir-radx:nih_fibromyalgia	skos:altLabel	fibromyalgia	xsd:string
+evs:C20189	skos:altLabel	Property or Attribute	xsd:string
+obo:MONDO_0024623	skos:altLabel	ear, nose or throat disorder	xsd:string
+obo:MONDO_0024623	skos:altLabel	otolaryngological disease	xsd:string
+obo:MONDO_0024623	skos:altLabel	otorhinolaryngologic disease	xsd:string
+obo:MONDO_0024623	skos:altLabel	ENT diseases	xsd:string
+obo:MONDO_0024623	skos:altLabel	diseases, ENT	xsd:string
+obo:MONDO_0024623	skos:altLabel	disease, otorhinolaryngologic	xsd:string
+obo:MONDO_0024623	skos:altLabel	ENT disease	xsd:string
+obo:MONDO_0024623	skos:altLabel	otolaryngologic disease	xsd:string
+obo:MONDO_0024623	skos:altLabel	disease, ENT	xsd:string
+obo:MONDO_0024623	skos:altLabel	disease, otolaryngological	xsd:string
+obo:MONDO_0024623	skos:altLabel	ear, nose and throat disorder	xsd:string
+obo:MONDO_0024623	skos:altLabel	diseases, otorhinolaryngologic	xsd:string
+obo:MONDO_0024623	skos:altLabel	otolaryngological diseases	xsd:string
+obo:MONDO_0024623	skos:altLabel	otorhinolaryngological diseases	xsd:string
+obo:MONDO_0024623	skos:altLabel	disease, otolaryngologic	xsd:string
+obo:MONDO_0024623	skos:altLabel	diseases, otolaryngological	xsd:string
+obo:MONDO_0024623	skos:altLabel	otolaryngologic disorder	xsd:string
+obo:MONDO_0024623	skos:altLabel	otolaryngologic diseases	xsd:string
+obo:MONDO_0024623	skos:altLabel	disease, otorhinolaryngological	xsd:string
+obo:MONDO_0024623	skos:altLabel	ear/nose/throat disease	xsd:string
+obo:MONDO_0024623	skos:altLabel	diseases, otolaryngologic	xsd:string
+obo:MONDO_0024623	skos:altLabel	otorhinolaryngological disease	xsd:string
+obo:MONDO_0024623	skos:altLabel	diseases, otorhinolaryngological	xsd:string
+obo:MONDO_0011786	skos:altLabel	Perenial allergic rhinitis	xsd:string
+obo:MONDO_0011786	skos:altLabel	perennial allergic rhinitis	xsd:string
+obo:MONDO_0011786	skos:altLabel	seasonal allergic rhinitis	xsd:string
+obo:MONDO_0011786	skos:altLabel	non-seasonal allergic rhinitis	xsd:string
+obo:MONDO_0011786	skos:altLabel	atopic rhinitis	xsd:string
+obo:MONDO_0011786	skos:altLabel	pollenosis	xsd:string
+obo:MONDO_0011786	skos:altLabel	allergic form of rhinitis	xsd:string
+obo:MONDO_0011786	skos:altLabel	allergic rhinitis	xsd:string
+obo:MONDO_0011786	skos:altLabel	Alrh	xsd:string
+obo:MONDO_0000984	skos:altLabel	thalassemia Hb-S disease without crisis	xsd:string
+obo:MONDO_0000984	skos:altLabel	thalassemia Hb-S disease with crisis	xsd:string
+obo:MONDO_0000984	skos:altLabel	sickle-cell thalassemia without crisis	xsd:string
+obo:MONDO_0000984	skos:altLabel	sickle-cell thalassemia with crisis	xsd:string
+obo:MONDO_0001941	skos:altLabel	visual impairment	xsd:string
+obo:MONDO_0001941	skos:altLabel	vision loss	xsd:string
+obo:MONDO_0001941	skos:altLabel	vision impairment	xsd:string
+obo:MONDO_0001941	skos:altLabel	blindness	xsd:string
+evs:C20134	skos:altLabel	Smoking, Tobacco and Cancer-Behavior	xsd:string
+evs:C20134	skos:altLabel	Smoking Behavior	xsd:string
+evs:C173135	skos:altLabel	Walking Question	xsd:string
+obo:MONDO_0005328	skos:altLabel	eye disorder	xsd:string
+obo:MONDO_0005328	skos:altLabel	disorder of eye	xsd:string
+obo:MONDO_0005328	skos:altLabel	eye disease	xsd:string
+obo:MONDO_0005328	skos:altLabel	disorder of eye proper	xsd:string
+obo:MONDO_0005328	skos:altLabel	eyeball of camera-type eye disease	xsd:string
+obo:MONDO_0005328	skos:altLabel	disorder of eyeball	xsd:string
+obo:MONDO_0005328	skos:altLabel	disease of eyeball	xsd:string
+obo:MONDO_0005328	skos:altLabel	globe disease	xsd:string
+obo:MONDO_0005328	skos:altLabel	disease or disorder of eyeball of camera-type eye	xsd:string
+obo:MONDO_0005328	skos:altLabel	disorder of globe	xsd:string
+obo:MONDO_0005328	skos:altLabel	disorder of eyeball of camera-type eye	xsd:string
+obo:MONDO_0005328	skos:altLabel	disease of eye	xsd:string
+obo:MONDO_0005328	skos:altLabel	disease of eyeball of camera-type eye	xsd:string
+obo:MONDO_0005328	skos:altLabel	eyeball of camera-type eye disease or disorder	xsd:string
+obo:MONDO_0005559	skos:altLabel	cerebral degeneration disease	xsd:string
+obo:MONDO_0005559	skos:altLabel	central nervous system degenerative disorder	xsd:string
+obo:MONDO_0005559	skos:altLabel	central nervous system neurodegenerative disorder	xsd:string
+obo:MONDO_0005559	skos:altLabel	degenerative disease	xsd:string
+obo:MONDO_0005559	skos:altLabel	brain degeneration	xsd:string
+obo:MONDO_0005559	skos:altLabel	neurodegenerative disease	xsd:string
+obo:MONDO_0005559	skos:altLabel	degenerative disorder of central nervous system	xsd:string
+obo:MONDO_0002039	skos:altLabel	organic mental disorder	xsd:string
+obo:MONDO_0002039	skos:altLabel	cognitive disorder	xsd:string
+obo:MONDO_0002039	skos:altLabel	cognitive disease	xsd:string
+bmir-radx:nih_pregnancy	skos:altLabel	PREGSTAT	xsd:string
+bmir-radx:nih_pregnancy	skos:altLabel	Pregnancy Status	xsd:string
+evs:C159659	skos:altLabel	Transplantation Recipient	xsd:string
+evs:C159659	skos:altLabel	Transplant Recipient	xsd:string
+obo:MONDO_0003799	skos:altLabel	conjunctiva inflammation	xsd:string
+obo:MONDO_0003799	skos:altLabel	Madras eye	xsd:string
+obo:MONDO_0003799	skos:altLabel	conjunctivitis (disease)	xsd:string
+obo:MONDO_0003799	skos:altLabel	inflammation of conjunctiva	xsd:string
+obo:MONDO_0003799	skos:altLabel	conjunctivitis	xsd:string
+obo:MONDO_0003799	skos:altLabel	pink eye	xsd:string
+bmir-radx:nih_obesity	skos:altLabel	obesity disease	xsd:string
+bmir-radx:nih_obesity	skos:altLabel	obesity	xsd:string
+obo:MONDO_0002567	skos:altLabel	tracheal disorder	xsd:string
+obo:MONDO_0002567	skos:altLabel	disease of trachea	xsd:string
+obo:MONDO_0002567	skos:altLabel	trachea disease or disorder	xsd:string
+obo:MONDO_0002567	skos:altLabel	disease or disorder of trachea	xsd:string
+obo:MONDO_0002567	skos:altLabel	trachea disease	xsd:string
+obo:MONDO_0002567	skos:altLabel	disorder of trachea	xsd:string
+evs:C16745	skos:altLabel	Insurance	xsd:string
+obo:MONDO_0021146	skos:altLabel	cephalgia syndrome	xsd:string
+obo:MONDO_0021146	skos:altLabel	chronic headaches	xsd:string
+obo:MONDO_0021146	skos:altLabel	headache syndromes	xsd:string
+obo:MONDO_0021146	skos:altLabel	headache disorder	xsd:string
+obo:MONDO_0021146	skos:altLabel	headaches, chronic daily	xsd:string
+obo:MONDO_0021146	skos:altLabel	headache, chronic	xsd:string
+obo:MONDO_0021146	skos:altLabel	headache syndrome	xsd:string
+obo:MONDO_0021146	skos:altLabel	intractable headaches	xsd:string
+obo:MONDO_0021146	skos:altLabel	headaches, chronic	xsd:string
+obo:MONDO_0021146	skos:altLabel	chronic daily headache	xsd:string
+obo:MONDO_0021146	skos:altLabel	headache, chronic daily	xsd:string
+obo:MONDO_0021146	skos:altLabel	syndrome, headache	xsd:string
+obo:MONDO_0021146	skos:altLabel	headaches, intractable	xsd:string
+obo:MONDO_0021146	skos:altLabel	chronic headache	xsd:string
+obo:MONDO_0021146	skos:altLabel	intractable headache	xsd:string
+obo:MONDO_0021146	skos:altLabel	daily headaches, chronic	xsd:string
+obo:MONDO_0021146	skos:altLabel	chronic daily headaches	xsd:string
+obo:MONDO_0021146	skos:altLabel	daily headache, chronic	xsd:string
+obo:MONDO_0021146	skos:altLabel	cephalgia syndromes	xsd:string
+obo:MONDO_0021146	skos:altLabel	headache, intractable	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment	skos:altLabel	kidney disease, chronic	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment	skos:altLabel	chronic renal insufficiency	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment	skos:altLabel	chronic renal disease	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment	skos:altLabel	chronic kidney disease	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment	skos:altLabel	renal failure - chronic	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment	skos:altLabel	CKD	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment	skos:altLabel	CKD - chronic kidney disease	xsd:string
+bmir-radx:nih_chronic_kidney_disease_treatment	skos:altLabel	chronic renal failure syndrome	xsd:string
+evs:C20188	skos:altLabel	social circumstances	xsd:string
+evs:C20188	skos:altLabel	Social Circumstances	xsd:string
+obo:MONDO_0013600	skos:altLabel	insomnia (disease)	xsd:string
+obo:MONDO_0013600	skos:altLabel	DSPS	xsd:string
+obo:MONDO_0013600	skos:altLabel	delayed sleep phase syndrome, susceptibility to	xsd:string
+obo:MONDO_0013600	skos:altLabel	DSPD	xsd:string
+obo:MONDO_0013600	skos:altLabel	insomnia	xsd:string
+obo:MONDO_0013600	skos:altLabel	delayed sleep phase disorder, susceptibility to	xsd:string
+bmir-radx:nih_migraines	skos:altLabel	migraine variant	xsd:string
+bmir-radx:nih_migraines	skos:altLabel	migraine	xsd:string
+bmir-radx:nih_migraines	skos:altLabel	migraine with or without aura	xsd:string
+bmir-radx:nih_migraines	skos:altLabel	migraine headache	xsd:string
+bmir-radx:nih_migraines	skos:altLabel	migraine disorder	xsd:string
+evs:C173398	skos:altLabel	Trouble or DIfficulty	xsd:string
+evs:C173398	skos:altLabel	Have Trouble or Difficulty Question	xsd:string
+evs:C178942	skos:altLabel	Immunosuppressive_conditions	xsd:string
+evs:C178942	skos:altLabel	Immunosuppressive Disorder	xsd:string
+evs:C43431	skos:altLabel	General activity	xsd:string
+evs:C43431	skos:altLabel	Activity	xsd:string
+bmir-radx:nih_olfactory	skos:altLabel	loss of taste	xsd:string
+obo:MONDO_0005009	skos:altLabel	weak heart	xsd:string
+obo:MONDO_0005009	skos:altLabel	heart failure, congestive	xsd:string
+obo:MONDO_0005009	skos:altLabel	failure, congestive heart	xsd:string
+obo:MONDO_0005009	skos:altLabel	cardiac failure, congestive	xsd:string
+obo:MONDO_0005009	skos:altLabel	CHF	xsd:string
+obo:MONDO_0005009	skos:altLabel	congestive heart disease	xsd:string
+obo:MONDO_0005108	skos:altLabel	viral disorder	xsd:string
+obo:MONDO_0005108	skos:altLabel	virus infection	xsd:string
+obo:MONDO_0005108	skos:altLabel	Viruses infection	xsd:string
+obo:MONDO_0005108	skos:altLabel	viral infection	xsd:string
+obo:MONDO_0005108	skos:altLabel	Viruses infectious disease	xsd:string
+obo:MONDO_0005108	skos:altLabel	infection, viral	xsd:string
+obo:MONDO_0005108	skos:altLabel	viral disease	xsd:string
+obo:MONDO_0005108	skos:altLabel	Viruses caused disease or disorder	xsd:string
+obo:MONDO_0005108	skos:altLabel	infections, Viruses	xsd:string
+obo:MONDO_0005108	skos:altLabel	Viruses disease or disorder	xsd:string
+obo:NCIT_C17005	skos:altLabel	subpopulation	xsd:string
+evs:C16326	skos:altLabel	Behavioral	xsd:string
+evs:C16326	skos:altLabel	Attitude	xsd:string
+evs:C16326	skos:altLabel	Behavior	xsd:string
+evs:C16326	skos:altLabel	Conduct	xsd:string
+bmir-radx:nih_appetite	skos:altLabel	inappetence	xsd:string
+bmir-radx:nih_appetite	skos:altLabel	lack of appetite	xsd:string
+bmir-radx:nih_appetite	skos:altLabel	poor appetite	xsd:string
+obo:MONDO_0004425	skos:altLabel	overactive thyroid	xsd:string
+bmir-radx:nih_neurological_condition	skos:altLabel	neurologic disease	xsd:string
+bmir-radx:nih_neurological_condition	skos:altLabel	disease or disorder of nervous system	xsd:string
+bmir-radx:nih_neurological_condition	skos:altLabel	neurological disorder	xsd:string
+bmir-radx:nih_neurological_condition	skos:altLabel	nervous system disease or disorder	xsd:string
+bmir-radx:nih_neurological_condition	skos:altLabel	disease of nervous system	xsd:string
+bmir-radx:nih_neurological_condition	skos:altLabel	neurologic disorder	xsd:string
+bmir-radx:nih_neurological_condition	skos:altLabel	disorder of nervous system	xsd:string
+bmir-radx:nih_neurological_condition	skos:altLabel	neurological disease	xsd:string
+bmir-radx:nih_neurological_condition	skos:altLabel	nervous system disease	xsd:string
+bmir-radx:nih_neurological_condition	skos:altLabel	nervous system disorder	xsd:string
+evs:C100104	skos:altLabel	Signs or Symptoms	xsd:string
+evs:C100104	skos:altLabel	DESC	xsd:string
+evs:C100104	skos:altLabel	Clinical Finding	xsd:string
+evs:C100104	skos:altLabel	Clinical Signs or Symptoms	xsd:string
+evs:C100104	skos:altLabel	Sign or Symptom	xsd:string
+evs:C100104	skos:altLabel	CLINICAL FINDING	xsd:string
+evs:C100104	skos:altLabel	Clinical Signs	xsd:string
+evs:C100104	skos:altLabel	CLINICAL SIGNS	xsd:string
+obo:MONDO_0004975	skos:altLabel	AD	xsd:string
+obo:MONDO_0004975	skos:altLabel	Alzheimer's disease	xsd:string
+obo:MONDO_0004975	skos:altLabel	Alzheimer disease, familial	xsd:string
+obo:MONDO_0004975	skos:altLabel	Alzheimers disease	xsd:string
+obo:MONDO_0004975	skos:altLabel	presenile and senile dementia	xsd:string
+obo:MONDO_0004975	skos:altLabel	Alzheimer disease	xsd:string
+obo:MONDO_0004975	skos:altLabel	Alzheimers dementia	xsd:string
+obo:MONDO_0004975	skos:altLabel	Alzheimer dementia	xsd:string
+obo:MONDO_0004975	skos:altLabel	Alzheimer's dementia	xsd:string
+obo:MONDO_0024643	skos:altLabel	disease of myocardium	xsd:string
+obo:MONDO_0024643	skos:altLabel	disorder of heart muscle	xsd:string
+obo:MONDO_0024643	skos:altLabel	myocardium disease or disorder	xsd:string
+obo:MONDO_0024643	skos:altLabel	myocardial disorder	xsd:string
+obo:MONDO_0024643	skos:altLabel	disease or disorder of myocardium	xsd:string
+obo:MONDO_0024643	skos:altLabel	disorder of myocardium	xsd:string
+obo:MONDO_0024643	skos:altLabel	myocardium disease	xsd:string
+obo:MONDO_0024643	skos:altLabel	myocardial disease	xsd:string
+evs:C25621	skos:altLabel	Postal code	xsd:string
+evs:C25621	skos:altLabel	Postal Code	xsd:string
+evs:C25720	skos:altLabel	Zip Code	xsd:string
+evs:C25720	skos:altLabel	ZIP	xsd:string
+bmir-radx:nih_other_chronic_cond	skos:altLabel	Chronic Disease	xsd:string
+evs:C173045	skos:altLabel	Ability To	xsd:string
+evs:C173045	skos:altLabel	Ability Question	xsd:string
+evs:C130200	skos:altLabel	Solid Organ Transplantation Recipient	xsd:string
+evs:C130200	skos:altLabel	Solid Organ Transplant Recipient	xsd:string
+evs:C171087	skos:altLabel	Person/Individual Attribute	xsd:string
+bmir-radx:nih_anxiety	skos:altLabel	anxiety	xsd:string
+bmir-radx:nih_anxiety	skos:altLabel	harm avoidance	xsd:string
+bmir-radx:nih_anxiety	skos:altLabel	anxiety-related personality traits	xsd:string
+bmir-radx:nih_fever_chills	skos:altLabel	pyrexia	xsd:string
+obo:MONDO_0005546	skos:altLabel	fibromyalgia syndrome	xsd:string
+obo:MONDO_0005546	skos:altLabel	fibromyalgia	xsd:string
+obo:MONDO_0002356	skos:altLabel	disorder of pancreas	xsd:string
+obo:MONDO_0002356	skos:altLabel	disease of pancreas	xsd:string
+obo:MONDO_0002356	skos:altLabel	pancreatic disorder	xsd:string
+obo:MONDO_0002356	skos:altLabel	diseases, pancreatic	xsd:string
+obo:MONDO_0002356	skos:altLabel	pancreas disease or disorder	xsd:string
+obo:MONDO_0002356	skos:altLabel	disease, pancreatic	xsd:string
+obo:MONDO_0002356	skos:altLabel	disease or disorder of pancreas	xsd:string
+obo:MONDO_0002356	skos:altLabel	pancreas disease	xsd:string
+obo:MONDO_0002356	skos:altLabel	pancreatic disease	xsd:string
+obo:MONDO_0011057	skos:altLabel	CVA	xsd:string
+obo:MONDO_0011057	skos:altLabel	cerebrovascular accident	xsd:string
+obo:MONDO_0011057	skos:altLabel	cerebrovascular disease	xsd:string
+obo:MONDO_0011057	skos:altLabel	stroke	xsd:string
+obo:MONDO_0011057	skos:altLabel	cerebrovascular disorder	xsd:string
+obo:MONDO_0011057	skos:altLabel	CVA (cerebral vascular accident)	xsd:string
+obo:MONDO_0011057	skos:altLabel	cerebral infarction	xsd:string
+evs:C3303	skos:altLabel	Pain (Various)	xsd:string
+evs:C3303	skos:altLabel	Pain	xsd:string
+evs:C3303	skos:altLabel	General Pain	xsd:string
+evs:C17953	skos:altLabel	Educational Level	xsd:string
+evs:C17953	skos:altLabel	Level of Education Attained	xsd:string
+evs:C17953	skos:altLabel	Education Level	xsd:string
+evs:C17953	skos:altLabel	education level	xsd:string
+evs:C17953	skos:altLabel	education_level	xsd:string
+evs:C17953	skos:altLabel	EDULEVEL	xsd:string
+evs:C17953	skos:altLabel	Educational Attainment	xsd:string
+evs:C17953	skos:altLabel	Education Level Completed	xsd:string
+evs:C17953	skos:altLabel	Education	xsd:string
+evs:C4876	skos:altLabel	symptom	xsd:string
+evs:C4876	skos:altLabel	Symptom	xsd:string
+evs:C4876	skos:altLabel	SYMPTOM	xsd:string
+bmir-radx:nih_alcohol_frequency	skos:altLabel	alcohol_history	xsd:string
+bmir-radx:nih_alcohol_frequency	skos:altLabel	Alcohol Use	xsd:string
+bmir-radx:nih_alcohol_frequency	skos:altLabel	alcohol use, unspecified	xsd:string
+bmir-radx:nih_alcohol_frequency	skos:altLabel	Alcohol Consumption	xsd:string
+bmir-radx:nih_alcohol_frequency	skos:altLabel	alcohol misuse	xsd:string
+bmir-radx:nih_alcohol_frequency	skos:altLabel	alcohol abuse	xsd:string
+bmir-radx:nih_alcohol_frequency	skos:altLabel	alcohol history	xsd:string
+bmir-radx:nih_alcohol_frequency	skos:altLabel	Alcohol Use History	xsd:string
+bmir-radx:nih_alcohol_frequency	skos:altLabel	Alcohol History	xsd:string
+obo:MONDO_0021166	skos:altLabel	anatomical structure inflammation	xsd:string
+obo:MONDO_0021166	skos:altLabel	inflammation of anatomical structure	xsd:string
+obo:MONDO_0021166	skos:altLabel	inflammatory disease	xsd:string
+obo:MONDO_0021166	skos:altLabel	inflammatory disorder	xsd:string
+evs:C47796	skos:altLabel	Cholinergic Agonist	xsd:string
+evs:C221	skos:altLabel	alkaloid	xsd:string
+evs:C221	skos:altLabel	Alkaloids	xsd:string
+evs:C221	skos:altLabel	Alkaloid	xsd:string
+evs:C35553	skos:altLabel	Abnormal Blood Chemistry and Hematology Test Result	xsd:string
+bmir-radx:nih_ibd	skos:altLabel	inflammatory bowel disease	xsd:string
+bmir-radx:nih_ibd	skos:altLabel	autoimmune bowel disorder	xsd:string
+bmir-radx:nih_ibd	skos:altLabel	IBD	xsd:string
+evs:C26940	skos:altLabel	chronic pain	xsd:string
+evs:C26940	skos:altLabel	Chronic Pain	xsd:string
+evs:C2962	skos:altLabel	Seizures	xsd:string
+evs:C2962	skos:altLabel	Seizure	xsd:string
+evs:C2962	skos:altLabel	seizure	xsd:string
+evs:C2962	skos:altLabel	Convulsion/Seizure	xsd:string
+evs:C2962	skos:altLabel	Unspecified convulsions	xsd:string
+evs:C2962	skos:altLabel	Convulsion	xsd:string
+evs:C68751	skos:altLabel	Smoker	xsd:string
+evs:C68751	skos:altLabel	Current or Former Smoker	xsd:string
+bmir-radx:nih_othermh	skos:altLabel	Psychiatric disorder	xsd:string
+bmir-radx:nih_othermh	skos:altLabel	Psychiatric disease	xsd:string
+bmir-radx:nih_othermh	skos:altLabel	mental dysfunction	xsd:string
+bmir-radx:nih_othermh	skos:altLabel	mental disorder	xsd:string
+bmir-radx:nih_othermh	skos:altLabel	disease of mental health	xsd:string
+bmir-radx:nih_othermh	skos:altLabel	mental illness	xsd:string
+obo:MONDO_0004335	skos:altLabel	disease or disorder of digestive system	xsd:string
+obo:MONDO_0004335	skos:altLabel	git disease	xsd:string
+obo:MONDO_0004335	skos:altLabel	digestive system disease or disorder	xsd:string
+obo:MONDO_0004335	skos:altLabel	alimentary system disease	xsd:string
+obo:MONDO_0004335	skos:altLabel	gastroenteropathy	xsd:string
+obo:MONDO_0004335	skos:altLabel	gastroenterological system disorder	xsd:string
+obo:MONDO_0004335	skos:altLabel	disorder of digestive system	xsd:string
+obo:MONDO_0004335	skos:altLabel	digestive disease	xsd:string
+obo:MONDO_0004335	skos:altLabel	gastrointestinal system disease	xsd:string
+obo:MONDO_0004335	skos:altLabel	stomach or intestinal disorder	xsd:string
+obo:MONDO_0004335	skos:altLabel	gastroenterological system disease	xsd:string
+obo:MONDO_0004335	skos:altLabel	disease of digestive system	xsd:string
+obo:MONDO_0004335	skos:altLabel	gastrointestinal disorder	xsd:string
+obo:MONDO_0004335	skos:altLabel	digestive system disorder	xsd:string
+obo:MONDO_0004335	skos:altLabel	gastrointestinal disease	xsd:string
+obo:MONDO_0004335	skos:altLabel	gastrointestinal system disorder	xsd:string
+obo:MONDO_0004335	skos:altLabel	digestive system disease	xsd:string
+obo:MONDO_0002267	skos:altLabel	respiratory airway obstruction	xsd:string
+obo:MONDO_0002025	skos:altLabel	mental disorder	xsd:string
+obo:MONDO_0002025	skos:altLabel	mental dysfunction	xsd:string
+obo:MONDO_0002025	skos:altLabel	disease of mental health	xsd:string
+obo:MONDO_0002025	skos:altLabel	Psychiatric disorder	xsd:string
+obo:MONDO_0002025	skos:altLabel	mental illness	xsd:string
+obo:MONDO_0002025	skos:altLabel	Psychiatric disease	xsd:string
+evs:C16203	skos:altLabel	Clinical or Research Activity	xsd:string
+evs:C36278	skos:altLabel	Finding by Site or System	xsd:string
+obo:MONDO_0004995	skos:altLabel	cardiovascular disorder	xsd:string
+obo:MONDO_0004995	skos:altLabel	cardiovascular disease	xsd:string
+obo:MONDO_0004995	skos:altLabel	cardiovascular system disease	xsd:string
+obo:MONDO_0004995	skos:altLabel	cardiovascular system disease or disorder	xsd:string
+obo:MONDO_0004995	skos:altLabel	cardiovascular disease (CVD)	xsd:string
+obo:MONDO_0004995	skos:altLabel	disease or disorder of cardiovascular system	xsd:string
+obo:MONDO_0004995	skos:altLabel	disorder of cardiovascular system	xsd:string
+obo:MONDO_0004995	skos:altLabel	circulatory system disease	xsd:string
+obo:MONDO_0004995	skos:altLabel	disease of subdivision of hemolymphoid system	xsd:string
+obo:MONDO_0004995	skos:altLabel	disease of cardiovascular system	xsd:string
+obo:MONDO_0045024	skos:altLabel	neoplasm	xsd:string
+obo:MONDO_0045024	skos:altLabel	cell proliferation disorder	xsd:string
+obo:MONDO_0022034	skos:altLabel	Lentivirus Infection	xsd:string
+obo:MONDO_0022034	skos:altLabel	Infection, Lentivirus	xsd:string
+obo:MONDO_0022034	skos:altLabel	Infections, Lentivirus	xsd:string
+obo:MONDO_0022034	skos:altLabel	Lentivirus Infections	xsd:string
+obo:MONDO_0022034	skos:altLabel	Disease caused by Lentivirus	xsd:string
+obo:MONDO_0022034	skos:altLabel	Disease due to Lentivirus	xsd:string
+obo:MONDO_0024575	skos:altLabel	complication, pregnancy	xsd:string
+obo:MONDO_0024575	skos:altLabel	Complications, pregnancy	xsd:string
+obo:MONDO_0024575	skos:altLabel	disorder of pregnancy	xsd:string
+obo:MONDO_0024575	skos:altLabel	pregnancy disease	xsd:string
+obo:MONDO_0024575	skos:altLabel	disorder of pregnancy, childbirth, or puerperium	xsd:string
+obo:MONDO_0024575	skos:altLabel	pregnancy disorder	xsd:string
+obo:MONDO_0024575	skos:altLabel	pregnancy complication	xsd:string
+obo:MONDO_0024575	skos:altLabel	complication of pregnancy or childbirth	xsd:string
+obo:MONDO_0000001	skos:altLabel	condition	xsd:string
+obo:MONDO_0000001	skos:altLabel	disease	xsd:string
+obo:MONDO_0000001	skos:altLabel	disease or disorder, non-neoplastic	xsd:string
+obo:MONDO_0000001	skos:altLabel	diseases and disorders	xsd:string
+obo:MONDO_0000001	skos:altLabel	other disease	xsd:string
+obo:MONDO_0000001	skos:altLabel	diseases	xsd:string
+obo:MONDO_0000001	skos:altLabel	disease or disorder	xsd:string
+obo:MONDO_0000001	skos:altLabel	medical condition	xsd:string
+obo:MONDO_0000001	skos:altLabel	disorders	xsd:string
+obo:MONDO_0000001	skos:altLabel	disorder	xsd:string
+obo:MONDO_0011122	skos:altLabel	obesity disease	xsd:string
+obo:MONDO_0011122	skos:altLabel	obesity	xsd:string
+obo:MONDO_0000771	skos:altLabel	allergic respiratory system disease	xsd:string
+obo:MONDO_0000771	skos:altLabel	respiratory allergy	xsd:string
+obo:MONDO_0000771	skos:altLabel	airway allergy	xsd:string
+obo:MONDO_0000771	skos:altLabel	allergic form of respiratory system disease	xsd:string
+obo:MONDO_0021682	skos:altLabel	viral venereal diseases	xsd:string
+obo:MONDO_0021682	skos:altLabel	venereal disease, viral	xsd:string
+obo:MONDO_0021682	skos:altLabel	disease, viral venereal	xsd:string
+obo:MONDO_0021682	skos:altLabel	viral sexually Transmitted diseases	xsd:string
+obo:MONDO_0021682	skos:altLabel	sexually Transmitted disease, viral	xsd:string
+obo:MONDO_0021682	skos:altLabel	diseases, viral venereal	xsd:string
+obo:MONDO_0021682	skos:altLabel	venereal diseases, viral	xsd:string
+obo:MONDO_0021682	skos:altLabel	viral sexually transmitted disease	xsd:string
+obo:MONDO_0021682	skos:altLabel	viral venereal disease	xsd:string
+obo:MONDO_0044991	skos:altLabel	disease of upper digestive tract	xsd:string
+obo:MONDO_0044991	skos:altLabel	disorder of upper gastrointestinal tract	xsd:string
+obo:MONDO_0044991	skos:altLabel	upper digestive tract disease or disorder	xsd:string
+obo:MONDO_0044991	skos:altLabel	upper gastrointestinal tract disease	xsd:string
+obo:MONDO_0044991	skos:altLabel	disorder of upper digestive tract	xsd:string
+obo:MONDO_0044991	skos:altLabel	disease or disorder of upper digestive tract	xsd:string
+obo:MONDO_0005039	skos:altLabel	reproductive system disorder	xsd:string
+obo:MONDO_0005039	skos:altLabel	disease or disorder of reproductive system	xsd:string
+obo:MONDO_0005039	skos:altLabel	reproductive system disease or disorder	xsd:string
+obo:MONDO_0005039	skos:altLabel	reproductive disease	xsd:string
+obo:MONDO_0005039	skos:altLabel	disease of reproductive system	xsd:string
+obo:MONDO_0005039	skos:altLabel	genital system disease	xsd:string
+obo:MONDO_0005039	skos:altLabel	disorder of reproductive system	xsd:string
+obo:MONDO_0005039	skos:altLabel	genital disorders	xsd:string
+obo:MONDO_0005039	skos:altLabel	reproductive system disease	xsd:string
+bmir-radx:nih_smoking_yn	skos:altLabel	Smoking	xsd:string
+bmir-radx:nih_smoking_yn	skos:altLabel	Tobacco Smoking	xsd:string
+bmir-radx:nih_smoking_yn	skos:altLabel	Tobacco, Smoking	xsd:string
+bmir-radx:nih_dress_bathe	skos:altLabel	Dressing Ability	xsd:string
+bmir-radx:nih_dress_bathe	skos:altLabel	Dressing	xsd:string
+obo:MONDO_0005578	skos:altLabel	skeletal joint inflammation	xsd:string
+obo:MONDO_0005578	skos:altLabel	inflammation of skeletal joint	xsd:string
+obo:MONDO_0005578	skos:altLabel	arthritis	xsd:string
+obo:MONDO_0005578	skos:altLabel	inflammatory disorder of joint	xsd:string
+evs:C17468	skos:altLabel	Socioeconomic Status	xsd:string
+evs:C17468	skos:altLabel	Socioeconomic Factors	xsd:string
+evs:C17468	skos:altLabel	Measured Social Factor	xsd:string
+evs:C3367	skos:altLabel	Finding	xsd:string
+evs:C3367	skos:altLabel	finding	xsd:string
+evs:C3367	skos:altLabel	Observable Entity	xsd:string
+evs:C19700	skos:altLabel	Cancer Patient	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	non-insulin-dependent diabetes mellitus	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitus, type II, susceptibility to	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	adult-onset diabetes	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	type 2 diabetes mellitus, susceptibility to	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	NIDDM	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	type 2 diabetes mellitus	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	type 2 diabetes	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitus, type 2, protection against	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	maturity-onset diabetes	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitus, type II	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	insulin resistance, susceptibility to	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	type 2 diabetes mellitus non-insulin dependent	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitus, noninsulin-dependent	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	hypertension, insulin resistance-related, susceptibility to	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitus, noninsulin-dependent, 2	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitis type 2	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	insulin resistance, severe, digenic	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitus, type 2, susceptibility to	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	noninsulin dependent diabetes	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	type II diabetes	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes, type 2	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitus, type 2	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	T2DM - type 2 diabetes mellitus	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitus, non-insulin-dependent, susceptibility to	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	non-insulin dependent diabetes mellitus	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitus, noninsulin-dependent, susceptibility to	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitis type II	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	non-insulin dependent diabetes	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	adult onset diabetes	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	noninsulin-dependent diabetes mellitus	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitus, noninsulin-dependent, association with	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	diabetes mellitus, noninsulin-dependent, late onset	xsd:string
+bmir-radx:nih_t2dm	skos:altLabel	type II diabetes mellitus	xsd:string
+evs:C157356	skos:altLabel	Insurance	xsd:string
+evs:C157356	skos:altLabel	Health Insurance	xsd:string
+obo:MONDO_0700007	skos:altLabel	idiopathic disorder	xsd:string
+obo:MONDO_0000473	skos:altLabel	arterial disease	xsd:string
+obo:MONDO_0000473	skos:altLabel	disease of artery	xsd:string
+obo:MONDO_0000473	skos:altLabel	arterial disorder	xsd:string
+obo:MONDO_0000473	skos:altLabel	artery disease or disorder	xsd:string
+obo:MONDO_0000473	skos:altLabel	disease or disorder of artery	xsd:string
+obo:MONDO_0000473	skos:altLabel	arteriopathy	xsd:string
+obo:MONDO_0000473	skos:altLabel	disorder of artery	xsd:string
+obo:MONDO_0000473	skos:altLabel	artery disease	xsd:string
+obo:MONDO_0000462	skos:altLabel	disorder of ocular adnexa	xsd:string
+obo:MONDO_0000462	skos:altLabel	disease or disorder of ocular adnexa	xsd:string
+obo:MONDO_0000462	skos:altLabel	ocular adnexa disease or disorder	xsd:string
+obo:MONDO_0000462	skos:altLabel	disease of ocular adnexa	xsd:string
+obo:MONDO_0000462	skos:altLabel	ocular adnexa disease	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	MT	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	primary cancer	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	organ system cancer	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	malignant neoplastic disease	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	CA	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	malignant tumour	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	cell type cancer	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	malignancy	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	malignant Growth	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	malignant neoplasm (disease)	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	malignant neoplasm	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	neoplasm (disease), malignant	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	cancer	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	neoplasm, malignant	xsd:string
+bmir-radx:nih_cancer_past_yr	skos:altLabel	malignant tumor	xsd:string
+obo:MONDO_0019019	skos:altLabel	OI	xsd:string
+obo:MONDO_0019019	skos:altLabel	Porak and Durante disease	xsd:string
+obo:MONDO_0019019	skos:altLabel	Vrolik's disease	xsd:string
+obo:MONDO_0019019	skos:altLabel	Osteopsathyrosis	xsd:string
+obo:MONDO_0019019	skos:altLabel	brittle bone disease	xsd:string
+obo:MONDO_0019019	skos:altLabel	Fragilitas ossium	xsd:string
+obo:MONDO_0019019	skos:altLabel	Lobstein's syndrome	xsd:string
+obo:MONDO_0019019	skos:altLabel	glass bone disease	xsd:string
+obo:MONDO_0019019	skos:altLabel	Vrolik disease	xsd:string
+obo:MONDO_0019019	skos:altLabel	Lobstein disease	xsd:string
+obo:MONDO_0021681	skos:altLabel	sexually Transmitted infections	xsd:string
+obo:MONDO_0021681	skos:altLabel	VD, venereal disease	xsd:string
+obo:MONDO_0021681	skos:altLabel	venereal disease (VD)	xsd:string
+obo:MONDO_0021681	skos:altLabel	venereal disease	xsd:string
+obo:MONDO_0021681	skos:altLabel	STD	xsd:string
+obo:MONDO_0021681	skos:altLabel	sexually Transmitted disorder	xsd:string
+obo:MONDO_0021681	skos:altLabel	venereal diseases	xsd:string
+obo:MONDO_0021681	skos:altLabel	disease, venereal	xsd:string
+obo:MONDO_0021681	skos:altLabel	infection, sexually Transmitted	xsd:string
+obo:MONDO_0021681	skos:altLabel	Transmitted infection, sexually	xsd:string
+obo:MONDO_0021681	skos:altLabel	diseases, venereal	xsd:string
+obo:MONDO_0021681	skos:altLabel	disease (VD), venereal	xsd:string
+obo:MONDO_0021681	skos:altLabel	STI	xsd:string
+obo:MONDO_0021681	skos:altLabel	Transmitted infections, sexually	xsd:string
+obo:MONDO_0021681	skos:altLabel	disease, sexually Transmitted	xsd:string
+obo:MONDO_0021681	skos:altLabel	sexually Transmitted infection	xsd:string
+obo:MONDO_0021681	skos:altLabel	sexually transmitted disease	xsd:string
+obo:MONDO_0021681	skos:altLabel	infections, sexually Transmitted	xsd:string
+obo:MONDO_0021681	skos:altLabel	STIs	xsd:string
+obo:MONDO_0021681	skos:altLabel	STDs	xsd:string
+obo:MONDO_0021681	skos:altLabel	VD	xsd:string
+obo:MONDO_0021681	skos:altLabel	diseases, sexually Transmitted	xsd:string
+bmir-radx:nih_osteoporosis	skos:altLabel	osteoporosis, postmenopausal	xsd:string
+bmir-radx:nih_osteoporosis	skos:altLabel	bone mineral density variation QTL, osteoporosis	xsd:string
+bmir-radx:nih_osteoporosis	skos:altLabel	osteoporosis, susceptibility to	xsd:string
+bmir-radx:nih_osteoporosis	skos:altLabel	osteoporosis, postmenopausal, susceptibility	xsd:string
+bmir-radx:nih_osteoporosis	skos:altLabel	osteoporosis, involutional	xsd:string
+bmir-radx:nih_osteoporosis	skos:altLabel	fracture, hip, susceptibility to	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitus, type 2, protection against	xsd:string
+obo:MONDO_0005148	skos:altLabel	adult onset diabetes	xsd:string
+obo:MONDO_0005148	skos:altLabel	maturity-onset diabetes	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitus, noninsulin-dependent, susceptibility to	xsd:string
+obo:MONDO_0005148	skos:altLabel	insulin resistance, susceptibility to	xsd:string
+obo:MONDO_0005148	skos:altLabel	non-insulin-dependent diabetes mellitus	xsd:string
+obo:MONDO_0005148	skos:altLabel	non-insulin dependent diabetes mellitus	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes, type 2	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitus, type 2, susceptibility to	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitus, type II, susceptibility to	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitus, type II	xsd:string
+obo:MONDO_0005148	skos:altLabel	non-insulin dependent diabetes	xsd:string
+obo:MONDO_0005148	skos:altLabel	T2DM - type 2 diabetes mellitus	xsd:string
+obo:MONDO_0005148	skos:altLabel	type 2 diabetes	xsd:string
+obo:MONDO_0005148	skos:altLabel	noninsulin-dependent diabetes mellitus	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitus, noninsulin-dependent, association with	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitus, noninsulin-dependent, late onset	xsd:string
+obo:MONDO_0005148	skos:altLabel	type II diabetes	xsd:string
+obo:MONDO_0005148	skos:altLabel	type 2 diabetes mellitus non-insulin dependent	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitis type 2	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitus, noninsulin-dependent, 2	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitus, non-insulin-dependent, susceptibility to	xsd:string
+obo:MONDO_0005148	skos:altLabel	insulin resistance, severe, digenic	xsd:string
+obo:MONDO_0005148	skos:altLabel	adult-onset diabetes	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitis type II	xsd:string
+obo:MONDO_0005148	skos:altLabel	type 2 diabetes mellitus	xsd:string
+obo:MONDO_0005148	skos:altLabel	type II diabetes mellitus	xsd:string
+obo:MONDO_0005148	skos:altLabel	noninsulin dependent diabetes	xsd:string
+obo:MONDO_0005148	skos:altLabel	hypertension, insulin resistance-related, susceptibility to	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitus, type 2	xsd:string
+obo:MONDO_0005148	skos:altLabel	diabetes mellitus, noninsulin-dependent	xsd:string
+obo:MONDO_0005148	skos:altLabel	NIDDM	xsd:string
+obo:MONDO_0005148	skos:altLabel	type 2 diabetes mellitus, susceptibility to	xsd:string
+obo:MONDO_0005137	skos:altLabel	nutritional disorder	xsd:string
+obo:MONDO_0005137	skos:altLabel	nutrition disease	xsd:string
+evs:C17005	skos:altLabel	population	xsd:string
+evs:C17005	skos:altLabel	Population	xsd:string
+evs:C17005	skos:altLabel	Subpopulation	xsd:string
+evs:C17005	skos:altLabel	Group	xsd:string
+evs:C17005	skos:altLabel	Population Group	xsd:string
+bmir-radx:nih_alcohol_yrs	skos:altLabel	alcohol history	xsd:string
+bmir-radx:nih_alcohol_yrs	skos:altLabel	alcohol misuse	xsd:string
+bmir-radx:nih_alcohol_yrs	skos:altLabel	alcohol abuse	xsd:string
+bmir-radx:nih_alcohol_yrs	skos:altLabel	alcohol use, unspecified	xsd:string
+bmir-radx:nih_alcohol_yrs	skos:altLabel	alcohol_history	xsd:string
+bmir-radx:nih_alcohol_yrs	skos:altLabel	Alcohol Use	xsd:string
+bmir-radx:nih_alcohol_yrs	skos:altLabel	Alcohol Use History	xsd:string
+bmir-radx:nih_alcohol_yrs	skos:altLabel	Alcohol Consumption	xsd:string
+bmir-radx:nih_alcohol_yrs	skos:altLabel	Alcohol History	xsd:string
+obo:MONDO_0005324	skos:altLabel	seasonal allergic rhinitis	xsd:string
+obo:MONDO_0005324	skos:altLabel	hay fever	xsd:string
+obo:MONDO_0003014	skos:altLabel	runny nose	xsd:string
+obo:MONDO_0003014	skos:altLabel	nasal cavity mucosa inflammation	xsd:string
+obo:MONDO_0003014	skos:altLabel	inflammation of nasal cavity mucosa	xsd:string
+obo:MONDO_0002254	skos:altLabel	symptom cluster	xsd:string
+obo:MONDO_0002254	skos:altLabel	syndromic disease or disorder	xsd:string
+obo:MONDO_0002254	skos:altLabel	cluster, symptom	xsd:string
+obo:MONDO_0002254	skos:altLabel	syndrome associated with disease or disorder	xsd:string
+obo:MONDO_0002254	skos:altLabel	symptom clusters	xsd:string
+obo:MONDO_0002254	skos:altLabel	clusters, symptom	xsd:string
+obo:MONDO_0002254	skos:altLabel	syndromes	xsd:string
+obo:MONDO_0002254	skos:altLabel	syndrome	xsd:string
+obo:MONDO_0002254	skos:altLabel	syndromic disease	xsd:string
+bmir-radx:nih_depression	skos:altLabel	depression	xsd:string
+bmir-radx:nih_depression	skos:altLabel	syndrome, depressive	xsd:string
+bmir-radx:nih_depression	skos:altLabel	mental depression	xsd:string
+bmir-radx:nih_depression	skos:altLabel	syndromes, depressive	xsd:string
+bmir-radx:nih_depression	skos:altLabel	melancholia	xsd:string
+bmir-radx:nih_depression	skos:altLabel	melancholias	xsd:string
+evs:C16564	skos:altLabel	Patient Reported Ethnicity	xsd:string
+evs:C16564	skos:altLabel	Ethnic Origins	xsd:string
+evs:C16564	skos:altLabel	ethnicity	xsd:string
+evs:C16564	skos:altLabel	ETHNICITY	xsd:string
+evs:C16564	skos:altLabel	Ethnic Origin	xsd:string
+evs:C16564	skos:altLabel	Ethnic Group	xsd:string
+evs:C16564	skos:altLabel	Ethnicity	xsd:string
+evs:C16564	skos:altLabel	ETHNIC	xsd:string
+evs:C18742	skos:altLabel	Diagnostic or Prognostic Test	xsd:string
+obo:MONDO_0002232	skos:altLabel	disease of nasal cavity	xsd:string
+obo:MONDO_0002232	skos:altLabel	nasal cavity disease or disorder	xsd:string
+obo:MONDO_0002232	skos:altLabel	disease or disorder of nasal cavity	xsd:string
+obo:MONDO_0002232	skos:altLabel	nasal cavity disease	xsd:string
+obo:MONDO_0002232	skos:altLabel	disorder of nasal cavity	xsd:string
+obo:MONDO_0002232	skos:altLabel	nasal cavity disorder	xsd:string
+bmir-radx:nih_hypertension	skos:altLabel	vascular hypertensive disorder	xsd:string
+bmir-radx:nih_hypertension	skos:altLabel	pressure, high blood	xsd:string
+bmir-radx:nih_hypertension	skos:altLabel	HTN	xsd:string
+bmir-radx:nih_hypertension	skos:altLabel	increased blood pressure	xsd:string
+bmir-radx:nih_hypertension	skos:altLabel	blood pressure, high	xsd:string
+bmir-radx:nih_hypertension	skos:altLabel	hypertensive disease	xsd:string
+bmir-radx:nih_hypertension	skos:altLabel	high blood pressure	xsd:string
+bmir-radx:nih_hypertension	skos:altLabel	hyperpiesia	xsd:string
+bmir-radx:nih_hypertension	skos:altLabel	blood pressure, increased	xsd:string
+bmir-radx:nih_hypertension	skos:altLabel	hypertension	xsd:string
+obo:MONDO_0002562	skos:altLabel	demyelinating disorder	xsd:string
+evs:C27993	skos:altLabel	General Qualifiers	xsd:string
+evs:C27993	skos:altLabel	General Qualifier	xsd:string
+evs:C27993	skos:altLabel	General Modifier	xsd:string
+evs:C16960	skos:altLabel	LAY USER/PATIENT	xsd:string
+evs:C16960	skos:altLabel	PATIENT	xsd:string
+evs:C16960	skos:altLabel	PT	xsd:string
+evs:C16960	skos:altLabel	Patient	xsd:string
+evs:C16960	skos:altLabel	patient	xsd:string
+evs:C16960	skos:altLabel	Patients	xsd:string
+evs:C199001	skos:altLabel	Person by Health Status	xsd:string
+evs:C691	skos:altLabel	NICOTINE	xsd:string
+evs:C691	skos:altLabel	nicotine	xsd:string
+evs:C691	skos:altLabel	beta-Pyridyl-alpha-N-methylpyrrolidine	xsd:string
+evs:C691	skos:altLabel	(S)-3-(1-Methyl-2-pyrrolidinyl)pyridine	xsd:string
+evs:C691	skos:altLabel	NIC	xsd:string
+evs:C691	skos:altLabel	Nicotine	xsd:string
+evs:C691	skos:altLabel	1-Methyl-2-(3-pyridyl)pyrrolidine	xsd:string
+evs:C691	skos:altLabel	(-)-Nicotine	xsd:string
+bmir-radx:nih_ms	skos:altLabel	insular sclerosis	xsd:string
+bmir-radx:nih_ms	skos:altLabel	generalised multiple sclerosis	xsd:string
+bmir-radx:nih_ms	skos:altLabel	generalized multiple sclerosis	xsd:string
+bmir-radx:nih_alcohol_yn	skos:altLabel	Alcohol Consumption	xsd:string
+bmir-radx:nih_alcohol_yn	skos:altLabel	Alcohol History	xsd:string
+bmir-radx:nih_alcohol_yn	skos:altLabel	alcohol_history	xsd:string
+bmir-radx:nih_alcohol_yn	skos:altLabel	Alcohol Use	xsd:string
+bmir-radx:nih_alcohol_yn	skos:altLabel	alcohol use, unspecified	xsd:string
+bmir-radx:nih_alcohol_yn	skos:altLabel	alcohol abuse	xsd:string
+bmir-radx:nih_alcohol_yn	skos:altLabel	alcohol history	xsd:string
+bmir-radx:nih_alcohol_yn	skos:altLabel	Alcohol Use History	xsd:string
+bmir-radx:nih_alcohol_yn	skos:altLabel	alcohol misuse	xsd:string
+obo:MONDO_0005147	skos:altLabel	type I diabetes mellitus	xsd:string
+obo:MONDO_0005147	skos:altLabel	type 1 diabetes	xsd:string
+obo:MONDO_0005147	skos:altLabel	diabetes mellitis type I	xsd:string
+obo:MONDO_0005147	skos:altLabel	juvenile diabetes	xsd:string
+obo:MONDO_0005147	skos:altLabel	insulin-dependent diabetes mellitus	xsd:string
+obo:MONDO_0005147	skos:altLabel	type I diabetes	xsd:string
+obo:MONDO_0005147	skos:altLabel	IDDM	xsd:string
+obo:MONDO_0005147	skos:altLabel	immune mediated diabetes	xsd:string
+obo:MONDO_0005147	skos:altLabel	insulin dependent diabetes	xsd:string
+obo:MONDO_0005147	skos:altLabel	diabetes mellitis type 1	xsd:string
+obo:MONDO_0005015	skos:altLabel	diabetes mellitus	xsd:string
+obo:MONDO_0005015	skos:altLabel	diabetes mellitus (disease)	xsd:string
+obo:MONDO_0005015	skos:altLabel	DM	xsd:string
+obo:MONDO_0005015	skos:altLabel	diabetes	xsd:string
+obo:MONDO_0019755	skos:altLabel	developmental defect during embryogenesis	xsd:string
+obo:MONDO_0019755	skos:altLabel	malformation syndrome	xsd:string
+obo:MONDO_0019755	skos:altLabel	congenital malformation syndrome	xsd:string
+obo:MONDO_0019755	skos:altLabel	disorder of embryonic morphogenesis	xsd:string
+obo:MONDO_0019755	skos:altLabel	rare developmental defect during embryogenesis	xsd:string
+obo:MONDO_0019755	skos:altLabel	embryonic morphogenesis disease	xsd:string
+bmir-radx:nih_deaf	skos:altLabel	Abnormal hearing	xsd:string
+bmir-radx:nih_deaf	skos:altLabel	Hearing abnormality	xsd:string
+bmir-radx:nih_cig_smoke_freq	skos:altLabel	Current or Former Smoker	xsd:string
+bmir-radx:nih_cig_smoke_freq	skos:altLabel	Smoker	xsd:string
+bmir-radx:nih_cig_smoke_freq	skos:altLabel	Current Tobacco and Nicotine Consumption Status	xsd:string
+bmir-radx:nih_cig_smoke_freq	skos:altLabel	Smoking Status	xsd:string
+bmir-radx:nih_cig_smoke_freq	skos:altLabel	tobacco_smoking_status	xsd:string
+bmir-radx:nih_cig_smoke_freq	skos:altLabel	tobacco smoking status	xsd:string
+bmir-radx:nih_cig_smoke_freq	skos:altLabel	Smoking Question	xsd:string
+obo:MONDO_0005554	skos:altLabel	enthesopathy	xsd:string
+obo:MONDO_0005554	skos:altLabel	rheumatologic disorder	xsd:string
+obo:MONDO_0005554	skos:altLabel	collagen disease	xsd:string
+obo:MONDO_0005554	skos:altLabel	enthesopathies	xsd:string
+obo:MONDO_0005554	skos:altLabel	inflammatory rheumatism	xsd:string
+obo:MONDO_0005554	skos:altLabel	collagen vascular disease	xsd:string
+obo:MONDO_0005554	skos:altLabel	rheumatism	xsd:string
+obo:MONDO_0005554	skos:altLabel	rheumatic disease	xsd:string
+obo:MONDO_0005554	skos:altLabel	diseases, rheumatic	xsd:string
+obo:MONDO_0005554	skos:altLabel	disease, rheumatic	xsd:string
+obo:MONDO_0005554	skos:altLabel	musculoskeletal pain disorder	xsd:string
+obo:MONDO_0005554	skos:altLabel	connective tissue disease	xsd:string
+bmir-radx:nih_education	skos:altLabel	Educational Level	xsd:string
+bmir-radx:nih_education	skos:altLabel	Level of Education Attained	xsd:string
+bmir-radx:nih_education	skos:altLabel	Education Level	xsd:string
+bmir-radx:nih_education	skos:altLabel	Educational Attainment	xsd:string
+bmir-radx:nih_education	skos:altLabel	Education	xsd:string
+bmir-radx:nih_education	skos:altLabel	education_level	xsd:string
+bmir-radx:nih_education	skos:altLabel	EDULEVEL	xsd:string
+bmir-radx:nih_education	skos:altLabel	education level	xsd:string
+bmir-radx:nih_education	skos:altLabel	Education Level Completed	xsd:string
+obo:MONDO_0005301	skos:altLabel	insular sclerosis	xsd:string
+obo:MONDO_0005301	skos:altLabel	generalized multiple sclerosis	xsd:string
+obo:MONDO_0005301	skos:altLabel	generalised multiple sclerosis	xsd:string
+obo:MONDO_0004992	skos:altLabel	neoplasm (disease), malignant	xsd:string
+obo:MONDO_0004992	skos:altLabel	malignant tumour	xsd:string
+obo:MONDO_0004992	skos:altLabel	malignant neoplasm	xsd:string
+obo:MONDO_0004992	skos:altLabel	malignant tumor	xsd:string
+obo:MONDO_0004992	skos:altLabel	MT	xsd:string
+obo:MONDO_0004992	skos:altLabel	neoplasm, malignant	xsd:string
+obo:MONDO_0004992	skos:altLabel	malignant neoplastic disease	xsd:string
+obo:MONDO_0004992	skos:altLabel	primary cancer	xsd:string
+obo:MONDO_0004992	skos:altLabel	malignant neoplasm (disease)	xsd:string
+obo:MONDO_0004992	skos:altLabel	CA	xsd:string
+obo:MONDO_0004992	skos:altLabel	malignant Growth	xsd:string
+obo:MONDO_0004992	skos:altLabel	cell type cancer	xsd:string
+obo:MONDO_0004992	skos:altLabel	organ system cancer	xsd:string
+obo:MONDO_0004992	skos:altLabel	malignancy	xsd:string
+obo:MONDO_0004992	skos:altLabel	cancer	xsd:string
+obo:MONDO_0004981	skos:altLabel	atrial fibrillation (disease)	xsd:string
+obo:MONDO_0004981	skos:altLabel	AF	xsd:string
+obo:MONDO_0004981	skos:altLabel	atrial fibrillation	xsd:string
+obo:MONDO_0004981	skos:altLabel	A-fib	xsd:string
+obo:MONDO_0004981	skos:altLabel	AFib	xsd:string
+evs:C26683	skos:altLabel	Abnormal, NOS	xsd:string
+evs:C26683	skos:altLabel	Abnormal Laboratory Test Result	xsd:string
+evs:C26683	skos:altLabel	Abnormal Laboratory Test	xsd:string
+evs:C26683	skos:altLabel	Abnormal Lab Test Result	xsd:string
+evs:C35461	skos:altLabel	Longitudinal Course	xsd:string
+evs:C35461	skos:altLabel	LONGCRSE	xsd:string
+evs:C35461	skos:altLabel	Clinical Course of Disease	xsd:string
+evs:C35461	skos:altLabel	Clinical Course	xsd:string
+evs:C176021	skos:altLabel	Activity Question	xsd:string
+evs:C120482	skos:altLabel	e-Cigarette	xsd:string
+evs:C120482	skos:altLabel	Electronic Nicotine Delivery System	xsd:string
+evs:C120482	skos:altLabel	Electronic Cigarette	xsd:string
+evs:C165593	skos:altLabel	Chronic Disease	xsd:string
+evs:C2991	skos:altLabel	disorder	xsd:string
+evs:C2991	skos:altLabel	Diseases and Disorders	xsd:string
+evs:C2991	skos:altLabel	Disease or Disorder	xsd:string
+evs:C2991	skos:altLabel	Diagnosis	xsd:string
+evs:C2991	skos:altLabel	Other Disease	xsd:string
+evs:C2991	skos:altLabel	Disease	xsd:string
+evs:C2991	skos:altLabel	Disorders	xsd:string
+evs:C2991	skos:altLabel	Disease or Disorder, Non-Neoplastic	xsd:string
+evs:C2991	skos:altLabel	disease term	xsd:string
+evs:C2991	skos:altLabel	disease_type	xsd:string
+evs:C2991	skos:altLabel	disease type	xsd:string
+evs:C2991	skos:altLabel	disease	xsd:string
+evs:C2991	skos:altLabel	Disorder	xsd:string
+evs:C2991	skos:altLabel	disease_term	xsd:string
+evs:C2991	skos:altLabel	Diseases	xsd:string
+evs:C2991	skos:altLabel	condition	xsd:string
+bmir-radx:nih_serious_mental_illness	skos:altLabel	mental process disease	xsd:string
+bmir-radx:nih_serious_mental_illness	skos:altLabel	mental or behavioural disorder	xsd:string
+bmir-radx:nih_serious_mental_illness	skos:altLabel	mental or behavioral disorder	xsd:string
+bmir-radx:nih_serious_mental_illness	skos:altLabel	disorder of mental process	xsd:string
+evs:C77140	skos:altLabel	Test Result	xsd:string
+evs:C77140	skos:altLabel	Diagnostic Test Result	xsd:string
+evs:C77140	skos:altLabel	Clinical Test Result	xsd:string
+evs:C18059	skos:altLabel	Tobacco, NOS	xsd:string
+evs:C18059	skos:altLabel	Tobacco Use	xsd:string
+evs:C18059	skos:altLabel	Tobacco Consumption	xsd:string
+bmir-radx:nih_t1d	skos:altLabel	type I diabetes	xsd:string
+bmir-radx:nih_t1d	skos:altLabel	insulin-dependent diabetes mellitus	xsd:string
+bmir-radx:nih_t1d	skos:altLabel	type 1 diabetes	xsd:string
+bmir-radx:nih_t1d	skos:altLabel	diabetes mellitis type 1	xsd:string
+bmir-radx:nih_t1d	skos:altLabel	diabetes mellitis type I	xsd:string
+bmir-radx:nih_t1d	skos:altLabel	IDDM	xsd:string
+bmir-radx:nih_t1d	skos:altLabel	juvenile diabetes	xsd:string
+bmir-radx:nih_t1d	skos:altLabel	insulin dependent diabetes	xsd:string
+bmir-radx:nih_t1d	skos:altLabel	immune mediated diabetes	xsd:string
+bmir-radx:nih_t1d	skos:altLabel	type I diabetes mellitus	xsd:string
+evs:C9305	skos:altLabel	CA	xsd:string
+evs:C9305	skos:altLabel	Cancer	xsd:string
+evs:C9305	skos:altLabel	Malignant Neoplastic Disease	xsd:string
+evs:C9305	skos:altLabel	Tumor, malignant, NOS	xsd:string
+evs:C9305	skos:altLabel	cancer	xsd:string
+evs:C9305	skos:altLabel	Neoplasm, malignant	xsd:string
+evs:C9305	skos:altLabel	Unclassified tumor, malignant	xsd:string
+evs:C9305	skos:altLabel	NEOPLASM, MALIGNANT	xsd:string
+evs:C9305	skos:altLabel	malignancy	xsd:string
+evs:C9305	skos:altLabel	Malignant Tumor	xsd:string
+evs:C9305	skos:altLabel	Malignant Neoplasm	xsd:string
+evs:C9305	skos:altLabel	Malignancy	xsd:string
+evs:C9305	skos:altLabel	Malignant Growth	xsd:string
+obo:SYMP_0000309	skos:altLabel	lack of appetite	xsd:string
+obo:SYMP_0000309	skos:altLabel	inappetence	xsd:string
+obo:MONDO_0005267	skos:altLabel	heart/pericardial disease	xsd:string
+obo:MONDO_0005267	skos:altLabel	disorder of heart	xsd:string
+obo:MONDO_0005267	skos:altLabel	heart disease	xsd:string
+obo:MONDO_0005267	skos:altLabel	heart/pericardial disorder	xsd:string
+obo:MONDO_0005267	skos:altLabel	disease or disorder of heart	xsd:string
+obo:MONDO_0005267	skos:altLabel	disorder of heart/pericardium	xsd:string
+obo:MONDO_0005267	skos:altLabel	heart trouble	xsd:string
+obo:MONDO_0005267	skos:altLabel	heart disorder	xsd:string
+obo:MONDO_0005267	skos:altLabel	disease of heart	xsd:string
+obo:MONDO_0005267	skos:altLabel	heart disease or disorder	xsd:string
+obo:MONDO_0005267	skos:altLabel	cardiac disease	xsd:string
+obo:MONDO_0005267	skos:altLabel	heart/pericardial trouble	xsd:string
+obo:MONDO_0005267	skos:altLabel	heart/pericardial disease or disorder	xsd:string
+bmir-radx:nih_af	skos:altLabel	AF	xsd:string
+bmir-radx:nih_af	skos:altLabel	atrial fibrillation (disease)	xsd:string
+bmir-radx:nih_af	skos:altLabel	A-fib	xsd:string
+bmir-radx:nih_af	skos:altLabel	atrial fibrillation	xsd:string
+bmir-radx:nih_af	skos:altLabel	AFib	xsd:string
+obo:MONDO_0004596	skos:altLabel	cardiopulmonary disease	xsd:string
+obo:MONDO_0004596	skos:altLabel	cor pulmonale	xsd:string
+obo:MONDO_0004596	skos:altLabel	pulmonary heart diseases	xsd:string
+obo:MONDO_0004596	skos:altLabel	heart diseases, pulmonary	xsd:string
+obo:MONDO_0004596	skos:altLabel	pulmonary heart disease	xsd:string
+obo:MONDO_0004596	skos:altLabel	diseases, pulmonary heart	xsd:string
+obo:MONDO_0004596	skos:altLabel	heart disease, pulmonary	xsd:string
+obo:MONDO_0004596	skos:altLabel	disease, pulmonary heart	xsd:string
+obo:NCIT_C19332	skos:altLabel	subject characteristic	xsd:string
+obo:MONDO_0005300	skos:altLabel	chronic renal disease	xsd:string
+obo:MONDO_0005300	skos:altLabel	kidney disease, chronic	xsd:string
+obo:MONDO_0005300	skos:altLabel	renal failure - chronic	xsd:string
+obo:MONDO_0005300	skos:altLabel	chronic renal failure syndrome	xsd:string
+obo:MONDO_0005300	skos:altLabel	chronic kidney disease	xsd:string
+obo:MONDO_0005300	skos:altLabel	chronic renal insufficiency	xsd:string
+obo:MONDO_0005300	skos:altLabel	CKD	xsd:string
+obo:MONDO_0005300	skos:altLabel	CKD - chronic kidney disease	xsd:string
+obo:MONDO_0002022	skos:altLabel	disease of orbital region	xsd:string
+obo:MONDO_0002022	skos:altLabel	orbital region disease	xsd:string
+obo:MONDO_0002022	skos:altLabel	disease or disorder of orbital region	xsd:string
+obo:MONDO_0002022	skos:altLabel	eye and adnexa disease	xsd:string
+obo:MONDO_0002022	skos:altLabel	orbital region disease or disorder	xsd:string
+obo:MONDO_0002022	skos:altLabel	disorder of orbital region	xsd:string
+obo:MONDO_0002022	skos:altLabel	disorder of eye region	xsd:string
+obo:MONDO_0002022	skos:altLabel	ophthalmological disorder	xsd:string
+obo:MONDO_0001493	skos:altLabel	Cor pulmonale	xsd:string
+evs:C27551	skos:altLabel	Disorder by Site	xsd:string
+evs:C27551	skos:altLabel	Disease by Site	xsd:string
+obo:MONDO_0021084	skos:altLabel	visual system disorder	xsd:string
+obo:MONDO_0021084	skos:altLabel	disorder of vision	xsd:string
+obo:MONDO_0021084	skos:altLabel	visual Field disorder	xsd:string
+obo:MONDO_0021084	skos:altLabel	disorder of visual system	xsd:string
+obo:MONDO_0021084	skos:altLabel	vision disorder	xsd:string
+obo:MONDO_0021084	skos:altLabel	visual disorder	xsd:string
+bmir-radx:nih_skin_rash	skos:altLabel	skin redness	xsd:string
+bmir-radx:nih_skin_rash	skos:altLabel	rubor	xsd:string
+bmir-radx:nih_skin_rash	skos:altLabel	erythema	xsd:string
+bmir-radx:nih_skin_rash	skos:altLabel	skin rash	xsd:string
+bmir-radx:nih_skin_rash	skos:altLabel	skin eruption	xsd:string
+evs:C120481	skos:altLabel	Vaporizer Pen	xsd:string
+evs:C120481	skos:altLabel	Vaporizer Device	xsd:string
+evs:C120481	skos:altLabel	Vaporizer	xsd:string
+evs:C120481	skos:altLabel	Vape Pen	xsd:string
+evs:C120481	skos:altLabel	Personal Vaporizer	xsd:string
+evs:C78272	skos:altLabel	Agent Affecting Nervous System	xsd:string
+evs:C20181	skos:altLabel	Conceptual Entity	xsd:string
+bmir-radx:nih_renal	skos:altLabel	renal disease	xsd:string
+bmir-radx:nih_renal	skos:altLabel	disorder of kidney	xsd:string
+bmir-radx:nih_renal	skos:altLabel	disease of kidney	xsd:string
+bmir-radx:nih_renal	skos:altLabel	kidney disease or disorder	xsd:string
+bmir-radx:nih_renal	skos:altLabel	nephropathy	xsd:string
+bmir-radx:nih_renal	skos:altLabel	kidney disorder	xsd:string
+bmir-radx:nih_renal	skos:altLabel	renal disorder	xsd:string
+bmir-radx:nih_renal	skos:altLabel	disease or disorder of kidney	xsd:string
+bmir-radx:nih_renal	skos:altLabel	kidney disease	xsd:string
+evs:C53291	skos:altLabel	activities of daily living	xsd:string
+evs:C53291	skos:altLabel	Household Activity	xsd:string
+evs:C53291	skos:altLabel	Daily Activity	xsd:string
+evs:C53291	skos:altLabel	Activity of Daily Living	xsd:string
+evs:C53291	skos:altLabel	ADL	xsd:string
+obo:MONDO_0005068	skos:altLabel	myocardial infarction	xsd:string
+obo:MONDO_0005068	skos:altLabel	myocardial infarction, (MI)	xsd:string
+obo:MONDO_0005068	skos:altLabel	MI, myocardial infarction	xsd:string
+obo:MONDO_0005068	skos:altLabel	myocardial infarct	xsd:string
+obo:MONDO_0005068	skos:altLabel	infarction (MI), myocardial	xsd:string
+obo:MONDO_0005068	skos:altLabel	MI	xsd:string
+obo:MONDO_0005068	skos:altLabel	myocardial infarction (disease)	xsd:string
+obo:MONDO_0005068	skos:altLabel	heart attack	xsd:string
+obo:MONDO_0006025	skos:altLabel	autosomal recessive inherited disorder	xsd:string
+obo:MONDO_0006025	skos:altLabel	disease, autosomal recessive	xsd:string
+obo:MONDO_0006025	skos:altLabel	disease or disorder, autosomal recessive	xsd:string
+obo:MONDO_0006025	skos:altLabel	autosomal recessive disease or disorder	xsd:string
+obo:MONDO_0006025	skos:altLabel	recessive hereditary disorder (autosomal)	xsd:string
+obo:MONDO_0006025	skos:altLabel	autosomal recessive inherited disease	xsd:string
+obo:MONDO_0006025	skos:altLabel	autosomal recessive hereditary disorder	xsd:string
+obo:MONDO_0006025	skos:altLabel	autosomal recessive hereditary disease	xsd:string
+obo:MONDO_0005299	skos:altLabel	brain ischemic disease	xsd:string
+obo:MONDO_0005299	skos:altLabel	ischemic disease of brain	xsd:string
+obo:MONDO_0005299	skos:altLabel	ischaemic disease of brain	xsd:string
+obo:MONDO_0005299	skos:altLabel	brain ischemia	xsd:string
+obo:MONDO_0005299	skos:altLabel	ischaemic encephalopathy	xsd:string
+obo:MONDO_0005299	skos:altLabel	ischemic encephalopathy	xsd:string
+obo:MONDO_0005299	skos:altLabel	brain ischaemic disease	xsd:string
+obo:MONDO_0005299	skos:altLabel	cerebrovascular ischemia	xsd:string
+obo:MONDO_0005299	skos:altLabel	ischemia cerebrovascular	xsd:string
+obo:MONDO_0005046	skos:altLabel	immune disorder	xsd:string
+obo:MONDO_0005046	skos:altLabel	immune disease	xsd:string
+obo:MONDO_0005046	skos:altLabel	immune system disorder	xsd:string
+obo:MONDO_0005046	skos:altLabel	immune system disease or disorder	xsd:string
+obo:MONDO_0005046	skos:altLabel	disorder of immune system	xsd:string
+obo:MONDO_0005046	skos:altLabel	immune dysfunction	xsd:string
+obo:MONDO_0005046	skos:altLabel	disease or disorder of immune system	xsd:string
+obo:MONDO_0005046	skos:altLabel	disease of immune system	xsd:string
+obo:MONDO_0005277	skos:altLabel	migraine	xsd:string
+obo:MONDO_0005277	skos:altLabel	migraine disorder	xsd:string
+obo:MONDO_0005277	skos:altLabel	migraine with or without aura	xsd:string
+obo:MONDO_0005277	skos:altLabel	migraine variant	xsd:string
+obo:MONDO_0005277	skos:altLabel	migraine headache	xsd:string
+obo:MONDO_0004298	skos:altLabel	gastric disease	xsd:string
+obo:MONDO_0004298	skos:altLabel	disease or disorder of stomach	xsd:string
+obo:MONDO_0004298	skos:altLabel	stomach disease or disorder	xsd:string
+obo:MONDO_0004298	skos:altLabel	stomach disorder	xsd:string
+obo:MONDO_0004298	skos:altLabel	stomach disease	xsd:string
+obo:MONDO_0004298	skos:altLabel	gastropathy	xsd:string
+obo:MONDO_0004298	skos:altLabel	disorder of stomach	xsd:string
+obo:MONDO_0004298	skos:altLabel	disease of stomach	xsd:string
+obo:MONDO_0005497	skos:altLabel	disorder of bone development	xsd:string
+obo:MONDO_0005497	skos:altLabel	bone development disease or disorder	xsd:string
+obo:MONDO_0005497	skos:altLabel	disease or disorder of bone development	xsd:string
+obo:MONDO_0005497	skos:altLabel	bone development disease	xsd:string
+obo:MONDO_0005497	skos:altLabel	disease of bone development	xsd:string
+obo:MONDO_0005002	skos:altLabel	obstructive pulmonary disease (COPD), chronic	xsd:string
+obo:MONDO_0005002	skos:altLabel	COPD, chronic obstructive pulmonary disease	xsd:string
+obo:MONDO_0005002	skos:altLabel	disease (COPD), chronic obstructive	xsd:string
+obo:MONDO_0005002	skos:altLabel	chronic obstructive pulmonary disease, (COPD)	xsd:string
+obo:MONDO_0005002	skos:altLabel	chronic obstructive airway disease	xsd:string
+obo:MONDO_0005002	skos:altLabel	chronic obstructive airways disease	xsd:string
+obo:MONDO_0005002	skos:altLabel	chronic obstructive lung disease	xsd:string
+obo:MONDO_0005002	skos:altLabel	cold	xsd:string
+obo:MONDO_0005002	skos:altLabel	COPD	xsd:string
+obo:MONDO_0005002	skos:altLabel	chronic obstructive pulmonary disease (COPD)	xsd:string
+obo:MONDO_0005002	skos:altLabel	obstructive lung disease, chronic	xsd:string
+obo:MONDO_0005002	skos:altLabel	cold (chronic obstructive lung disease)	xsd:string
+obo:MONDO_0005002	skos:altLabel	pulmonary disease (COPD), chronic obstructive	xsd:string
+evs:C19796	skos:altLabel	Smoking Status	xsd:string
+evs:C19796	skos:altLabel	Current Tobacco and Nicotine Consumption Status	xsd:string
+evs:C19796	skos:altLabel	tobacco smoking status	xsd:string
+evs:C19796	skos:altLabel	tobacco_smoking_status	xsd:string
+obo:MONDO_0015221	skos:altLabel	nonsyndromic respiratory or mediastinal malformation	xsd:string
+obo:MONDO_0015221	skos:altLabel	isolated respiratory or mediastinal malformation	xsd:string
+obo:MONDO_0005420	skos:altLabel	thyroid deficiency	xsd:string
+obo:MONDO_0005420	skos:altLabel	hypothyroidism	xsd:string
+obo:MONDO_0005420	skos:altLabel	hypothyroid	xsd:string
+obo:MONDO_0005420	skos:altLabel	underactive thyroid	xsd:string
+obo:MONDO_0005420	skos:altLabel	thyroid insufficiency	xsd:string
+evs:C117720	skos:altLabel	Female Reproductive System Finding	xsd:string
+obo:MONDO_0002494	skos:altLabel	substance-related disorder	xsd:string
+obo:MONDO_0002494	skos:altLabel	substance induced mood disorders	xsd:string
+obo:MONDO_0021094	skos:altLabel	immuno-deficiency	xsd:string
+obo:MONDO_0021094	skos:altLabel	immunodeficiency	xsd:string
+obo:MONDO_0021094	skos:altLabel	immunodeficiency syndrome	xsd:string
+obo:MONDO_0021094	skos:altLabel	immunodeficiency disorder	xsd:string
+evs:C199141	skos:altLabel	Health Issue Related Group	xsd:string
+evs:C121690	skos:altLabel	Are you able to run errands and shop	xsd:string
+evs:C121690	skos:altLabel	Able to Run Errands and Shop	xsd:string
+evs:C121690	skos:altLabel	Ability to Run Errands and Shop	xsd:string
+obo:MONDO_0007179	skos:altLabel	disease, autoimmune	xsd:string
+obo:MONDO_0007179	skos:altLabel	hypersensitivity reaction type II disease	xsd:string
+obo:MONDO_0007179	skos:altLabel	autoimmune disease or disorder	xsd:string
+obo:MONDO_0007179	skos:altLabel	autoimmune disease	xsd:string
+obo:MONDO_0007179	skos:altLabel	autoimmune disorder	xsd:string
+obo:MONDO_0007179	skos:altLabel	autoimmune hypersensitivity disease	xsd:string
+evs:C173060	skos:altLabel	Smoking Question	xsd:string
+bmir-radx:nih_diabetes	skos:altLabel	diabetes mellitus	xsd:string
+bmir-radx:nih_diabetes	skos:altLabel	diabetes mellitus (disease)	xsd:string
+bmir-radx:nih_diabetes	skos:altLabel	DM	xsd:string
+bmir-radx:nih_diabetes	skos:altLabel	diabetes	xsd:string
+obo:MONDO_0005298	skos:altLabel	fracture, hip, susceptibility to	xsd:string
+obo:MONDO_0005298	skos:altLabel	bone mineral density variation QTL, osteoporosis	xsd:string
+obo:MONDO_0005298	skos:altLabel	osteoporosis, postmenopausal	xsd:string
+obo:MONDO_0005298	skos:altLabel	osteoporosis, susceptibility to	xsd:string
+obo:MONDO_0005298	skos:altLabel	osteoporosis, involutional	xsd:string
+obo:MONDO_0005298	skos:altLabel	osteoporosis, postmenopausal, susceptibility	xsd:string
+obo:MONDO_0005265	skos:altLabel	autoimmune bowel disorder	xsd:string
+obo:MONDO_0005265	skos:altLabel	inflammatory bowel disease	xsd:string
+obo:MONDO_0005265	skos:altLabel	IBD	xsd:string
+bmir-radx:nih_lupus	skos:altLabel	lupus erythematosus	xsd:string
+bmir-radx:nih_lupus	skos:altLabel	lupus	xsd:string
+bmir-radx:nih_cf	skos:altLabel	cystic fibrosis	xsd:string
+bmir-radx:nih_cf	skos:altLabel	CF	xsd:string
+bmir-radx:nih_cf	skos:altLabel	mucoviscidosis	xsd:string
+bmir-radx:nih_cf	skos:altLabel	pseudomonas aeruginosa, susceptibility to chronic infection by, in cystic fibrosis	xsd:string
+bmir-radx:nih_cf	skos:altLabel	cystic fibrosis lung disease, modifier of	xsd:string
+obo:SYMP_0000505	skos:altLabel	sore throat	xsd:string
+evs:C18772	skos:altLabel	personal history	xsd:string
+evs:C18772	skos:altLabel	personal medical history	xsd:string
+evs:C18772	skos:altLabel	History	xsd:string
+evs:C18772	skos:altLabel	General Medical History	xsd:string
+evs:C18772	skos:altLabel	PMH	xsd:string
+evs:C18772	skos:altLabel	personal health record	xsd:string
+evs:C18772	skos:altLabel	Past Medical History	xsd:string
+evs:C18772	skos:altLabel	Personal History	xsd:string
+evs:C18772	skos:altLabel	MEDICAL_HISTORY	xsd:string
+evs:C18772	skos:altLabel	Medical History	xsd:string
+evs:C18772	skos:altLabel	Personal Medical History	xsd:string
+evs:C36284	skos:altLabel	Reproductive System Finding	xsd:string
+evs:C36284	skos:altLabel	REPRODUCTIVE SYSTEM	xsd:string
+evs:C179143	skos:altLabel	Employment status	xsd:string
+evs:C179143	skos:altLabel	Employment Status	xsd:string
+obo:MONDO_0000270	skos:altLabel	disorder of lower respiratory tract	xsd:string
+obo:MONDO_0000270	skos:altLabel	lower respiratory tract disease	xsd:string
+obo:MONDO_0000270	skos:altLabel	lower respiratory tract disease or disorder	xsd:string
+obo:MONDO_0000270	skos:altLabel	disease of lower respiratory tract	xsd:string
+obo:MONDO_0000270	skos:altLabel	disease or disorder of lower respiratory tract	xsd:string
+obo:MONDO_0023370	skos:altLabel	neoplastic disorder	xsd:string
+obo:MONDO_0023370	skos:altLabel	neoplastic disease	xsd:string
+bmir-radx:nih_neurodegenerative	skos:altLabel	degenerative disease	xsd:string
+bmir-radx:nih_neurodegenerative	skos:altLabel	cerebral degeneration disease	xsd:string
+bmir-radx:nih_neurodegenerative	skos:altLabel	neurodegenerative disease	xsd:string
+bmir-radx:nih_neurodegenerative	skos:altLabel	central nervous system degenerative disorder	xsd:string
+bmir-radx:nih_neurodegenerative	skos:altLabel	central nervous system neurodegenerative disorder	xsd:string
+bmir-radx:nih_neurodegenerative	skos:altLabel	degenerative disorder of central nervous system	xsd:string
+bmir-radx:nih_neurodegenerative	skos:altLabel	brain degeneration	xsd:string
+obo:MONDO_0008487	skos:altLabel	Stein-Leventhal syndrome	xsd:string
+obo:MONDO_0008487	skos:altLabel	polycystic ovarian disease	xsd:string
+obo:MONDO_0008487	skos:altLabel	polycystic ovary	xsd:string
+obo:MONDO_0008487	skos:altLabel	polycystic ovary syndrome 1	xsd:string
+obo:MONDO_0008487	skos:altLabel	Stein-Leventhal synd.	xsd:string
+obo:MONDO_0008487	skos:altLabel	polycystic ovaries	xsd:string
+obo:MONDO_0008487	skos:altLabel	polycystic ovary syndrome	xsd:string
+obo:MONDO_0008487	skos:altLabel	multicystic ovaries	xsd:string
+obo:MONDO_0008487	skos:altLabel	PCOS1	xsd:string
+obo:MONDO_0008487	skos:altLabel	hyperandrogenemia	xsd:string
+obo:MONDO_0008487	skos:altLabel	PCOS	xsd:string
+obo:MONDO_0008487	skos:altLabel	PCO1	xsd:string
+obo:MONDO_0005066	skos:altLabel	disorder of metabolic process	xsd:string
+obo:MONDO_0005066	skos:altLabel	metabolic disease	xsd:string
+obo:MONDO_0005066	skos:altLabel	metabolic disorder	xsd:string
+obo:MONDO_0005066	skos:altLabel	metabolic process disease	xsd:string
+obo:MONDO_0005066	skos:altLabel	disease of metabolism	xsd:string
+obo:MONDO_0005044	skos:altLabel	hypertension	xsd:string
+obo:MONDO_0005044	skos:altLabel	hypertensive disease	xsd:string
+obo:MONDO_0005044	skos:altLabel	pressure, high blood	xsd:string
+obo:MONDO_0005044	skos:altLabel	blood pressure, increased	xsd:string
+obo:MONDO_0005044	skos:altLabel	blood pressure, high	xsd:string
+obo:MONDO_0005044	skos:altLabel	vascular hypertensive disorder	xsd:string
+obo:MONDO_0005044	skos:altLabel	hyperpiesia	xsd:string
+obo:MONDO_0005044	skos:altLabel	increased blood pressure	xsd:string
+obo:MONDO_0005044	skos:altLabel	high blood pressure	xsd:string
+obo:MONDO_0005044	skos:altLabel	HTN	xsd:string
+obo:MONDO_0005275	skos:altLabel	disease or disorder of lung	xsd:string
+obo:MONDO_0005275	skos:altLabel	pulmonary disorders	xsd:string
+obo:MONDO_0005275	skos:altLabel	lung disease	xsd:string
+obo:MONDO_0005275	skos:altLabel	disease of lung	xsd:string
+obo:MONDO_0005275	skos:altLabel	disorder of lung	xsd:string
+obo:MONDO_0005275	skos:altLabel	pulmonary disease	xsd:string
+obo:MONDO_0005275	skos:altLabel	lung disorders	xsd:string
+obo:MONDO_0005275	skos:altLabel	lung disorder	xsd:string
+obo:MONDO_0005275	skos:altLabel	pulmonary disorder	xsd:string
+obo:MONDO_0005275	skos:altLabel	lung disease or disorder	xsd:string
+obo:MONDO_0005275	skos:altLabel	pulmonary diseases	xsd:string
+obo:MONDO_0005154	skos:altLabel	liver disease or disorder	xsd:string
+obo:MONDO_0005154	skos:altLabel	hepatic disorder	xsd:string
+obo:MONDO_0005154	skos:altLabel	disease of liver	xsd:string
+obo:MONDO_0005154	skos:altLabel	liver and intrahepatic bile duct disorder	xsd:string
+obo:MONDO_0005154	skos:altLabel	hepatic disease	xsd:string
+obo:MONDO_0005154	skos:altLabel	liver disorder	xsd:string
+obo:MONDO_0005154	skos:altLabel	disease or disorder of liver	xsd:string
+obo:MONDO_0005154	skos:altLabel	disorder of liver	xsd:string
+obo:MONDO_0005154	skos:altLabel	liver disease	xsd:string
+obo:MONDO_0005385	skos:altLabel	vasculopathy	xsd:string
+obo:MONDO_0005385	skos:altLabel	vasculature disease or disorder	xsd:string
+obo:MONDO_0005385	skos:altLabel	disease or disorder of vasculature	xsd:string
+obo:MONDO_0005385	skos:altLabel	disease of vasculature	xsd:string
+obo:MONDO_0005385	skos:altLabel	vasculature disease	xsd:string
+obo:MONDO_0005385	skos:altLabel	disorder of vasculature	xsd:string
+obo:MONDO_0005385	skos:altLabel	vascular tissue disease	xsd:string
+obo:MONDO_0005385	skos:altLabel	vascular disorder	xsd:string
+obo:MONDO_0005264	skos:altLabel	transient cerebral ischaemia	xsd:string
+obo:MONDO_0005264	skos:altLabel	transient ischemic attack (disease)	xsd:string
+obo:MONDO_0005264	skos:altLabel	transient cerebral ischemia	xsd:string
+obo:MONDO_0005264	skos:altLabel	transient cerebral ischemia (disorder) [ambiguous]	xsd:string
+obo:MONDO_0005264	skos:altLabel	TIA - transient ischaemic attack	xsd:string
+obo:MONDO_0005264	skos:altLabel	transient ischaemic attacks	xsd:string
+obo:MONDO_0005264	skos:altLabel	transient ischemic attack	xsd:string
+obo:MONDO_0005264	skos:altLabel	ischaemic attack, transient	xsd:string
+obo:MONDO_0005264	skos:altLabel	TIA	xsd:string
+obo:MONDO_0005264	skos:altLabel	transient ischemic attacks	xsd:string
+obo:MONDO_0005264	skos:altLabel	ischemic attack, transient	xsd:string
+obo:MONDO_0005264	skos:altLabel	attack, transient ischaemic	xsd:string
+obo:MONDO_0005264	skos:altLabel	attack, transient ischemic	xsd:string
+obo:MONDO_0005264	skos:altLabel	transient ischaemic attack (disease)	xsd:string
+obo:MONDO_0005264	skos:altLabel	TIA - transient ischemic attack	xsd:string
+evs:C19332	skos:altLabel	Personal	xsd:string
+evs:C19332	skos:altLabel	Personal Attribute	xsd:string
+evs:C19332	skos:altLabel	Subject Characteristics	xsd:string
+evs:C128795	skos:altLabel	Electronic Nicotine Product Device	xsd:string
+evs:C128795	skos:altLabel	Electronic Nicotine Delivery Device	xsd:string
+obo:SYMP_0000504	skos:altLabel	cephalalgia	xsd:string
+obo:SYMP_0000834	skos:altLabel	numbness	xsd:string
+obo:MONDO_0005550	skos:altLabel	infectious disease	xsd:string
+obo:MONDO_0005550	skos:altLabel	disease by infectious agent	xsd:string
+obo:MONDO_0005550	skos:altLabel	transmissible disease	xsd:string
+obo:MONDO_0005550	skos:altLabel	communicable disease	xsd:string
+obo:MONDO_0005550	skos:altLabel	infectious disorder	xsd:string
+obo:MONDO_0005550	skos:altLabel	infection	xsd:string
+obo:MONDO_0005550	skos:altLabel	infectious	xsd:string
+obo:MONDO_0005550	skos:altLabel	infectious diseases and manifestations	xsd:string
+obo:MONDO_0005550	skos:altLabel	clinical infection	xsd:string
+obo:MONDO_0003240	skos:altLabel	thyroid gland disease	xsd:string
+obo:MONDO_0003240	skos:altLabel	thyroid disease	xsd:string
+obo:MONDO_0003240	skos:altLabel	thyroid gland disorders	xsd:string
+obo:MONDO_0003240	skos:altLabel	thyroid gland disorder	xsd:string
+obo:MONDO_0003240	skos:altLabel	disease of thyroid gland	xsd:string
+obo:MONDO_0003240	skos:altLabel	thyroid gland disease or disorder	xsd:string
+obo:MONDO_0003240	skos:altLabel	disease or disorder of thyroid gland	xsd:string
+obo:MONDO_0003240	skos:altLabel	thyroid gland diseases	xsd:string
+obo:MONDO_0003240	skos:altLabel	disorder of thyroid gland	xsd:string
+evs:C27351	skos:altLabel	Immunodeficiency and Immunosuppression Disorders	xsd:string
+evs:C27351	skos:altLabel	Immune System and Related Disorders	xsd:string
+obo:MONDO_0700057	skos:altLabel	neurological pain disease	xsd:string
+obo:MONDO_0700057	skos:altLabel	neurologic pain syndrome	xsd:string
+obo:MONDO_0004670	skos:altLabel	lupus erythematosus	xsd:string
+obo:MONDO_0004670	skos:altLabel	lupus	xsd:string
+evs:C25162	skos:altLabel	code	xsd:string
+evs:C25162	skos:altLabel	Coding System	xsd:string
+evs:C25162	skos:altLabel	Code Name	xsd:string
+evs:C25162	skos:altLabel	Code	xsd:string
+evs:C25162	skos:altLabel	CODE	xsd:string
+evs:C122393	skos:altLabel	Number of Years of Education	xsd:string
+evs:C122393	skos:altLabel	EDUYRNUM	xsd:string
+bmir-radx:nih_rash_toes	skos:altLabel	Unspecified convulsions	xsd:string
+bmir-radx:nih_rash_toes	skos:altLabel	Convulsion	xsd:string
+bmir-radx:nih_rash_toes	skos:altLabel	Seizure	xsd:string
+bmir-radx:nih_rash_toes	skos:altLabel	Seizures	xsd:string
+bmir-radx:nih_rash_toes	skos:altLabel	Convulsion/Seizure	xsd:string
+bmir-radx:nih_rash_toes	skos:altLabel	seizure	xsd:string
+obo:MONDO_0005098	skos:altLabel	stroke	xsd:string
+obo:MONDO_0005098	skos:altLabel	undetermined stroke	xsd:string
+obo:MONDO_0005098	skos:altLabel	cerebrovascular accident	xsd:string
+obo:MONDO_0005098	skos:altLabel	CVA	xsd:string
+obo:MONDO_0005098	skos:altLabel	cerebral infarction	xsd:string
+obo:MONDO_0005098	skos:altLabel	stroke syndrome	xsd:string
+obo:MONDO_0005098	skos:altLabel	CVA, cerebrovascular accident	xsd:string
+obo:MONDO_0005098	skos:altLabel	cerebrovascular accident, (CVA)	xsd:string
+obo:MONDO_0005098	skos:altLabel	syndrome, stroke	xsd:string
+obo:MONDO_0005087	skos:altLabel	disease of respiratory system	xsd:string
+obo:MONDO_0005087	skos:altLabel	respiratory system disorder	xsd:string
+obo:MONDO_0005087	skos:altLabel	respiratory system disease	xsd:string
+obo:MONDO_0005087	skos:altLabel	disorder of respiratory system	xsd:string
+obo:MONDO_0005087	skos:altLabel	respiratory disorder	xsd:string
+obo:MONDO_0005087	skos:altLabel	disease or disorder of respiratory system	xsd:string
+obo:MONDO_0005087	skos:altLabel	respiratory disease	xsd:string
+obo:MONDO_0005087	skos:altLabel	respiratory system disease or disorder	xsd:string
+evs:C7057	skos:altLabel	Disease, Disorder or Finding	xsd:string
+bmir-radx:nih_gestational_diabetes	skos:altLabel	GDM	xsd:string
+bmir-radx:nih_gestational_diabetes	skos:altLabel	maternal gestational diabetes mellitus	xsd:string
+bmir-radx:nih_gestational_diabetes	skos:altLabel	diabetes in pregnancy	xsd:string
+bmir-radx:nih_gestational_diabetes	skos:altLabel	gestational diabetes mellitus	xsd:string
+obo:MONDO_0005296	skos:altLabel	sleep-disordered breathing	xsd:string
+obo:MONDO_0005296	skos:altLabel	apneas, sleep	xsd:string
+obo:MONDO_0005296	skos:altLabel	apnea syndromes, sleep	xsd:string
+obo:MONDO_0005296	skos:altLabel	hypersomnia with periodic respiration	xsd:string
+obo:MONDO_0005296	skos:altLabel	sleep disordered breathing	xsd:string
+obo:MONDO_0005296	skos:altLabel	mixed central and obstructive sleep apnea	xsd:string
+obo:MONDO_0005296	skos:altLabel	apnea syndrome, sleep	xsd:string
+obo:MONDO_0005296	skos:altLabel	mixed sleep Apneas	xsd:string
+obo:MONDO_0005296	skos:altLabel	hypopnea, sleep	xsd:string
+obo:MONDO_0005296	skos:altLabel	mixed sleep apnea	xsd:string
+obo:MONDO_0005296	skos:altLabel	sleep apnea, mixed central and obstructive	xsd:string
+obo:MONDO_0005296	skos:altLabel	sleep hypopneas	xsd:string
+obo:MONDO_0005296	skos:altLabel	sleep apnea	xsd:string
+obo:MONDO_0005296	skos:altLabel	sleep apnea syndrome	xsd:string
+obo:MONDO_0005296	skos:altLabel	sleep hypopnea	xsd:string
+obo:MONDO_0005296	skos:altLabel	apnea, sleep	xsd:string
+obo:MONDO_0005296	skos:altLabel	SDB	xsd:string
+obo:MONDO_0005296	skos:altLabel	sleep apneas, mixed	xsd:string
+obo:MONDO_0005296	skos:altLabel	sleep apneas	xsd:string
+obo:MONDO_0005296	skos:altLabel	hypopneas, sleep	xsd:string
+obo:MONDO_0005296	skos:altLabel	breathing-related sleep disorder	xsd:string
+obo:MONDO_0005296	skos:altLabel	breathing, sleep-disordered	xsd:string
+obo:MONDO_0005296	skos:altLabel	sleep apnea, mixed	xsd:string
+bmir-radx:nih_memory	skos:altLabel	cognitive disease	xsd:string
+bmir-radx:nih_memory	skos:altLabel	cognitive disorder	xsd:string
+bmir-radx:nih_memory	skos:altLabel	organic mental disorder	xsd:string
+bmir-radx:nih_memory	skos:altLabel	decreased sensorium	xsd:string
+bmir-radx:nih_memory	skos:altLabel	clouded sensorium	xsd:string
+obo:MONDO_0005252	skos:altLabel	failure, heart	xsd:string
+obo:MONDO_0005252	skos:altLabel	cardiac failure	xsd:string
+obo:MONDO_0005252	skos:altLabel	insufficiency, Cardiac	xsd:string
+obo:MONDO_0005252	skos:altLabel	cardiac insufficiency	xsd:string
+obo:MONDO_0005252	skos:altLabel	heart failure	xsd:string
+obo:MONDO_0005010	skos:altLabel	CHD (coronary heart disease)	xsd:string
+obo:MONDO_0005010	skos:altLabel	disease of coronary artery	xsd:string
+obo:MONDO_0005010	skos:altLabel	CHD	xsd:string
+obo:MONDO_0005010	skos:altLabel	coronary artery disease or disorder	xsd:string
+obo:MONDO_0005010	skos:altLabel	CAD	xsd:string
+obo:MONDO_0005010	skos:altLabel	disorder of coronary artery	xsd:string
+obo:MONDO_0005010	skos:altLabel	coronary artery disease	xsd:string
+obo:MONDO_0005010	skos:altLabel	disease or disorder of coronary artery	xsd:string
+obo:MONDO_0005010	skos:altLabel	coronary heart disease	xsd:string
+obo:MONDO_0005010	skos:altLabel	coronary arteriosclerosis	xsd:string
+obo:MONDO_0005010	skos:altLabel	coronary disease	xsd:string
+evs:C19683	skos:altLabel	Personal Conduct	xsd:string
+evs:C19683	skos:altLabel	Personal Behavior	xsd:string
+evs:C16273	skos:altLabel	Alcohol Consumption	xsd:string
+obo:SYMP_0000613	skos:altLabel	pyrexia	xsd:string
+obo:MONDO_0002051	skos:altLabel	integumentary disease	xsd:string
+obo:MONDO_0002051	skos:altLabel	disorder of integumental system	xsd:string
+obo:MONDO_0002051	skos:altLabel	disease or disorder of integumental system	xsd:string
+obo:MONDO_0002051	skos:altLabel	integumental system disease or disorder	xsd:string
+obo:MONDO_0002051	skos:altLabel	disorder of integument	xsd:string
+obo:MONDO_0002051	skos:altLabel	disease of integumental system	xsd:string
+obo:MONDO_0002051	skos:altLabel	integumental system disease	xsd:string
+obo:MONDO_0005560	skos:altLabel	disease or disorder of brain	xsd:string
+obo:MONDO_0005560	skos:altLabel	disorder of brain	xsd:string
+obo:MONDO_0005560	skos:altLabel	encephalopathy	xsd:string
+obo:MONDO_0005560	skos:altLabel	brain disease	xsd:string
+obo:MONDO_0005560	skos:altLabel	brain disease or disorder	xsd:string
+obo:MONDO_0005560	skos:altLabel	disease of brain	xsd:string
+bmir-radx:nih_education_yrs	skos:altLabel	Number of Years of Education	xsd:string
+bmir-radx:nih_education_yrs	skos:altLabel	EDUYRNUM	xsd:string
+bmir-radx:nih_liver_disease	skos:altLabel	disease or disorder of liver	xsd:string
+bmir-radx:nih_liver_disease	skos:altLabel	liver disease or disorder	xsd:string
+bmir-radx:nih_liver_disease	skos:altLabel	liver disorder	xsd:string
+bmir-radx:nih_liver_disease	skos:altLabel	liver disease	xsd:string
+bmir-radx:nih_liver_disease	skos:altLabel	liver and intrahepatic bile duct disorder	xsd:string
+bmir-radx:nih_liver_disease	skos:altLabel	disease of liver	xsd:string
+bmir-radx:nih_liver_disease	skos:altLabel	disorder of liver	xsd:string
+bmir-radx:nih_liver_disease	skos:altLabel	hepatic disorder	xsd:string
+bmir-radx:nih_liver_disease	skos:altLabel	hepatic disease	xsd:string
+evs:C25172	skos:altLabel	Employment	xsd:string
+evs:C25172	skos:altLabel	Employed	xsd:string
+evs:C3262	skos:altLabel	neoplasm	xsd:string
+evs:C3262	skos:altLabel	Neoplastic Growth	xsd:string
+evs:C3262	skos:altLabel	Neoplasia	xsd:string
+evs:C3262	skos:altLabel	Neoplastic Disease	xsd:string
+evs:C3262	skos:altLabel	Tumor, NOS	xsd:string
+evs:C3262	skos:altLabel	Neoplasm	xsd:string
+evs:C3262	skos:altLabel	Other Neoplasm	xsd:string
+evs:C3262	skos:altLabel	Neoplasm, NOS	xsd:string
+evs:C3262	skos:altLabel	tumor	xsd:string
+evs:C3262	skos:altLabel	Neoplasms, NOS	xsd:string
+evs:C3262	skos:altLabel	neoplasia	xsd:string
+bmir-radx:nih_heart_attack	skos:altLabel	myocardial infarction	xsd:string
+bmir-radx:nih_heart_attack	skos:altLabel	myocardial infarction, (MI)	xsd:string
+bmir-radx:nih_heart_attack	skos:altLabel	myocardial infarct	xsd:string
+bmir-radx:nih_heart_attack	skos:altLabel	MI	xsd:string
+bmir-radx:nih_heart_attack	skos:altLabel	infarction (MI), myocardial	xsd:string
+bmir-radx:nih_heart_attack	skos:altLabel	heart attack	xsd:string
+bmir-radx:nih_heart_attack	skos:altLabel	myocardial infarction (disease)	xsd:string
+bmir-radx:nih_heart_attack	skos:altLabel	MI, myocardial infarction	xsd:string
+bmir-radx:nih_lifetime_use_alcohol	skos:altLabel	Alcohol Consumption	xsd:string
+bmir-radx:nih_lifetime_use_alcohol	skos:altLabel	Alcohol Use	xsd:string
+bmir-radx:nih_lifetime_use_alcohol	skos:altLabel	alcohol abuse	xsd:string
+bmir-radx:nih_lifetime_use_alcohol	skos:altLabel	alcohol use, unspecified	xsd:string
+bmir-radx:nih_lifetime_use_alcohol	skos:altLabel	alcohol misuse	xsd:string
+bmir-radx:nih_lifetime_use_alcohol	skos:altLabel	Alcohol Use History	xsd:string
+bmir-radx:nih_lifetime_use_alcohol	skos:altLabel	Alcohol History	xsd:string
+bmir-radx:nih_lifetime_use_alcohol	skos:altLabel	alcohol history	xsd:string
+bmir-radx:nih_lifetime_use_alcohol	skos:altLabel	alcohol_history	xsd:string
+bmir-radx:nih_coronary_artery_disease	skos:altLabel	disorder of coronary artery	xsd:string
+bmir-radx:nih_coronary_artery_disease	skos:altLabel	CHD	xsd:string
+bmir-radx:nih_coronary_artery_disease	skos:altLabel	disease of coronary artery	xsd:string
+bmir-radx:nih_coronary_artery_disease	skos:altLabel	CAD	xsd:string
+bmir-radx:nih_coronary_artery_disease	skos:altLabel	disease or disorder of coronary artery	xsd:string
+bmir-radx:nih_coronary_artery_disease	skos:altLabel	coronary heart disease	xsd:string
+bmir-radx:nih_coronary_artery_disease	skos:altLabel	coronary arteriosclerosis	xsd:string
+bmir-radx:nih_coronary_artery_disease	skos:altLabel	CHD (coronary heart disease)	xsd:string
+bmir-radx:nih_coronary_artery_disease	skos:altLabel	coronary disease	xsd:string
+bmir-radx:nih_coronary_artery_disease	skos:altLabel	coronary artery disease or disorder	xsd:string
+bmir-radx:nih_coronary_artery_disease	skos:altLabel	coronary artery disease	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	organ system cancer	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	Malignant Growth	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	malignant neoplasm (disease)	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	Malignant Neoplastic Disease	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	Malignant Neoplasm	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	Neoplasm, malignant	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	malignant neoplastic disease	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	Malignancy	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	malignancy	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	malignant Growth	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	Malignant Tumor	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	neoplasm (disease), malignant	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	NEOPLASM, MALIGNANT	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	Cancer	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	CA	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	Tumor, malignant, NOS	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	cell type cancer	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	Unclassified tumor, malignant	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	malignant tumor	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	primary cancer	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	neoplasm, malignant	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	malignant neoplasm	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	MT	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	malignant tumour	xsd:string
+bmir-radx:nih_cancer	skos:altLabel	cancer	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	disorder of heart	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	disease or disorder of heart	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	heart disorder	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	cardiac disease	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	heart/pericardial disease or disorder	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	heart disease or disorder	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	heart trouble	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	disease of heart	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	disorder of heart/pericardium	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	heart/pericardial trouble	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	heart/pericardial disease	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	heart disease	xsd:string
+bmir-radx:nih_heart_condition	skos:altLabel	heart/pericardial disorder	xsd:string
+obo:MONDO_0005053	skos:altLabel	ischemia	xsd:string
+obo:HP_0000118	skos:altLabel	Organ abnormality	xsd:string
+obo:MONDO_0005020	skos:altLabel	diseases, intestinal	xsd:string
+obo:MONDO_0005020	skos:altLabel	intestinal disorder	xsd:string
+obo:MONDO_0005020	skos:altLabel	disease, intestinal	xsd:string
+obo:MONDO_0005020	skos:altLabel	intestine disease	xsd:string
+obo:MONDO_0005020	skos:altLabel	disease or disorder of intestine	xsd:string
+obo:MONDO_0005020	skos:altLabel	intestine disease or disorder	xsd:string
+obo:MONDO_0005020	skos:altLabel	disorder of intestine	xsd:string
+obo:MONDO_0005020	skos:altLabel	disease of intestine	xsd:string
+obo:MONDO_0005020	skos:altLabel	intestinal disease	xsd:string
+evs:C17141	skos:altLabel	Social Studies	xsd:string
+evs:C17141	skos:altLabel	Social Sciences	xsd:string
+obo:MONDO_0005240	skos:altLabel	disease of kidney	xsd:string
+obo:MONDO_0005240	skos:altLabel	disease or disorder of kidney	xsd:string
+obo:MONDO_0005240	skos:altLabel	kidney disease	xsd:string
+obo:MONDO_0005240	skos:altLabel	nephropathy	xsd:string
+obo:MONDO_0005240	skos:altLabel	renal disease	xsd:string
+obo:MONDO_0005240	skos:altLabel	disorder of kidney	xsd:string
+obo:MONDO_0005240	skos:altLabel	kidney disorder	xsd:string
+obo:MONDO_0005240	skos:altLabel	kidney disease or disorder	xsd:string
+obo:MONDO_0005240	skos:altLabel	renal disorder	xsd:string
+obo:MONDO_0005570	skos:altLabel	hematological disease	xsd:string
+obo:MONDO_0005570	skos:altLabel	hematologic disorder	xsd:string
+obo:MONDO_0005570	skos:altLabel	haematological disorders and malignancies	xsd:string
+obo:MONDO_0005570	skos:altLabel	haematopoietic system disease	xsd:string
+obo:MONDO_0005570	skos:altLabel	blood dyscrasia	xsd:string
+obo:MONDO_0005570	skos:altLabel	haematopoietic disease	xsd:string
+obo:MONDO_0005570	skos:altLabel	disorder of hematopoietic system	xsd:string
+obo:MONDO_0005570	skos:altLabel	rare hematologic disease	xsd:string
+obo:MONDO_0005570	skos:altLabel	haematopoietic system disease or disorder	xsd:string
+obo:MONDO_0005570	skos:altLabel	hematologic and lymphocytic disorder	xsd:string
+obo:MONDO_0005570	skos:altLabel	disease of hematopoietic system	xsd:string
+obo:MONDO_0005570	skos:altLabel	hematopoietic system disease	xsd:string
+obo:MONDO_0005570	skos:altLabel	disorder of haematopoietic system	xsd:string
+obo:MONDO_0005570	skos:altLabel	disease or disorder of hematopoietic system	xsd:string
+obo:MONDO_0005570	skos:altLabel	hematological disorder	xsd:string
+obo:MONDO_0005570	skos:altLabel	disease or disorder of haematopoietic system	xsd:string
+obo:MONDO_0005570	skos:altLabel	hematological system disease	xsd:string
+obo:MONDO_0005570	skos:altLabel	haematological system disease	xsd:string
+obo:MONDO_0005570	skos:altLabel	blood disease	xsd:string
+obo:MONDO_0005570	skos:altLabel	disease of the blood and blood-forming organs	xsd:string
+obo:MONDO_0005570	skos:altLabel	disease of haematopoietic system	xsd:string
+obo:MONDO_0005570	skos:altLabel	hematopoietic disease	xsd:string
+obo:MONDO_0005570	skos:altLabel	hematopoietic system disease or disorder	xsd:string
+obo:MONDO_0005570	skos:altLabel	haematological disorder	xsd:string
+obo:MONDO_0005570	skos:altLabel	hematological disorders and malignancies	xsd:string
+obo:MONDO_0005570	skos:altLabel	haematological disease	xsd:string
+obo:MONDO_0005570	skos:altLabel	blood disorder	xsd:string
+obo:MONDO_0002050	skos:altLabel	mental depression	xsd:string
+obo:MONDO_0002050	skos:altLabel	depression	xsd:string
+obo:MONDO_0002050	skos:altLabel	melancholia	xsd:string
+obo:MONDO_0002050	skos:altLabel	syndrome, depressive	xsd:string
+obo:MONDO_0002050	skos:altLabel	syndromes, depressive	xsd:string
+obo:MONDO_0002050	skos:altLabel	melancholias	xsd:string
+bmir-radx:nih_arthritis	skos:altLabel	rheumatoid arthritis, susceptibility to	xsd:string
+bmir-radx:nih_arthritis	skos:altLabel	rheumatoid arthritis	xsd:string
+bmir-radx:nih_arthritis	skos:altLabel	rheumatoid arthritis, progression of	xsd:string
+bmir-radx:nih_arthritis	skos:altLabel	RA	xsd:string
+bmir-radx:nih_arthritis	skos:altLabel	atrophic arthritis	xsd:string
+bmir-radx:nih_arthritis	skos:altLabel	arthritis or polyarthritis, rheumatic	xsd:string
+bmir-radx:nih_arthritis	skos:altLabel	autoimmune arthritis	xsd:string
+bmir-radx:nih_arthritis	skos:altLabel	arthritis, rheumatoid	xsd:string
+bmir-radx:nih_thalassemia	skos:altLabel	thalassemia Hb-S disease without crisis	xsd:string
+bmir-radx:nih_thalassemia	skos:altLabel	thalassemia Hb-S disease with crisis	xsd:string
+bmir-radx:nih_thalassemia	skos:altLabel	sickle-cell thalassemia without crisis	xsd:string
+bmir-radx:nih_thalassemia	skos:altLabel	sickle-cell thalassemia with crisis	xsd:string
+evs:C36292	skos:altLabel	test_result	xsd:string
+evs:C36292	skos:altLabel	Labs	xsd:string
+evs:C36292	skos:altLabel	Laboratory Report	xsd:string
+evs:C36292	skos:altLabel	Laboratory Test Result	xsd:string
+evs:C36292	skos:altLabel	TEST RESULT	xsd:string
+evs:C36292	skos:altLabel	LAB_RESULT	xsd:string
+evs:C36292	skos:altLabel	test result	xsd:string
+evs:C36292	skos:altLabel	Lab Value	xsd:string
+evs:C36292	skos:altLabel	Laboratory Finding	xsd:string
+evs:C36292	skos:altLabel	Lab Findings	xsd:string
+evs:C36292	skos:altLabel	Test Result	xsd:string
+bmir-radx:nih_copd	skos:altLabel	chronic obstructive pulmonary disease, (COPD)	xsd:string
+bmir-radx:nih_copd	skos:altLabel	chronic obstructive airways disease	xsd:string
+bmir-radx:nih_copd	skos:altLabel	obstructive pulmonary disease (COPD), chronic	xsd:string
+bmir-radx:nih_copd	skos:altLabel	cold	xsd:string
+bmir-radx:nih_copd	skos:altLabel	cold (chronic obstructive lung disease)	xsd:string
+bmir-radx:nih_copd	skos:altLabel	chronic obstructive airway disease	xsd:string
+bmir-radx:nih_copd	skos:altLabel	obstructive lung disease, chronic	xsd:string
+bmir-radx:nih_copd	skos:altLabel	COPD, chronic obstructive pulmonary disease	xsd:string
+bmir-radx:nih_copd	skos:altLabel	pulmonary disease (COPD), chronic obstructive	xsd:string
+bmir-radx:nih_copd	skos:altLabel	chronic obstructive lung disease	xsd:string
+bmir-radx:nih_copd	skos:altLabel	chronic obstructive pulmonary disease (COPD)	xsd:string
+bmir-radx:nih_copd	skos:altLabel	disease (COPD), chronic obstructive	xsd:string
+bmir-radx:nih_copd	skos:altLabel	COPD	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	skos:altLabel	coronary artery disease	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	skos:altLabel	coronary heart disease	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	skos:altLabel	CAD	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	skos:altLabel	CHD	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	skos:altLabel	CHD (coronary heart disease)	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	skos:altLabel	coronary arteriosclerosis	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	skos:altLabel	coronary disease	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	skos:altLabel	coronary artery disease or disorder	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	skos:altLabel	disorder of coronary artery	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	skos:altLabel	disease or disorder of coronary artery	xsd:string
+bmir-radx:nih_coronary_artery_disease_angina	skos:altLabel	disease of coronary artery	xsd:string
+bmir-radx:nih_arrhythmia	skos:altLabel	heart rhythm symptom	xsd:string
+bmir-radx:nih_arrhythmia	skos:altLabel	abnormal heart beat	xsd:string
+bmir-radx:nih_arrhythmia	skos:altLabel	dysrhythmia	xsd:string
+bmir-radx:nih_arrhythmia	skos:altLabel	abnormal heart rhythm	xsd:string
+bmir-radx:nih_arrhythmia	skos:altLabel	irregular heartbeat	xsd:string
+bmir-radx:nih_arrhythmia	skos:altLabel	fluctuation of heart rate	xsd:string
+bmir-radx:nih_zip	skos:altLabel	Postal Code	xsd:string
+bmir-radx:nih_zip	skos:altLabel	ZIP	xsd:string
+bmir-radx:nih_zip	skos:altLabel	Postal code	xsd:string
+bmir-radx:nih_zip	skos:altLabel	Zip Code	xsd:string
+obo:MONDO_0007186	skos:altLabel	Gastresophageal reflux	xsd:string
+obo:MONDO_0007186	skos:altLabel	gastroesophageal reflux disease	xsd:string
+obo:MONDO_0007186	skos:altLabel	GERD	xsd:string
+obo:MONDO_0007186	skos:altLabel	gastroesophageal reflux	xsd:string
+obo:MONDO_0007186	skos:altLabel	gastro-esophageal reflux	xsd:string
+obo:MONDO_0007186	skos:altLabel	ger	xsd:string
+obo:MONDO_0007186	skos:altLabel	gastroesophageal reflux, pediatric	xsd:string
+obo:MONDO_0007186	skos:altLabel	acid reflux	xsd:string
+obo:MONDO_0007186	skos:altLabel	gastroesophageal reflux, paediatric	xsd:string
+obo:MONDO_0007186	skos:altLabel	GERD - gastro-esophageal reflux disease	xsd:string
+bmir-radx:nih_headache	skos:altLabel	cephalalgia	xsd:string
+obo:MONDO_0007263	skos:altLabel	arrhythmia	xsd:string
+obo:SYMP_0000237	skos:altLabel	stuffy nose	xsd:string
+obo:SYMP_0000237	skos:altLabel	blocked nose	xsd:string
+obo:SYMP_0000237	skos:altLabel	stuffed up nose	xsd:string
+obo:SYMP_0000237	skos:altLabel	nasal blockage	xsd:string
+obo:SYMP_0000237	skos:altLabel	nasal obstruction	xsd:string
+obo:SYMP_0000446	skos:altLabel	redness of eye	xsd:string
+obo:SYMP_0000446	skos:altLabel	red eye	xsd:string
+obo:MONDO_0005052	skos:altLabel	IBD	xsd:string
+obo:MONDO_0005052	skos:altLabel	mucus colitis	xsd:string
+obo:MONDO_0005052	skos:altLabel	IBS	xsd:string
+obo:MONDO_0005052	skos:altLabel	psychogenic IBS	xsd:string
+obo:MONDO_0005052	skos:altLabel	spastic colon	xsd:string
+obo:MONDO_0005052	skos:altLabel	irritable bowel syndrome	xsd:string
+obo:MONDO_0005052	skos:altLabel	irritable colon	xsd:string
+obo:MONDO_0018230	skos:altLabel	primary skeletal dysplasia	xsd:string
+obo:MONDO_0018230	skos:altLabel	primary osteodysplasia	xsd:string
+obo:MONDO_0018230	skos:altLabel	Mendelian skeletal dysplasia	xsd:string
+obo:MONDO_0018230	skos:altLabel	primary bone dysplasia	xsd:string
+obo:MONDO_0005151	skos:altLabel	endocrine system disorder	xsd:string
+obo:MONDO_0005151	skos:altLabel	endocrine disorder	xsd:string
+obo:MONDO_0005151	skos:altLabel	endocrine system disease	xsd:string
+obo:MONDO_0005151	skos:altLabel	thyroid or other glandular disorders	xsd:string
+obo:MONDO_0005151	skos:altLabel	endocrine system disease or disorder	xsd:string
+obo:MONDO_0005151	skos:altLabel	disease or disorder of endocrine system	xsd:string
+obo:MONDO_0005151	skos:altLabel	endocrine disease	xsd:string
+obo:MONDO_0005151	skos:altLabel	endocrinopathy	xsd:string
+obo:MONDO_0005151	skos:altLabel	disorder of endocrine system	xsd:string
+obo:MONDO_0005151	skos:altLabel	disease of endocrine system	xsd:string
+evs:C18020	skos:altLabel	Diagnostic Test	xsd:string
+evs:C18020	skos:altLabel	Evaluation Basis of Disease Status	xsd:string
+evs:C18020	skos:altLabel	Diagnostic Technique	xsd:string
+evs:C18020	skos:altLabel	diagnostic technique	xsd:string
+evs:C18020	skos:altLabel	Diagnostic Procedure	xsd:string
+evs:C18020	skos:altLabel	diagnostic procedure	xsd:string
+evs:C18020	skos:altLabel	Diagnostic Method	xsd:string
+obo:MONDO_0005371	skos:altLabel	episodic mood disorder	xsd:string
+obo:SYMP_0020004	skos:altLabel	loss of taste	xsd:string
+bmir-radx:nih_nicotine_yn	skos:altLabel	Smoking Question	xsd:string
+bmir-radx:nih_nicotine_yn	skos:altLabel	Smoker	xsd:string
+bmir-radx:nih_nicotine_yn	skos:altLabel	Nicotine	xsd:string
+bmir-radx:nih_nicotine_yn	skos:altLabel	1-Methyl-2-(3-pyridyl)pyrrolidine	xsd:string
+bmir-radx:nih_nicotine_yn	skos:altLabel	Current or Former Smoker	xsd:string
+bmir-radx:nih_nicotine_yn	skos:altLabel	NICOTINE	xsd:string
+bmir-radx:nih_nicotine_yn	skos:altLabel	(S)-3-(1-Methyl-2-pyrrolidinyl)pyridine	xsd:string
+bmir-radx:nih_nicotine_yn	skos:altLabel	(-)-Nicotine	xsd:string
+bmir-radx:nih_nicotine_yn	skos:altLabel	nicotine	xsd:string
+bmir-radx:nih_nicotine_yn	skos:altLabel	beta-Pyridyl-alpha-N-methylpyrrolidine	xsd:string
+bmir-radx:nih_nicotine_yn	skos:altLabel	NIC	xsd:string
+obo:MONDO_0100081	skos:altLabel	parasomnia	xsd:string
+obo:MONDO_0100081	skos:altLabel	sleep disturbances	xsd:string
+obo:MONDO_0100081	skos:altLabel	sleep disturbance	xsd:string
+obo:MONDO_0100081	skos:altLabel	disturbances, sleep	xsd:string
+bmir-radx:nih_chf	skos:altLabel	congestive heart disease	xsd:string
+bmir-radx:nih_chf	skos:altLabel	failure, congestive heart	xsd:string
+bmir-radx:nih_chf	skos:altLabel	CHF	xsd:string
+bmir-radx:nih_chf	skos:altLabel	cardiac failure, congestive	xsd:string
+bmir-radx:nih_chf	skos:altLabel	heart failure, congestive	xsd:string
+bmir-radx:nih_chf	skos:altLabel	weak heart	xsd:string
+obo:MONDO_0002280	skos:altLabel	anemia (disease)	xsd:string
+obo:MONDO_0002280	skos:altLabel	anemia	xsd:string
+obo:MONDO_0002280	skos:altLabel	anaemia (disease)	xsd:string
+bmir-radx:nih_walk_climb	skos:altLabel	I have trouble using stairs	xsd:string
+bmir-radx:nih_walk_climb	skos:altLabel	I have trouble walking	xsd:string
+bmir-radx:nih_walk_climb	skos:altLabel	Have Trouble Walking	xsd:string
+bmir-radx:nih_walk_climb	skos:altLabel	Have Trouble Using Stairs	xsd:string
+evs:C36280	skos:altLabel	Neurologic	xsd:string
+evs:C36280	skos:altLabel	Nervous System Finding	xsd:string
+evs:C36280	skos:altLabel	NERVOUS SYSTEM	xsd:string
+bmir-radx:nih_alc_sub_abuse	skos:altLabel	alcohol related disorders	xsd:string
+bmir-radx:nih_alc_sub_abuse	skos:altLabel	substance-related disorder	xsd:string
+bmir-radx:nih_alc_sub_abuse	skos:altLabel	disorders, alcohol-related	xsd:string
+bmir-radx:nih_alc_sub_abuse	skos:altLabel	substance induced mood disorders	xsd:string
+bmir-radx:nih_alc_sub_abuse	skos:altLabel	disorder, alcohol-related	xsd:string
+bmir-radx:nih_alc_sub_abuse	skos:altLabel	alcohol-related disorder	xsd:string
+obo:MONDO_0005084	skos:altLabel	mental or behavioral disorder	xsd:string
+obo:MONDO_0005084	skos:altLabel	disorder of mental process	xsd:string
+obo:MONDO_0005084	skos:altLabel	mental or behavioural disorder	xsd:string
+obo:MONDO_0005084	skos:altLabel	mental process disease	xsd:string
+obo:MONDO_0005172	skos:altLabel	disease of bone and/or joint	xsd:string
+obo:MONDO_0005172	skos:altLabel	disease of skeletal system	xsd:string
+obo:MONDO_0005172	skos:altLabel	disease or disorder of skeletal system	xsd:string
+obo:MONDO_0005172	skos:altLabel	skeletal system disease	xsd:string
+obo:MONDO_0005172	skos:altLabel	skeletal system disease or disorder	xsd:string
+obo:MONDO_0005172	skos:altLabel	osteoarthropathy	xsd:string
+obo:MONDO_0005172	skos:altLabel	disorder of skeletal system	xsd:string
+evs:C18272	skos:altLabel	substance abuse	xsd:string
+evs:C18272	skos:altLabel	Substance Abuse	xsd:string
+obo:MONDO_0005271	skos:altLabel	hypersensitivity	xsd:string
+obo:MONDO_0005271	skos:altLabel	allergic reaction	xsd:string
+obo:MONDO_0005271	skos:altLabel	allergic response	xsd:string
+obo:MONDO_0005271	skos:altLabel	allergic disease or disorder	xsd:string
+obo:MONDO_0005271	skos:altLabel	type I hypersensitivity disease	xsd:string
+obo:MONDO_0005271	skos:altLabel	allergic hypersensitivity disease	xsd:string
+obo:MONDO_0005271	skos:altLabel	allergic form of immune system disease	xsd:string
+obo:MONDO_0005271	skos:altLabel	hypersensitivity reaction type I disease	xsd:string
+obo:MONDO_0005271	skos:altLabel	allergic form of disease or disorder	xsd:string
+obo:MONDO_0005271	skos:altLabel	allergy	xsd:string
+obo:MONDO_0005271	skos:altLabel	disorder of type I hypersensitivity	xsd:string
+obo:MONDO_0005381	skos:altLabel	bone element disease or disorder	xsd:string
+obo:MONDO_0005381	skos:altLabel	disorder of bone element	xsd:string
+obo:MONDO_0005381	skos:altLabel	rare bone disease related to a common gene or pathway defect	xsd:string
+obo:MONDO_0005381	skos:altLabel	disease of bone element	xsd:string
+obo:MONDO_0005381	skos:altLabel	bone element disease	xsd:string
+obo:MONDO_0005381	skos:altLabel	disease or disorder of bone element	xsd:string
+obo:MONDO_0005381	skos:altLabel	skeletal disease	xsd:string
+obo:MONDO_0002081	skos:altLabel	musculoskeletal disease	xsd:string
+obo:MONDO_0002081	skos:altLabel	musculoskeletal system disorder	xsd:string
+obo:MONDO_0002081	skos:altLabel	disease of musculoskeletal system	xsd:string
+obo:MONDO_0002081	skos:altLabel	disorder of musculoskeletal system	xsd:string
+obo:MONDO_0002081	skos:altLabel	disease or disorder of musculoskeletal system	xsd:string
+obo:MONDO_0002081	skos:altLabel	musculoskeletal system disease or disorder	xsd:string
+obo:MONDO_0002081	skos:altLabel	musculoskeletal disorder	xsd:string
+obo:MONDO_0002081	skos:altLabel	musculoskeletal system disease	xsd:string
+obo:MONDO_0008383	skos:altLabel	arthritis or polyarthritis, rheumatic	xsd:string
+obo:MONDO_0008383	skos:altLabel	arthritis, rheumatoid	xsd:string
+obo:MONDO_0008383	skos:altLabel	autoimmune arthritis	xsd:string
+obo:MONDO_0008383	skos:altLabel	RA	xsd:string
+obo:MONDO_0008383	skos:altLabel	atrophic arthritis	xsd:string
+obo:MONDO_0008383	skos:altLabel	rheumatoid arthritis	xsd:string
+obo:MONDO_0008383	skos:altLabel	rheumatoid arthritis, susceptibility to	xsd:string
+obo:MONDO_0008383	skos:altLabel	rheumatoid arthritis, progression of	xsd:string
+obo:MONDO_0005391	skos:altLabel	Wittmaack-Ekbom syndrome	xsd:string
+obo:MONDO_0005391	skos:altLabel	restless leg syndrome	xsd:string
+obo:MONDO_0005391	skos:altLabel	Willis-Ekbom disease	xsd:string
+obo:MONDO_0005391	skos:altLabel	RLS	xsd:string
+obo:MONDO_0005391	skos:altLabel	WED	xsd:string
+bmir-radx:nih_ethnicity	skos:altLabel	ETHNICITY	xsd:string
+bmir-radx:nih_ethnicity	skos:altLabel	Ethnicity	xsd:string
+bmir-radx:nih_ethnicity	skos:altLabel	Patient Reported Ethnicity	xsd:string
+bmir-radx:nih_ethnicity	skos:altLabel	Ethnic Origins	xsd:string
+bmir-radx:nih_ethnicity	skos:altLabel	Ethnic Origin	xsd:string
+bmir-radx:nih_ethnicity	skos:altLabel	Ethnic Group	xsd:string
+bmir-radx:nih_ethnicity	skos:altLabel	ethnicity	xsd:string
+bmir-radx:nih_ethnicity	skos:altLabel	ETHNIC	xsd:string
+obo:GSSO_001811	skos:altLabel	physical handicap	xsd:string
+obo:MONDO_0700096	skos:altLabel	human disease or disorder	xsd:string
+bmir-radx:nih_chd	skos:altLabel	Cor pulmonale	xsd:string
+evs:C25190	skos:altLabel	Person	xsd:string
+evs:C25190	skos:altLabel	Individual	xsd:string
+obo:SYMP_0000146	skos:altLabel	fecal	xsd:string
+obo:MONDO_0005093	skos:altLabel	disease or disorder of zone of skin	xsd:string
+obo:MONDO_0005093	skos:altLabel	skin disorder	xsd:string
+obo:MONDO_0005093	skos:altLabel	skin diseases and manifestations	xsd:string
+obo:MONDO_0005093	skos:altLabel	disorder of skin	xsd:string
+obo:MONDO_0005093	skos:altLabel	zone of skin disease or disorder	xsd:string
+obo:MONDO_0005093	skos:altLabel	disease of zone of skin	xsd:string
+obo:MONDO_0005093	skos:altLabel	cutaneous disorder	xsd:string
+obo:MONDO_0005093	skos:altLabel	skin and subcutaneous tissue disease	xsd:string
+obo:MONDO_0005093	skos:altLabel	disorder of zone of skin	xsd:string
+obo:MONDO_0005093	skos:altLabel	dermatosis	xsd:string
+obo:MONDO_0005093	skos:altLabel	zone of skin disease	xsd:string
+obo:MONDO_0005093	skos:altLabel	genodermatosis	xsd:string
+obo:SYMP_0000487	skos:altLabel	skin redness	xsd:string
+obo:SYMP_0000487	skos:altLabel	erythema	xsd:string
+obo:SYMP_0000487	skos:altLabel	rubor	xsd:string
+obo:SYMP_0000487	skos:altLabel	skin rash	xsd:string
+obo:SYMP_0000487	skos:altLabel	skin eruption	xsd:string
+obo:SYMP_0000245	skos:altLabel	poor appetite	xsd:string
+obo:MONDO_0005071	skos:altLabel	nervous system disorder	xsd:string
+obo:MONDO_0005071	skos:altLabel	neurologic disorder	xsd:string
+obo:MONDO_0005071	skos:altLabel	neurological disease	xsd:string
+obo:MONDO_0005071	skos:altLabel	disorder of nervous system	xsd:string
+obo:MONDO_0005071	skos:altLabel	neurologic disease	xsd:string
+obo:MONDO_0005071	skos:altLabel	nervous system disease	xsd:string
+obo:MONDO_0005071	skos:altLabel	nervous system disease or disorder	xsd:string
+obo:MONDO_0005071	skos:altLabel	disease of nervous system	xsd:string
+obo:MONDO_0005071	skos:altLabel	neurological disorder	xsd:string
+obo:MONDO_0005071	skos:altLabel	disease or disorder of nervous system	xsd:string
+obo:HP_0000598	skos:altLabel	Ear anomaly	xsd:string
+obo:HP_0000598	skos:altLabel	Abnormality of the ear	xsd:string
+obo:GSSO_001810	skos:altLabel	mental handicap	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	malignant neoplasm	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	Malignant Neoplasm	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	malignant neoplasm (disease)	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	Malignancy	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	Tumor, malignant, NOS	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	malignancy	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	Cancer Patient	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	MT	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	neoplasm (disease), malignant	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	organ system cancer	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	cell type cancer	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	malignant Growth	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	NEOPLASM, MALIGNANT	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	Malignant Neoplastic Disease	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	Malignant Growth	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	malignant tumor	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	Unclassified tumor, malignant	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	Cancer	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	Neoplasm, malignant	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	malignant tumour	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	primary cancer	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	malignant neoplastic disease	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	neoplasm, malignant	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	CA	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	Malignant Tumor	xsd:string
+bmir-radx:nih_cancer_active_treatment	skos:altLabel	cancer	xsd:string
+bmir-radx:nih_disability	skos:altLabel	physical handicap	xsd:string
+bmir-radx:nih_disability	skos:altLabel	mental handicap	xsd:string
+bmir-radx:nih_thyroid	skos:altLabel	thyroid deficiency	xsd:string
+bmir-radx:nih_thyroid	skos:altLabel	underactive thyroid	xsd:string
+bmir-radx:nih_thyroid	skos:altLabel	hypothyroid	xsd:string
+bmir-radx:nih_thyroid	skos:altLabel	thyroid insufficiency	xsd:string
+bmir-radx:nih_thyroid	skos:altLabel	overactive thyroid	xsd:string
+bmir-radx:nih_thyroid	skos:altLabel	hypothyroidism	xsd:string
+evs:C7062	skos:altLabel	Neoplasm by Special Category	xsd:string
+bmir-radx:nih_immunocompromised	skos:altLabel	Immunosuppressed	xsd:string
+bmir-radx:nih_immunocompromised	skos:altLabel	Immunosuppressed Host	xsd:string
+bmir-radx:nih_immunocompromised	skos:altLabel	immunocompromised	xsd:string
+bmir-radx:nih_immunocompromised	skos:altLabel	Immunosuppressed Patient	xsd:string
+bmir-radx:nih_immunocompromised	skos:altLabel	Immunocompromised Patient	xsd:string
+bmir-radx:nih_immunocompromised	skos:altLabel	Immunocompromised	xsd:string
+bmir-radx:nih_immunocompromised	skos:altLabel	Immunocompromised Host	xsd:string
+evs:C19160	skos:altLabel	Occupation or Discipline	xsd:string
+obo:MONDO_0006170	skos:altLabel	disorder of conjunctiva	xsd:string
+obo:MONDO_0006170	skos:altLabel	conjunctival disorder	xsd:string
+obo:MONDO_0006170	skos:altLabel	disease or disorder of conjunctiva	xsd:string
+obo:MONDO_0006170	skos:altLabel	conjunctiva disease	xsd:string
+obo:MONDO_0006170	skos:altLabel	conjunctiva disease or disorder	xsd:string
+obo:MONDO_0006170	skos:altLabel	conjunctival disease	xsd:string
+obo:MONDO_0006170	skos:altLabel	disease of conjunctiva	xsd:string
+obo:SYMP_0000233	skos:altLabel	decreased sensorium	xsd:string
+obo:SYMP_0000233	skos:altLabel	clouded sensorium	xsd:string
+obo:MONDO_0017181	skos:altLabel	hypnic headache (disease)	xsd:string
+obo:MONDO_0017181	skos:altLabel	hypnic headache	xsd:string
+obo:MONDO_0005070	skos:altLabel	other neoplasm	xsd:string
+obo:MONDO_0005070	skos:altLabel	tumour disease	xsd:string
+obo:MONDO_0005070	skos:altLabel	cell process disease	xsd:string
+obo:MONDO_0005070	skos:altLabel	neoplastic disease	xsd:string
+obo:MONDO_0005070	skos:altLabel	tumor disease	xsd:string
+obo:MONDO_0005070	skos:altLabel	tumor	xsd:string
+obo:MONDO_0005070	skos:altLabel	neoplastic growth	xsd:string
+obo:MONDO_0005070	skos:altLabel	neoplasm (disease)	xsd:string
+obo:MONDO_0005070	skos:altLabel	neoplasia	xsd:string
+obo:MONDO_0005070	skos:altLabel	disease of cellular proliferation	xsd:string
+obo:MONDO_0005070	skos:altLabel	tumour	xsd:string
+obo:MONDO_0005070	skos:altLabel	neoplasm	xsd:string
+obo:SYMP_0000662	skos:altLabel	trembling	xsd:string
+bmir-radx:nih_chronic_lung	skos:altLabel	lung disorder	xsd:string
+bmir-radx:nih_chronic_lung	skos:altLabel	disorder of lung	xsd:string
+bmir-radx:nih_chronic_lung	skos:altLabel	pulmonary diseases	xsd:string
+bmir-radx:nih_chronic_lung	skos:altLabel	lung disease or disorder	xsd:string
+bmir-radx:nih_chronic_lung	skos:altLabel	lung disease	xsd:string
+bmir-radx:nih_chronic_lung	skos:altLabel	disease of lung	xsd:string
+bmir-radx:nih_chronic_lung	skos:altLabel	pulmonary disorders	xsd:string
+bmir-radx:nih_chronic_lung	skos:altLabel	pulmonary disorder	xsd:string
+bmir-radx:nih_chronic_lung	skos:altLabel	disease or disorder of lung	xsd:string
+bmir-radx:nih_chronic_lung	skos:altLabel	pulmonary disease	xsd:string
+bmir-radx:nih_chronic_lung	skos:altLabel	lung disorders	xsd:string
+bmir-radx:nih_asthma	skos:altLabel	chronic obstructive asthma with acute exacerbation	xsd:string
+bmir-radx:nih_asthma	skos:altLabel	exercise induced asthma	xsd:string
+bmir-radx:nih_asthma	skos:altLabel	bronchial hyperreactivity	xsd:string
+bmir-radx:nih_asthma	skos:altLabel	chronic obstructive asthma	xsd:string
+bmir-radx:nih_asthma	skos:altLabel	exercise-induced asthma	xsd:string
+bmir-radx:nih_asthma	skos:altLabel	chronic obstructive asthma with status asthmaticus	xsd:string
+obo:SYMP_0000551	skos:altLabel	taste alteration	xsd:string
+bmir-radx:nih_insomnia	skos:altLabel	insomnia (disease)	xsd:string
+bmir-radx:nih_insomnia	skos:altLabel	delayed sleep phase syndrome, susceptibility to	xsd:string
+bmir-radx:nih_insomnia	skos:altLabel	delayed sleep phase disorder, susceptibility to	xsd:string
+bmir-radx:nih_insomnia	skos:altLabel	DSPD	xsd:string
+bmir-radx:nih_insomnia	skos:altLabel	insomnia	xsd:string
+bmir-radx:nih_insomnia	skos:altLabel	DSPS	xsd:string
+obo:MONDO_0019050	skos:altLabel	hereditary hemoglobinopathy	xsd:string
+obo:MONDO_0019050	skos:altLabel	hemoglobinopathies	xsd:string
+obo:MONDO_0019050	skos:altLabel	hemoglobinopathy	xsd:string
+obo:MONDO_0019050	skos:altLabel	Hemoglobinopathies / iron metabolism	xsd:string
+obo:SYMP_0000287	skos:altLabel	heart rhythm symptom	xsd:string
+obo:SYMP_0000287	skos:altLabel	dysrhythmia	xsd:string
+obo:SYMP_0000287	skos:altLabel	fluctuation of heart rate	xsd:string
+obo:SYMP_0000287	skos:altLabel	irregular heartbeat	xsd:string
+obo:SYMP_0000287	skos:altLabel	abnormal heart beat	xsd:string
+obo:SYMP_0000287	skos:altLabel	abnormal heart rhythm	xsd:string
+obo:HP_0000364	skos:altLabel	Hearing abnormality	xsd:string
+obo:HP_0000364	skos:altLabel	Abnormal hearing	xsd:string
+obo:GSSO_009639	skos:altLabel	human childbirth	xsd:string
+obo:GSSO_009639	skos:altLabel	childbirth	xsd:string
+obo:GSSO_009639	skos:altLabel	child birth	xsd:string
+obo:MONDO_0009061	skos:altLabel	mucoviscidosis	xsd:string
+obo:MONDO_0009061	skos:altLabel	CF	xsd:string
+obo:MONDO_0009061	skos:altLabel	cystic fibrosis lung disease, modifier of	xsd:string
+obo:MONDO_0009061	skos:altLabel	cystic fibrosis	xsd:string
+obo:MONDO_0009061	skos:altLabel	pseudomonas aeruginosa, susceptibility to chronic infection by, in cystic fibrosis	xsd:string
+bmir-radx:nih_iv_drug_use	skos:altLabel	Intravenous Drug User	xsd:string
+bmir-radx:nih_iv_drug_use	skos:altLabel	IDU	xsd:string
+bmir-radx:nih_autoimm	skos:altLabel	autoimmune hypersensitivity disease	xsd:string
+bmir-radx:nih_autoimm	skos:altLabel	autoimmune disorder	xsd:string
+bmir-radx:nih_autoimm	skos:altLabel	autoimmune disease	xsd:string
+bmir-radx:nih_autoimm	skos:altLabel	hypersensitivity reaction type II disease	xsd:string
+bmir-radx:nih_autoimm	skos:altLabel	disease, autoimmune	xsd:string
+bmir-radx:nih_autoimm	skos:altLabel	autoimmune disease or disorder	xsd:string
+bmir-radx:nih_chronic_lung_disease	skos:altLabel	lung disorder	xsd:string
+bmir-radx:nih_chronic_lung_disease	skos:altLabel	pulmonary diseases	xsd:string
+bmir-radx:nih_chronic_lung_disease	skos:altLabel	disease or disorder of lung	xsd:string
+bmir-radx:nih_chronic_lung_disease	skos:altLabel	lung disorders	xsd:string
+bmir-radx:nih_chronic_lung_disease	skos:altLabel	disease of lung	xsd:string
+bmir-radx:nih_chronic_lung_disease	skos:altLabel	disorder of lung	xsd:string
+bmir-radx:nih_chronic_lung_disease	skos:altLabel	pulmonary disorders	xsd:string
+bmir-radx:nih_chronic_lung_disease	skos:altLabel	pulmonary disease	xsd:string
+bmir-radx:nih_chronic_lung_disease	skos:altLabel	lung disease or disorder	xsd:string
+bmir-radx:nih_chronic_lung_disease	skos:altLabel	pulmonary disorder	xsd:string
+bmir-radx:nih_chronic_lung_disease	skos:altLabel	lung disease	xsd:string
+bmir-radx:nih_insurance	skos:altLabel	Health Insurance	xsd:string
+bmir-radx:nih_insurance	skos:altLabel	Insurance	xsd:string
+obo:GSSO_006602	skos:altLabel	alcohol use, unspecified	xsd:string
+obo:GSSO_006602	skos:altLabel	alcohol misuse	xsd:string
+obo:GSSO_006602	skos:altLabel	alcohol abuse	xsd:string
+evs:C81229	skos:altLabel	Alcohol Use	xsd:string
+evs:C81229	skos:altLabel	Alcohol History	xsd:string
+evs:C81229	skos:altLabel	alcohol_history	xsd:string
+evs:C81229	skos:altLabel	Alcohol Use History	xsd:string
+evs:C81229	skos:altLabel	alcohol history	xsd:string
+bmir-radx:nih_diff_breath	skos:altLabel	labored respiration	xsd:string
+bmir-radx:nih_diff_breath	skos:altLabel	breathing difficulty	xsd:string
+bmir-radx:nih_diff_breath	skos:altLabel	difficulty breathing	xsd:string
+bmir-radx:nih_diff_breath	skos:altLabel	shortness of breath	xsd:string
+bmir-radx:nih_diff_breath	skos:altLabel	breathlessness	xsd:string
+bmir-radx:nih_ibs	skos:altLabel	mucus colitis	xsd:string
+bmir-radx:nih_ibs	skos:altLabel	spastic colon	xsd:string
+bmir-radx:nih_ibs	skos:altLabel	psychogenic IBS	xsd:string
+bmir-radx:nih_ibs	skos:altLabel	irritable colon	xsd:string
+bmir-radx:nih_ibs	skos:altLabel	IBD	xsd:string
+bmir-radx:nih_ibs	skos:altLabel	IBS	xsd:string
+bmir-radx:nih_ibs	skos:altLabel	irritable bowel syndrome	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	CVA, cerebrovascular accident	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	undetermined stroke	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	cerebrovascular accident, (CVA)	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	attack, transient ischemic	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	transient ischemic attack	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	cerebral infarction	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	transient cerebral ischemia (disorder) [ambiguous]	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	TIA - transient ischemic attack	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	transient ischaemic attacks	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	ischaemic attack, transient	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	transient cerebral ischemia	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	ischemic attack, transient	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	transient cerebral ischaemia	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	transient ischaemic attack (disease)	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	stroke	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	TIA - transient ischaemic attack	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	transient ischemic attacks	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	transient ischemic attack (disease)	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	attack, transient ischaemic	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	syndrome, stroke	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	stroke syndrome	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	TIA	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	CVA	xsd:string
+bmir-radx:nih_stroke	skos:altLabel	cerebrovascular accident	xsd:string
+obo:SYMP_0000570	skos:altLabel	diarrhoea	xsd:string
+obo:SYMP_0000570	skos:altLabel	loose bowel	xsd:string
+obo:SYMP_0000570	skos:altLabel	incontinence of feces	xsd:string
+obo:SYMP_0000570	skos:altLabel	fecal incontinence	xsd:string
+obo:SYMP_0000570	skos:altLabel	bacterial gastroenteritis	xsd:string
+obo:SYMP_0000570	skos:altLabel	the runs	xsd:string
+obo:SYMP_0000570	skos:altLabel	loose bowels	xsd:string
+bmir-radx:nih_rls	skos:altLabel	Willis-Ekbom disease	xsd:string
+bmir-radx:nih_rls	skos:altLabel	WED	xsd:string
+bmir-radx:nih_rls	skos:altLabel	restless leg syndrome	xsd:string
+bmir-radx:nih_rls	skos:altLabel	Wittmaack-Ekbom syndrome	xsd:string
+bmir-radx:nih_rls	skos:altLabel	RLS	xsd:string
+evs:C1909	skos:altLabel	Pharmacologic Agent	xsd:string
+evs:C1909	skos:altLabel	Pharmaceuticals	xsd:string
+evs:C1909	skos:altLabel	Pharmacological Substance	xsd:string
+evs:C1909	skos:altLabel	Drug Substance	xsd:string
+evs:C1909	skos:altLabel	Agent	xsd:string
+evs:C1909	skos:altLabel	therapeutic agents	xsd:string
+evs:C1909	skos:altLabel	drug	xsd:string
+evs:C1909	skos:altLabel	Pharmacologic Substance	xsd:string
+evs:C1909	skos:altLabel	Therapeutic Agent	xsd:string
+evs:C1909	skos:altLabel	Drug	xsd:string
+evs:C1909	skos:altLabel	Pharmaceutical Agent	xsd:string
+evs:C1909	skos:altLabel	DRUG	xsd:string
+evs:C1909	skos:altLabel	therapeutic_agents	xsd:string
+obo:MONDO_0011918	skos:altLabel	harm avoidance	xsd:string
+obo:MONDO_0011918	skos:altLabel	anxiety-related personality traits	xsd:string
+obo:MONDO_0011918	skos:altLabel	anxiety	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	disease (COPD), chronic obstructive	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	chronic obstructive pulmonary disease, (COPD)	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	obstructive pulmonary disease (COPD), chronic	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	chronic obstructive pulmonary disease (COPD)	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	COPD, chronic obstructive pulmonary disease	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	obstructive lung disease, chronic	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	cold (chronic obstructive lung disease)	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	chronic obstructive airways disease	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	COPD	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	pulmonary disease (COPD), chronic obstructive	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	cold	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	chronic obstructive lung disease	xsd:string
+bmir-radx:nih_copd_plus	skos:altLabel	chronic obstructive airway disease	xsd:string
+obo:GO_0007567	skos:altLabel	parturition, NOS	xsd:string
+obo:GO_0007567	skos:altLabel	birth	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	polycystic ovarian disease	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	polycystic ovary	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	Stein-Leventhal synd.	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	polycystic ovary syndrome 1	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	polycystic ovary syndrome	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	Stein-Leventhal syndrome	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	PCOS	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	multicystic ovaries	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	PCO1	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	polycystic ovaries	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	PCOS1	xsd:string
+bmir-radx:nih_pcos	skos:altLabel	hyperandrogenemia	xsd:string
+obo:GSSO_006601	skos:altLabel	substance abuse	xsd:string
+obo:GSSO_006601	skos:altLabel	substance misuse	xsd:string
+obo:GSSO_006601	skos:altLabel	drug use	xsd:string
+obo:MONDO_0019091	skos:altLabel	BPD	xsd:string
+obo:SYMP_0000372	skos:altLabel	runny nose	xsd:string
+obo:MONDO_0002908	skos:altLabel	glucose metabolism disorder	xsd:string
+obo:MONDO_0002908	skos:altLabel	disorder of glucose metabolism	xsd:string
+bmir-radx:nih_immunodeficiency	skos:altLabel	immuno-deficiency	xsd:string
+bmir-radx:nih_immunodeficiency	skos:altLabel	immunodeficiency syndrome	xsd:string
+bmir-radx:nih_immunodeficiency	skos:altLabel	immunodeficiency disorder	xsd:string
+bmir-radx:nih_immunodeficiency	skos:altLabel	immunodeficiency	xsd:string
+evs:C718	skos:altLabel	Organic Chemical	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ	skos:altLabel	Immunocompromised	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ	skos:altLabel	Immunosuppressed	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ	skos:altLabel	Immunocompromised Host	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ	skos:altLabel	Immunocompromised Patient	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ	skos:altLabel	Solid Organ Transplantation Recipient	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ	skos:altLabel	Immunosuppressed Patient	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ	skos:altLabel	Immunosuppressed Host	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ	skos:altLabel	immunocompromised	xsd:string
+bmir-radx:nih_immuno_compromised_solid_organ	skos:altLabel	Solid Organ Transplant Recipient	xsd:string
+bmir-radx:nih_cardiovascular_disease	skos:altLabel	cardiovascular system disease or disorder	xsd:string
+bmir-radx:nih_cardiovascular_disease	skos:altLabel	disease of subdivision of hemolymphoid system	xsd:string
+bmir-radx:nih_cardiovascular_disease	skos:altLabel	cardiovascular disorder	xsd:string
+bmir-radx:nih_cardiovascular_disease	skos:altLabel	cardiovascular disease	xsd:string
+bmir-radx:nih_cardiovascular_disease	skos:altLabel	disease or disorder of cardiovascular system	xsd:string
+bmir-radx:nih_cardiovascular_disease	skos:altLabel	disease of cardiovascular system	xsd:string
+bmir-radx:nih_cardiovascular_disease	skos:altLabel	disorder of cardiovascular system	xsd:string
+bmir-radx:nih_cardiovascular_disease	skos:altLabel	circulatory system disease	xsd:string
+bmir-radx:nih_cardiovascular_disease	skos:altLabel	cardiovascular system disease	xsd:string
+bmir-radx:nih_cardiovascular_disease	skos:altLabel	cardiovascular disease (CVD)	xsd:string
+evs:C1908	skos:altLabel	Drug, Food, Chemical or Biomedical Material	xsd:string
+obo:NCIT_C95018	skos:altLabel	using	xsd:string
+obo:NCIT_C95018	skos:altLabel	used	xsd:string
+bmir-radx:nih_substance_use	skos:altLabel	substance abuse	xsd:string
+bmir-radx:nih_substance_use	skos:altLabel	Substance Abuse	xsd:string
+evs:C95549	skos:altLabel	Run Errand	xsd:string
+bmir-radx:nih_vaping_yn	skos:altLabel	Vape	xsd:string
+bmir-radx:nih_vaping_yn	skos:altLabel	Smoker	xsd:string
+bmir-radx:nih_vaping_yn	skos:altLabel	Current or Former Smoker	xsd:string
+bmir-radx:nih_vaping_yn	skos:altLabel	Vaping	xsd:string
+obo:GSSO_002199	skos:altLabel	racial category	xsd:string
+obo:GSSO_002199	skos:altLabel	racial	xsd:string
+bmir-radx:nih_vape_freq	skos:altLabel	Electronic Nicotine Delivery System	xsd:string
+bmir-radx:nih_vape_freq	skos:altLabel	Smoker	xsd:string
+bmir-radx:nih_vape_freq	skos:altLabel	Current or Former Smoker	xsd:string
+bmir-radx:nih_vape_freq	skos:altLabel	e-Cigarette	xsd:string
+bmir-radx:nih_vape_freq	skos:altLabel	Vape	xsd:string
+bmir-radx:nih_vape_freq	skos:altLabel	Electronic Cigarette	xsd:string
+bmir-radx:nih_vape_freq	skos:altLabel	Smoking Question	xsd:string
+bmir-radx:nih_vape_freq	skos:altLabel	Vaping	xsd:string
+evs:C92720	skos:altLabel	Pregnancy Finding	xsd:string
+evs:C41009	skos:altLabel	Qualifier	xsd:string
+evs:C41009	skos:altLabel	Modifier	xsd:string
+bmir-radx:nih_conjunctivitis	skos:altLabel	pink eye	xsd:string
+bmir-radx:nih_conjunctivitis	skos:altLabel	conjunctiva inflammation	xsd:string
+bmir-radx:nih_conjunctivitis	skos:altLabel	conjunctivitis (disease)	xsd:string
+bmir-radx:nih_conjunctivitis	skos:altLabel	inflammation of conjunctiva	xsd:string
+bmir-radx:nih_conjunctivitis	skos:altLabel	conjunctivitis	xsd:string
+bmir-radx:nih_conjunctivitis	skos:altLabel	Madras eye	xsd:string
+obo:NCIT_C21007	skos:altLabel	handicap	xsd:string
+obo:NCIT_C21007	skos:altLabel	disabled	xsd:string
+obo:NCIT_C21007	skos:altLabel	dis/ability	xsd:string
+obo:NCIT_C21007	skos:altLabel	(dis)ability	xsd:string
+obo:SYMP_0019145	skos:altLabel	emesis	xsd:string
+evs:C1916	skos:altLabel	Nitrogen Compound	xsd:string
+evs:C73579	skos:altLabel	nAChR Agonist	xsd:string
+evs:C73579	skos:altLabel	Nicotinic Receptor Agonist	xsd:string
+evs:C73579	skos:altLabel	Nicotinic Agonist	xsd:string
+evs:C73579	skos:altLabel	Nicotinic Acetylcholine Receptor Agonist	xsd:string
+bmir-radx:nih_blind	skos:altLabel	vision impairment	xsd:string
+bmir-radx:nih_blind	skos:altLabel	blindness	xsd:string
+bmir-radx:nih_blind	skos:altLabel	visual impairment	xsd:string
+bmir-radx:nih_blind	skos:altLabel	vision loss	xsd:string
+bmir-radx:nih_hiv	skos:altLabel	HIV infection	xsd:string
+bmir-radx:nih_hiv	skos:altLabel	Human immunodeficiency virus caused disease or disorder	xsd:string
+bmir-radx:nih_hiv	skos:altLabel	Human immunodeficiency virus disease or disorder	xsd:string
+bmir-radx:nih_hiv	skos:altLabel	Human immunodeficiency virus infectious disease	xsd:string
+bmir-radx:nih_hiv	skos:altLabel	human immunodeficiency virus infectious disease	xsd:string
+obo:NBO_0001845	skos:altLabel	ingest	xsd:string
+evs:C91102	skos:altLabel	Clinical or Research Assessment Question	xsd:string
+bmir-radx:nih_tobacco	skos:altLabel	Smoking	xsd:string
+evs:C131924	skos:altLabel	Stairs	xsd:string
+evs:C131924	skos:altLabel	Ability to Use Stairs	xsd:string
+evs:C54625	skos:altLabel	History	xsd:string
+evs:C54625	skos:altLabel	Historical	xsd:string
+bmir-radx:nih_chronic_kidney_disease	skos:altLabel	chronic renal insufficiency	xsd:string
+bmir-radx:nih_chronic_kidney_disease	skos:altLabel	kidney disease, chronic	xsd:string
+bmir-radx:nih_chronic_kidney_disease	skos:altLabel	chronic renal disease	xsd:string
+bmir-radx:nih_chronic_kidney_disease	skos:altLabel	chronic kidney disease	xsd:string
+bmir-radx:nih_chronic_kidney_disease	skos:altLabel	renal failure - chronic	xsd:string
+bmir-radx:nih_chronic_kidney_disease	skos:altLabel	CKD	xsd:string
+bmir-radx:nih_chronic_kidney_disease	skos:altLabel	chronic renal failure syndrome	xsd:string
+bmir-radx:nih_chronic_kidney_disease	skos:altLabel	CKD - chronic kidney disease	xsd:string
+sio:SIO_000614	skos:altLabel	attributive	xsd:string
+sio:SIO_000614	skos:altLabel	attributing	xsd:string
+sio:SIO_000614	skos:altLabel	attributed	xsd:string
+bmir-radx:nih_errand	skos:altLabel	Are you able to run errands and shop	xsd:string
+bmir-radx:nih_errand	skos:altLabel	Able to Run Errands and Shop	xsd:string
+bmir-radx:nih_errand	skos:altLabel	Ability to Run Errands and Shop	xsd:string
+bmir-radx:nih_errand	skos:altLabel	Run Errand	xsd:string
+obo:MONDO_0000429	skos:altLabel	autosomal inherited disorder	xsd:string
+obo:MONDO_0000429	skos:altLabel	autosomal inherited disease	xsd:string
+obo:MONDO_0000429	skos:altLabel	autosomal hereditary disorder	xsd:string
+evs:C111629	skos:altLabel	I have trouble walking	xsd:string
+evs:C111629	skos:altLabel	Have Trouble Walking	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea	skos:altLabel	loose bowel	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea	skos:altLabel	diarrhoea	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea	skos:altLabel	bacterial gastroenteritis	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea	skos:altLabel	incontinence of feces	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea	skos:altLabel	the runs	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea	skos:altLabel	emesis	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea	skos:altLabel	fecal incontinence	xsd:string
+bmir-radx:nih_nausea_vomiting_diarrhea	skos:altLabel	loose bowels	xsd:string
+obo:MONDO_0000605	skos:altLabel	sensitivity	xsd:string
+obo:MONDO_0000605	skos:altLabel	hypersensitivity reaction	xsd:string
+obo:MONDO_0000605	skos:altLabel	hypersensitivity	xsd:string
+obo:MONDO_0000605	skos:altLabel	allergic reaction	xsd:string
+obo:MONDO_0000605	skos:altLabel	hypersensitive	xsd:string
+obo:MONDO_0000605	skos:altLabel	sensitive	xsd:string
+evs:C131923	skos:altLabel	Dressing Ability	xsd:string
+evs:C131923	skos:altLabel	Dressing	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	breathing, sleep-disordered	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	sleep apneas, mixed	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	sleep apneas	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	hypersomnia with periodic respiration	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	apnea, sleep	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	sleep apnea, mixed	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	apnea syndromes, sleep	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	sleep apnea syndrome	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	hypopnea, sleep	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	hypopneas, sleep	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	sleep disordered breathing	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	mixed sleep apnea	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	sleep apnea	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	sleep-disordered breathing	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	apneas, sleep	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	sleep hypopneas	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	sleep apnea, mixed central and obstructive	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	mixed central and obstructive sleep apnea	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	mixed sleep Apneas	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	breathing-related sleep disorder	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	apnea syndrome, sleep	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	sleep hypopnea	xsd:string
+bmir-radx:nih_sleep_apnea	skos:altLabel	SDB	xsd:string
+evs:C95544	skos:altLabel	Dressing	xsd:string
+bmir-radx:nih_race	skos:altLabel	racial	xsd:string
+bmir-radx:nih_race	skos:altLabel	racial category	xsd:string
+evs:C17708	skos:altLabel	Physical Activity	xsd:string
+obo:MONDO_0001627	skos:altLabel	dementia (disease)	xsd:string
+obo:MONDO_0001627	skos:altLabel	dementia	xsd:string
+obo:MONDO_0043218	skos:altLabel	neurovascular disorder	xsd:string
+obo:MONDO_0043218	skos:altLabel	disease of nervous system vasculature	xsd:string
+obo:MONDO_0043218	skos:altLabel	nervous system disorder of vasculature	xsd:string
+obo:MONDO_0043218	skos:altLabel	vasculature nervous system disorder	xsd:string
+bmir-radx:nih_neuro_shakes	skos:altLabel	trembling	xsd:string
+evs:C1913	skos:altLabel	Drug or Chemical by Structure	xsd:string
+bmir-radx:nih_cld_bpd	skos:altLabel	BPD	xsd:string
+evs:C173458	skos:altLabel	Play or Do Physical Activity Question	xsd:string
+evs:C173458	skos:altLabel	Do Physical Activity	xsd:string
+bmir-radx:nih_throat_congestion_nose	skos:altLabel	stuffy nose	xsd:string
+bmir-radx:nih_throat_congestion_nose	skos:altLabel	nasal obstruction	xsd:string
+bmir-radx:nih_throat_congestion_nose	skos:altLabel	nasal blockage	xsd:string
+bmir-radx:nih_throat_congestion_nose	skos:altLabel	blocked nose	xsd:string
+bmir-radx:nih_throat_congestion_nose	skos:altLabel	sore throat	xsd:string
+bmir-radx:nih_throat_congestion_nose	skos:altLabel	runny nose	xsd:string
+bmir-radx:nih_throat_congestion_nose	skos:altLabel	stuffed up nose	xsd:string
+evs:C97325	skos:altLabel	Manufactured Object	xsd:string
+evs:C84367	skos:altLabel	Intravenous Drug User	xsd:string
+evs:C84367	skos:altLabel	IDU	xsd:string
+bmir-radx:nih_gerd	skos:altLabel	gastroesophageal reflux	xsd:string
+bmir-radx:nih_gerd	skos:altLabel	gastroesophageal reflux, pediatric	xsd:string
+bmir-radx:nih_gerd	skos:altLabel	gastro-esophageal reflux	xsd:string
+bmir-radx:nih_gerd	skos:altLabel	Gastresophageal reflux	xsd:string
+bmir-radx:nih_gerd	skos:altLabel	ger	xsd:string
+bmir-radx:nih_gerd	skos:altLabel	GERD	xsd:string
+bmir-radx:nih_gerd	skos:altLabel	acid reflux	xsd:string
+bmir-radx:nih_gerd	skos:altLabel	GERD - gastro-esophageal reflux disease	xsd:string
+bmir-radx:nih_gerd	skos:altLabel	gastroesophageal reflux disease	xsd:string
+bmir-radx:nih_gerd	skos:altLabel	gastroesophageal reflux, paediatric	xsd:string
+bmir-radx:nih_numb_extremities	skos:altLabel	numbness	xsd:string
+evs:C18928	skos:altLabel	Payment / Reimbursement Issues	xsd:string
+evs:C18928	skos:altLabel	Insurance and Payment Issues	xsd:string
+obo:NBO_0000313	skos:altLabel	behaviour	xsd:string
+obo:NBO_0000313	skos:altLabel	behavior	xsd:string
+bmir-radx:nih_red_eyes	skos:altLabel	redness of eye	xsd:string
+bmir-radx:nih_red_eyes	skos:altLabel	red eye	xsd:string
+obo:MONDO_0003749	skos:altLabel	disease or disorder of oesophagus	xsd:string
+obo:MONDO_0003749	skos:altLabel	esophageal ulcer	xsd:string
+obo:MONDO_0003749	skos:altLabel	oesophagus disease	xsd:string
+obo:MONDO_0003749	skos:altLabel	disease of oesophagus	xsd:string
+obo:MONDO_0003749	skos:altLabel	esophagus disease or disorder	xsd:string
+obo:MONDO_0003749	skos:altLabel	oesophagus disease or disorder	xsd:string
+obo:MONDO_0003749	skos:altLabel	disorder of oesophagus	xsd:string
+obo:MONDO_0003749	skos:altLabel	esophagus disease	xsd:string
+obo:MONDO_0003749	skos:altLabel	esophageal disorder	xsd:string
+obo:MONDO_0003749	skos:altLabel	disease or disorder of esophagus	xsd:string
+obo:MONDO_0003749	skos:altLabel	disorder of esophagus	xsd:string
+obo:MONDO_0003749	skos:altLabel	disease of esophagus	xsd:string
+bmir-radx:nih_immunosuppressive_condition	skos:altLabel	Immunosuppressive_conditions	xsd:string
+bmir-radx:nih_immunosuppressive_condition	skos:altLabel	Immunosuppressive Disorder	xsd:string
+evs:C154329	skos:altLabel	Smoking	xsd:string
+obo:MONDO_0020579	skos:altLabel	mucositis	xsd:string
+obo:MONDO_0020579	skos:altLabel	mucosa inflammation	xsd:string
+obo:MONDO_0020579	skos:altLabel	inflammation of mucosa	xsd:string
+evs:C43359	skos:altLabel	Panel	xsd:string
+evs:C43359	skos:altLabel	Group	xsd:string
+obo:SYMP_0019175	skos:altLabel	perspire	xsd:string
+obo:SYMP_0019153	skos:altLabel	shortness of breath	xsd:string
+obo:SYMP_0019153	skos:altLabel	breathing difficulty	xsd:string
+obo:SYMP_0019153	skos:altLabel	difficulty breathing	xsd:string
+obo:SYMP_0019153	skos:altLabel	breathlessness	xsd:string
+obo:SYMP_0019153	skos:altLabel	labored respiration	xsd:string
