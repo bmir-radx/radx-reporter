@@ -209,10 +209,12 @@ class GCBO:
                 node = self.element_nodes[label]
                 frontier.put(node)
                 visited.add(node)
+        parents = set()
         while frontier.qsize() > 0:
             node = frontier.get()
             for parent in node.parents:
                 if not parent in visited:
                     visited.add(parent)
+                    parents.add(parent)
                     frontier.put(parent)
-        return visited
+        return parents

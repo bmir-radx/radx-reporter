@@ -3,7 +3,8 @@ import os
 
 import pandas as pd
 
-from .basic import classifier, meta_parser, report_writer
+from .basic import classifier, report_writer
+from .basic.meta_parser import MetaParser
 from .basic.gcbo import GCBO
 
 
@@ -50,6 +51,8 @@ def study_metadata_cli():
     )
 
     dataframe = pd.read_excel(args.input, sheet_name=args.sheet, skiprows=1)
+
+    meta_parser = MetaParser(gcbo)
     studies = meta_parser.parse_metadata_dataframe(dataframe)
     study_labels = classifier.label_studies(studies)
     studies_by_classifier = classifier.classify_studies(studies)
