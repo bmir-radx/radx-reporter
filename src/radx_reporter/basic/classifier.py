@@ -80,7 +80,7 @@ def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study]):
                 label,
                 len(grouped_studies),
                 "; ".join([study.phs_id for study in grouped_studies]),
-                label.coded if hasattr(label, "coded") else True,
+                label.coded if hasattr(label, "coded") else False,
             )
             for label, grouped_studies in studies[classifier].items()
         ]

@@ -22,9 +22,10 @@ class Program(Enum):
     DHT = ("RADx-DHT", generate_search_url("dcc", "RADx DHT"))
     UNKNOWN = ("UNKNOWN OR INVALID",)
 
-    def __init__(self, label, url=None):
+    def __init__(self, label, url=None, coded=True):
         self.label = label
         self.url = url
+        self.coded = coded
 
 
 class StudyDesign(Enum):
@@ -96,9 +97,10 @@ class StudyDesign(Enum):
     OTHER = ("Other", generate_search_url("types_array", "Other"))
     UNKNOWN = ("UNKNOWN OR INVALID",)
 
-    def __init__(self, label, url=None, synonyms=None):
+    def __init__(self, label, url=None, synonyms=None, coded=True):
         self.label = label
         self.url = url
+        self.coded = coded
         if synonyms is None:
             synonyms = set()
         self.synonyms = synonyms
@@ -132,9 +134,10 @@ class DataType(Enum):
     OTHER = ("Other",)
     UNKNOWN = ("UNKNOWN OR INVALID",)
 
-    def __init__(self, label, url=None):
+    def __init__(self, label, url=None, coded=True):
         self.label = label
         self.url = url
+        self.coded = coded
 
 
 class CollectionMethod(Enum):
@@ -202,9 +205,10 @@ class CollectionMethod(Enum):
     OTHER = ("Other", generate_search_url("source_array", "Other"))
     UNKNOWN = "UNKNOWN OR INVALID"
 
-    def __init__(self, label, url=None):
+    def __init__(self, label, url=None, coded=True):
         self.label = label
         self.url = url
+        self.coded = coded
 
 
 class NihInstitute(Enum):
@@ -245,9 +249,10 @@ class NihInstitute(Enum):
     )  # added this because phs003366 only has this as an entry
     UNKNOWN = ("UNKNOWN OR INVALID",)
 
-    def __init__(self, label, url=None):
+    def __init__(self, label, url=None, coded=True):
         self.label = label
         self.url = url
+        self.coded = coded
 
 
 class StudyDomain(Enum):
@@ -435,9 +440,10 @@ class StudyDomain(Enum):
     OBESITY = ("Obesity", generate_search_url("topics_array", "Obesity"))
     UNKNOWN = ("UNKNOWN OR INVALID",)
 
-    def __init__(self, label, url=None):
+    def __init__(self, label, url=None, coded=True):
         self.label = label
         self.url = url
+        self.coded = coded
 
 
 class PopulationRange(Enum):
@@ -495,11 +501,12 @@ class PopulationRange(Enum):
         generate_search_url("estimated_participant_range", "Unknown"),
     )
 
-    def __init__(self, label, lower_bound, upper_bound, url=None):
+    def __init__(self, label, lower_bound, upper_bound, url=None, coded=True):
         self.label = label
         self.lower_bound = lower_bound
         self.upper_bound = upper_bound
         self.url = url
+        self.coded = coded
 
 
 class FocusPopulation(Enum):
@@ -589,9 +596,10 @@ class FocusPopulation(Enum):
     )
     UNKNOWN = ("UNKNOWN OR INVALID",)
 
-    def __init__(self, label, url=None):
+    def __init__(self, label, url=None, coded=True):
         self.label = label
         self.url = url
+        self.coded = coded
 
 
 class Classifier(Enum):
