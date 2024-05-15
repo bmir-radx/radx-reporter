@@ -217,4 +217,4 @@ class GCBO:
                     visited.add(parent)
                     parents.add(parent)
                     frontier.put(parent)
-        return parents
+        return list(parents)

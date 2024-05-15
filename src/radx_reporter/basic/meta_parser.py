@@ -3,6 +3,7 @@ import re
 import dateutil
 import pandas as pd
 
+from .gcbo_mappings import map_to_gcbo
 from .study import Study
 from .vocabulary import (
     COLLECTION_METHODS,
@@ -22,14 +23,6 @@ from .vocabulary import (
     StudyDesign,
     StudyDomain,
 )
-from .hierarchy import (
-    FOCUS_POPULATION_HIERARCHY,
-    STUDY_DESIGN_HIERARCHY,
-    STUDY_DOMAIN_HIERARCHY,
-    COLLECTION_METHOD_HIERARCHY,
-    DATA_TYPE_HIERARCHY,
-)
-
 
 PROGRAM_KEYWORD = "DCC"
 INSTITUTE_KEYWORD = "institutes_supporting_study - CODED"
@@ -94,7 +87,8 @@ class MetaParser:
             ]
             if len(focus_populations) == 0:
                 focus_populations.append(FocusPopulation.UNKNOWN)
-        return focus_populations
+        ancestors = self.hierarchy.find_ancestors(map_to_gcbo(focus_populations))
+        return focus_populations + ancestors
 
     def parse_nih_institutes(self, row):
         """
@@ -133,7 +127,7 @@ class MetaParser:
             collection_methods.append(CollectionMethod.UNKNOWN)
         return collection_methods
 
-    def parse_study_designs(row):
+    def parse_study_designs(self, row):
         """
         Parse study design keywords (many) from DataFrame row.
         """
@@ -149,7 +143,8 @@ class MetaParser:
             ]
             if len(study_designs) == 0:
                 study_designs.append(StudyDesign.UNKNOWN)
-        return study_designs
+        ancestors = self.hierarchy.find_ancestors(map_to_gcbo(study_designs))
+        return study_designs + ancestors
 
     def parse_population(self, row):
         """
@@ -196,7 +191,8 @@ class MetaParser:
             ]
             if len(data_types) == 0:
                 data_types.append(DataType.UNKNOWN)
-        return data_types
+        ancestors = self.hierarchy.find_ancestors(map_to_gcbo(data_types))
+        return data_types + ancestors
 
     def parse_study_domains(self, row):
         """
@@ -213,7 +209,8 @@ class MetaParser:
             study_domains = [
                 topic for topic in STUDY_DOMAINS if self.has_match(topic, domain_text)
             ]
-        return study_domains
+        ancestors = self.hierarchy.find_ancestors(map_to_gcbo(study_domains))
+        return study_domains + ancestors
 
     def parse_dates(self, row):
         """
