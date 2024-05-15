@@ -1,8 +1,10 @@
 import argparse
+import os
 
 import pandas as pd
 
 from .basic import classifier, meta_parser, report_writer
+from .basic.gcbo import GCBO
 
 
 def study_metadata_cli():
@@ -31,9 +33,21 @@ def study_metadata_cli():
         "-s",
         default="Database Export",
         required=False,
-        help="Name of the sheet in the input to read."
+        help="Name of the sheet in the input to read.",
     )
     args = parser.parse_args()
+
+    gcbo_labels_tsv = os.path.join(os.path.dirname(__file__), "data", "labels.tsv")
+    gcbo_alt_labels_tsv = os.path.join(
+        os.path.dirname(__file__), "data", "altLabels.tsv"
+    )
+    gcbo_hierarchy_tsv = os.path.join(
+        os.path.dirname(__file__), "data", "hierarchy.tsv"
+    )
+    gcbo_see_also_tsv = os.path.join(os.path.dirname(__file__), "data", "seeAlso.tsv")
+    gcbo = GCBO(
+        gcbo_labels_tsv, gcbo_alt_labels_tsv, gcbo_hierarchy_tsv, gcbo_see_also_tsv
+    )
 
     dataframe = pd.read_excel(args.input, sheet_name=args.sheet, skiprows=1)
     studies = meta_parser.parse_metadata_dataframe(dataframe)
