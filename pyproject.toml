@@ -20,4 +20,4 @@ classifiers = [
 radx-study-metadata-reporter = "radx_reporter.reporter:study_metadata_cli"
 
 [tool.setuptools.package-data]
-radx_reporter = ["data/*"]
+radx_reporter = ["data/*", "data/content-ontology/*"]

@@ -1,0 +1,139 @@
+subject	predicate	object	datatype
+<http://webprotege.stanford.edu/Long+COVID>	rdfs:label	Long COVID	xsd:string
+<http://webprotege.stanford.edu/COVID-19-Related+Disorders>	rdfs:label	COVID-19-Related Disorders	@en
+<http://webprotege.stanford.edu/Individual+Phenotype>	rdfs:label	Individual Phenotype	@en
+<http://webprotege.stanford.edu/Genotyping>	rdfs:label	Genotyping	@en
+<http://webprotege.stanford.edu/Biosensor+Technology>	rdfs:label	Biosensor Technology	@en
+<http://webprotege.stanford.edu/Incarcerated%2FInstitutionalized%28orCriminalLegalSystemInvolvement%29>	rdfs:label	Incarcerated/Institutionalized (or Criminal Legal System Involvement)	xsd:string
+<http://webprotege.stanford.edu/COVID-19+Testing>	rdfs:label	COVID-19 Testing	@en
+<http://webprotege.stanford.edu/Genomic>	rdfs:label	Genomic	@en
+<http://webprotege.stanford.edu/Epidemiologic+Study>	rdfs:label	Epidemiologic Study	@en
+<http://webprotege.stanford.edu/isAuxiliaryTerm>	rdfs:label	isAuxiliaryTerm	@en
+<http://webprotege.stanford.edu/Cohort+Study>	rdfs:label	Cohort Study	@en
+<http://webprotege.stanford.edu/Clinical>	rdfs:label	Clinical	@en
+<http://webprotege.stanford.edu/Serological+%28Antibody%29+Testing>	rdfs:label	Serological (Antibody) Testing	@en
+<http://webprotege.stanford.edu/Wastewater+Surveillance>	rdfs:label	Wastewater Surveillance	@en
+<http://webprotege.stanford.edu/Breath+Analysis+Device+%2F+Airborne+Detection+Device>	rdfs:label	Breath Analysis Device / Airborne Detection Device	@en
+<http://webprotege.stanford.edu/Behavior>	rdfs:label	Behavior	@en
+<http://webprotege.stanford.edu/Health+Behaviors>	rdfs:label	Health Behaviors	@en
+<http://webprotege.stanford.edu/Multisystem+Inflammatory+Syndrome+in+Children+%28MIS-C%29>	rdfs:label	Multisystem Inflammatory Syndrome in Children (MIS-C)	xsd:string
+<http://webprotege.stanford.edu/FocusPopulation>	rdfs:label	Focus Population	xsd:string
+<http://webprotege.stanford.edu/Artificial+Intelligence+and+Machine+Learning>	rdfs:label	Artificial Intelligence and Machine Learning	@en
+<http://webprotege.stanford.edu/Clinical+Study>	rdfs:label	Clinical Study	@en
+<http://webprotege.stanford.edu/Vaccination>	rdfs:label	Vaccination	@en
+<http://webprotege.stanford.edu/COVID-19>	rdfs:label	COVID-19	@en
+<http://webprotege.stanford.edu/Questionnaires%2FSurveys>	rdfs:label	Questionnaires/Surveys	@en
+<http://webprotege.stanford.edu/Metagenomics>	rdfs:label	Metagenomics	@en
+<http://webprotege.stanford.edu/Cross-Sectional>	rdfs:label	Cross-Sectional	@en
+<http://webprotege.stanford.edu/Metagenomic>	rdfs:label	Metagenomic	@en
+<http://webprotege.stanford.edu/Physical+Activity>	rdfs:label	Physical Activity	@en
+<http://webprotege.stanford.edu/isEquivalentTo>	rdfs:label	isEquivalentTo	@en
+<http://webprotege.stanford.edu/Variants>	rdfs:label	Variants	@en
+<http://webprotege.stanford.edu/Mixed+Methods>	rdfs:label	Mixed Methods	@en
+<http://webprotege.stanford.edu/Antigen+Testing+Device>	rdfs:label	Antigen Testing Device	@en
+<http://webprotege.stanford.edu/Interview+or+Focus+Group>	rdfs:label	Interview or Focus Group	@en
+<http://webprotege.stanford.edu/Biobank+Samples>	rdfs:label	Biobank Samples	@en
+<http://webprotege.stanford.edu/Mendelian>	rdfs:label	Mendelian	@en
+<http://webprotege.stanford.edu/Multisystem+Inflammatory+Syndrome+%28MIS%29>	rdfs:label	Multisystem Inflammatory Syndrome (MIS)	@en
+<http://webprotege.stanford.edu/Social+Determinants+of+Health>	rdfs:label	Social Determinants of Health	@en
+<http://webprotege.stanford.edu/Social>	rdfs:label	Social	@en
+<http://webprotege.stanford.edu/Family+History>	rdfs:label	Family History	@en
+<http://webprotege.stanford.edu/RuralCommunities>	rdfs:label	Rural Communities	xsd:string
+<http://webprotege.stanford.edu/Family%2FTwins%2FTrios>	rdfs:label	Family/Twins/Trios	@en
+<http://webprotege.stanford.edu/Diagnostic+Testing>	rdfs:label	Diagnostic Testing	@en
+<http://webprotege.stanford.edu/Testing+Rate%2FUptake>	rdfs:label	Testing Rate/Uptake	@en
+<http://webprotege.stanford.edu/Disease+Registry>	rdfs:label	Disease Registry	@en
+<http://webprotege.stanford.edu/Intervention+or+Procedure>	rdfs:label	Intervention or Procedure	@en
+<http://webprotege.stanford.edu/Digital+Health+Applications>	rdfs:label	Digital Health Applications	@en
+<http://webprotege.stanford.edu/Molecular+%28Nucleic+Acid%2FPCR%29+Testing+Device>	rdfs:label	Molecular (Nucleic Acid/PCR) Testing Device	@en
+<http://webprotege.stanford.edu/Next+Generation+Sequencing+%28NGS%29>	rdfs:label	Next Generation Sequencing (NGS)	@en
+<http://webprotege.stanford.edu/Chemosensory+Testing+Device>	rdfs:label	Chemosensory Testing Device	@en
+<http://webprotege.stanford.edu/Unspecified+COVID+Testing+Device>	rdfs:label	Unspecified COVID Testing Device	@en
+<http://webprotege.stanford.edu/Immune+Responses>	rdfs:label	Immune Responses	@en
+<http://webprotege.stanford.edu/COVID+Hotspots>	rdfs:label	COVID Hotspots	@en
+<http://webprotege.stanford.edu/Mental+Health>	rdfs:label	Mental Health	@en
+<http://webprotege.stanford.edu/Virological+Testing>	rdfs:label	Virological Testing	@en
+<http://webprotege.stanford.edu/Homeless%2FUnhoused>	rdfs:label	Homeless/Unhoused	xsd:string
+<http://webprotege.stanford.edu/IntellectualAndDevelopmentalDisabilities>	rdfs:label	Intellectual and Developmental Disabilities	xsd:string
+<http://webprotege.stanford.edu/Pandemic+Perceptions+and+Decision-Making>	rdfs:label	Pandemic Perceptions and Decision-Making	@en
+<http://webprotege.stanford.edu/COVID+Testing+Deserts>	rdfs:label	COVID Testing Deserts	@en
+<http://webprotege.stanford.edu/Disease+Surveillance>	rdfs:label	Disease Surveillance	@en
+<http://webprotege.stanford.edu/RDfYDBKuxxosHVUiSK7XL84>	rdfs:label	Sexual and Gender Minorities	xsd:string
+<http://webprotege.stanford.edu/Immunological>	rdfs:label	Immunological	@en
+<http://webprotege.stanford.edu/Epidemiological+Methods>	rdfs:label	Epidemiological Methods	@en
+<http://webprotege.stanford.edu/EssentialWorkers>	rdfs:label	Essential Workers	xsd:string
+<http://webprotege.stanford.edu/Data+Type>	rdfs:label	Data Type	@en
+<http://webprotege.stanford.edu/OlderAdultsOrElderly>	rdfs:label	Older Adults or Elderly	xsd:string
+<http://webprotege.stanford.edu/Screening+Testing>	rdfs:label	Screening Testing	@en
+<http://webprotege.stanford.edu/Population-Based+Statistics>	rdfs:label	Population-Based Statistics	@en
+<http://webprotege.stanford.edu/Influenza>	rdfs:label	Influenza	@en
+<http://webprotege.stanford.edu/Cognitive>	rdfs:label	Cognitive	@en
+<http://webprotege.stanford.edu/Study+Domain>	rdfs:label	Study Domain	@en
+<http://webprotege.stanford.edu/Clinical+Genetic+Testing>	rdfs:label	Clinical Genetic Testing	@en
+<http://webprotege.stanford.edu/Longitudinal+Cohort>	rdfs:label	Longitudinal Cohort	@en
+<http://webprotege.stanford.edu/Smartphone>	rdfs:label	Smartphone	@en
+<http://webprotege.stanford.edu/RtKFiYSbk1iXCDiJZ1YonS>	rdfs:label	Native Hawaiian or other Pacific Islander	xsd:string
+<http://webprotege.stanford.edu/SchoolCommunityMembers>	rdfs:label	School Community Members	xsd:string
+<http://webprotege.stanford.edu/Imaging>	rdfs:label	Imaging	@en
+<http://webprotege.stanford.edu/Molecular+Epidemiology>	rdfs:label	Molecular Epidemiology	@en
+<http://webprotege.stanford.edu/RnqrjxwmEKT7ZP8Q25qnCN>	rdfs:label	Asian	xsd:string
+<http://webprotege.stanford.edu/Observational>	rdfs:label	Observational	@en
+<http://webprotege.stanford.edu/Contact+Tracing>	rdfs:label	Contact Tracing	@en
+<http://webprotege.stanford.edu/Point-of-Care+%28POC%29+Testing>	rdfs:label	Point-of-Care (POC) Testing	@en
+<http://webprotege.stanford.edu/Time-Series>	rdfs:label	Time-Series	@en
+<http://webprotege.stanford.edu/Proteomic>	rdfs:label	Proteomic	@en
+<http://webprotege.stanford.edu/Open+Cohort>	rdfs:label	Open Cohort	@en
+<http://webprotege.stanford.edu/Vulnerable+Populations+Due+to+Health+Conditions>	rdfs:label	Vulnerable Populations Due to Health Conditions	@en
+<http://webprotege.stanford.edu/DialysisPatients>	rdfs:label	Dialysis Patients	xsd:string
+<http://webprotege.stanford.edu/Age-RelatedGroup>	rdfs:label	Age Related Group	xsd:string
+<http://webprotege.stanford.edu/Xenograft>	rdfs:label	Xenograft	@en
+<http://webprotege.stanford.edu/Self-Testing+%28At-Home+or+OTC%29>	rdfs:label	Self-Testing (At-Home or OTC)	@en
+<http://webprotege.stanford.edu/Psychological>	rdfs:label	Psychological	@en
+<http://webprotege.stanford.edu/Wastewater+Sampling>	rdfs:label	Wastewater Sampling	@en
+<http://webprotege.stanford.edu/Underserved%2FVulnerablePopulation>	rdfs:label	Underserved/Vulnerable Population	xsd:string
+<http://webprotege.stanford.edu/R8RbRz4rjYUDDCji45cewiB>	rdfs:label	Health Disparate Minority and Vulnerable Populations	xsd:string
+<http://webprotege.stanford.edu/Interventional%2FClinical+Trial>	rdfs:label	Interventional/Clinical Trial	@en
+<http://webprotege.stanford.edu/Vaccination+Rate%2FUptake>	rdfs:label	Vaccination Rate/Uptake	@en
+<http://webprotege.stanford.edu/Study+Design>	rdfs:label	Study Design	@en
+<http://webprotege.stanford.edu/Case-Control>	rdfs:label	Case-Control	@en
+<http://webprotege.stanford.edu/Supporting+Documents>	rdfs:label	Supporting Documents	@en
+<http://webprotege.stanford.edu/Infections>	rdfs:label	Infection	@en
+<http://webprotege.stanford.edu/Children>	rdfs:label	Children	xsd:string
+<http://webprotege.stanford.edu/Community+Outreach+Programs>	rdfs:label	Community Outreach Programs	@en
+<http://webprotege.stanford.edu/Comorbidities>	rdfs:label	Comorbidities	@en
+<http://webprotege.stanford.edu/Real-World+Data>	rdfs:label	Real-World Data	@en
+<http://webprotege.stanford.edu/Mobile+Unit+Testing>	rdfs:label	Mobile Unit Testing	@en
+<http://webprotege.stanford.edu/Electrochemical+Testing+Device>	rdfs:label	Electrochemical Testing Device	@en
+<http://webprotege.stanford.edu/Metabolomic>	rdfs:label	Metabolomic	@en
+<http://webprotege.stanford.edu/Epidemiological+Monitoring>	rdfs:label	Epidemiological Monitoring	@en
+<http://webprotege.stanford.edu/RDqu58FmBGjoQ31dehdUix4>	rdfs:label	Asian American Native Hawaiian and Pacific Islander	xsd:string
+<http://webprotege.stanford.edu/Novel+Biosensing+and+VOC>	rdfs:label	Novel Biosensing and VOC	@en
+<http://webprotege.stanford.edu/Rapid+Diagnostic+Test+%28RDT%29>	rdfs:label	Rapid Diagnostic Test (RDT)	@en
+<http://webprotege.stanford.edu/Behavioral>	rdfs:label	Behavioral	@en
+<http://webprotege.stanford.edu/Medical+Device%2FTool+Development>	rdfs:label	Medical Device/Tool Development	@en
+<http://webprotege.stanford.edu/Individual+Sequencing>	rdfs:label	Individual Sequencing	@en
+<http://webprotege.stanford.edu/LowerSocioeconomicStatus%28SES%29Population>	rdfs:label	Lower Socioeconomic Status (SES) Population	xsd:string
+<http://webprotege.stanford.edu/Multimodal+Surveillance>	rdfs:label	Multimodal Surveillance	@en
+<http://webprotege.stanford.edu/Other>	rdfs:label	Other	@en
+<http://webprotege.stanford.edu/RlBLSFUTA6012DabshzuvB>	rdfs:label	Hispanic and Latino	xsd:string
+<http://webprotege.stanford.edu/Pregnant%28orNursing%29Women>	rdfs:label	Pregnant (or Nursing) Women	xsd:string
+<http://webprotege.stanford.edu/RCdjAV0L9T5cbutpelwmVMC>	rdfs:label	African American	xsd:string
+<http://webprotege.stanford.edu/Survey>	rdfs:label	Survey	@en
+<http://webprotege.stanford.edu/Antibody+Testing+%2F+Other+Adaptive+Immune+Response+Test>	rdfs:label	Antibody Testing / Other Adaptive Immune Response Test	@en
+<http://webprotege.stanford.edu/Collection+Method>	rdfs:label	Collection Method	@en
+<http://webprotege.stanford.edu/COVID+in+School+Settings>	rdfs:label	COVID in School Settings	@en
+<http://webprotege.stanford.edu/PeopleLivingWithHIV%2FAIDs>	rdfs:label	People Living with HIV/AIDs	xsd:string
+<http://webprotege.stanford.edu/Electronic+Medical+Records>	rdfs:label	Electronic Medical Records	@en
+<http://webprotege.stanford.edu/Wearable>	rdfs:label	Wearable	@en
+<http://webprotege.stanford.edu/Adults>	rdfs:label	Adults	xsd:string
+<http://webprotege.stanford.edu/Respiratory+Tract+Infections>	rdfs:label	Respiratory Tract Infections	@en
+<http://webprotege.stanford.edu/Substance+Use>	rdfs:label	Substance Use	@en
+<http://webprotege.stanford.edu/Seroprevalence>	rdfs:label	Seroprevalence	@en
+<http://webprotege.stanford.edu/Device+Validation+Study>	rdfs:label	Device Validation Study	@en
+<http://webprotege.stanford.edu/Diagnostic+Techniques+and+Procedures>	rdfs:label	Diagnostic Techniques and Procedures	@en
+<http://webprotege.stanford.edu/Environmental+%28Physical%29>	rdfs:label	Environmental (Physical)	@en
+<http://webprotege.stanford.edu/Qualitative>	rdfs:label	Qualitative	@en
+<http://webprotege.stanford.edu/Validation+Study>	rdfs:label	Validation Study	@en
+<http://webprotege.stanford.edu/Behavioral%2C+Psychological+or+Informational+Intervention>	rdfs:label	Behavioral, Psychological or Informational Intervention	@en
+<http://webprotege.stanford.edu/Individual+Genotype>	rdfs:label	Individual Genotype	@en
+<http://webprotege.stanford.edu/Immigrants>	rdfs:label	Immigrants	xsd:string

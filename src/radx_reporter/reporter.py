@@ -5,7 +5,7 @@ import pandas as pd
 
 from .basic import classifier, report_writer
 from .basic.meta_parser import MetaParser
-from .basic.gcbo import GCBO
+from .basic.ontology import Ontology
 
 
 def study_metadata_cli():
@@ -38,21 +38,21 @@ def study_metadata_cli():
     )
     args = parser.parse_args()
 
-    gcbo_labels_tsv = os.path.join(os.path.dirname(__file__), "data", "labels.tsv")
-    gcbo_alt_labels_tsv = os.path.join(
-        os.path.dirname(__file__), "data", "altLabels.tsv"
+    labels_tsv = os.path.join(os.path.dirname(__file__), "data/content-ontology", "labels.tsv")
+    alt_labels_tsv = os.path.join(
+        os.path.dirname(__file__), "data/content-ontology", "altLabels.tsv"
     )
-    gcbo_hierarchy_tsv = os.path.join(
-        os.path.dirname(__file__), "data", "hierarchy.tsv"
+    hierarchy_tsv = os.path.join(
+        os.path.dirname(__file__), "data/content-ontology", "hierarchy.tsv"
     )
-    gcbo_see_also_tsv = os.path.join(os.path.dirname(__file__), "data", "seeAlso.tsv")
-    gcbo = GCBO(
-        gcbo_labels_tsv, gcbo_alt_labels_tsv, gcbo_hierarchy_tsv, gcbo_see_also_tsv
+    aux_terms_tsv = os.path.join(os.path.dirname(__file__), "data/content-ontology", "auxiliaryTerms.tsv")
+    ontology = Ontology(
+        labels_tsv, aux_terms_tsv, alt_labels_tsv, hierarchy_tsv
     )
 
     dataframe = pd.read_excel(args.input, sheet_name=args.sheet, skiprows=1)
 
-    meta_parser = MetaParser(gcbo)
+    meta_parser = MetaParser(ontology)
     studies = meta_parser.parse_metadata_dataframe(dataframe)
     study_labels = classifier.label_studies(studies)
     studies_by_classifier = classifier.classify_studies(studies)

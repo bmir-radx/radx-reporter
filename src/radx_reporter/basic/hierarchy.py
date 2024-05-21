@@ -61,7 +61,10 @@ study_domain_hierarchy = {
     "Cancer": {},
     "Diabetes": {},
     "Obesity": {},
-    "Influenza": {},
+    "Infectious Diseases": { # 10
+        "Influenza": {}, # 6
+        "COVID": {}, # 4
+    },
     "Aging": {},
     "Nutrition": {},
     "Mental Health": {},
@@ -84,10 +87,12 @@ study_domain_hierarchy = {
 }
 
 collection_method_hierarchy = {
+    "Technology": {
+        "Wearable": {},
+        "Smartphone": {},
+    },
     "Survey": {},
     "Interview or Focus Group": {},
-    "Wearable": {},
-    "Smartphone": {},
     # "Diagnostic Devices": {
     #     "COVID-19 Testing Devices": {
     "Antigen Testing Device": {},
@@ -138,11 +143,12 @@ data_type_hierarchy = {
 
 study_design_hierarchy = {
     # "Observational Studies": {
-    "Case-Control": {},
-    "Cross-Sectional": {},
-    "Longitudinal Cohort": {},
-    "Observational": {},
-    "Open Cohort": {},
+    "Observational": {
+        "Case-Control": {},
+        "Cross-Sectional": {},
+        "Longitudinal Cohort": {},
+        "Open Cohort": {},
+    },
     "Interventional/Clinical Trial": {},
     "Device Validation Study": {},
     # "Genetic Studies": {
