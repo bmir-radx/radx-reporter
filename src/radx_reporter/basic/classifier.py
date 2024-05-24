@@ -94,11 +94,17 @@ def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study]):
                 "Count": [x[1] for x in label_counts],
                 "Original Facet": [x[3] for x in label_counts],
                 "PHS IDs": [x[2] for x in label_counts],
-                "Search URL": [x[0].url for x in label_counts],
+                "Search URL": [make_hyperlink(x[0].url) for x in label_counts],
             }
         )
         counts_by_classifier[classifier.label] = counts
     return counts_by_classifier
+
+
+def make_hyperlink(link):
+    if link is None:
+        return None
+    return '=HYPERLINK("%s", "%s")' % (link, link)
 
 
 @dataclass
