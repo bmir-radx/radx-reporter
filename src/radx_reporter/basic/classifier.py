@@ -84,8 +84,8 @@ def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study]):
             )
             for label, grouped_studies in studies[classifier].items()
         ]
-        # alphabetical order by label
-        label_counts.sort(key = lambda x: x[0].label)
+        # sort by count in non-ascending order
+        label_counts.sort(key = lambda x: x[1], reverse=True)
         counts = pd.DataFrame(
             {
                 classifier.label: [
