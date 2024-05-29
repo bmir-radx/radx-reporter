@@ -22,6 +22,14 @@ def autosize_columns(writer, df, sheet_name):
         worksheet.set_column(i, i, size)
 
 
+def apply_hyperlink_format(worksheet, df, hyperlink_format):
+    """Make hyperlinks blue and underlined."""
+    for col_num, col_name in enumerate(df.columns):
+        for row_num, value in enumerate(df[col_name], start=1):
+            if isinstance(value, str) and value.startswith("=HYPERLINK"):
+                worksheet.write_formula(row_num, col_num, value, hyperlink_format)
+
+
 def dump_report_spreadsheet(
     study_labels: pd.DataFrame,
     counts_by_classifier: pd.DataFrame,
@@ -50,12 +58,16 @@ def dump_report_spreadsheet(
         ]
         chart_positions.reverse()
 
+        # make hyperlinks blue and underlined
+        hyperlink_format = workbook.add_format({"font_color": "blue", "underline": 1})
+
         # write page with labels
         study_labels.to_excel(writer, sheet_name="Labels", index=False)
         autosize_columns(writer, study_labels, "Labels")
         for classifier, counts in counts_by_classifier.items():
             counts.to_excel(writer, sheet_name=classifier, index=False)
             autosize_columns(writer, counts, classifier)
+            apply_hyperlink_format(writer.sheets[classifier], counts, hyperlink_format)
 
             # create a bar chart consisting of the top n labels
             n_labels = min(label_limit, len(counts))
