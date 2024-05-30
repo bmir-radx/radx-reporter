@@ -126,6 +126,7 @@ def dump_report_spreadsheet(
         study_labels.to_excel(writer, sheet_name="Labels", index=False)
         autosize_columns(writer, study_labels, "Labels")
         for classifier, counts in counts_by_classifier.items():
+            # insert tabular data in reverse sorted order by counts
             counts.to_excel(writer, sheet_name=classifier, index=False)
             autosize_columns(writer, counts, classifier)
             apply_hyperlink_format(writer.sheets[classifier], counts, hyperlink_format)
@@ -133,17 +134,26 @@ def dump_report_spreadsheet(
             # create a bar chart consisting of the top n labels
             n_labels = min(label_limit, len(counts))
 
-            worksheet = writer.sheets[classifier]
+            # insert a hidden sheet with the top n labels in sorted order
+            # this is required because xlsxwriter bar charts plot from
+            # bottom to top for whatever reason with no way to reverse a 
+            # plotting range, so the vertical ordering won't match the tabular data
+            hidden_sheet_name = "hidden" + classifier
+            ranked_counts = counts.nlargest(n_labels, columns=["Count"])
+            ranked_counts = ranked_counts.iloc[::-1]
+            ranked_counts.to_excel(writer, sheet_name=hidden_sheet_name, index=False)
+            hidden_sheet = writer.sheets[hidden_sheet_name]
+            hidden_sheet.hide()
+
             chart = workbook.add_chart({"type": "bar"})
             chart.add_series(
                 {
                     "name": f"Top {classifier} labels",
-                    "categories": [classifier, 1, 0, n_labels, 0],
-                    "values": [classifier, 1, 1, n_labels, 1],
-                    # "categories": top_labels[classifier].tolist(),
-                    # "values":     top_labels["Count"].tolist(),
+                    "categories": [hidden_sheet_name, 1, 0, n_labels, 0],
+                    "values": [hidden_sheet_name, 1, 1, n_labels, 1],
                 }
             )
+            chart.set_legend({"none": True})
             chart_position = chart_positions.pop()
             charts_sheet.insert_chart(chart_position, chart)
 
