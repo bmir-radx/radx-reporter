@@ -20,7 +20,7 @@ class Program(Enum):
     UP = ("RADx-UP", generate_search_url("dcc", "RADx-UP"))
     TECH = ("RADx-Tech", generate_search_url("dcc", "RADx Tech"))
     DHT = ("RADx-DHT", generate_search_url("dcc", "RADx DHT"))
-    UNKNOWN = ("UNKNOWN OR INVALID",)
+    UNKNOWN = ("UNKNOWN OR INVALID", None, False)
 
     def __init__(self, label, url=None, coded=True):
         self.label = label
@@ -95,7 +95,7 @@ class StudyDesign(Enum):
         generate_search_url("types_array", "Xenograft"),
     )  # no matches in data hub
     OTHER = ("Other", generate_search_url("types_array", "Other"))
-    UNKNOWN = ("UNKNOWN OR INVALID",)
+    UNKNOWN = ("UNKNOWN OR INVALID", None, None, False)
 
     def __init__(self, label, url=None, synonyms=None, coded=True):
         self.label = label
@@ -132,7 +132,7 @@ class DataType(Enum):
     SOCIAL = ("Social",)
     SUPPORTINGDOCUMENTS = ("Supporting Documents",)
     OTHER = ("Other",)
-    UNKNOWN = ("UNKNOWN OR INVALID",)
+    UNKNOWN = ("UNKNOWN OR INVALID", None, False)
 
     def __init__(self, label, url=None, coded=True):
         self.label = label
@@ -203,7 +203,7 @@ class CollectionMethod(Enum):
         generate_search_url("source_array", "Real-World Data"),
     )
     OTHER = ("Other", generate_search_url("source_array", "Other"))
-    UNKNOWN = "UNKNOWN OR INVALID"
+    UNKNOWN = ("UNKNOWN OR INVALID", None, False)
 
     def __init__(self, label, url=None, coded=True):
         self.label = label
@@ -247,7 +247,7 @@ class NihInstitute(Enum):
         "NIH",
         generate_search_url("institutes_supporting_study_array", "NIH"),
     )  # added this because phs003366 only has this as an entry
-    UNKNOWN = ("UNKNOWN OR INVALID",)
+    UNKNOWN = ("UNKNOWN OR INVALID", None, False)
 
     def __init__(self, label, url=None, coded=True):
         self.label = label
@@ -438,7 +438,7 @@ class StudyDomain(Enum):
     NUTRITION = ("Nutrition", generate_search_url("topics_array", "Nutrition"))
     DIABETES = ("Diabetes", generate_search_url("topics_array", "Diabetes"))
     OBESITY = ("Obesity", generate_search_url("topics_array", "Obesity"))
-    UNKNOWN = ("UNKNOWN OR INVALID",)
+    UNKNOWN = ("UNKNOWN OR INVALID", None, False)
 
     def __init__(self, label, url=None, coded=True):
         self.label = label
@@ -580,7 +580,7 @@ class FocusPopulation(Enum):
     )
     UNDERSERVED = (
         "Underserved/Vulnerable Population",
-        generate_search_url("study_focus_population", "Underserved/Vulnerable Population"),
+        generate_search_url("study_focus_population", r"Underserved/Vulnerable Population"),
     )
     LOWERSOCIOECONOMIC = (
         "Lower Socioeconomic Status (SES) Population",
@@ -594,7 +594,7 @@ class FocusPopulation(Enum):
         "Adults",
         generate_search_url("study_focus_population", "Adults"),
     )
-    UNKNOWN = ("UNKNOWN OR INVALID",)
+    UNKNOWN = ("UNKNOWN OR INVALID", None, False)
 
     def __init__(self, label, url=None, coded=True):
         self.label = label
