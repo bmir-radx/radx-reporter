@@ -23,6 +23,7 @@ from .vocabulary import (
     StudyDomain,
 )
 
+SKIPPED_PHS_IDS = {"phs002650", "phs002656", "phs002711"}
 PROGRAM_KEYWORD = "DCC"
 INSTITUTE_KEYWORD = "institutes_supporting_study - CODED"
 METHOD_KEYWORDS = ["Data Collection Method", "Data Collection Method Other Specify"]
@@ -268,5 +269,8 @@ class MetaParser:
                 # end_date=end_date,
             )
 
+            # skip phs ids BAH asked us to remove
+            if phs in SKIPPED_PHS_IDS:
+                continue
             studies[phs] = study
         return studies
