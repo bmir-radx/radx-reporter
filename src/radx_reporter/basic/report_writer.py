@@ -4,7 +4,7 @@ import pandas as pd
 
 COLUMN_SIZES = {
     "Info": [10, 10, 25, 10],
-    "Labels": [10, 10, 15, 15, 18, 15, 15, 12, 19],
+    "Labels": [10, 10, 15, 15, 18, 15, 15, 25, 20, 20],
     "Program": [10, 7, 12],
     "Study Design": [23, 7, 12],
     "Data Type": [22, 7, 12],
@@ -131,28 +131,36 @@ def dump_report_spreadsheet(
             autosize_columns(writer, counts, classifier)
             apply_hyperlink_format(writer.sheets[classifier], counts, hyperlink_format)
 
-            # create a bar chart consisting of the top n labels
-            n_labels = min(label_limit, len(counts))
-
             # insert a hidden sheet with the top n labels in sorted order
             # this is required because xlsxwriter bar charts plot from
             # bottom to top for whatever reason with no way to reverse a 
             # plotting range, so the vertical ordering won't match the tabular data
             hidden_sheet_name = "hidden" + classifier
-            ranked_counts = counts.nlargest(n_labels, columns=["Count"])
+            # remove auxiliary terms from plotting
+            coded_counts = counts[counts["Coded Term"] == True]
+
+            # create a bar chart consisting of the top n labels
+            n_labels = min(label_limit, len(coded_counts))
+
+            ranked_counts = coded_counts.nlargest(n_labels, columns=["Count"])
             ranked_counts = ranked_counts.iloc[::-1]
             ranked_counts.to_excel(writer, sheet_name=hidden_sheet_name, index=False)
             hidden_sheet = writer.sheets[hidden_sheet_name]
             hidden_sheet.hide()
 
             chart = workbook.add_chart({"type": "bar"})
+            if classifier == "Program":
+                chart_title = "Program"
+            else:
+                chart_title = f"Top {classifier} Labels"
             chart.add_series(
                 {
-                    "name": f"Top {classifier} labels",
+                    "name": chart_title,
                     "categories": [hidden_sheet_name, 1, 0, n_labels, 0],
                     "values": [hidden_sheet_name, 1, 1, n_labels, 1],
                 }
             )
+            chart.set_x_axis({"name": "Study Counts"})
             chart.set_legend({"none": True})
             chart_position = chart_positions.pop()
             charts_sheet.insert_chart(chart_position, chart)

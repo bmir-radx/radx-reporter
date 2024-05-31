@@ -19,8 +19,9 @@ def label_studies(studies: Dict[str, Study]):
         "Collection Methods": [],
         "NIH Institutes": [],
         "Study Domains": [],
-        "Population": [],
+        "Study Focus Populations": [],
         "Population Range": [],
+        "Population Count": [],
     }
 
     for key, study in studies.items():
@@ -41,8 +42,11 @@ def label_studies(studies: Dict[str, Study]):
         study_labels["Study Domains"].append(
             "; ".join([topic.label for topic in study.study_domains])
         )
-        study_labels["Population"].append(study.population)
+        study_labels["Study Focus Populations"].append(
+            "; ".join([focus.label for focus in study.focus_populations])
+        )
         study_labels["Population Range"].append(study.population_range.label)
+        study_labels["Population Count"].append(study.population)
 
     study_labels = pd.DataFrame(study_labels)
     return study_labels
@@ -85,7 +89,7 @@ def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study]):
             for label, grouped_studies in studies[classifier].items()
         ]
         # sort by count in non-ascending order
-        label_counts.sort(key = lambda x: x[1], reverse=True)
+        label_counts.sort(key=lambda x: x[1], reverse=True)
         counts = pd.DataFrame(
             {
                 classifier.label: [

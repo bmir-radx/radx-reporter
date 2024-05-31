@@ -489,7 +489,7 @@ class PopulationRange(Enum):
         generate_search_url("estimated_participant_range", "> 5000"),
     )
     ZERO = (
-        "No Participant",
+        "No Participants",
         0,
         0,
         generate_search_url("estimated_participant_range", "No Participant"),
@@ -499,6 +499,7 @@ class PopulationRange(Enum):
         float("inf"),
         float("-inf"),
         generate_search_url("estimated_participant_range", "Unknown"),
+        False,
     )
 
     def __init__(self, label, lower_bound, upper_bound, url=None, coded=True):
