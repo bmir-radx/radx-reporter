@@ -63,6 +63,6 @@ def study_metadata_cli():
     elif args.format == "xlsx":
         report_writer.dump_report_spreadsheet(
             study_labels,
-            classifier.aggregate_counts_to_dataframe(studies_by_classifier),
+            classifier.aggregate_counts_to_dataframe(studies_by_classifier, len(studies)),
             args.output,
         )

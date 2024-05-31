@@ -70,13 +70,12 @@ def classify_studies(studies: Dict[str, Study]):
     return studies_by_classifier
 
 
-def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study]):
+def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study], n_total_studies: int):
     """
     Aggregates counts for each classifier.
     For each classifier, counts are aggregated over each named category.
     The final data is returned as a Pandas DataFrame.
     """
-    total_count = len(studies)
     counts_by_classifier = {}
     for classifier in Classifier:
         label_counts = [
@@ -96,6 +95,7 @@ def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study]):
                     make_hyperlink_label(x[0].label, x[0].url) for x in label_counts
                 ],  # these are the labels
                 "Count": [x[1] for x in label_counts],
+                "Percentage": [x[1] / n_total_studies for x in label_counts],
                 "Coded Term": [x[3] for x in label_counts],
                 "PHS IDs": [x[2] for x in label_counts],
             }

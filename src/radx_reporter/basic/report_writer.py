@@ -5,14 +5,14 @@ import pandas as pd
 COLUMN_SIZES = {
     "Info": [10, 10, 25, 10],
     "Labels": [10, 10, 15, 15, 18, 15, 15, 25, 20, 20],
-    "Program": [10, 7, 12],
-    "Study Design": [23, 7, 12],
-    "Data Type": [22, 7, 12],
-    "Collection Method": [44, 7, 12],
-    "NIH Institute": [15, 7, 12],
-    "Study Domain": [45, 7, 12],
-    "Population Range": [20, 7, 12],
-    "Study Focus Population": [55, 7, 12],
+    "Program": [10, 7, 10, 12],
+    "Study Design": [23, 7, 10, 12],
+    "Data Type": [22, 7, 10, 12],
+    "Collection Method": [44, 7, 10, 12],
+    "NIH Institute": [15, 7, 10, 12],
+    "Study Domain": [45, 7, 10, 12],
+    "Population Range": [20, 7, 10, 12],
+    "Study Focus Population": [55, 7, 10, 12],
 }
 
 INFO_TEXT = [
@@ -121,6 +121,7 @@ def dump_report_spreadsheet(
 
         # make hyperlinks blue and underlined
         hyperlink_format = workbook.add_format({"font_color": "blue", "underline": 1})
+        percent_format = workbook.add_format({"num_format": "0.00%"})
 
         # write page with labels
         study_labels.to_excel(writer, sheet_name="Labels", index=False)
@@ -128,6 +129,10 @@ def dump_report_spreadsheet(
         for classifier, counts in counts_by_classifier.items():
             # insert tabular data in reverse sorted order by counts
             counts.to_excel(writer, sheet_name=classifier, index=False)
+            count_sheet = writer.sheets[classifier]
+            # convert float to percentage in percentage column
+            for row_num, value in enumerate(counts["Percentage"], start=1):
+                count_sheet.write_number(row_num, 2, value, percent_format)
             autosize_columns(writer, counts, classifier)
             apply_hyperlink_format(writer.sheets[classifier], counts, hyperlink_format)
 
