@@ -18,7 +18,7 @@ class Program(Enum):
     """
     RAD = ("RADx-rad", generate_search_url("dcc", "RADx-rad"))
     UP = ("RADx-UP", generate_search_url("dcc", "RADx-UP"))
-    TECH = ("RADx-Tech", generate_search_url("dcc", "RADx Tech"))
+    TECH = ("RADx Tech", generate_search_url("dcc", "RADx Tech"))
     DHT = ("RADx-DHT", generate_search_url("dcc", "RADx DHT"))
     UNKNOWN = ("UNKNOWN OR INVALID", None, False)
 
