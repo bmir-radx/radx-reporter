@@ -45,6 +45,10 @@ class StudyDesign(Enum):
         "Cross-Sectional",
         generate_search_url("types_array", "Cross-Sectional"),
     )
+    DEVICEVERIFICATION = (
+        "Device Verification Study",
+        generate_search_url("types_array", "Device Verification Study"),
+    )
     DEVICEVALIDATION = (
         "Device Validation Study",
         generate_search_url("types_array", "Device Validation Study"),
@@ -203,7 +207,7 @@ class CollectionMethod(Enum):
         generate_search_url("source_array", "Real-World Data"),
     )
     OTHER = ("Other", generate_search_url("source_array", "Other"))
-    UNKNOWN = ("UNKNOWN OR INVALID", None, False)
+    UNKNOWN = ("Unknown", None, False)
 
     def __init__(self, label, url=None, coded=True):
         self.label = label
@@ -492,10 +496,10 @@ class PopulationRange(Enum):
         "No Participants",
         0,
         0,
-        generate_search_url("estimated_participant_range", "No Participant"),
+        generate_search_url("estimated_participant_range", "No Participants"),
     )
     UNKNOWN = (
-        "UNKNOWN OR INVALID",
+        "Unknown",
         float("inf"),
         float("-inf"),
         generate_search_url("estimated_participant_range", "Unknown"),
@@ -595,7 +599,7 @@ class FocusPopulation(Enum):
         "Adults",
         generate_search_url("study_focus_population", "Adults"),
     )
-    UNKNOWN = ("UNKNOWN OR INVALID", None, False)
+    UNKNOWN = ("Unknown", None, False)
 
     def __init__(self, label, url=None, coded=True):
         self.label = label

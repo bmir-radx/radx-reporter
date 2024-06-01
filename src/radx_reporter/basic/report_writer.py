@@ -87,6 +87,7 @@ def dump_report_spreadsheet(
     counts_by_classifier: pd.DataFrame,
     file_name: str = "report.xlsx",
     label_limit: int = 10,
+    dump_auxiliary_terms: bool = False,
 ):
     """
     Write the Data Hub content report to an Excel spreadsheet.
@@ -127,6 +128,9 @@ def dump_report_spreadsheet(
         study_labels.to_excel(writer, sheet_name="Labels", index=False)
         autosize_columns(writer, study_labels, "Labels")
         for classifier, counts in counts_by_classifier.items():
+            if dump_auxiliary_terms:
+                counts = counts[counts["Coded Term"] == True]
+                counts = counts.drop(columns = ["Coded Term"])
             # insert tabular data in reverse sorted order by counts
             counts.to_excel(writer, sheet_name=classifier, index=False)
             count_sheet = writer.sheets[classifier]
@@ -142,7 +146,10 @@ def dump_report_spreadsheet(
             # plotting range, so the vertical ordering won't match the tabular data
             hidden_sheet_name = "hidden" + classifier
             # remove auxiliary terms from plotting
-            coded_counts = counts[counts["Coded Term"] == True]
+            if not dump_auxiliary_terms:
+                coded_counts = counts[counts["Coded Term"] == True]
+            else:
+                coded_counts = counts
 
             # create a bar chart consisting of the top n labels
             n_labels = min(label_limit, len(coded_counts))

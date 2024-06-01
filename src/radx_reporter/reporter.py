@@ -5,6 +5,7 @@ import pandas as pd
 
 from .basic import classifier, report_writer
 from .basic.meta_parser import MetaParser
+from .basic.basic_parser import BasicParser
 from .basic.ontology import Ontology
 
 
@@ -52,6 +53,7 @@ def study_metadata_cli():
 
     dataframe = pd.read_excel(args.input, sheet_name=args.sheet, skiprows=1)
 
+    # with ontology
     meta_parser = MetaParser(ontology)
     studies = meta_parser.parse_metadata_dataframe(dataframe)
     study_labels = classifier.label_studies(studies)
@@ -64,5 +66,22 @@ def study_metadata_cli():
         report_writer.dump_report_spreadsheet(
             study_labels,
             classifier.aggregate_counts_to_dataframe(studies_by_classifier, len(studies)),
-            args.output,
+            args.output + "_exp.xlsx",
+        )
+
+    # without ontology
+    meta_parser = BasicParser()
+    studies = meta_parser.parse_metadata_dataframe(dataframe)
+    study_labels = classifier.label_studies(studies)
+    studies_by_classifier = classifier.classify_studies(studies)
+    counts = classifier.aggregate_counts(studies_by_classifier)
+
+    if args.format == "json":
+        report_writer.dump_report(counts, args.output)
+    elif args.format == "xlsx":
+        report_writer.dump_report_spreadsheet(
+            study_labels,
+            classifier.aggregate_counts_to_dataframe(studies_by_classifier, len(studies)),
+            args.output + ".xlsx",
+            dump_auxiliary_terms=True,
         )
