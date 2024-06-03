@@ -23,9 +23,28 @@ from .vocabulary import (
     StudyDomain,
 )
 
-SKIPPED_PHS_IDS = {"phs002650", "phs002656", "phs002711"}
+SKIPPED_PHS_IDS = {
+    "phs002873", 
+    "phs003021", 
+    "phs003366", 
+    "phs003377", 
+    "phs003544", 
+    "phs002522", 
+    "phs002572", 
+    "phs002602", 
+    "phs002685", 
+    "phs002702", 
+    "phs002782", 
+    "phs002924", 
+    "phs003124", 
+    "phs002650",
+    "phs003595", 
+    "phs002964", 
+    "phs002711",
+    "phs002656",
+}
 PROGRAM_KEYWORD = "DCC"
-INSTITUTE_KEYWORD = "institutes_supporting_study - CODED"
+INSTITUTE_KEYWORD = "NIH Institute or Center"
 METHOD_KEYWORD = "Data Collection Method"
 DESIGN_KEYWORD = "Study Design, Coded"
 POPULATION_KEYWORD = "Estimated Participants - Cleaned"
@@ -103,11 +122,14 @@ class BasicParser:
         if pd.isna(collection_method_text):
             collection_methods = []
         else:
-            collection_method_text = self.prepare_string_for_matching(collection_method_text)
+            collection_method_text = self.prepare_string_for_matching(
+                collection_method_text
+            )
             collection_methods = [
                 method
                 for method in COLLECTION_METHODS
-                if self.has_match(method, collection_method_text) if method != CollectionMethod.OTHER
+                if self.has_match(method, collection_method_text)
+                if method != CollectionMethod.OTHER
             ]
         return collection_methods
 
@@ -123,7 +145,8 @@ class BasicParser:
             study_designs = [
                 design
                 for design in STUDY_DESIGNS
-                if self.has_match(design, study_design_text) if design != StudyDesign.OTHER
+                if self.has_match(design, study_design_text)
+                if design != StudyDesign.OTHER
             ]
         return study_designs
 
@@ -168,7 +191,8 @@ class BasicParser:
             data_types = [
                 data_type
                 for data_type in DATA_TYPES
-                if self.has_match(data_type, data_type_text) if data_type != DataType.OTHER
+                if self.has_match(data_type, data_type_text)
+                if data_type != DataType.OTHER
             ]
         return data_types
 
@@ -198,6 +222,8 @@ class BasicParser:
         """
         studies = {}
         for i, row in metadata.iterrows():
+            # if row["Status"] != "approved":
+            #     continue
             program = self.parse_program(row)
             nih_institutes = self.parse_nih_institutes(row)
             collection_methods = self.parse_collection_methods(row)
