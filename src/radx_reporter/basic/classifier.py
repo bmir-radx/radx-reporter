@@ -25,7 +25,10 @@ def label_studies(studies: Dict[str, Study]):
     }
 
     for key, study in studies.items():
-        study_labels["Program"].append(study.program.label)
+        if study.program is not None:
+            study_labels["Program"].append(study.program.label)
+        else:
+            study_labels["Program"].append(None)
         study_labels["phs"].append(study.phs_id)
         study_labels["Study Designs"].append(
             "; ".join([design.label for design in study.study_designs]),
@@ -45,7 +48,10 @@ def label_studies(studies: Dict[str, Study]):
         study_labels["Study Focus Populations"].append(
             "; ".join([focus.label for focus in study.focus_populations])
         )
-        study_labels["Population Range"].append(study.population_range.label)
+        if study.population_range is not None:
+            study_labels["Population Range"].append(study.population_range.label)
+        else:
+            study_labels["Population Range"].append(None)
         study_labels["Population Count"].append(study.population)
 
     study_labels = pd.DataFrame(study_labels)
@@ -85,7 +91,7 @@ def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study], n_total_stud
                 "; ".join([study.phs_id for study in grouped_studies]),
                 label.coded,
             )
-            for label, grouped_studies in studies[classifier].items()
+            for label, grouped_studies in studies[classifier].items() if label is not None
         ]
         # sort by count in non-ascending order
         label_counts.sort(key=lambda x: x[1], reverse=True)
@@ -130,6 +136,8 @@ def aggregate_counts(studies_by_classifier: Dict[Classifier, Study]):
     for classifier in Classifier:
         counts = []
         for label, studies in studies_by_classifier[classifier].items():
+            if label is None:
+                continue
             count = Count(
                 label.label,
                 label.url,

@@ -52,7 +52,7 @@ class BasicParser:
         """
         program = self.prepare_string_for_matching(row[PROGRAM_KEYWORD])
         if pd.isna(program):
-            program = Program.UNKNOWN
+            program = None
         for dcc in PROGRAMS:
             if self.has_match(dcc, program):
                 return dcc
@@ -63,7 +63,7 @@ class BasicParser:
         """
         focus_population_text = row[FOCUS_POPULATION_KEYWORD]
         if pd.isna(focus_population_text):
-            focus_populations = [FocusPopulation.UNKNOWN]
+            focus_populations = []
         else:
             focus_population_text = self.prepare_string_for_matching(
                 focus_population_text
@@ -73,8 +73,6 @@ class BasicParser:
                 for focus in FOCUS_POPULATIONS
                 if self.has_match(focus, focus_population_text)
             ]
-            if len(focus_populations) == 0:
-                focus_populations.append(FocusPopulation.UNKNOWN)
         return focus_populations
 
     def parse_nih_institutes(self, row):
@@ -83,7 +81,7 @@ class BasicParser:
         """
         nih_institute_text = row[INSTITUTE_KEYWORD]
         if pd.isna(nih_institute_text):
-            nih_institutes = [NihInstitute.UNKNOWN]
+            nih_institutes = []
         else:
             nih_institute_text = self.prepare_string_for_matching(nih_institute_text)
             nih_institutes = [
@@ -91,8 +89,6 @@ class BasicParser:
                 for institute in INSTITUTES
                 if self.has_match(institute, nih_institute_text)
             ]
-            if len(nih_institutes) == 0:
-                nih_institutes.append(NihInstitute.UNKNOWN)
         return nih_institutes
 
     def parse_collection_methods(self, row):
@@ -101,16 +97,14 @@ class BasicParser:
         """
         collection_method_text = row[METHOD_KEYWORD]
         if pd.isna(collection_method_text):
-            collection_methods = [CollectionMethod.UNKNOWN]
+            collection_methods = []
         else:
             collection_method_text = self.prepare_string_for_matching(collection_method_text)
             collection_methods = [
                 method
                 for method in COLLECTION_METHODS
-                if self.has_match(method, collection_method_text)
+                if self.has_match(method, collection_method_text) if method != CollectionMethod.OTHER
             ]
-            if len(collection_methods) == 0:
-                collection_methods.append(CollectionMethod.UNKNOWN)
         return collection_methods
 
     def parse_study_designs(self, row):
@@ -119,16 +113,14 @@ class BasicParser:
         """
         study_design_text = row[DESIGN_KEYWORD]
         if pd.isna(study_design_text):
-            study_designs = [StudyDesign.UNKNOWN]
+            study_designs = []
         else:
             study_design_text = self.prepare_string_for_matching(study_design_text)
             study_designs = [
                 design
                 for design in STUDY_DESIGNS
-                if self.has_match(design, study_design_text)
+                if self.has_match(design, study_design_text) if design != StudyDesign.OTHER
             ]
-            if len(study_designs) == 0:
-                study_designs.append(StudyDesign.UNKNOWN)
         return study_designs
 
     def parse_population(self, row):
@@ -138,7 +130,7 @@ class BasicParser:
         population_text = row[POPULATION_KEYWORD]
         if pd.isna(population_text):
             population = None
-            population_range = PopulationRange.UNKNOWN
+            population_range = None
         elif isinstance(population_text, str):
             match = re.search(r"\b\d+\b", population_text)
             if match:
@@ -150,7 +142,7 @@ class BasicParser:
                 ].pop()
             else:
                 population = None
-                population_range = PopulationRange.UNKNOWN
+                population_range = None
         else:
             population = int(population_text)
             population_range = [
@@ -166,16 +158,14 @@ class BasicParser:
         """
         data_type_text = row[DATATYPES_KEYWORD]
         if pd.isna(data_type_text):
-            data_types = [DataType.UNKNOWN]
+            data_types = []
         else:
             data_type_text = self.prepare_string_for_matching(data_type_text)
             data_types = [
                 data_type
                 for data_type in DATA_TYPES
-                if self.has_match(data_type, data_type_text)
+                if self.has_match(data_type, data_type_text) if data_type != DataType.OTHER
             ]
-            if len(data_types) == 0:
-                data_types.append(DataType.UNKNOWN)
         return data_types
 
     def parse_study_domains(self, row):
@@ -186,9 +176,7 @@ class BasicParser:
         """
         domain_text = row[DOMAIN_KEYWORD]
         study_domains = []
-        if pd.isna(domain_text):
-            study_domains.append(StudyDomain.UNKNOWN)
-        else:
+        if not pd.isna(domain_text):
             domain_text = self.prepare_string_for_matching(domain_text)
             study_domains = [
                 topic for topic in STUDY_DOMAINS if self.has_match(topic, domain_text)

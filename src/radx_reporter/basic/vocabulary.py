@@ -37,10 +37,6 @@ class StudyDesign(Enum):
         "Clinical Genetic Testing ",
         generate_search_url("types_array", "Clinical Genetic Testing"),
     )  # no matches data hub
-    CLINICALTRIAL = (
-        "Clinical Trial",
-        generate_search_url("types_array", "Interventional/Clinical Trial"),
-    )
     CROSSSECTIONAL = (
         "Cross-Sectional",
         generate_search_url("types_array", "Cross-Sectional"),
@@ -238,19 +234,11 @@ class NihInstitute(Enum):
     NIDDK = ("NIDDK", generate_search_url("institutes_supporting_study_array", "NIDDK"))
     NIEHS = ("NIEHS", generate_search_url("institutes_supporting_study_array", "NIEHS"))
     NIGMS = ("NIGMS", generate_search_url("institutes_supporting_study_array", "NIGMS"))
-    NIHOD = (
-        "NIH OD",
-        generate_search_url("institutes_supporting_study_array", "NIH OD"),
-    )
     NIMH = ("NIMH", generate_search_url("institutes_supporting_study_array", "NIMH"))
     NIMHD = ("NIMHD", generate_search_url("institutes_supporting_study_array", "NIMHD"))
     NINDS = ("NINDS", generate_search_url("institutes_supporting_study_array", "NINDS"))
     NINR = ("NINR", generate_search_url("institutes_supporting_study_array", "NINR"))
     NLM = ("NLM", generate_search_url("institutes_supporting_study_array", "NLM"))
-    NIH = (
-        "NIH",
-        generate_search_url("institutes_supporting_study_array", "NIH"),
-    )  # added this because phs003366 only has this as an entry
     UNKNOWN = ("UNKNOWN OR INVALID", None, False)
 
     def __init__(self, label, url=None, coded=True):
