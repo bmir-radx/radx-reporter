@@ -44,6 +44,10 @@ class BasicParser:
         return re.sub(r"[^a-zA-Z]", "", text).casefold()
 
     def has_match(self, facet_node, text):
+        if hasattr(facet_node, "synonyms"):
+            for synonym in facet_node.synonyms:
+                if self.prepare_string_for_matching(synonym) in text:
+                    return True
         return self.prepare_string_for_matching(facet_node.label) in text
 
     def parse_program(self, row):

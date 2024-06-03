@@ -48,7 +48,6 @@ class StudyDesign(Enum):
     DEVICEVALIDATION = (
         "Device Validation Study",
         generate_search_url("types_array", "Device Validation Study"),
-        {"Device Verification Study"},
     ) # added a synonym because of inconsistencies in a few labels
     FAMILY = (
         "Family/Twins/Trios",
@@ -115,12 +114,12 @@ class DataType(Enum):
     CLINICAL = ("Clinical",)
     COGNITIVE = ("Cognitive",)  # this has a typo in the spreadsheet
     ELECTRONICMEDICALRECORDS = ("Electronic Medical Records",)
-    ENVIRONMENTAL = ("Enviornmental (Physical)",)
+    ENVIRONMENTAL = ("Enviornmental (Physical)", None, True, {"Environmental (Physical)"})
     FAMILYHISTORY = ("Family History",)
     GENOMIC = ("Genomic",)
     GENOTYPING = ("Genotyping",)
     IMAGING = ("Imaging",)
-    IMMULOGICAL = ("Immulogical",)
+    IMMUNOLOGICAL = ("Immunological", None, True, {"Immulogical"})
     INDIVIDUALGENOTYPE = ("Individual Genotype",)
     INDIVIDUALPHENOTYPE = ("Individual Phenotype",)
     INDIVIDUALSEQUENCING = ("Individual Sequencing",)
@@ -134,10 +133,13 @@ class DataType(Enum):
     OTHER = ("Other",)
     UNKNOWN = ("UNKNOWN OR INVALID", None, False)
 
-    def __init__(self, label, url=None, coded=True):
+    def __init__(self, label, url=None, coded=True, synonyms=None):
         self.label = label
         self.url = url
         self.coded = coded
+        if synonyms is None:
+            synonyms = set()
+        self.synonyms = synonyms
 
 
 class CollectionMethod(Enum):
