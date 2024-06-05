@@ -1,6 +1,8 @@
 import argparse
+import dateutil
 import os
 
+import dateutil.parser
 import pandas as pd
 
 from .basic import classifier, report_writer
@@ -37,7 +39,21 @@ def study_metadata_cli():
         required=False,
         help="Name of the sheet in the input to read.",
     )
+    parser.add_argument(
+        "--date",
+        "-d",
+        default=None,
+        required=False,
+        help="Date until which the report is current.",
+    )
     args = parser.parse_args()
+
+    # preprocess the date
+    date = args.date
+    try:
+        date = dateutil.parser(args.date)
+    except:
+        date = args.date
 
     labels_tsv = os.path.join(os.path.dirname(__file__), "data/content-ontology", "labels.tsv")
     alt_labels_tsv = os.path.join(
@@ -67,6 +83,7 @@ def study_metadata_cli():
             study_labels,
             classifier.aggregate_counts_to_dataframe(studies_by_classifier, len(studies)),
             args.output + "_exp.xlsx",
+            date=date,
         )
 
     # without ontology
@@ -84,4 +101,5 @@ def study_metadata_cli():
             classifier.aggregate_counts_to_dataframe(studies_by_classifier, len(studies)),
             args.output + ".xlsx",
             dump_auxiliary_terms=True,
+            date=date,
         )

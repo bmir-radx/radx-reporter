@@ -17,30 +17,30 @@ COLUMN_SIZES = {
 
 INFO_TEXT = [
     ("B2", "This workbook collects statistics on studies stored in the RADx Data Hub and provides information on the number of studies corresponding to labels on the studies."),
-    ("B4", "Workbook objectives:"),
-    ("C5", "Provide an overview of the metadata labels applied to each study to inform users as the content that is available on the Data Hub."),
-    ("C6", "Provide statistics on the studies that belong to each label."),
-    ("B8", "Information provided by each sheet:"),
-    ("C9", "Charts"),
-    ("D9", "This sheet graphically summarizes statistics of study count per label for the most popular labels."),
-    ("C10", "Labels"),
-    ("D10", "This sheet shows lists each study by PHS ID and all of the metadata labels that have been applied to it."),
-    ("C11", "Program"),
-    ("D11", "This sheet lists each RADx program and reports the number of studies belonging to each RADx program."),
-    ("C12", "Study Design"),
-    ("D12", "This sheet lists different study designs that characterize RADx studies and reports the number of studies that feature each study design."),
-    ("C13", "Data Type"),
-    ("D13", "This sheet lists different data types that characterize RADx studies and reports the number of studies that report data of that type."),
-    ("C14", "Collection Method"),
-    ("D14", "This sheet lists different collection methods used to generate the study data and reports the number of studies that use each collection method."),
-    ("C15", "NIH Institute"),
-    ("D15", "This sheet lists the different NIH institutes that supported RADx studies and reports the number of studies that were supported by each institute."),
-    ("C16", "Study Domain"),
-    ("D16", "This sheet lists the different study domains that characterize studies in the RADx Data Hub and reports the number of studies that belong to each study domain."),
-    ("C17", "Population Range"),
-    ("D17", "This sheet lists several population (sample size) ranges to characterize the size of each study and reports the number of studies whose size falls into each range."),
-    ("C18", "Study Focus Population"),
-    ("D18", "This sheet lists the demographic groups targeted by RADx studies and reports the number of studies that focus on each population group."),
+    ("B5", "Workbook objectives:"),
+    ("C6", "Provide an overview of the metadata labels applied to each study to inform users as the content that is available on the Data Hub."),
+    ("C7", "Provide statistics on the studies that belong to each label."),
+    ("B9", "Information provided by each sheet:"),
+    ("C10", "Charts"),
+    ("D10", "This sheet graphically summarizes statistics of study count per label for the most popular labels."),
+    ("C11", "Labels"),
+    ("D11", "This sheet shows lists each study by PHS ID and all of the metadata labels that have been applied to it."),
+    ("C12", "Program"),
+    ("D12", "This sheet lists each RADx program and reports the number of studies belonging to each RADx program."),
+    ("C13", "Study Design"),
+    ("D13", "This sheet lists different study designs that characterize RADx studies and reports the number of studies that feature each study design."),
+    ("C14", "Data Type"),
+    ("D14", "This sheet lists different data types that characterize RADx studies and reports the number of studies that report data of that type."),
+    ("C15", "Collection Method"),
+    ("D15", "This sheet lists different collection methods used to generate the study data and reports the number of studies that use each collection method."),
+    ("C16", "NIH Institute"),
+    ("D16", "This sheet lists the different NIH institutes that supported RADx studies and reports the number of studies that were supported by each institute."),
+    ("C17", "Study Domain"),
+    ("D17", "This sheet lists the different study domains that characterize studies in the RADx Data Hub and reports the number of studies that belong to each study domain."),
+    ("C18", "Population Range"),
+    ("D18", "This sheet lists several population (sample size) ranges to characterize the size of each study and reports the number of studies whose size falls into each range."),
+    ("C19", "Study Focus Population"),
+    ("D19", "This sheet lists the demographic groups targeted by RADx studies and reports the number of studies that focus on each population group."),
     # ("B20", "Column descriptions:"),
     # ("C21", "Count"),
     # ("D21", "This column gives the number of studies labeled by each term."),
@@ -88,6 +88,7 @@ def dump_report_spreadsheet(
     file_name: str = "report.xlsx",
     label_limit: int = 10,
     dump_auxiliary_terms: bool = False,
+    date = None,
 ):
     """
     Write the Data Hub content report to an Excel spreadsheet.
@@ -100,6 +101,8 @@ def dump_report_spreadsheet(
         writer.sheets[info_sheet_name] = worksheet_info
         for location, text in INFO_TEXT:
             worksheet_info.write(location, text)
+        # write date. this cannot be automated as long as reports are generated manually
+        worksheet_info.write("B3", f"Current as of {date}")
         autosize_columns(writer, study_labels, "Info")
 
         # sheet with all of the graphs
