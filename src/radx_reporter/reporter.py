@@ -1,6 +1,7 @@
 import argparse
 import dateutil
 import os
+import time
 
 import dateutil.parser
 import pandas as pd
@@ -22,16 +23,16 @@ def study_metadata_cli():
     parser.add_argument(
         "--output",
         "-o",
-        required=True,
+        required=False,
         help="Path to save the report output.",
     )
-    parser.add_argument(
-        "--format",
-        "-f",
-        choices=["json", "xlsx"],
-        default="json",
-        help="Output format (json or xlsx)",
-    )
+    # parser.add_argument(
+    #     "--format",
+    #     "-f",
+    #     choices=["json", "xlsx"],
+    #     default="json",
+    #     help="Output format (json or xlsx)",
+    # )
     parser.add_argument(
         "--sheet",
         "-s",
@@ -69,37 +70,48 @@ def study_metadata_cli():
 
     dataframe = pd.read_excel(args.input, sheet_name=args.sheet, skiprows=1)
 
-    # with ontology
-    meta_parser = MetaParser(ontology)
-    studies = meta_parser.parse_metadata_dataframe(dataframe)
-    study_labels = classifier.label_studies(studies)
-    studies_by_classifier = classifier.classify_studies(studies)
-    counts = classifier.aggregate_counts(studies_by_classifier)
 
-    if args.format == "json":
-        report_writer.dump_report(counts, args.output)
-    elif args.format == "xlsx":
+    # without ontology
+    Reporter.basic_report(dataframe, date=date)
+    
+    # with ontology
+    Reporter.semantic_report(dataframe, ontology, date=date)
+
+
+class Reporter:
+    @classmethod
+    def basic_report(cls, dataframe, file_name="radx-content-report", date=None):
+        if date is None:
+            date = time.strftime("%Y-%m-%d")
+
+        meta_parser = BasicParser()
+        studies = meta_parser.parse_metadata_dataframe(dataframe)
+        study_labels = classifier.label_studies(studies)
+        studies_by_classifier = classifier.classify_studies(studies)
+        counts = classifier.aggregate_counts(studies_by_classifier)
+
         report_writer.dump_report_spreadsheet(
             study_labels,
             classifier.aggregate_counts_to_dataframe(studies_by_classifier, len(studies)),
-            args.output + "_exp.xlsx",
+            file_name + ".xlsx",
+            dump_auxiliary_terms=True,
             date=date,
         )
 
-    # without ontology
-    meta_parser = BasicParser()
-    studies = meta_parser.parse_metadata_dataframe(dataframe)
-    study_labels = classifier.label_studies(studies)
-    studies_by_classifier = classifier.classify_studies(studies)
-    counts = classifier.aggregate_counts(studies_by_classifier)
+    @classmethod
+    def semantic_report(cls, dataframe, ontology, file_name="radx-semantic-content-report", date=None):
+        if date is None:
+            date = time.strftime("%Y-%m-%d")
 
-    if args.format == "json":
-        report_writer.dump_report(counts, args.output)
-    elif args.format == "xlsx":
+        meta_parser = MetaParser(ontology)
+        studies = meta_parser.parse_metadata_dataframe(dataframe)
+        study_labels = classifier.label_studies(studies)
+        studies_by_classifier = classifier.classify_studies(studies)
+        counts = classifier.aggregate_counts(studies_by_classifier)
+
         report_writer.dump_report_spreadsheet(
             study_labels,
             classifier.aggregate_counts_to_dataframe(studies_by_classifier, len(studies)),
-            args.output + ".xlsx",
-            dump_auxiliary_terms=True,
+            file_name + ".xlsx",
             date=date,
         )
