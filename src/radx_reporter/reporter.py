@@ -68,14 +68,14 @@ def study_metadata_cli():
         labels_tsv, aux_terms_tsv, alt_labels_tsv, hierarchy_tsv
     )
 
-    dataframe = pd.read_excel(args.input, sheet_name=args.sheet, skiprows=1)
+    dataframe = pd.read_excel(args.input, sheet_name=args.sheet)
 
 
     # without ontology
     Reporter.basic_report(dataframe, date=date)
     
     # with ontology
-    Reporter.semantic_report(dataframe, ontology, date=date)
+    # Reporter.semantic_report(dataframe, ontology, date=date)
 
 
 class Reporter:

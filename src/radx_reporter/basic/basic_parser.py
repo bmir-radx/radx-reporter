@@ -23,35 +23,17 @@ from .vocabulary import (
     StudyDomain,
 )
 
-SKIPPED_PHS_IDS = {
-    "phs002873", 
-    "phs003021", 
-    "phs003366", 
-    "phs003377", 
-    "phs003544", 
-    "phs002522", 
-    "phs002572", 
-    "phs002602", 
-    "phs002685", 
-    "phs002702", 
-    "phs002782", 
-    "phs002924", 
-    "phs003124", 
-    "phs002650",
-    "phs003595", 
-    "phs002964", 
-    "phs002711",
-    "phs002656",
-}
-PROGRAM_KEYWORD = "DCC"
-INSTITUTE_KEYWORD = "NIH Institute or Center"
-METHOD_KEYWORD = "Data Collection Method"
-DESIGN_KEYWORD = "Study Design, Coded"
-POPULATION_KEYWORD = "Estimated Participants - Cleaned"
-DATATYPES_KEYWORD = "data_general_types - CODED"
-DOMAIN_KEYWORD = "Study Domain"
-PHS_KEYWORD = "phs"
-FOCUS_POPULATION_KEYWORD = "Study Population Focus"
+STATUS_KEYWORD = "STUDY STATUS"
+PROGRAM_KEYWORD = "STUDY PROGRAM"
+INSTITUTE_KEYWORD = "NIH INSTITUTE OR CENTER"
+METHOD_KEYWORD = "DATA COLLECTION METHOD"
+DESIGN_KEYWORD = "STUDY DESIGN"
+POPULATION_KEYWORD = "ESTIMATED PARTICIPANTS"
+DATATYPES_KEYWORD = "DATA TYPES"
+DOMAIN_KEYWORD = "STUDY TOPICS"
+PHS_KEYWORD = "STUDY PHS"
+FOCUS_POPULATION_KEYWORD = "STUDY POPULATION FOCUS"
+STUDY_STATUS = "STUDY STATUS"
 
 
 class BasicParser:
@@ -183,18 +165,19 @@ class BasicParser:
         """
         Parse data type keywords (multiple) from DataFrame row.
         """
-        data_type_text = row[DATATYPES_KEYWORD]
-        if pd.isna(data_type_text):
-            data_types = []
-        else:
-            data_type_text = self.prepare_string_for_matching(data_type_text)
-            data_types = [
-                data_type
-                for data_type in DATA_TYPES
-                if self.has_match(data_type, data_type_text)
-                if data_type != DataType.OTHER
-            ]
-        return data_types
+        return []
+        # data_type_text = row[DATATYPES_KEYWORD]
+        # if pd.isna(data_type_text):
+        #     data_types = []
+        # else:
+        #     data_type_text = self.prepare_string_for_matching(data_type_text)
+        #     data_types = [
+        #         data_type
+        #         for data_type in DATA_TYPES
+        #         if self.has_match(data_type, data_type_text)
+        #         if data_type != DataType.OTHER
+        #     ]
+        # return data_types
 
     def parse_study_domains(self, row):
         """
@@ -215,6 +198,9 @@ class BasicParser:
         """PHS ID"""
         return row[PHS_KEYWORD]
 
+    def parse_status(self, row):
+        return row[STATUS_KEYWORD]
+
     def parse_metadata_dataframe(self, metadata):
         """
         Each row of the DataFrame contains metadata attributes for the study.
@@ -222,8 +208,9 @@ class BasicParser:
         """
         studies = {}
         for i, row in metadata.iterrows():
-            # if row["Status"] != "approved":
-            #     continue
+            status = self.parse_status(row)
+            if status != "Approved": # only log approved studies
+                continue
             program = self.parse_program(row)
             nih_institutes = self.parse_nih_institutes(row)
             collection_methods = self.parse_collection_methods(row)
@@ -249,9 +236,5 @@ class BasicParser:
                 focus_populations=focus_populations,
                 doi=None,
             )
-
-            # skip phs ids BAH asked us to remove
-            if phs in SKIPPED_PHS_IDS:
-                continue
             studies[phs] = study
         return studies
