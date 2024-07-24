@@ -28,9 +28,9 @@ PROGRAM_KEYWORD = "STUDY PROGRAM"
 INSTITUTE_KEYWORD = "NIH INSTITUTE OR CENTER"
 METHOD_KEYWORD = "DATA COLLECTION METHOD"
 DESIGN_KEYWORD = "STUDY DESIGN"
-POPULATION_KEYWORD = "ESTIMATED PARTICIPANTS"
+POPULATION_KEYWORD = "ESTIMATED COHORT SIZE"
 DATATYPES_KEYWORD = "DATA TYPES"
-DOMAIN_KEYWORD = "STUDY TOPICS"
+DOMAIN_KEYWORD = "STUDY DOMAIN"
 PHS_KEYWORD = "STUDY PHS"
 FOCUS_POPULATION_KEYWORD = "STUDY POPULATION FOCUS"
 STUDY_STATUS = "STUDY STATUS"
@@ -165,19 +165,18 @@ class BasicParser:
         """
         Parse data type keywords (multiple) from DataFrame row.
         """
-        return []
-        # data_type_text = row[DATATYPES_KEYWORD]
-        # if pd.isna(data_type_text):
-        #     data_types = []
-        # else:
-        #     data_type_text = self.prepare_string_for_matching(data_type_text)
-        #     data_types = [
-        #         data_type
-        #         for data_type in DATA_TYPES
-        #         if self.has_match(data_type, data_type_text)
-        #         if data_type != DataType.OTHER
-        #     ]
-        # return data_types
+        data_type_text = row[DATATYPES_KEYWORD]
+        if pd.isna(data_type_text):
+            data_types = []
+        else:
+            data_type_text = self.prepare_string_for_matching(data_type_text)
+            data_types = [
+                data_type
+                for data_type in DATA_TYPES
+                if self.has_match(data_type, data_type_text)
+                if data_type != DataType.OTHER
+            ]
+        return data_types
 
     def parse_study_domains(self, row):
         """
