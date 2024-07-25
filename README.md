@@ -1,6 +1,6 @@
 # RADx Data Hub Content Reporter
 
-The RADx Data Hub Content reporter is a Python package used to aggregate counting statistics on the contents of the RADx Data Hub. At the basic level, the reporter tool dumps a report in JSON format that counts the number of studies belonging to controlled terms in several categories, including the RADx Program (DCC) and Study Domain.
+The RADx Data Hub Content reporter is a Python package used to aggregate counting statistics on the contents of the RADx Data Hub. At the basic level, the reporter tool dumps a report in JSON format that counts the number of studies belonging to controlled terms in several categories, including the RADx Program (DCC) and Study Domain. The reporter effectively performs map-reduce using ontology terms as keys.
 
 ## Requirements
 
@@ -14,8 +14,8 @@ Running the reporter requires installing it as a python package. In the same dir
 pip install .
 ```
 
-Once installed, the program can be executed using the `radx-study-metadata-reporter` command. It expects arguments for the input file to parse and the name of the output file to save:
+Once installed, the program can be executed using the `radx-study-metadata-reporter` command. It expects arguments for the input file and sheet name of the XLSX spreadsheet to parse:
 
 ```
-radx-study-metadata-reporter -i input.xlsx -o report.json
+radx-study-metadata-reporter -i input.xlsx -s summary
 ```
