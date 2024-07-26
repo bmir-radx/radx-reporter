@@ -1,6 +1,9 @@
 import json
+import logging
 
 import pandas as pd
+
+logger = logging.getLogger("__name__")
 
 COLUMN_SIZES = {
     "Info": [10, 10, 25, 10],
@@ -70,6 +73,7 @@ def dump_report_spreadsheet(
     """
     Write the Data Hub content report to an Excel spreadsheet.
     """
+    logger.info(f"Writing report to file: {file_name}")
     with pd.ExcelWriter(file_name, engine="xlsxwriter") as writer:
         workbook = writer.book
         # informational sheet

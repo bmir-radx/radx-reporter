@@ -2,12 +2,14 @@ from dataclasses import asdict, dataclass
 from typing import Dict, List
 
 import pandas as pd
+import logging
 
 from .study import Study
 from .vocabulary import Classifier
 
+logger = logging.getLogger(__name__)
 
-def label_studies(studies: Dict[str, Study]):
+def map_studies(studies: Dict[str, Study]):
     """
     Label each study by values from each of its classifiers.
     """
@@ -24,6 +26,7 @@ def label_studies(studies: Dict[str, Study]):
         "Population Count": [],
     }
 
+    logger.info(f"Mapping studies to keys: {list(study_labels.keys())}")
     for key, study in studies.items():
         if study.program is not None:
             study_labels["Program"].append(study.program.label)
@@ -58,11 +61,12 @@ def label_studies(studies: Dict[str, Study]):
     return study_labels
 
 
-def classify_studies(studies: Dict[str, Study]):
+def reduce_studies(studies: Dict[str, Study]):
     """
     For each classifier, group studies by their labeled categories
     (see vocabulary.py for labels belonging to each classifier).
     """
+    logger.info("Aggregating study counts per label.")
     studies_by_classifier = {}
     for classifier in Classifier:
         # check labels for each study and group study by label

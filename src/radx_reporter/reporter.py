@@ -5,11 +5,18 @@ import time
 
 import dateutil.parser
 import pandas as pd
+import logging
 
 from .basic import classifier, report_writer
 from .basic.meta_parser import MetaParser
 from .basic.basic_parser import BasicParser
 from .basic.ontology import Ontology
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(levelname)s: %(message)s",
+    handlers=[logging.StreamHandler()]
+)
 
 
 def study_metadata_cli():
@@ -26,13 +33,6 @@ def study_metadata_cli():
         required=False,
         help="Path to save the report output.",
     )
-    # parser.add_argument(
-    #     "--format",
-    #     "-f",
-    #     choices=["json", "xlsx"],
-    #     default="json",
-    #     help="Output format (json or xlsx)",
-    # )
     parser.add_argument(
         "--sheet",
         "-s",
@@ -72,7 +72,7 @@ def study_metadata_cli():
 
 
     # without ontology
-    Reporter.basic_report(dataframe, {}, date=date)
+    Reporter.basic_report(dataframe, date=date)
     
     # with ontology
     # Reporter.semantic_report(dataframe, ontology, date=date)
@@ -80,7 +80,7 @@ def study_metadata_cli():
 
 class Reporter:
     @classmethod
-    def basic_report(cls, dataframe, additional_properties, file_name="radx-content-report", date=None):
+    def basic_report(cls, dataframe, additional_properties=None, file_name="radx-content-report", date=None):
         """
         Generate a basic report (without semantic information) on the content
         contained in the Data Hub.
@@ -88,20 +88,22 @@ class Reporter:
         Args:
             dataframe (pd.DataFrame): a Pandas DataFrame with the specified
                 columns to be processed by the reporter.
-            additional_properties (List[str]): a list of additional properties
-                (column names) over which to aggergate statistics.
+            additional_properties (Optional[List[str]]): a list of additional
+                properties (column names) over which to aggergate statistics.
             file_name (Optional[str]): file name for the report. The .xlsx
                 extension will be added to this name.
             date (Optional[DateTime]): timestamp for this report. If not provided,
                 the timestamp will be set to the current date.
         """
+        if additional_properties is None:
+            additional_properties = []
         if date is None:
             date = time.strftime("%Y-%m-%d")
 
         meta_parser = BasicParser()
         studies = meta_parser.parse_metadata_dataframe(dataframe, additional_properties)
-        study_labels = classifier.label_studies(studies)
-        studies_by_classifier = classifier.classify_studies(studies)
+        study_labels = classifier.map_studies(studies)
+        studies_by_classifier = classifier.reduce_studies(studies)
 
         report_writer.dump_report_spreadsheet(
             study_labels,
@@ -118,8 +120,8 @@ class Reporter:
 
         meta_parser = MetaParser(ontology)
         studies = meta_parser.parse_metadata_dataframe(dataframe)
-        study_labels = classifier.label_studies(studies)
-        studies_by_classifier = classifier.classify_studies(studies)
+        study_labels = classifier.map_studies(studies)
+        studies_by_classifier = classifier.reduce_studies(studies)
         counts = classifier.aggregate_counts(studies_by_classifier)
 
         report_writer.dump_report_spreadsheet(

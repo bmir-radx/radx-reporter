@@ -2,6 +2,7 @@ import re
 
 import dateutil
 import pandas as pd
+import logging
 
 from .study import Study, AdditionalProperty
 from .vocabulary import (
@@ -19,6 +20,7 @@ from .vocabulary import (
 )
 from .keywords import Keyword
 
+logger = logging.getLogger(__name__)
 
 class BasicParser:
     def __init__(self, hierarchy=None):
@@ -192,11 +194,32 @@ class BasicParser:
             )
         return additional_properties
 
+    def prune_additional_properties(self, dataframe, properties):
+        """
+        Remove additional properties that do not correspond to column names
+        in the dataframe. Also remove additional properties that are redundant
+        with the required columns.
+        """
+        pruned = []
+        column_names = set(dataframe.columns.tolist())
+        required = {kw.value for kw in Keyword}
+        for prop in properties:
+            if prop in required:
+                continue
+            if prop not in column_names:
+                logger.warning(f"{prop} does not match a column in the dataframe. Ignoring it.")
+                continue
+            pruned.append(prop)
+        return pruned
+
     def parse_metadata_dataframe(self, metadata, properties):
         """
         Each row of the DataFrame contains metadata attributes for the study.
         Process each row and index the study's metadata by its PHS ID.
         """
+        properties = self.prune_additional_properties(metadata, properties)
+        columns_to_parse = [kw.value for kw in Keyword] + properties
+        logger.info(f"Parsing dataframe columns: {columns_to_parse}")
         studies = {}
         for _, row in metadata.iterrows():
             status = self.parse_status(row)
