@@ -1,21 +1,21 @@
 import argparse
-import dateutil
+import logging
 import os
 import time
 
+import dateutil
 import dateutil.parser
 import pandas as pd
-import logging
 
 from .basic import classifier, report_writer
-from .basic.meta_parser import MetaParser
 from .basic.basic_parser import BasicParser
+from .basic.meta_parser import MetaParser
 from .basic.ontology import Ontology
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(levelname)s: %(message)s",
-    handlers=[logging.StreamHandler()]
+    handlers=[logging.StreamHandler()],
 )
 
 
@@ -56,31 +56,39 @@ def study_metadata_cli():
     except:
         date = args.date
 
-    labels_tsv = os.path.join(os.path.dirname(__file__), "data/content-ontology", "labels.tsv")
+    labels_tsv = os.path.join(
+        os.path.dirname(__file__), "data/content-ontology", "labels.tsv"
+    )
     alt_labels_tsv = os.path.join(
         os.path.dirname(__file__), "data/content-ontology", "altLabels.tsv"
     )
     hierarchy_tsv = os.path.join(
         os.path.dirname(__file__), "data/content-ontology", "hierarchy.tsv"
     )
-    aux_terms_tsv = os.path.join(os.path.dirname(__file__), "data/content-ontology", "auxiliaryTerms.tsv")
-    ontology = Ontology(
-        labels_tsv, aux_terms_tsv, alt_labels_tsv, hierarchy_tsv
+    aux_terms_tsv = os.path.join(
+        os.path.dirname(__file__), "data/content-ontology", "auxiliaryTerms.tsv"
     )
+    ontology = Ontology(labels_tsv, aux_terms_tsv, alt_labels_tsv, hierarchy_tsv)
 
     dataframe = pd.read_excel(args.input, sheet_name=args.sheet)
 
-
     # without ontology
     Reporter.basic_report(dataframe, date=date)
-    
+
     # with ontology
     # Reporter.semantic_report(dataframe, ontology, date=date)
 
 
 class Reporter:
     @classmethod
-    def basic_report(cls, dataframe, additional_properties=None, file_name="radx-content-report", date=None):
+    def basic_report(
+        cls,
+        dataframe,
+        additional_properties=None,
+        file_name="radx-content-report",
+        date=None,
+        dump_auxiliary_terms=True,
+    ):
         """
         Generate a basic report (without semantic information) on the content
         contained in the Data Hub.
@@ -94,6 +102,9 @@ class Reporter:
                 extension will be added to this name.
             date (Optional[DateTime]): timestamp for this report. If not provided,
                 the timestamp will be set to the current date.
+            dump_auxiliary_terms (boolean): flag that controls whether non-coded
+                terms are dropped from reporting. This must be false to use custom
+                fields.
         """
         if additional_properties is None:
             additional_properties = []
@@ -102,31 +113,33 @@ class Reporter:
 
         meta_parser = BasicParser()
         studies = meta_parser.parse_metadata_dataframe(dataframe, additional_properties)
-        study_labels = classifier.map_studies(studies)
-        studies_by_classifier = classifier.reduce_studies(studies)
+        study_labels = classifier.label_studies(studies)
+        studies_by_classifier = classifier.map_studies(studies)
 
         report_writer.dump_report_spreadsheet(
             study_labels,
-            classifier.aggregate_counts_to_dataframe(studies_by_classifier, len(studies)),
+            classifier.reduce_studies(studies_by_classifier, len(studies)),
             file_name + ".xlsx",
-            dump_auxiliary_terms=True,
+            dump_auxiliary_terms=dump_auxiliary_terms,
             date=date,
         )
 
     @classmethod
-    def semantic_report(cls, dataframe, ontology, file_name="radx-semantic-content-report", date=None):
+    def semantic_report(
+        cls, dataframe, ontology, file_name="radx-semantic-content-report", date=None
+    ):
         if date is None:
             date = time.strftime("%Y-%m-%d")
 
         meta_parser = MetaParser(ontology)
         studies = meta_parser.parse_metadata_dataframe(dataframe)
-        study_labels = classifier.map_studies(studies)
-        studies_by_classifier = classifier.reduce_studies(studies)
+        study_labels = classifier.label_studies(studies)
+        studies_by_classifier = classifier.map_studies(studies)
         counts = classifier.aggregate_counts(studies_by_classifier)
 
         report_writer.dump_report_spreadsheet(
             study_labels,
-            classifier.aggregate_counts_to_dataframe(studies_by_classifier, len(studies)),
+            classifier.reduce_studies(studies_by_classifier, len(studies)),
             file_name + ".xlsx",
             date=date,
         )

@@ -1,10 +1,11 @@
+import logging
 import re
 
 import dateutil
 import pandas as pd
-import logging
 
-from .study import Study, AdditionalProperty
+from .keywords import Keyword
+from .study import AdditionalProperty, Study
 from .vocabulary import (
     COLLECTION_METHODS,
     DATA_TYPES,
@@ -18,9 +19,9 @@ from .vocabulary import (
     DataType,
     StudyDesign,
 )
-from .keywords import Keyword
 
 logger = logging.getLogger(__name__)
+
 
 class BasicParser:
     def __init__(self, hierarchy=None):
@@ -187,11 +188,9 @@ class BasicParser:
         return row[Keyword.STATUS.value]
 
     def parse_additional_properties(self, row, properties):
-        additional_properties = []
+        additional_properties = {}
         for name in properties:
-            additional_properties.append(
-                AdditionalProperty(name, row.get(name, None))
-            )
+            additional_properties[name] = AdditionalProperty(name, row.get(name, None))
         return additional_properties
 
     def prune_additional_properties(self, dataframe, properties):
@@ -207,7 +206,9 @@ class BasicParser:
             if prop in required:
                 continue
             if prop not in column_names:
-                logger.warning(f"{prop} does not match a column in the dataframe. Ignoring it.")
+                logger.warning(
+                    f"{prop} does not match a column in the dataframe. Ignoring it."
+                )
                 continue
             pruned.append(prop)
         return pruned
@@ -223,7 +224,7 @@ class BasicParser:
         studies = {}
         for _, row in metadata.iterrows():
             status = self.parse_status(row)
-            if status != "Approved": # only log approved studies
+            if status != "Approved":  # only log approved studies
                 continue
             program = self.parse_program(row)
             nih_institutes = self.parse_nih_institutes(row)
@@ -235,9 +236,11 @@ class BasicParser:
             focus_populations = self.parse_focus_populations(row)
             phs = self.parse_phs(row)
             if properties:
-                additional_properties = self.parse_additional_properties(row, properties)
+                additional_properties = self.parse_additional_properties(
+                    row, properties
+                )
             else:
-                additional_properties = []
+                additional_properties = {}
 
             study = Study(
                 bundles=None,

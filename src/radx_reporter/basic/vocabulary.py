@@ -12,10 +12,21 @@ def generate_search_url(name: str, facet: str) -> str:
     return f"https://radxdatahub.nih.gov/studyExplorer?&facets=%5B%7B%22name%22:%22{name}%22,%22facets%22:%5B%22{facet}%22%5D%7D%5D"
 
 
+class AdditionalClassifier:
+    def __init__(self, label):
+        self.label = label
+        self.url = None
+        self.coded = False
+
+    def __hash__(self):
+        return hash(self.label)
+
+
 class Program(Enum):
     """
     Enumerations for categorizing studies by the RADx Program (DCC).
     """
+
     RAD = ("RADx-rad", generate_search_url("dcc", "RADx-rad"))
     UP = ("RADx-UP", generate_search_url("dcc", "RADx-UP"))
     TECH = ("RADx Tech", generate_search_url("dcc", "RADx Tech"))
@@ -32,6 +43,7 @@ class StudyDesign(Enum):
     """
     Enumerations for categorizing studies by its Study Design(s).
     """
+
     CASECONTROL = ("Case-Control", generate_search_url("types_array", "Case-Control"))
     CLINICALGENETICTESTING = (
         "Clinical Genetic Testing ",
@@ -48,7 +60,7 @@ class StudyDesign(Enum):
     DEVICEVALIDATION = (
         "Device Validation Study",
         generate_search_url("types_array", "Device Validation Study"),
-    ) # added a synonym because of inconsistencies in a few labels
+    )  # added a synonym because of inconsistencies in a few labels
     FAMILY = (
         "Family/Twins/Trios",
         generate_search_url("types_array", "Family/Twins/Trios"),
@@ -110,11 +122,17 @@ class DataType(Enum):
     Enumerations for categorizing studies by the type of data recorded.
     Some of the categories overlap.
     """
+
     BEHAVIORAL = ("Behavioral",)
     CLINICAL = ("Clinical",)
     COGNITIVE = ("Cognitive",)  # this has a typo in the spreadsheet
     ELECTRONICMEDICALRECORDS = ("Electronic Medical Records",)
-    ENVIRONMENTAL = ("Enviornmental (Physical)", None, True, {"Environmental (Physical)"})
+    ENVIRONMENTAL = (
+        "Enviornmental (Physical)",
+        None,
+        True,
+        {"Environmental (Physical)"},
+    )
     FAMILYHISTORY = ("Family History",)
     GENOMIC = ("Genomic",)
     GENOTYPING = ("Genotyping",)
@@ -146,6 +164,7 @@ class CollectionMethod(Enum):
     """
     Enumerations for categorizing studies by its data collection method.
     """
+
     SURVEY = (
         "Survey",
         generate_search_url("source_array", "Survey"),
@@ -166,15 +185,21 @@ class CollectionMethod(Enum):
     )
     MOLECULARTEST = (
         "Molecular (Nucleic Acid/PCR) Testing Device",
-        generate_search_url("source_array", "Molecular (Nucleic Acid/PCR) Testing Device"),
+        generate_search_url(
+            "source_array", "Molecular (Nucleic Acid/PCR) Testing Device"
+        ),
     )
     ANTIBODYTEST = (
         "Antibody Testing / Other Adaptive Immune Response Test",
-        generate_search_url("source_array", "Antibody Testing / Other Adaptive Immune Response Test"),
+        generate_search_url(
+            "source_array", "Antibody Testing / Other Adaptive Immune Response Test"
+        ),
     )
     AIRBORNEDETECTION = (
         "Breath Analysis Device / Airborne Detection Device",
-        generate_search_url("source_array", "Breath Analysis Device / Airborne Detection Device"),
+        generate_search_url(
+            "source_array", "Breath Analysis Device / Airborne Detection Device"
+        ),
     )
     CHEMOSENSORYTEST = (
         "Chemosensory Testing Device",
@@ -217,6 +242,7 @@ class NihInstitute(Enum):
     """
     Enumerations for categorizing studies by its supporting NIH Institute.
     """
+
     NCATS = ("NCATS", generate_search_url("institutes_supporting_study_array", "NCATS"))
     NCCIH = ("NCCIH", generate_search_url("institutes_supporting_study_array", "NCCIH"))
     NCI = ("NCI", generate_search_url("institutes_supporting_study_array", "NCI"))
@@ -254,6 +280,7 @@ class StudyDomain(Enum):
     Enumerations for categorizing studies by its Study Domain(s).
     This is also called the study topic.
     """
+
     TESTINGRATE = (
         "Testing Rate/Uptake",
         generate_search_url("topics_array", "Testing Rate/Uptake"),
@@ -446,6 +473,7 @@ class PopulationRange(Enum):
     The RADx Data Hub search filter has several bins for population
     size that are followed here.
     """
+
     SMALLEST = (
         "1-250",
         1,
@@ -523,7 +551,9 @@ class FocusPopulation(Enum):
     )
     HAWAIINPACIFICISLANDER = (
         "Native Hawaiian or other Pacific Islander",
-        generate_search_url("study_focus_population", "Native Hawaiian or other Pacific Islander"),
+        generate_search_url(
+            "study_focus_population", "Native Hawaiian or other Pacific Islander"
+        ),
     )
     ASIAN = (
         "Asian",
@@ -547,7 +577,9 @@ class FocusPopulation(Enum):
     )
     IDDISABILITIES = (
         "Intellectual and Developmental Disabilities",
-        generate_search_url("study_focus_population", "Intellectual and Developmental Disabilities"),
+        generate_search_url(
+            "study_focus_population", "Intellectual and Developmental Disabilities"
+        ),
     )
     HOMELESS = (
         "Homeless/Unhoused",
@@ -555,7 +587,10 @@ class FocusPopulation(Enum):
     )
     INCARCERATED = (
         "Incarcerated/Institutionalized (or Criminal Legal System Involvement)",
-        generate_search_url("study_focus_population", "Incarcerated/Institutionalized (or Criminal Legal System Involvement)"),
+        generate_search_url(
+            "study_focus_population",
+            "Incarcerated/Institutionalized (or Criminal Legal System Involvement)",
+        ),
     )
     HIVAIDS = (
         "People Living with HIV/AIDs",
@@ -575,11 +610,15 @@ class FocusPopulation(Enum):
     )
     UNDERSERVED = (
         "Underserved/Vulnerable Population",
-        generate_search_url("study_focus_population", r"Underserved/Vulnerable Population"),
+        generate_search_url(
+            "study_focus_population", r"Underserved/Vulnerable Population"
+        ),
     )
     LOWERSOCIOECONOMIC = (
         "Lower Socioeconomic Status (SES) Population",
-        generate_search_url("study_focus_population", "Lower Socioeconomic Status (SES) Population"),
+        generate_search_url(
+            "study_focus_population", "Lower Socioeconomic Status (SES) Population"
+        ),
     )
     ELDERLY = (
         "Older Adults or Elderly",
@@ -601,6 +640,7 @@ class Classifier(Enum):
     """
     Enumerations to facilate grouping by one of the following categories.
     """
+
     PROGRAM = ("Program", Program)
     STUDYDESIGN = ("Study Design", StudyDesign)
     DATATYPE = ("Data Type", DataType)

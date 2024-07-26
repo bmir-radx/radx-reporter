@@ -1,19 +1,10 @@
 import datetime
 from dataclasses import dataclass
-from enum import Enum
-from typing import List, Optional
+from typing import Dict, List, Optional
 
-from .vocabulary import (
-    Classifier,
-    CollectionMethod,
-    DataType,
-    NihInstitute,
-    PopulationRange,
-    Program,
-    StudyDesign,
-    StudyDomain,
-    FocusPopulation,
-)
+from .vocabulary import (Classifier, CollectionMethod, DataType,
+                         FocusPopulation, NihInstitute, PopulationRange,
+                         Program, StudyDesign, StudyDomain)
 
 
 @dataclass(frozen=True)
@@ -56,7 +47,7 @@ class Contributor:
 @dataclass(frozen=True)
 class AdditionalProperty:
     key: str
-    values: List[str]
+    value: List[str]
 
 
 @dataclass(frozen=True)
@@ -75,7 +66,7 @@ class Study:
     ]  # population and population_range should be combined in a "study statistics" object
     population_range: PopulationRange
     focus_populations: FocusPopulation
-    additional_properties: List[AdditionalProperty]
+    additional_properties: Dict[str, AdditionalProperty]
     doi: Optional[str]
     start_date: Optional[datetime.datetime] = None
     end_date: Optional[datetime.datetime] = None

@@ -19,37 +19,73 @@ COLUMN_SIZES = {
 }
 
 INFO_TEXT = [
-    ("B2", "This workbook collects statistics on studies stored in the RADx Data Hub and provides information on the number of studies corresponding to labels on the studies."),
+    (
+        "B2",
+        "This workbook collects statistics on studies stored in the RADx Data Hub and provides information on the number of studies corresponding to labels on the studies.",
+    ),
     ("B5", "Workbook objectives:"),
-    ("C6", "Provide an overview of the metadata labels applied to each study to inform users as the content that is available on the Data Hub."),
+    (
+        "C6",
+        "Provide an overview of the metadata labels applied to each study to inform users as the content that is available on the Data Hub.",
+    ),
     ("C7", "Provide statistics on the studies that belong to each label."),
     ("B9", "Information provided by each sheet:"),
     ("C10", "Charts"),
-    ("D10", "This sheet graphically summarizes statistics of study count per label for the most popular labels."),
+    (
+        "D10",
+        "This sheet graphically summarizes statistics of study count per label for the most popular labels.",
+    ),
     ("C11", "Labels"),
-    ("D11", "This sheet shows lists each study by PHS ID and all of the metadata labels that have been applied to it."),
+    (
+        "D11",
+        "This sheet shows lists each study by PHS ID and all of the metadata labels that have been applied to it.",
+    ),
     ("C12", "Program"),
-    ("D12", "This sheet lists each RADx program and reports the number of studies belonging to each RADx program."),
+    (
+        "D12",
+        "This sheet lists each RADx program and reports the number of studies belonging to each RADx program.",
+    ),
     ("C13", "Study Design"),
-    ("D13", "This sheet lists different study designs that characterize RADx studies and reports the number of studies that feature each study design."),
+    (
+        "D13",
+        "This sheet lists different study designs that characterize RADx studies and reports the number of studies that feature each study design.",
+    ),
     ("C14", "Data Type"),
-    ("D14", "This sheet lists different data types that characterize RADx studies and reports the number of studies that report data of that type."),
+    (
+        "D14",
+        "This sheet lists different data types that characterize RADx studies and reports the number of studies that report data of that type.",
+    ),
     ("C15", "Collection Method"),
-    ("D15", "This sheet lists different collection methods used to generate the study data and reports the number of studies that use each collection method."),
+    (
+        "D15",
+        "This sheet lists different collection methods used to generate the study data and reports the number of studies that use each collection method.",
+    ),
     ("C16", "NIH Institute"),
-    ("D16", "This sheet lists the different NIH institutes that supported RADx studies and reports the number of studies that were supported by each institute."),
+    (
+        "D16",
+        "This sheet lists the different NIH institutes that supported RADx studies and reports the number of studies that were supported by each institute.",
+    ),
     ("C17", "Study Domain"),
-    ("D17", "This sheet lists the different study domains that characterize studies in the RADx Data Hub and reports the number of studies that belong to each study domain."),
+    (
+        "D17",
+        "This sheet lists the different study domains that characterize studies in the RADx Data Hub and reports the number of studies that belong to each study domain.",
+    ),
     ("C18", "Population Range"),
-    ("D18", "This sheet lists several population (sample size) ranges to characterize the size of each study and reports the number of studies whose size falls into each range."),
+    (
+        "D18",
+        "This sheet lists several population (sample size) ranges to characterize the size of each study and reports the number of studies whose size falls into each range.",
+    ),
     ("C19", "Study Focus Population"),
-    ("D19", "This sheet lists the demographic groups targeted by RADx studies and reports the number of studies that focus on each population group."),
+    (
+        "D19",
+        "This sheet lists the demographic groups targeted by RADx studies and reports the number of studies that focus on each population group.",
+    ),
 ]
 
 
 def autosize_columns(writer, df, sheet_name):
     worksheet = writer.sheets[sheet_name]
-    sizes = COLUMN_SIZES[sheet_name]
+    sizes = COLUMN_SIZES.get(sheet_name, [20, 20, 20, 20])
     for i, size in enumerate(sizes):
         worksheet.set_column(i, i, size)
 
@@ -68,7 +104,7 @@ def dump_report_spreadsheet(
     file_name: str = "report.xlsx",
     label_limit: int = 10,
     dump_auxiliary_terms: bool = False,
-    date = None,
+    date=None,
 ):
     """
     Write the Data Hub content report to an Excel spreadsheet.
@@ -113,8 +149,10 @@ def dump_report_spreadsheet(
         autosize_columns(writer, study_labels, "Labels")
         for classifier, counts in counts_by_classifier.items():
             if dump_auxiliary_terms:
+                # this blocks writing all non-coded terms, effectively
+                # also blocking all custom terms
                 counts = counts[counts["Coded Term"] == True]
-                counts = counts.drop(columns = ["Coded Term"])
+                counts = counts.drop(columns=["Coded Term"])
             # insert tabular data in reverse sorted order by counts
             counts.to_excel(writer, sheet_name=classifier, index=False)
             count_sheet = writer.sheets[classifier]
@@ -126,7 +164,7 @@ def dump_report_spreadsheet(
 
             # insert a hidden sheet with the top n labels in sorted order
             # this is required because xlsxwriter bar charts plot from
-            # bottom to top for whatever reason with no way to reverse a 
+            # bottom to top for whatever reason with no way to reverse a
             # plotting range, so the vertical ordering won't match the tabular data
             hidden_sheet_name = "hidden" + classifier
             # remove auxiliary terms from plotting
@@ -137,6 +175,13 @@ def dump_report_spreadsheet(
 
             # create a bar chart consisting of the top n labels
             n_labels = min(label_limit, len(coded_counts))
+
+            # omit plot if no coded terms
+            if n_labels == 0:
+                logger.warning(
+                    f"{classifier} does not have any coded terms. No chart inserted."
+                )
+                continue
 
             ranked_counts = coded_counts.nlargest(n_labels, columns=["Count"])
             ranked_counts = ranked_counts.iloc[::-1]

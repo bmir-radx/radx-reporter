@@ -1,15 +1,24 @@
+import logging
+from collections import namedtuple
 from dataclasses import asdict, dataclass
 from typing import Dict, List
 
 import pandas as pd
-import logging
 
 from .study import Study
-from .vocabulary import Classifier
+from .vocabulary import AdditionalClassifier, Classifier
 
 logger = logging.getLogger(__name__)
 
-def map_studies(studies: Dict[str, Study]):
+
+def get_additional_keys(studies):
+    additional_property_keys = set()
+    for study in studies.values():
+        additional_property_keys.update(set(study.additional_properties.keys()))
+    return additional_property_keys
+
+
+def label_studies(studies: Dict[str, Study]):
     """
     Label each study by values from each of its classifiers.
     """
@@ -26,8 +35,13 @@ def map_studies(studies: Dict[str, Study]):
         "Population Count": [],
     }
 
+    additional_property_keys = get_additional_keys(studies)
+    # add the key in title case
+    for key in additional_property_keys:
+        study_labels[key.title()] = []
+
     logger.info(f"Mapping studies to keys: {list(study_labels.keys())}")
-    for key, study in studies.items():
+    for study in studies.values():
         if study.program is not None:
             study_labels["Program"].append(study.program.label)
         else:
@@ -56,12 +70,31 @@ def map_studies(studies: Dict[str, Study]):
         else:
             study_labels["Population Range"].append(None)
         study_labels["Population Count"].append(study.population)
+        for key in additional_property_keys:
+            if key in study.additional_properties:
+                study_labels[key.title()].append(study.additional_properties[key].value)
+            else:
+                study_labels[key.title()].append(None)
 
     study_labels = pd.DataFrame(study_labels)
     return study_labels
 
 
-def reduce_studies(studies: Dict[str, Study]):
+def get_additional_classifiers(studies):
+    keys = {}
+    values = {}
+    Key = namedtuple("Classifier", "label")
+    for study in studies.values():
+        for prop in study.additional_properties.values():
+            if prop.key not in keys:
+                keys[prop.key] = Key(prop.key)
+            if prop.value not in values:
+                value = AdditionalClassifier(prop.value)
+                values[prop.value] = value
+    return keys, values
+
+
+def map_studies(studies: Dict[str, Study]):
     """
     For each classifier, group studies by their labeled categories
     (see vocabulary.py for labels belonging to each classifier).
@@ -77,17 +110,30 @@ def reduce_studies(studies: Dict[str, Study]):
                     label_to_studies[label] = []
                 label_to_studies[label].append(study)
         studies_by_classifier[classifier] = label_to_studies
+    additional_keys, additional_values = get_additional_classifiers(studies)
+    for classifier in additional_keys.values():
+        label_to_studies = {}
+        for study in studies.values():
+            for k, v in study.additional_properties.items():
+                if k != classifier.label:
+                    continue
+                value = additional_values[v.value]
+                if value not in label_to_studies:
+                    label_to_studies[value] = []
+                label_to_studies[value].append(study)
+        studies_by_classifier[classifier] = label_to_studies
     return studies_by_classifier
 
 
-def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study], n_total_studies: int):
+def reduce_studies(studies: Dict[Classifier, Study], n_total_studies: int):
     """
     Aggregates counts for each classifier.
     For each classifier, counts are aggregated over each named category.
     The final data is returned as a Pandas DataFrame.
     """
     counts_by_classifier = {}
-    for classifier in Classifier:
+    # for classifier in Classifier:
+    for classifier in studies.keys():
         label_counts = [
             (
                 label,
@@ -95,7 +141,8 @@ def aggregate_counts_to_dataframe(studies: Dict[Classifier, Study], n_total_stud
                 "; ".join([study.phs_id for study in grouped_studies]),
                 label.coded,
             )
-            for label, grouped_studies in studies[classifier].items() if label is not None
+            for label, grouped_studies in studies[classifier].items()
+            if label is not None
         ]
         # sort by count in non-ascending order
         label_counts.sort(key=lambda x: x[1], reverse=True)
