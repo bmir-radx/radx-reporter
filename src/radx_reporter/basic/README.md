@@ -25,6 +25,8 @@ The Dataframe requires the following columns:
 - STUDY POPULATION FOCUS
 - STUDY STATUS
 
+Additional columns are supported, but these contain coded terms that point directly to facets in the RADx Data Hub Study Explorer.
+
 ## Output
 
 There are two possible output formats for the basic report.
@@ -35,3 +37,32 @@ There are two possible output formats for the basic report.
 In the language of the Data Hub's search engine, each of the categories is a "name" and each controlled term for the category is a "facet." The search URL for studies that belong to a controlled term are automatically generated. It would be cool for search links to be published alongside the statistics for each controlled term.
 
 Example: for the `Program` category and DCC `RADx-UP`, the search URL is https://radxdatahub.nih.gov/studyExplorer?&facets=%5B%7B%22name%22:%22dcc%22,%22facets%22:%5B%22RADx-rad%22%5D%7D%5D
+
+
+## Example
+```
+from radx_reporter import reporter
+import pandas as pd
+
+# load a dataframe from file or provide one from a database query
+dataframe = pd.read_excel("2024-07-24_RADx-DataHub-Metadata-Spreadsheet.xlsx", sheet_name="summary")
+
+# provide the dataframe and an optimal report name
+reporter.Reporter.basic_report(dataframe, report_name="report")
+```
+
+Additional fields are also supported for reporting.
+```
+from radx_reporter import reporter
+import pandas as pd
+
+# load a dataframe from file or provide one from a database query
+dataframe = pd.read_excel("2024-07-24_RADx-DataHub-Metadata-Spreadsheet.xlsx", sheet_name="summary")
+
+# supply any extra columns to report on. the required columns (above)
+# are assumed to be present
+extra_columns = ["NIH GRANT NUMBER", "FOA NUMBER"]
+
+# provide the dataframe and any extra columns
+reporter.Reporter.basic_report(dataframe, extra_columns, report_name="report")
+```

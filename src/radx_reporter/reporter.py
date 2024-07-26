@@ -85,7 +85,7 @@ class Reporter:
         cls,
         dataframe,
         additional_properties=None,
-        file_name="radx-content-report",
+        report_name="radx-content-report",
         date=None,
         dump_auxiliary_terms=True,
     ):
@@ -98,7 +98,7 @@ class Reporter:
                 columns to be processed by the reporter.
             additional_properties (Optional[List[str]]): a list of additional
                 properties (column names) over which to aggergate statistics.
-            file_name (Optional[str]): file name for the report. The .xlsx
+            report_name (Optional[str]): file name for the report. The .xlsx
                 extension will be added to this name.
             date (Optional[DateTime]): timestamp for this report. If not provided,
                 the timestamp will be set to the current date.
@@ -119,7 +119,7 @@ class Reporter:
         report_writer.dump_report_spreadsheet(
             study_labels,
             classifier.reduce_studies(studies_by_classifier, len(studies)),
-            file_name + ".xlsx",
+            report_name + ".xlsx",
             dump_auxiliary_terms=dump_auxiliary_terms,
             date=date,
         )
