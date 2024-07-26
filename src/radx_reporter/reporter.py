@@ -72,7 +72,7 @@ def study_metadata_cli():
 
 
     # without ontology
-    Reporter.basic_report(dataframe, date=date)
+    Reporter.basic_report(dataframe, {}, date=date)
     
     # with ontology
     # Reporter.semantic_report(dataframe, ontology, date=date)
@@ -80,15 +80,28 @@ def study_metadata_cli():
 
 class Reporter:
     @classmethod
-    def basic_report(cls, dataframe, file_name="radx-content-report", date=None):
+    def basic_report(cls, dataframe, additional_properties, file_name="radx-content-report", date=None):
+        """
+        Generate a basic report (without semantic information) on the content
+        contained in the Data Hub.
+
+        Args:
+            dataframe (pd.DataFrame): a Pandas DataFrame with the specified
+                columns to be processed by the reporter.
+            additional_properties (List[str]): a list of additional properties
+                (column names) over which to aggergate statistics.
+            file_name (Optional[str]): file name for the report. The .xlsx
+                extension will be added to this name.
+            date (Optional[DateTime]): timestamp for this report. If not provided,
+                the timestamp will be set to the current date.
+        """
         if date is None:
             date = time.strftime("%Y-%m-%d")
 
         meta_parser = BasicParser()
-        studies = meta_parser.parse_metadata_dataframe(dataframe)
+        studies = meta_parser.parse_metadata_dataframe(dataframe, additional_properties)
         study_labels = classifier.label_studies(studies)
         studies_by_classifier = classifier.classify_studies(studies)
-        counts = classifier.aggregate_counts(studies_by_classifier)
 
         report_writer.dump_report_spreadsheet(
             study_labels,

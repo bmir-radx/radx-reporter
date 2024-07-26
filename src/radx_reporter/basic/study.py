@@ -41,7 +41,7 @@ class Bundle:
 @dataclass(frozen=True)
 class Institution:
     name: str
-    rori_d: Optional[str]
+    ror_id: Optional[str]
     uei_id: Optional[str]
 
 
@@ -51,6 +51,12 @@ class Contributor:
     name: str
     email: str
     institution: Institution
+
+
+@dataclass(frozen=True)
+class AdditionalProperty:
+    key: str
+    values: List[str]
 
 
 @dataclass(frozen=True)
@@ -69,6 +75,7 @@ class Study:
     ]  # population and population_range should be combined in a "study statistics" object
     population_range: PopulationRange
     focus_populations: FocusPopulation
+    additional_properties: List[AdditionalProperty]
     doi: Optional[str]
     start_date: Optional[datetime.datetime] = None
     end_date: Optional[datetime.datetime] = None
@@ -91,3 +98,5 @@ class Study:
                 return [self.population_range]
             case Classifier.FOCUSPOPULATION:
                 return self.focus_populations
+            case _:
+                return self.additional_properties

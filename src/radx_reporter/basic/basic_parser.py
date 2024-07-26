@@ -3,7 +3,7 @@ import re
 import dateutil
 import pandas as pd
 
-from .study import Study
+from .study import Study, AdditionalProperty
 from .vocabulary import (
     COLLECTION_METHODS,
     DATA_TYPES,
@@ -15,25 +15,9 @@ from .vocabulary import (
     STUDY_DOMAINS,
     CollectionMethod,
     DataType,
-    FocusPopulation,
-    NihInstitute,
-    PopulationRange,
-    Program,
     StudyDesign,
-    StudyDomain,
 )
-
-STATUS_KEYWORD = "STUDY STATUS"
-PROGRAM_KEYWORD = "STUDY PROGRAM"
-INSTITUTE_KEYWORD = "NIH INSTITUTE OR CENTER"
-METHOD_KEYWORD = "DATA COLLECTION METHOD"
-DESIGN_KEYWORD = "STUDY DESIGN"
-POPULATION_KEYWORD = "ESTIMATED COHORT SIZE"
-DATATYPES_KEYWORD = "DATA TYPES"
-DOMAIN_KEYWORD = "STUDY DOMAIN"
-PHS_KEYWORD = "STUDY PHS"
-FOCUS_POPULATION_KEYWORD = "STUDY POPULATION FOCUS"
-STUDY_STATUS = "STUDY STATUS"
+from .keywords import Keyword
 
 
 class BasicParser:
@@ -55,7 +39,7 @@ class BasicParser:
         """
         Parse program keyword (one) from DataFrame row.
         """
-        program = self.prepare_string_for_matching(row[PROGRAM_KEYWORD])
+        program = self.prepare_string_for_matching(row[Keyword.PROGRAM.value])
         if pd.isna(program):
             program = None
         for dcc in PROGRAMS:
@@ -66,7 +50,7 @@ class BasicParser:
         """
         Parse Study Focus Population keywords (many) from DataFrame row.
         """
-        focus_population_text = row[FOCUS_POPULATION_KEYWORD]
+        focus_population_text = row[Keyword.FOCUSPOPULATION.value]
         if pd.isna(focus_population_text):
             focus_populations = []
         else:
@@ -84,7 +68,7 @@ class BasicParser:
         """
         Parse NIH Institutes keywords (many) from DataFrame row.
         """
-        nih_institute_text = row[INSTITUTE_KEYWORD]
+        nih_institute_text = row[Keyword.INSTITUTE.value]
         if pd.isna(nih_institute_text):
             nih_institutes = []
         else:
@@ -100,7 +84,7 @@ class BasicParser:
         """
         Parse collection method keywords (many) from DataFrame row.
         """
-        collection_method_text = row[METHOD_KEYWORD]
+        collection_method_text = row[Keyword.METHOD.value]
         if pd.isna(collection_method_text):
             collection_methods = []
         else:
@@ -119,7 +103,7 @@ class BasicParser:
         """
         Parse study design keywords (many) from DataFrame row.
         """
-        study_design_text = row[DESIGN_KEYWORD]
+        study_design_text = row[Keyword.DESIGN.value]
         if pd.isna(study_design_text):
             study_designs = []
         else:
@@ -136,7 +120,7 @@ class BasicParser:
         """
         Parse data set sample size from DataFrame row and find the appropriate bin.
         """
-        population_text = row[POPULATION_KEYWORD]
+        population_text = row[Keyword.COHORTSIZE.value]
         if pd.isna(population_text):
             population = None
             population_range = None
@@ -165,7 +149,7 @@ class BasicParser:
         """
         Parse data type keywords (multiple) from DataFrame row.
         """
-        data_type_text = row[DATATYPES_KEYWORD]
+        data_type_text = row[Keyword.DATATYPES.value]
         if pd.isna(data_type_text):
             data_types = []
         else:
@@ -184,7 +168,7 @@ class BasicParser:
         These are not coded terms in the study metadata dump, so we do our best here
         with case-insenstive string matching to a bank of StudyDomain keywords.
         """
-        domain_text = row[DOMAIN_KEYWORD]
+        domain_text = row[Keyword.DOMAIN.value]
         study_domains = []
         if not pd.isna(domain_text):
             domain_text = self.prepare_string_for_matching(domain_text)
@@ -195,18 +179,26 @@ class BasicParser:
 
     def parse_phs(self, row):
         """PHS ID"""
-        return row[PHS_KEYWORD]
+        return row[Keyword.PHS.value]
 
     def parse_status(self, row):
-        return row[STATUS_KEYWORD]
+        return row[Keyword.STATUS.value]
 
-    def parse_metadata_dataframe(self, metadata):
+    def parse_additional_properties(self, row, properties):
+        additional_properties = []
+        for name in properties:
+            additional_properties.append(
+                AdditionalProperty(name, row.get(name, None))
+            )
+        return additional_properties
+
+    def parse_metadata_dataframe(self, metadata, properties):
         """
         Each row of the DataFrame contains metadata attributes for the study.
         Process each row and index the study's metadata by its PHS ID.
         """
         studies = {}
-        for i, row in metadata.iterrows():
+        for _, row in metadata.iterrows():
             status = self.parse_status(row)
             if status != "Approved": # only log approved studies
                 continue
@@ -219,6 +211,10 @@ class BasicParser:
             study_domains = self.parse_study_domains(row)
             focus_populations = self.parse_focus_populations(row)
             phs = self.parse_phs(row)
+            if properties:
+                additional_properties = self.parse_additional_properties(row, properties)
+            else:
+                additional_properties = []
 
             study = Study(
                 bundles=None,
@@ -233,6 +229,7 @@ class BasicParser:
                 population=population,
                 population_range=population_range,
                 focus_populations=focus_populations,
+                additional_properties=additional_properties,
                 doi=None,
             )
             studies[phs] = study
