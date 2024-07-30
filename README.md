@@ -17,6 +17,9 @@ Running the reporter requires installing it as a python package.
 Using conda, run the following in the same directory as this README:
 
 ```bash
+git clone https://github.com/bmir-radx/radx-reporter.git
+cd radx-reporter
+
 conda create -n radxreporter python=3.10 -y
 conda activate radxreporter
 pip install -r requirements.txt
