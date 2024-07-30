@@ -27,7 +27,7 @@ pip install .
 Once installed, the program can be executed using the `radx-study-metadata-reporter` command. It expects arguments for the input file and sheet name of the XLSX spreadsheet to parse:
 
 ```bash
-radx-study-metadata-reporter -i input.xlsx -s summary
+radx-study-metadata-reporter -i 2024-07-29_RADx-DataHub-Metadata-Spreadsheet.xlsx -s "RADx Study Metadata Summary"
 ```
 
 ### Library
@@ -38,7 +38,7 @@ from radx_reporter import reporter
 import pandas as pd
 
 # load a dataframe from file or provide one from a database query
-dataframe = pd.read_excel("2024-07-24_RADx-DataHub-Metadata-Spreadsheet.xlsx", sheet_name="summary")
+dataframe = pd.read_excel("2024-07-29_RADx-DataHub-Metadata-Spreadsheet.xlsx", sheet_name="RADx Study Metadata Summary")
 
 # provide the dataframe and an optimal report name
 reporter.Reporter.basic_report(dataframe, report_name="report")
@@ -50,7 +50,7 @@ from radx_reporter import reporter
 import pandas as pd
 
 # load a dataframe from file or provide one from a database query
-dataframe = pd.read_excel("2024-07-24_RADx-DataHub-Metadata-Spreadsheet.xlsx", sheet_name="summary")
+dataframe = pd.read_excel("2024-07-29_RADx-DataHub-Metadata-Spreadsheet.xlsx", sheet_name="RADx Study Metadata Summary")
 
 # supply any extra columns to report on. the required columns (above)
 # are assumed to be present
