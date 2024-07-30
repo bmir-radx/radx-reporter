@@ -14,7 +14,7 @@ The RADx Data Hub Content reporter is a Python package used to aggregate countin
 Running the reporter requires installing it as a python package.
 Using conda, run the following in the same directory as this README:
 
-```
+```bash
 conda create -n radxreporter python=3.10 -y
 conda activate radxreporter
 pip install -r requirements.txt
@@ -24,14 +24,14 @@ pip install .
 ### Command Line
 Once installed, the program can be executed using the `radx-study-metadata-reporter` command. It expects arguments for the input file and sheet name of the XLSX spreadsheet to parse:
 
-```
+```bash
 radx-study-metadata-reporter -i input.xlsx -s summary
 ```
 
 ### Library
 Alternatively, the content reporter can be used programmatically by importing the module.
 
-```
+```python
 from radx_reporter import reporter
 import pandas as pd
 
@@ -43,7 +43,7 @@ reporter.Reporter.basic_report(dataframe, report_name="report")
 ```
 
 Additional fields are also supported for reporting.
-```
+```python
 from radx_reporter import reporter
 import pandas as pd
 
