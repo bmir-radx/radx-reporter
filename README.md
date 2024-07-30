@@ -5,9 +5,11 @@ The RADx Data Hub Content reporter is a Python package used to aggregate countin
 ## Requirements
 
 - Python>=3.10
-- pandas>=2.1.4
+- openpyxl>=3.0.10
 - numpy>=1.26,<2.0
+- pandas>=2.1.4
 - python-dateutile>=2.8.2
+- xlsxwriter>=3.2.0
 
 ## Running the reporter
 
